@@ -1,0 +1,3982 @@
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - editor
+media_folder: theme/assets/images
+public_folder: /assets/images
+collections:
+  - name: pages
+    label: Pages
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    folder: cms/pages
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '{{slug}}.html'
+      - &ref_0
+        label: Seo
+        name: seo
+        widget: object
+        collapsed: true
+        fields:
+          - label: Title
+            name: title
+            widget: string
+            required: false
+          - label: Description
+            name: description
+            widget: string
+            required: false
+          - label: No index
+            name: noindex
+            widget: boolean
+            default: false
+            required: false
+          - label: Open Graph Title
+            name: og:title
+            widget: string
+            required: false
+          - label: Open Graph Image
+            name: og:image
+            widget: image
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - label: Twitter Title
+            name: twitter:title
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Card
+            name: twitter:card
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Site
+            name: twitter:site
+            widget: string
+            required: false
+          - label: Twitter Creator
+            name: twitter:creator
+            widget: string
+            required: false
+          - label: Additional HTML tags
+            name: additional_tags
+            widget: text
+            required: false
+  - name: team
+    label: Team Members
+    folder: cms/team
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Bio
+        name: body
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_profile-picture
+        label: Profile Picture
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_background-picture
+        label: Background Picture
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_job-title
+        label: Job Title
+        widget: string
+        required: false
+      - hint: ''
+        name: f_email
+        label: Email
+        widget: string
+        required: false
+      - hint: ''
+        name: f_phone-number
+        label: Phone Number
+        widget: string
+        required: false
+      - hint: ''
+        name: f_bio-summary
+        label: Bio Summary
+        widget: string
+        required: false
+      - hint: ''
+        name: f_linkedin-link
+        label: LinkedIn Link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_twitter-link
+        label: Twitter Link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_facebook-link
+        label: Facebook Link
+        widget: string
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: team
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[team].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: solutions_categories
+    label: Solutions Categories
+    folder: cms/solutions-categories
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: solutions-categories
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[solutions-categories].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: case_studies_categories
+    label: Case Studies Categories
+    folder: cms/case-studies-categories
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: f_image
+        label: Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: case-studies-categories
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[case-studies-categories].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: blog_category
+    label: Blogs Categories
+    folder: cms/blog-category
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: f_color
+        label: Color
+        widget: color
+        required: false
+        enableAlpha: true
+        allowInput: true
+      - hint: ''
+        name: f_bg-image
+        label: BG Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: blog-category
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[blog-category].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: careers
+    label: Careers
+    folder: cms/careers
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Text
+        name: body
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_location
+        label: Location
+        widget: string
+        required: false
+      - hint: ''
+        name: f_type
+        label: Type
+        widget: string
+        required: false
+      - hint: ''
+        name: f_time
+        label: Time
+        widget: string
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: careers
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[careers].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: solutions
+    label: Solutions
+    folder: cms/solutions
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Rich Text
+        name: body
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_icon
+        label: Icon
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_link-text
+        label: Link Text
+        widget: string
+        required: false
+      - hint: ''
+        name: f_categories
+        label: Categories
+        widget: relation
+        required: false
+        collection: solutions_categories
+        value_field: cms/solutions-categories/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: false
+      - hint: ''
+        name: f_image
+        label: Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_pre-text
+        label: Pre Text
+        widget: string
+        required: false
+      - hint: ''
+        name: f_chart
+        label: Chart
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_list
+        label: List
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_rich-text-2
+        label: Rich Text 2
+        widget: markdown
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: solutions
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[solutions].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: case_studies
+    label: Case Studies
+    folder: cms/case-studies
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Overview
+        name: body
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_background-image
+        label: Background Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_logo
+        label: Logo
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_image-for-portfolio
+        label: Image for Portfolio
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_portfolio-category
+        label: Portfolio Category
+        widget: relation
+        required: false
+        collection: case_studies_categories
+        value_field: cms/case-studies-categories/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: false
+      - hint: ''
+        name: f_overview-image
+        label: Overview Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_challenge-2
+        label: Challenge
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_multi-image
+        label: Challenge Image
+        widget: list
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_results-2
+        label: Results
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_results-image-main
+        label: Results Image Main
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_solutions-images
+        label: Results Images
+        widget: list
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_solutions
+        label: Solutions
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_next-post-image
+        label: Next Post Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_next-post-link
+        label: Next Post Link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_next-post-name
+        label: Next Post Name
+        widget: text
+        required: false
+      - hint: ''
+        name: f_prev-post-image
+        label: Prev Post Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_prev-post-link
+        label: Prev Post Link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_prev-post-name
+        label: Prev Post Name
+        widget: string
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: case-studies
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[case-studies].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: blog_posts
+    label: Blog Posts
+    folder: cms/blog-posts
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Rich Text
+        name: body
+        widget: markdown
+        required: false
+      - hint: ''
+        name: f_image
+        label: Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_author
+        label: Author
+        widget: select
+        required: false
+        options:
+          - label: by Kate Millestone
+            value: by Kate Millestone
+          - label: by Ronda Hopes
+            value: by Ronda Hopes
+          - label: by Michael Tattumn
+            value: by Michael Tattumn
+      - hint: ''
+        name: f_ref
+        label: Categories
+        widget: relation
+        required: false
+        collection: blog_category
+        value_field: cms/blog-category/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: false
+      - hint: ''
+        name: f_prev-text
+        label: Prev Text
+        widget: string
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: blog-posts
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[blog-posts].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - label: Theme Settings
+    name: settings
+    identifier_field: title
+    extension: json
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    files:
+      - label: General
+        name: site
+        file: cms/_data/settings/site.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: General
+          - hint: Full domain url (needed for a correct sitemap file)
+            name: domain
+            label: Domain
+            widget: string
+            required: false
+          - name: favicon
+            label: Favicon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: apple_touch_icon
+            label: Apple Touch Icon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: header_additional_content
+            label: Additional Content Header
+            hint: Content here will be placed before </head> tag
+            widget: text
+            required: false
+          - name: footer_additional_content
+            label: Additional Content Footer
+            hint: Content here will be placed before </body> tag
+            widget: text
+            required: false
+          - name: images_optimization
+            label: Images Optimization
+            widget: object
+            collapsed: false
+            fields:
+              - label: Image Formats
+                name: formats
+                widget: select
+                multiple: true
+                options:
+                  - label: Avif
+                    value: avif
+                  - label: Webp
+                    value: webp
+              - label: Image Dimensions
+                name: dimensions
+                widget: select
+                multiple: true
+                options:
+                  - label: '500'
+                    value: 500
+                  - label: '800'
+                    value: 800
+                  - label: '1080'
+                    value: 1080
+                  - label: '1600'
+                    value: 1600
+                  - label: '2000'
+                    value: 2000
+                  - label: '2600'
+                    value: 2600
+      - label: Colors
+        name: colors
+        file: cms/_data/colors.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Colors
+      - label: Texts
+        name: texts
+        file: cms/_data/texts.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Texts
+          - hint: 'Original text: Home, key: 2268ff'
+            label: Text
+            name: 2268ff
+            widget: string
+          - hint: 'Original text: Solutions, key: 3c2e81fa'
+            label: Text
+            name: 3c2e81fa
+            widget: string
+          - hint: 'Original text: Migrations, key: 50622285'
+            label: Text
+            name: '50622285'
+            widget: string
+          - hint: 'Original text: ECM, key: 10b6f'
+            label: Text
+            name: 10b6f
+            widget: string
+          - hint: 'Original text: Hosting, key: -5b4a86e6'
+            label: Text
+            name: '-5b4a86e6'
+            widget: string
+          - hint: 'Original text: GDPR, key: 214f9f'
+            label: Text
+            name: 214f9f
+            widget: string
+          - hint: 'Original text: Managed Services, key: 73f6abff'
+            label: Text
+            name: 73f6abff
+            widget: string
+          - hint: 'Original text: Custom Development, key: 24ef970c'
+            label: Text
+            name: 24ef970c
+            widget: string
+          - hint: 'Original text: Platform, key: 7397cc93'
+            label: Text
+            name: 7397cc93
+            widget: string
+          - hint: 'Original text: Resources, key: 13ede05'
+            label: Text
+            name: 13ede05
+            widget: string
+          - hint: 'Original text: Case Studies, key: -667f9cc9'
+            label: Text
+            name: '-667f9cc9'
+            widget: string
+          - hint: 'Original text: Events, key: 7c6ccd39'
+            label: Text
+            name: 7c6ccd39
+            widget: string
+          - hint: 'Original text: Partners, key: 4ab920cb'
+            label: Text
+            name: 4ab920cb
+            widget: string
+          - hint: 'Original text: Blog, key: 1fa3c2'
+            label: Text
+            name: 1fa3c2
+            widget: string
+          - hint: 'Original text: Careers, key: -7bc27f6b'
+            label: Text
+            name: '-7bc27f6b'
+            widget: string
+          - hint: 'Original text: About, key: 3c2336d'
+            label: Text
+            name: 3c2336d
+            widget: string
+          - hint: "Original text: About\_Helix, key: 2344b96b"
+            label: Text
+            name: 2344b96b
+            widget: string
+          - hint: 'Original text: Our Team, key: 290af1'
+            label: Text
+            name: 290af1
+            widget: string
+          - hint: 'Original text: Our Values, key: -62b76f4a'
+            label: Text
+            name: '-62b76f4a'
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
+            widget: string
+          - hint: 'Original text: Get Started, key: -364d0a89'
+            label: Text
+            name: '-364d0a89'
+            widget: string
+          - hint: >-
+              Original text: The Global Leader in ECM, ETL, and ESB Solutions,
+              key: -51ab24db
+            label: Text
+            name: '-51ab24db'
+            widget: string
+          - hint: 'Original text: ., key: 2e'
+            label: Text
+            name: 2e
+            widget: string
+          - hint: >-
+              Original text: The Helix International proprietary software
+              platform and managed services team has helped hundreds of medium,
+              large, and Fortune 500 companies migrate and optimize their
+              enterprise content., key: 577c262
+            label: Text
+            name: 577c262
+            widget: text
+          - hint: >-
+              Original text: Work With the Best-in-Class Software, key:
+              -5664ef38
+            label: Text
+            name: '-5664ef38'
+            widget: string
+          - hint: >-
+              Original text: Helix International has been the partner of choice
+              for IBM since 2007, and is evolved from the industry leader ECM
+              Architects since 1994. Our platform facilitates solutions not
+              offered by any other vendors., key: 253a9935
+            label: Text
+            name: 253a9935
+            widget: text
+          - hint: 'Original text: Get started, key: 667a5d97'
+            label: Text
+            name: 667a5d97
+            widget: string
+          - hint: 'Original text: Unlock and Transform Your Data, key: -25f464e2'
+            label: Text
+            name: '-25f464e2'
+            widget: string
+          - hint: >-
+              Original text: Move to and from any source, destination, and
+              filetype or line type with our 70+ proprietary source extractors
+              and 6 proprietary products normalizing and converting between
+              hundreds of formats., key: 20f89ced
+            label: Text
+            name: 20f89ced
+            widget: text
+          - hint: 'Original text: 01 / 03, key: 40a15e53'
+            label: Text
+            name: 40a15e53
+            widget: string
+          - hint: 'Original text: 03 / 03, key: 440b0f91'
+            label: Text
+            name: 440b0f91
+            widget: string
+          - hint: 'Original text: 02 / 03, key: 425636f2'
+            label: Text
+            name: 425636f2
+            widget: string
+          - hint: 'Original text:  , key: f42b'
+            label: Text
+            name: f42b
+            widget: string
+          - hint: 'Original text: Helix Migrations, key: -75dbf479'
+            label: Text
+            name: '-75dbf479'
+            widget: string
+          - hint: 'Original text: Helix Development, key: 547e7c59'
+            label: Text
+            name: 547e7c59
+            widget: string
+          - hint: 'Original text: Helix Software, key: 4e4a0749'
+            label: Text
+            name: 4e4a0749
+            widget: string
+          - hint: 'Original text: Quick Facts, key: 14f10354'
+            label: Text
+            name: 14f10354
+            widget: string
+          - hint: >-
+              Original text: Find out why Helix International has been IBM's
+              Premium Partner of choice for cloud migrations since 2007., key:
+              -5a617996
+            label: Text
+            name: '-5a617996'
+            widget: text
+          - hint: 'Original text: , key: f0da'
+            label: Text
+            name: f0da
+            widget: string
+          - hint: 'Original text:  , key: f4ba'
+            label: Text
+            name: f4ba
+            widget: string
+          - hint: 'Original text:  Learn more about Helix, key: -604c97a4'
+            label: Text
+            name: '-604c97a4'
+            widget: string
+          - hint: 'Original text: 80, key: 6f8'
+            label: Text
+            name: 6f8
+            widget: string
+          - hint: 'Original text: +, key: 2b'
+            label: Text
+            name: 2b
+            widget: string
+          - hint: 'Original text: In-House Engineers, key: -148d75e4'
+            label: Text
+            name: '-148d75e4'
+            widget: string
+          - hint: 'Original text: 70, key: 6d9'
+            label: Text
+            name: 6d9
+            widget: string
+          - hint: 'Original text: Active Status Clients, key: -7d134fec'
+            label: Text
+            name: '-7d134fec'
+            widget: string
+          - hint: 'Original text: 500, key: ccf5'
+            label: Text
+            name: ccf5
+            widget: string
+          - hint: 'Original text: Successful Projects, key: 7e3cc740'
+            label: Text
+            name: 7e3cc740
+            widget: string
+          - hint: 'Original text: 100, key: bdf1'
+            label: Text
+            name: bdf1
+            widget: string
+          - hint: 'Original text: %, key: 25'
+            label: Text
+            name: '25'
+            widget: string
+          - hint: 'Original text: Success Rate, key: -2099b0e3'
+            label: Text
+            name: '-2099b0e3'
+            widget: string
+          - hint: 'Original text: Projects We Delivered, key: 1ca7b78'
+            label: Text
+            name: 1ca7b78
+            widget: string
+          - hint: 'Original text: No items found., key: 3d503d2b'
+            label: Text
+            name: 3d503d2b
+            widget: string
+          - hint: >-
+              Original text: Get a custom quote for your organization. Find out
+              why Helix International is right for you., key: 302eb08c
+            label: Text
+            name: 302eb08c
+            widget: text
+          - hint: >-
+              Original text: We’ve been helping leading global IT companies take
+              control of their data since 1994, key: 773bb68
+            label: Text
+            name: 773bb68
+            widget: string
+          - hint: >-
+              Original text: Helix International is a software platform and
+              managed services provider that has been the enterprise solution of
+              choice for nearly 30 years. We are an Open-E Gold Partner and
+              Redhat Partner provider. No project conducted with Helix
+              International has ever failed., key: -5eb0f4f2
+            label: Text
+            name: '-5eb0f4f2'
+            widget: text
+          - hint: 'Original text: Retail, key: -6e4d22dd'
+            label: Text
+            name: '-6e4d22dd'
+            widget: string
+          - hint: >-
+              Original text: Data plays an increasingly important role in the
+              management of complex retail., key: 1c313119
+            label: Text
+            name: 1c313119
+            widget: string
+          - hint: 'Original text:  , key: 1d2a86'
+            label: Text
+            name: 1d2a86
+            widget: string
+          - hint: 'Original text: Serve your customers better, key: 5a8c45f7'
+            label: Text
+            name: 5a8c45f7
+            widget: string
+          - hint: 'Original text: Finance, key: 305ce7ba'
+            label: Text
+            name: 305ce7ba
+            widget: string
+          - hint: >-
+              Original text: Serving banks, insurance companies, and fintech
+              businesses., key: 7cf04d86
+            label: Text
+            name: 7cf04d86
+            widget: string
+          - hint: 'Original text: Secure your financial records, key: -3a074e59'
+            label: Text
+            name: '-3a074e59'
+            widget: string
+          - hint: 'Original text: Healthcare, key: -530b3473'
+            label: Text
+            name: '-530b3473'
+            widget: string
+          - hint: >-
+              Original text: Ensure the integrity and security of your medical
+              records., key: -6e64888e
+            label: Text
+            name: '-6e64888e'
+            widget: string
+          - hint: 'Original text: Stay ahead of compliance, key: -6a2bae42'
+            label: Text
+            name: '-6a2bae42'
+            widget: string
+          - hint: 'Original text: Join our Helix Insiders newsletter, key: 7088aa70'
+            label: Text
+            name: 7088aa70
+            widget: string
+          - hint: >-
+              Original text: Thank you! Your submission has been received!, key:
+              5a0ea5a1
+            label: Text
+            name: 5a0ea5a1
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form., key: -7c112e99
+            label: Text
+            name: '-7c112e99'
+            widget: string
+          - hint: >-
+              Original text: Trending Insights From Our Knowledgebase, key:
+              -5fc28db1
+            label: Text
+            name: '-5fc28db1'
+            widget: string
+          - hint: 'Original text: Popular Posts, key: 5b857b8c'
+            label: Text
+            name: 5b857b8c
+            widget: string
+          - hint: 'Original text: Categories, key: -3be6ddc4'
+            label: Text
+            name: '-3be6ddc4'
+            widget: string
+          - hint: 'Original text:  / , key: 7df1'
+            label: Text
+            name: 7df1
+            widget: string
+          - hint: >-
+              Original text: See to the integrity and security of your records.,
+              key: -18444813
+            label: Text
+            name: '-18444813'
+            widget: string
+          - hint: >-
+              Original text: Our list of services does not end here. We’ll adapt
+              to your particular needs., key: -b2e3053
+            label: Text
+            name: '-b2e3053'
+            widget: string
+          - hint: 'Original text: Get a Free Quote , key: -319ec351'
+            label: Text
+            name: '-319ec351'
+            widget: string
+          - hint: 'Original text: Let''s Optimize Your Data Together, key: 2a5b26ad'
+            label: Text
+            name: 2a5b26ad
+            widget: string
+          - hint: >-
+              Original text: Helix International unlocks your data with powerful
+              software and managed services solutions at the intersection of
+              documents and data., key: -295e085a
+            label: Text
+            name: '-295e085a'
+            widget: text
+          - hint: 'Original text: Who We Are, key: -7dbf273c'
+            label: Text
+            name: '-7dbf273c'
+            widget: string
+          - hint: 'Original text: About Us, key: 645efc51'
+            label: Text
+            name: 645efc51
+            widget: string
+          - hint: 'Original text: Contact Us, key: 7f2746de'
+            label: Text
+            name: 7f2746de
+            widget: string
+          - hint: 'Original text: What We Do, key: -2f05211f'
+            label: Text
+            name: '-2f05211f'
+            widget: string
+          - hint: 'Original text: Copyright © 2022 Helix International, key: 54b3c7ba'
+            label: Text
+            name: 54b3c7ba
+            widget: string
+          - hint: 'Original text: Protected Page, key: -11d4bbff'
+            label: Text
+            name: '-11d4bbff'
+            widget: string
+          - hint: 'Original text: Password, key: 4c641ebb'
+            label: Text
+            name: 4c641ebb
+            widget: string
+          - hint: >-
+              Original text: Incorrect password. Please try again., key:
+              -f5c4b5f
+            label: Text
+            name: '-f5c4b5f'
+            widget: string
+          - hint: 'Original text: 404, key: c938'
+            label: Text
+            name: c938
+            widget: string
+          - hint: >-
+              Original text: The page you are looking for does not exist., key:
+              -65b797f8
+            label: Text
+            name: '-65b797f8'
+            widget: string
+          - hint: 'Original text: Back to Home, key: -74c2c295'
+            label: Text
+            name: '-74c2c295'
+            widget: string
+          - hint: >-
+              Original text: A global team of seasoned experts, 30 years of
+              experience, and nearly an exabyte of content migrated makes Helix
+              the go-to solution., key: -38f62e06
+            label: Text
+            name: '-38f62e06'
+            widget: text
+          - hint: 'Original text: About Helix, key: 48d869eb'
+            label: Text
+            name: 48d869eb
+            widget: string
+          - hint: 'Original text: Interesting Facts, key: -756b3661'
+            label: Text
+            name: '-756b3661'
+            widget: string
+          - hint: 'Original text: 500+, key: 18d1d6'
+            label: Text
+            name: 18d1d6
+            widget: string
+          - hint: 'Original text: Happy Clients, key: -55a49f78'
+            label: Text
+            name: '-55a49f78'
+            widget: string
+          - hint: >-
+              Original text: From startups to Fortune 500 companies, hundreds of
+              companies have saved time and money with Helix International.,
+              key: 2afec88a
+            label: Text
+            name: 2afec88a
+            widget: text
+          - hint: 'Original text: Learn More, key: -52bd880f'
+            label: Text
+            name: '-52bd880f'
+            widget: string
+          - hint: 'Original text: 90+, key: dbf4'
+            label: Text
+            name: dbf4
+            widget: string
+          - hint: 'Original text: Experts Around the World, key: -6e0d799'
+            label: Text
+            name: '-6e0d799'
+            widget: string
+          - hint: >-
+              Original text: We help top organizations stay competitive, win new
+              markets and increase shareholder value., key: 6ff12f06
+            label: Text
+            name: 6ff12f06
+            widget: text
+          - hint: 'Original text: 1,000PB+, key: 4e4fd224'
+            label: Text
+            name: 4e4fd224
+            widget: string
+          - hint: "Original text: ECM\_Data Migrated, key: 7513445e"
+            label: Text
+            name: 7513445e
+            widget: string
+          - hint: >-
+              Original text: We transform your organization with a modern,
+              optimized data center and sophisticated security solutions., key:
+              3489f6d9
+            label: Text
+            name: 3489f6d9
+            widget: text
+          - hint: 'Original text: Solutions for Businesses, key: 75e52f2b'
+            label: Text
+            name: 75e52f2b
+            widget: string
+          - hint: >-
+              Original text: Helix International offers a full range of IT
+              services to support your business infrastructure outside of your
+              data center, too. From networking to hardware to applications, our
+              team of certified experts will monitor, manage and maintain your
+              enterprise content environment., key: -27d9d1ae
+            label: Text
+            name: '-27d9d1ae'
+            widget: text
+          - hint: 'Original text: Download Services PDF, key: -1a0bc558'
+            label: Text
+            name: '-1a0bc558'
+            widget: string
+          - hint: >-
+              Original text: Data can be complicated, but we have seen it all
+              before., key: -3be53e4b
+            label: Text
+            name: '-3be53e4b'
+            widget: string
+          - hint: 'Original text: View Our Services, key: -c678793'
+            label: Text
+            name: '-c678793'
+            widget: string
+          - hint: 'Original text: Who We Help, key: -3a22c12f'
+            label: Text
+            name: '-3a22c12f'
+            widget: string
+          - hint: >-
+              Original text: Banks, insurance companies, hospitals, healthcare
+              providers, retail, media, and many more industries rely on Helix.,
+              key: -732644ad
+            label: Text
+            name: '-732644ad'
+            widget: text
+          - hint: 'Original text: View Industries We Serve, key: 2f038de6'
+            label: Text
+            name: 2f038de6
+            widget: string
+          - hint: 'Original text: Why Choose Us, key: -32e31931'
+            label: Text
+            name: '-32e31931'
+            widget: string
+          - hint: >-
+              Original text: We have a proven process to help you move your
+              business forward., key: 64e0dfb6
+            label: Text
+            name: 64e0dfb6
+            widget: string
+          - hint: 'Original text: View More, key: 162663f0'
+            label: Text
+            name: 162663f0
+            widget: string
+          - hint: 'Original text: We Are Not Just a Team,, key: 339e0467'
+            label: Text
+            name: '339e0467'
+            widget: string
+          - hint: 'Original text: We Are a Family, key: 18034081'
+            label: Text
+            name: '18034081'
+            widget: string
+          - hint: 'Original text: Steve Goss, key: 6f0659b5'
+            label: Text
+            name: 6f0659b5
+            widget: string
+          - hint: "Original text: CEO\_and Solutions Architect, key: 3352bdf3"
+            label: Text
+            name: 3352bdf3
+            widget: string
+          - hint: 'Original text: Raju Mantena, key: 5c6e25d8'
+            label: Text
+            name: 5c6e25d8
+            widget: string
+          - hint: 'Original text: CTO and Managing Director, India, key: beee4e4'
+            label: Text
+            name: beee4e4
+            widget: string
+          - hint: 'Original text: Will Montague, key: -70c35f54'
+            label: Text
+            name: '-70c35f54'
+            widget: string
+          - hint: 'Original text: VP of Sales and Marketing, key: 255f1b26'
+            label: Text
+            name: 255f1b26
+            widget: string
+          - hint: 'Original text: Glenn Wilcox, key: -1ce5da0e'
+            label: Text
+            name: '-1ce5da0e'
+            widget: string
+          - hint: "Original text: Chief Technical Document Artist &\_IT\_Lead, key: -7d68b77b"
+            label: Text
+            name: '-7d68b77b'
+            widget: string
+          - hint: 'Original text: Nichole Johnson, key: -772840f1'
+            label: Text
+            name: '-772840f1'
+            widget: string
+          - hint: "Original text: VP\_of Operations, key: -6a907d71"
+            label: Text
+            name: '-6a907d71'
+            widget: string
+          - hint: 'Original text: Veldurai Thirunee-, key: 6ad08323'
+            label: Text
+            name: 6ad08323
+            widget: string
+          - hint: 'Original text: lakandan, key: -65a3a792'
+            label: Text
+            name: '-65a3a792'
+            widget: string
+          - hint: "Original text: PMO\_Director, key: 5041729a"
+            label: Text
+            name: 5041729a
+            widget: string
+          - hint: 'Original text: Craig Lett, key: -49e37a57'
+            label: Text
+            name: '-49e37a57'
+            widget: string
+          - hint: 'Original text: Director, Global Partners, key: f391668'
+            label: Text
+            name: f391668
+            widget: string
+          - hint: 'Original text: Barry Beach, key: 76c7e31d'
+            label: Text
+            name: 76c7e31d
+            widget: string
+          - hint: "Original text: VP\_of Product Management, key: 3e8b1bd7"
+            label: Text
+            name: 3e8b1bd7
+            widget: string
+          - hint: 'Original text: Our Mission, key: 3dba0078'
+            label: Text
+            name: 3dba0078
+            widget: string
+          - hint: "Original text: Our mission is to help customers achieve their business objectives by providing innovative, best-in-class ECM\_migration and retirement solutions, data management and consolidation tools, and managed services. Our unparalleled years of experience and one-of-a-kind proprietary platform of more than 70 components makes us the clear choice for smart enterprises., key: -69a36b13"
+            label: Text
+            name: '-69a36b13'
+            widget: text
+          - hint: 'Original text: Our Vision, key: -6243b084'
+            label: Text
+            name: '-6243b084'
+            widget: string
+          - hint: >-
+              Original text: Our success is built on the trust we earned from
+              Fortune500 clients over decades of work and refinement. We are
+              continuing to expand and develop into the preeminent global data
+              management software platform and solutions provider., key:
+              38900406
+            label: Text
+            name: '38900406'
+            widget: text
+          - hint: 'Original text: See Why We''re the Best, key: -68e3ec74'
+            label: Text
+            name: '-68e3ec74'
+            widget: string
+          - hint: "Original text: Take Control Over Your\_Enterprise Data, key: 78add80c"
+            label: Text
+            name: 78add80c
+            widget: string
+          - hint: >-
+              Original text: Discover data and solutions you never knew you had.
+              Talk to a Helix Data Expert today to see how we can save you time,
+              reduce your costs, and reclaim your human capital., key: -453bb421
+            label: Text
+            name: '-453bb421'
+            widget: text
+          - hint: 'Original text: Talk to Us, key: -7d8e6dd1'
+            label: Text
+            name: '-7d8e6dd1'
+            widget: string
+          - hint: 'Original text: Blog Articles, key: -27677305'
+            label: Text
+            name: '-27677305'
+            widget: string
+          - hint: 'Original text: Read full post, key: -57de9259'
+            label: Text
+            name: '-57de9259'
+            widget: string
+          - hint: 'Original text: Join Us, key: df13554'
+            label: Text
+            name: df13554
+            widget: string
+          - hint: 'Original text: !, key: 21'
+            label: Text
+            name: '21'
+            widget: string
+          - hint: >-
+              Original text: We are on the look-out for dynamic individuals that
+              bring energy and passion to their work. Just like us., key:
+              -87fc264
+            label: Text
+            name: '-87fc264'
+            widget: text
+          - hint: 'Original text: Seeking Opportunities?, key: 14a9d064'
+            label: Text
+            name: 14a9d064
+            widget: string
+          - hint: 'Original text: Join Our Big Family, key: 5bab95ce'
+            label: Text
+            name: 5bab95ce
+            widget: string
+          - hint: >-
+              Original text: Helix International’s market leadership and
+              industry reputation for excellence has been built and sustained
+              over 30 years by a diverse team of exceptional individuals. We
+              hire experienced professionals who are smart, ambitious, and
+              passionate about their specialty., key: 1597a5d1
+            label: Text
+            name: 1597a5d1
+            widget: text
+          - hint: >-
+              Original text: Relocation assistance is provided for candidates
+              and their families who are not currently located in one of the
+              countries indicated in the position., key: 5c6b050f
+            label: Text
+            name: 5c6b050f
+            widget: text
+          - hint: 'Original text: Position, key: 306cfd49'
+            label: Text
+            name: 306cfd49
+            widget: string
+          - hint: 'Original text: Location, key: 752a03d5'
+            label: Text
+            name: 752a03d5
+            widget: string
+          - hint: 'Original text: Type, key: 28035a'
+            label: Text
+            name: 28035a
+            widget: string
+          - hint: 'Original text: Apply Now, key: -45e051c'
+            label: Text
+            name: '-45e051c'
+            widget: string
+          - hint: 'Original text: Want to Join Our Successful Team, key: -74000092'
+            label: Text
+            name: '-74000092'
+            widget: string
+          - hint: 'Original text: ?, key: 3f'
+            label: Text
+            name: 3f
+            widget: string
+          - hint: >-
+              Original text: We are always interested to meet potential team
+              members to join our fast-growing, dynamic team of professionals.,
+              key: -78470c70
+            label: Text
+            name: '-78470c70'
+            widget: text
+          - hint: 'Original text: Get in Touch Now!, key: 238f46fd'
+            label: Text
+            name: 238f46fd
+            widget: string
+          - hint: 'Original text: Our Latest Case Studies, key: 2616d41c'
+            label: Text
+            name: 2616d41c
+            widget: string
+          - hint: 'Original text: All, key: 10181'
+            label: Text
+            name: '10181'
+            widget: string
+          - hint: 'Original text: Insurance, key: 7bccc6ba'
+            label: Text
+            name: 7bccc6ba
+            widget: string
+          - hint: 'Original text: Head Office, key: 2c9310fc'
+            label: Text
+            name: 2c9310fc
+            widget: string
+          - hint: 'Original text: , key: f279'
+            label: Text
+            name: f279
+            widget: string
+          - hint: "Original text: 5175 Plainfield Ave.\_NE., key: -32e8a0e1"
+            label: Text
+            name: '-32e8a0e1'
+            widget: string
+          - hint: 'Original text: Grand Rapids, MI 49525 USA, key: 9cf23d1'
+            label: Text
+            name: 9cf23d1
+            widget: string
+          - hint: 'Original text: , key: f095'
+            label: Text
+            name: f095
+            widget: string
+          - hint: 'Original text: +1 (888) 400 2128, key: -51ee83ae'
+            label: Text
+            name: '-51ee83ae'
+            widget: string
+          - hint: 'Original text: , key: f0e0'
+            label: Text
+            name: f0e0
+            widget: string
+          - hint: 'Original text: sales@helix-int.com, key: -1dc50381'
+            label: Text
+            name: '-1dc50381'
+            widget: string
+          - hint: 'Original text: More locations, key: -3851e38d'
+            label: Text
+            name: '-3851e38d'
+            widget: string
+          - hint: 'Original text: Get in Touch, key: -53f399f2'
+            label: Text
+            name: '-53f399f2'
+            widget: string
+          - hint: "Original text: Drop us a line and a Helix International IT\_Expert will be in contact ASAP., key: -4b101b26"
+            label: Text
+            name: '-4b101b26'
+            widget: string
+          - hint: 'Original text: Select*, key: -26dffd72'
+            label: Text
+            name: '-26dffd72'
+            widget: string
+          - hint: 'Original text: Inquiry Department 2*, key: 6404b6ed'
+            label: Text
+            name: 6404b6ed
+            widget: string
+          - hint: 'Original text: Department*, key: -7d5c3108'
+            label: Text
+            name: '-7d5c3108'
+            widget: string
+          - hint: 'Original text: Department 2*, key: 68ebd1a6'
+            label: Text
+            name: 68ebd1a6
+            widget: string
+          - hint: 'Original text: 7 Global Offices, key: 6ae23cc3'
+            label: Text
+            name: 6ae23cc3
+            widget: string
+          - hint: >-
+              Original text: Shake hands with Helix International team members
+              anywhere across the globe., key: 591b713e
+            label: Text
+            name: 591b713e
+            widget: string
+          - hint: 'Original text: United States, key: -7925c061'
+            label: Text
+            name: '-7925c061'
+            widget: string
+          - hint: 'Original text: ‍, key: 200d'
+            label: Text
+            name: 200d
+            widget: string
+          - hint: 'Original text: P.O. Box 202 , key: -2e4db11c'
+            label: Text
+            name: '-2e4db11c'
+            widget: string
+          - hint: 'Original text: Rockford, , key: -7a1eb4cc'
+            label: Text
+            name: '-7a1eb4cc'
+            widget: string
+          - hint: 'Original text: MI 49341, key: -720c1239'
+            label: Text
+            name: '-720c1239'
+            widget: string
+          - hint: 'Original text: 12149 Petersen Bluff Drive, key: -4c066a50'
+            label: Text
+            name: '-4c066a50'
+            widget: string
+          - hint: 'Original text: Riverton, UT 84065-4046, key: 3ffabd7e'
+            label: Text
+            name: 3ffabd7e
+            widget: string
+          - hint: 'Original text: 188 Old Mill Way SW, key: -13d91a0f'
+            label: Text
+            name: '-13d91a0f'
+            widget: string
+          - hint: 'Original text: Conyers, GA 30094, key: -51101d95'
+            label: Text
+            name: '-51101d95'
+            widget: string
+          - hint: 'Original text: Help Center, key: 558d7e14'
+            label: Text
+            name: 558d7e14
+            widget: string
+          - hint: 'Original text: United Kingdom, key: -64d82fb2'
+            label: Text
+            name: '-64d82fb2'
+            widget: string
+          - hint: 'Original text: 272 Turton Road , key: -2a43904b'
+            label: Text
+            name: '-2a43904b'
+            widget: string
+          - hint: 'Original text: Bolton, UK BL23EF, key: 701b1bee'
+            label: Text
+            name: 701b1bee
+            widget: string
+          - hint: 'Original text: Asia, key: 1f48ea'
+            label: Text
+            name: 1f48ea
+            widget: string
+          - hint: >-
+              Original text: 1018, F1 Pragathi Nagar Hyderabad, Telangana
+              500090, key: -430e10f
+            label: Text
+            name: '-430e10f'
+            widget: string
+          - hint: 'Original text: 138 Le Hong Phong, key: -2237e513'
+            label: Text
+            name: '-2237e513'
+            widget: string
+          - hint: 'Original text: Nha Trang, Vietnam 650000, key: 4775c89e'
+            label: Text
+            name: 4775c89e
+            widget: string
+          - hint: 'Original text: Romania, key: -4aa9544b'
+            label: Text
+            name: '-4aa9544b'
+            widget: string
+          - hint: 'Original text: 44 Dezrobirii Street Building , key: -71146606'
+            label: Text
+            name: '-71146606'
+            widget: string
+          - hint: 'Original text: 09 , key: bb37'
+            label: Text
+            name: bb37
+            widget: string
+          - hint: 'Original text: Bucharest Sector 6, key: 7532303f'
+            label: Text
+            name: 7532303f
+            widget: string
+          - hint: 'Original text: Romania 060989, key: -7528a765'
+            label: Text
+            name: '-7528a765'
+            widget: string
+          - hint: 'Original text: , key: f39e'
+            label: Text
+            name: f39e
+            widget: string
+          - hint: 'Original text: , key: f08c'
+            label: Text
+            name: f08c
+            widget: string
+          - hint: 'Original text: , key: f099'
+            label: Text
+            name: f099
+            widget: string
+          - hint: 'Original text: Recent Posts, key: 2d2c9ce'
+            label: Text
+            name: 2d2c9ce
+            widget: string
+          - hint: 'Original text: , key: f0b1'
+            label: Text
+            name: f0b1
+            widget: string
+          - hint: 'Original text: , key: f017'
+            label: Text
+            name: f017
+            widget: string
+          - hint: 'Original text: Email Job, key: -a431307'
+            label: Text
+            name: '-a431307'
+            widget: string
+          - hint: 'Original text: Please fill in your details, key: b76a829'
+            label: Text
+            name: b76a829
+            widget: string
+          - hint: 'Original text: 1/5, key: bdd7'
+            label: Text
+            name: bdd7
+            widget: string
+          - hint: 'Original text: About your Company, key: 48a89343'
+            label: Text
+            name: 48a89343
+            widget: string
+          - hint: 'Original text: 2/5, key: c198'
+            label: Text
+            name: c198
+            widget: string
+          - hint: 'Original text: How can I help you?, key: -2bf845d8'
+            label: Text
+            name: '-2bf845d8'
+            widget: string
+          - hint: 'Original text: UI Design, key: -f7b4316'
+            label: Text
+            name: '-f7b4316'
+            widget: string
+          - hint: 'Original text: Marketing Site, key: -700052bf'
+            label: Text
+            name: '-700052bf'
+            widget: string
+          - hint: 'Original text: UI Development, key: 4e38bd8f'
+            label: Text
+            name: 4e38bd8f
+            widget: string
+          - hint: 'Original text: Grab a beer, key: 4a81b0c3'
+            label: Text
+            name: 4a81b0c3
+            widget: string
+          - hint: 'Original text: 3/5, key: c559'
+            label: Text
+            name: c559
+            widget: string
+          - hint: 'Original text: Specify your time-frame, key: -2ad47065'
+            label: Text
+            name: '-2ad47065'
+            widget: string
+          - hint: >-
+              Original text: I'm looking for a long-term partnership, key:
+              51dee57d
+            label: Text
+            name: 51dee57d
+            widget: string
+          - hint: 'Original text: 4/5, key: c91a'
+            label: Text
+            name: c91a
+            widget: string
+          - hint: 'Original text: Specify your budget, key: -1be2fc8d'
+            label: Text
+            name: '-1be2fc8d'
+            widget: string
+          - hint: >-
+              Original text: I'm interested in discussing stock compensation,
+              key: 22dc44cd
+            label: Text
+            name: 22dc44cd
+            widget: string
+          - hint: 'Original text: 5/5, key: ccdb'
+            label: Text
+            name: ccdb
+            widget: string
+          - hint: 'Original text: ← Back, key: 4788c197'
+            label: Text
+            name: 4788c197
+            widget: string
+          - hint: 'Original text: Next, key: 24ff13'
+            label: Text
+            name: 24ff13
+            widget: string
+          - hint: >-
+              Original text: Thanks! I have received your form submission, I'll
+              get back to you shortly!, key: 658f235c
+            label: Text
+            name: 658f235c
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form, key: 14c5a3a7
+            label: Text
+            name: 14c5a3a7
+            widget: string
+          - hint: 'Original text: Overview, key: 23735199'
+            label: Text
+            name: '23735199'
+            widget: string
+          - hint: 'Original text: Challenge, key: -34f363bd'
+            label: Text
+            name: '-34f363bd'
+            widget: string
+          - hint: 'Original text: Results, key: -5b5c2c2a'
+            label: Text
+            name: '-5b5c2c2a'
+            widget: string
+          - hint: 'Original text: Solution, key: 5cc7b199'
+            label: Text
+            name: 5cc7b199
+            widget: string
+          - hint: 'Original text: Previous, key: -4811e0e9'
+            label: Text
+            name: '-4811e0e9'
+            widget: string
+          - hint: 'Original text: Next , key: 47ae36d'
+            label: Text
+            name: 47ae36d
+            widget: string
+          - hint: 'Original text: Projects We Worked On, key: 518853a3'
+            label: Text
+            name: 518853a3
+            widget: string
+          - hint: 'Original text: Why Helix?, key: 77970b19'
+            label: Text
+            name: 77970b19
+            widget: string
+          - hint: 'Original text: Flexible migration options, key: -3e2220a9'
+            label: Text
+            name: '-3e2220a9'
+            widget: string
+          - hint: >-
+              Original text: Migrate all, some, or none of your existing data,
+              key: -967f218
+            label: Text
+            name: '-967f218'
+            widget: string
+          - hint: >-
+              Original text: . Helix International provides the unique
+              capability of migrating dynamic content while leaving your static
+              content in the original repository and serving it up on demand
+              within your chosen ECM solution, circumventing legacy ECMs,
+              viewers, licenses, and APIs. , key: -334118bc
+            label: Text
+            name: '-334118bc'
+            widget: text
+          - hint: 'Original text: Unparalleled security, key: 6df45e1'
+            label: Text
+            name: 6df45e1
+            widget: string
+          - hint: >-
+              Original text: End-to-end encryption in motion and in rest., key:
+              -61e830d1
+            label: Text
+            name: '-61e830d1'
+            widget: string
+          - hint: "Original text:  The Helix International MARS\_Migration Platform includes built-in end-to-end encryption, a complete audit trail including full chain of custody, and the option of offline migration wherein we supply appliances and install on-prem before uploading directly from the hardware to our migration server., key: -da1b47"
+            label: Text
+            name: '-da1b47'
+            widget: text
+          - hint: 'Original text: Complete data control, key: 77351a4e'
+            label: Text
+            name: 77351a4e
+            widget: string
+          - hint: >-
+              Original text: Extract, Transform, and Load from any sources, to
+              any sources, in any formats., key: 697d0286
+            label: Text
+            name: 697d0286
+            widget: string
+          - hint: "Original text:  The Helix MARS\_platform includes 45 different source extractors for every enterprise ECM\_solution out there, as well as AI-enabled tools to structure any unstructured data, intelligently combine data from disparate sources into unified documents, and serve up new documents and reports in any formats., key: -2de1de68"
+            label: Text
+            name: '-2de1de68'
+            widget: text
+          - hint: 'Original text: Ready? Get started with Helix, key: -aac37cf'
+            label: Text
+            name: '-aac37cf'
+            widget: string
+          - hint: 'Original text: Phone:, key: -718ea354'
+            label: Text
+            name: '-718ea354'
+            widget: string
+          - hint: 'Original text:  +1 (888) 400 2128, key: 404dc032'
+            label: Text
+            name: 404dc032
+            widget: string
+          - hint: 'Original text: Email: , key: 19673a2'
+            label: Text
+            name: 19673a2
+            widget: string
+          - hint: 'Original text: Solutions Categories, key: 6391d822'
+            label: Text
+            name: 6391d822
+            widget: string
+          - hint: 'Original text: Our Partners, key: 8531b3f'
+            label: Text
+            name: 8531b3f
+            widget: string
+          - hint: >-
+              Original text: Learn more about the companies with whom we work
+              closely together to deliver you the best products and services.,
+              key: -63669a8
+            label: Text
+            name: '-63669a8'
+            widget: text
+          - hint: 'Original text: IBM, key: 11a54'
+            label: Text
+            name: 11a54
+            widget: string
+          - hint: 'Original text: Microsoft, key: 71d450ce'
+            label: Text
+            name: 71d450ce
+            widget: string
+          - hint: 'Original text: Ricoh, key: 4b4c3c5'
+            label: Text
+            name: 4b4c3c5
+            widget: string
+          - hint: 'Original text: Redhat, key: -6e544f76'
+            label: Text
+            name: '-6e544f76'
+            widget: string
+          - hint: 'Original text: Quotient, key: -3089e175'
+            label: Text
+            name: '-3089e175'
+            widget: string
+          - hint: 'Original text: Infosys, key: -28d274c1'
+            label: Text
+            name: '-28d274c1'
+            widget: string
+          - hint: >-
+              Original text: Helix International provides data platform tools
+              purpose-built for IBM ECM solutions., key: 4fec99cf
+            label: Text
+            name: 4fec99cf
+            widget: string
+          - hint: "Original text: When IBM brings the world's leading banks, insurance companies, healthcare companies, hospitals, and other enterprises with petabytes of sensitive data onto IBM's ECM solutions, they call Helix International to provide the ETL solutions and implementation. That includes holistic ETL software solutions, managed services, and modular API microservices to work around licenses and viewers, as well as extract and manipulate data from any combination of sources. That's why Helix International is the preferred Premium Partner of IBM for ECM and\_ETL-related projects., key: 59c7f6a5"
+            label: Text
+            name: 59c7f6a5
+            widget: text
+          - hint: 'Original text: See our partner listing on IBM , key: 153d9db8'
+            label: Text
+            name: 153d9db8
+            widget: string
+          - hint: 'Original text: What we do with Microsoft., key: 2a2e057b'
+            label: Text
+            name: 2a2e057b
+            widget: string
+          - hint: 'Original text: Details., key: 421fba4c'
+            label: Text
+            name: 421fba4c
+            widget: string
+          - hint: 'Original text: What we do with Ricoh., key: -5479a91c'
+            label: Text
+            name: '-5479a91c'
+            widget: string
+          - hint: 'Original text: What we do with Redhat., key: -41840597'
+            label: Text
+            name: '-41840597'
+            widget: string
+          - hint: 'Original text: What we do with Quotient., key: 53feff48'
+            label: Text
+            name: 53feff48
+            widget: string
+          - hint: 'Original text: What we do with Infosys., key: 4a0573ea'
+            label: Text
+            name: 4a0573ea
+            widget: string
+          - hint: 'Original text: Search results, key: 7e85e19e'
+            label: Text
+            name: 7e85e19e
+            widget: string
+          - hint: 'Original text: No matching results., key: -75764c4'
+            label: Text
+            name: '-75764c4'
+            widget: string
+          - hint: 'Original text: Helix Solutions, key: -46158f48'
+            label: Text
+            name: '-46158f48'
+            widget: string
+          - hint: >-
+              Original text: Solve compliance issues, save money, and reclaim
+              human capital with Helix International's modular data platform.,
+              key: -3a5ccc91
+            label: Text
+            name: '-3a5ccc91'
+            widget: text
+          - hint: 'Original text: Solutions for Key Use Cases, key: 14da62cc'
+            label: Text
+            name: 14da62cc
+            widget: string
+          - hint: 'Original text: Get It Now , key: -4aefc10b'
+            label: Text
+            name: '-4aefc10b'
+            widget: string
+          - hint: >-
+              Original text: We have the expertise to deliver your needs, no
+              matter how complex, key: -2e5b8580
+            label: Text
+            name: '-2e5b8580'
+            widget: string
+          - hint: 'Original text: Security, key: 3c6cdb60'
+            label: Text
+            name: 3c6cdb60
+            widget: string
+          - hint: 'Original text: 91%, key: dc0d'
+            label: Text
+            name: dc0d
+            widget: string
+          - hint: 'Original text: Speed, key: 4c61027'
+            label: Text
+            name: 4c61027
+            widget: string
+          - hint: 'Original text: 85%, key: d8c8'
+            label: Text
+            name: d8c8
+            widget: string
+          - hint: 'Original text: Flexibility, key: 55b4fcf9'
+            label: Text
+            name: 55b4fcf9
+            widget: string
+          - hint: 'Original text: 93%, key: dc4b'
+            label: Text
+            name: dc4b
+            widget: string
+          - hint: 'Original text: Design and Deployment, key: -af4e4b0'
+            label: Text
+            name: '-af4e4b0'
+            widget: string
+          - hint: >-
+              Original text: As a leading Outsourceo, we connect people with
+              technology that enhances growth, elevates..., key: 75f6694
+            label: Text
+            name: 75f6694
+            widget: text
+          - hint: 'Original text: View Case Study, key: -f06eec'
+            label: Text
+            name: '-f06eec'
+            widget: string
+          - hint: 'Original text: View All Case Study, key: 55f80793'
+            label: Text
+            name: 55f80793
+            widget: string
+          - hint: 'Original text: Rewamping in Healthcare, key: -27972d16'
+            label: Text
+            name: '-27972d16'
+            widget: string
+          - hint: >-
+              Original text: HHC, the largest municipal healthcare organization
+              in the country..., key: -797d0910
+            label: Text
+            name: '-797d0910'
+            widget: string
+          - hint: 'Original text: BlueCross BlueShield, key: -344e4703'
+            label: Text
+            name: '-344e4703'
+            widget: string
+          - hint: >-
+              Original text: Secure migration of patient and financial records
+              for BlueCross BlueShield organizations..., key: -2429556d
+            label: Text
+            name: '-2429556d'
+            widget: text
+          - hint: 'Original text: Upcoming Events, key: 6b492c9d'
+            label: Text
+            name: 6b492c9d
+            widget: string
+          - hint: >-
+              Original text: Learn about when and where to find Helix
+              International at upcoming events around the globe., key: 5c4ec7e2
+            label: Text
+            name: 5c4ec7e2
+            widget: text
+          - hint: 'Original text: OpenText World, key: -634ed737'
+            label: Text
+            name: '-634ed737'
+            widget: string
+          - hint: 'Original text: Events Map, key: -4d8ebe2b'
+            label: Text
+            name: '-4d8ebe2b'
+            widget: string
+          - hint: "Original text: OpenText\_World Event, key: 2968f3e3"
+            label: Text
+            name: 2968f3e3
+            widget: string
+          - hint: >-
+              Original text: 4-6 October 2022, Venetian Resort, Las Vegas, key:
+              10011940
+            label: Text
+            name: '10011940'
+            widget: string
+          - hint: >-
+              Original text: The Helix International team will be present at the
+              2022 OpenText World event in Las Vegas, one of the largest and
+              leading information management conferences. The event supports
+              both in-person and virtual attendance., key: -7774c9d5
+            label: Text
+            name: '-7774c9d5'
+            widget: text
+          - hint: 'Original text: Register , key: 7c1bc5bd'
+            label: Text
+            name: 7c1bc5bd
+            widget: string
+          - hint: 'Original text: Download my vCard, key: -24379a56'
+            label: Text
+            name: '-24379a56'
+            widget: string
+          - hint: 'Original text: cbentley@helix-int.com, key: -3501ec19'
+            label: Text
+            name: '-3501ec19'
+            widget: string
+          - hint: 'Original text: Click to email, key: 5a1a056f'
+            label: Text
+            name: 5a1a056f
+            widget: string
+          - hint: "Original text: VN:\_+84 76 901 9966, key: -6a80eff0"
+            label: Text
+            name: '-6a80eff0'
+            widget: string
+          - hint: 'Original text: Send an e-mail, key: 71f052fa'
+            label: Text
+            name: 71f052fa
+            widget: string
+          - hint: 'Original text: Drop me a line below:, key: -3180f101'
+            label: Text
+            name: '-3180f101'
+            widget: string
+          - hint: 'Original text: Cancel, key: 77df1a9a'
+            label: Text
+            name: 77df1a9a
+            widget: string
+          - hint: "Original text: MARS\_Platform, key: -4b0df202"
+            label: Text
+            name: '-4b0df202'
+            widget: string
+          - hint: "Original text: Our proprietary Helix MARS\_software platform features over 70 tools, components, and extractors to connect your documents and data., key: -38ba2b64"
+            label: Text
+            name: '-38ba2b64'
+            widget: text
+          - hint: "Original text: RealTime\_Viewer, key: 5620fac7"
+            label: Text
+            name: 5620fac7
+            widget: string
+          - hint: 'Original text: Conversion Platform, key: -770277c3'
+            label: Text
+            name: '-770277c3'
+            widget: string
+          - hint: 'Original text: Watcher, key: -59aa8e64'
+            label: Text
+            name: '-59aa8e64'
+            widget: string
+          - hint: 'Original text: Bill Presentment, key: -3e65e00'
+            label: Text
+            name: '-3e65e00'
+            widget: string
+          - hint: 'Original text: Scanning, key: -312dc32f'
+            label: Text
+            name: '-312dc32f'
+            widget: string
+          - hint: 'Original text: Why Helix, key: -2db0ce1a'
+            label: Text
+            name: '-2db0ce1a'
+            widget: string
+          - hint: 'Original text: RealTime Viewer, key: -1cfca5b9'
+            label: Text
+            name: '-1cfca5b9'
+            widget: string
+          - hint: >-
+              Original text: It is a component of the MARS platform which is
+              also an add-on to the Data Migration services offered by Helix
+              International. RTV is the “flashlight” that allows federated
+              retrieval and display of files across multiple repositories using
+              Helix International extractors, which are responsible for direct
+              access to data and content without the need for licensing of the
+              original application saving time and money., key: 2b1022c6
+            label: Text
+            name: 2b1022c6
+            widget: text
+          - hint: >-
+              Original text: RTV allows an end user to view an archive version
+              of a report without it having been migrated. It allows native
+              access to an archive system and handing off to another application
+              such as IBM Content Navigator ICN, a REST based API or a native
+              application for viewing reports. It also allows for security based
+              upon the requirements of the client to only provide reports that
+              an end user is entitled to., key: 70aa1c09
+            label: Text
+            name: 70aa1c09
+            widget: text
+          - hint: 'Original text: MARS Conversion Platform, key: 4cb59672'
+            label: Text
+            name: 4cb59672
+            widget: string
+          - hint: >-
+              Original text: Using our experience-based conversion methodology
+              and powerful MARS Conversion Platform technology, we enable
+              content migration from legacy systems into current ECM systems, or
+              from one heterogeneous system of record into another. Our ECM
+              solutions help clients improve information access while minimizing
+              support needs, reducing licensing costs and eliminating redundant
+              or obsolete technology., key: -2a346651
+            label: Text
+            name: '-2a346651'
+            widget: text
+          - hint: >-
+              Original text: Mars Conversion Platform is meant to manage the
+              audits track all migrations and prioritize and provide reporting
+              on end times, reconciliation, and scheduling tasks with priority
+              and number of threads to handle bottlenecks and be agile in a
+              production environment., key: 4644572
+            label: Text
+            name: '4644572'
+            widget: text
+          - hint: 'Original text: MARS Watcher, key: 12b16751'
+            label: Text
+            name: 12b16751
+            widget: string
+          - hint: >-
+              Original text: 1. The first step taken by the Helix International
+              MARS Watcher utility program is to watch all output data that it
+              is set to receive., key: -26b53894
+            label: Text
+            name: '-26b53894'
+            widget: text
+          - hint: >-
+              Original text: 2. The second step is the TEXT to XML process.,
+              key: -346c4d1c
+            label: Text
+            name: '-346c4d1c'
+            widget: string
+          - hint: >-
+              Original text: 3. The third and last step of the Watcher utility
+              is to present the converted data., key: -18bd82dd
+            label: Text
+            name: '-18bd82dd'
+            widget: string
+          - hint: >-
+              Original text: The data is presented based on your specifications
+              during setup. Customize your output templates with your logos,
+              fonts, page formats, calculations and more. There is no need to
+              hire a specialist to make future updates. Our intuitive Graphical
+              User Interface allows your system administrators to make
+              stress-free changes., key: -17bcbbeb
+            label: Text
+            name: '-17bcbbeb'
+            widget: text
+          - hint: >-
+              Original text: To summarize Helix MARS Watcher allows for the
+              processing of day forward reports and creating the data model to
+              gather data from within the report and or attributes without
+              having to recode. (it takes this from the legacy repository
+              creating new rules) It has many out of the box processors for
+              handling custom preprocessing from legacy systems minimizing the
+              amount of coding to be done. (examples are preprocessing for
+              international character sets, Extracting data from reports,
+              receiving files from disparate systems)., key: 119784ec
+            label: Text
+            name: 119784ec
+            widget: text
+          - hint: >-
+              Original text: Optimize your business efficiency by having MARS
+              Bill Presentment. Your ERM systems are guaranteed to be equipped
+              with an electronic bill presentment solution that retrieves,
+              displays, emails and reprints invoices, credit memos, bills and
+              statements, in addition to providing Internet self-services., key:
+              7fd1a133
+            label: Text
+            name: 7fd1a133
+            widget: text
+          - hint: >-
+              Original text: Receive and process reports, documents and scanned
+              images., key: -36a1a107
+            label: Text
+            name: '-36a1a107'
+            widget: string
+          - hint: >-
+              Original text: Documents are typically received by companies in
+              one of the following ways — via mail, in person delivery,
+              electronically (i.e., fax, e-mail), and in court. Scan Operators
+              are then made responsible for preparing a batch that is then
+              scanned and, if necessary, reviewed, validated and updated., key:
+              -2c861c23
+            label: Text
+            name: '-2c861c23'
+            widget: text
+      - label: Links
+        name: links
+        file: cms/_data/links.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Links
+          - hint: 'Original link: /, key: 2f'
+            label: Link
+            name: 2f
+            widget: string
+          - hint: 'Original link: /assets/solutions/migrations., key: 761fc417'
+            label: Link
+            name: 761fc417
+            widget: string
+          - hint: 'Original link: /assets/solutions/ecm., key: 12ea1491'
+            label: Link
+            name: 12ea1491
+            widget: string
+          - hint: 'Original link: /assets/solutions/hosting., key: 70729746'
+            label: Link
+            name: '70729746'
+            widget: string
+          - hint: 'Original link: /assets/solutions/gdpr., key: 4a75349d'
+            label: Link
+            name: 4a75349d
+            widget: string
+          - hint: 'Original link: /assets/solutions/managed-services., key: -1a9b09f0'
+            label: Link
+            name: '-1a9b09f0'
+            widget: string
+          - hint: 'Original link: /assets/solutions/development., key: -8257d9b'
+            label: Link
+            name: '-8257d9b'
+            widget: string
+          - hint: 'Original link: /mars-pltform, key: 4f87973'
+            label: Link
+            name: 4f87973
+            widget: string
+          - hint: 'Original link: /case-studies, key: 3cf9f039'
+            label: Link
+            name: 3cf9f039
+            widget: string
+          - hint: 'Original link: /events, key: 694cc208'
+            label: Link
+            name: 694cc208
+            widget: string
+          - hint: 'Original link: /partners, key: 7f6f1dda'
+            label: Link
+            name: 7f6f1dda
+            widget: string
+          - hint: 'Original link: /blog, key: 2c48051'
+            label: Link
+            name: 2c48051
+            widget: string
+          - hint: 'Original link: /careers, key: 335c25a6'
+            label: Link
+            name: 335c25a6
+            widget: string
+          - hint: 'Original link: /about, key: 55b8e8be'
+            label: Link
+            name: 55b8e8be
+            widget: string
+          - hint: 'Original link: /about#team, key: -580ba8fe'
+            label: Link
+            name: '-580ba8fe'
+            widget: string
+          - hint: 'Original link: /about#our-values, key: -7cf9f058'
+            label: Link
+            name: '-7cf9f058'
+            widget: string
+          - hint: 'Original link: /contact-us, key: 5e5270da'
+            label: Link
+            name: 5e5270da
+            widget: string
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
+            widget: string
+          - hint: 'Original link: /services, key: -753a8e73'
+            label: Link
+            name: '-753a8e73'
+            widget: string
+          - hint: 'Original link: /assets/documents/helix-intro.pdf, key: 28918b2d'
+            label: Link
+            name: 28918b2d
+            widget: string
+          - hint: >-
+              Original link: https://goo.gl/maps/VAsnRRir2T3ZFGGe6, key:
+              4470f5db
+            label: Link
+            name: 4470f5db
+            widget: string
+          - hint: 'Original link: tel:+18884002128, key: 733a5aa6'
+            label: Link
+            name: 733a5aa6
+            widget: string
+          - hint: >-
+              Original link:
+              mailto:sales@helix-int.com?subject=Website%20inquiry, key:
+              -30d6051a
+            label: Link
+            name: '-30d6051a'
+            widget: string
+          - hint: 'Original link: #Offices, key: 3ab25394'
+            label: Link
+            name: 3ab25394
+            widget: string
+          - hint: 'Original link: https://www.facebook.com/, key: 6c4279f0'
+            label: Link
+            name: 6c4279f0
+            widget: string
+          - hint: 'Original link: https://www.linkedin.com/, key: 6e47a6b8'
+            label: Link
+            name: 6e47a6b8
+            widget: string
+          - hint: 'Original link: https://twitter.com/, key: 636eb9b8'
+            label: Link
+            name: 636eb9b8
+            widget: string
+          - hint: >-
+              Original link:
+              mailto:hnguyen@helix-int.com?subject=Careers%20application, key:
+              4eeb4d6b
+            label: Link
+            name: 4eeb4d6b
+            widget: string
+          - hint: >-
+              Original link:
+              mailto:hnguyen@helix-int.com?subject=Careers%20inquiry, key:
+              9e01762
+            label: Link
+            name: '9e01762'
+            widget: string
+          - hint: 'Original link: mailto:sales@helix-int.com, key: 51366377'
+            label: Link
+            name: '51366377'
+            widget: string
+          - hint: 'Original link: #ibm, key: 117f71'
+            label: Link
+            name: 117f71
+            widget: string
+          - hint: 'Original link: #microsoft, key: 606ca82b'
+            label: Link
+            name: 606ca82b
+            widget: string
+          - hint: 'Original link: #ricoh, key: 423151a2'
+            label: Link
+            name: 423151a2
+            widget: string
+          - hint: 'Original link: #redhat, key: 3c0de4d'
+            label: Link
+            name: 3c0de4d
+            widget: string
+          - hint: 'Original link: #quotient, key: 10f6e78e'
+            label: Link
+            name: 10f6e78e
+            widget: string
+          - hint: 'Original link: #infosys, key: -5841ea24'
+            label: Link
+            name: '-5841ea24'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www-50.ibm.com/partnerworld/gsd/solutiondetails.do?&solution=55014,
+              key: 4053364c
+            label: Link
+            name: 4053364c
+            widget: string
+          - hint: 'Original link: #event1, key: -117e0546'
+            label: Link
+            name: '-117e0546'
+            widget: string
+          - hint: 'Original link: #events, key: -117e0504'
+            label: Link
+            name: '-117e0504'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.opentextworld.com/event/6fe70c77-552e-4cd5-a36f-32a5f096a877/regPage:0a3c8d1b-d43f-43da-b558-9e3cd702c894,
+              key: 289a1c7b
+            label: Link
+            name: 289a1c7b
+            widget: string
+          - hint: 'Original link: https://www.facebook.com/helixint, key: 337c50a1'
+            label: Link
+            name: 337c50a1
+            widget: string
+          - hint: 'Original link: https://twitter.com/saleshelix, key: 22628aaa'
+            label: Link
+            name: 22628aaa
+            widget: string
+          - hint: >-
+              Original link: https://www.linkedin.com/company/helix-int/, key:
+              -3275b467
+            label: Link
+            name: '-3275b467'
+            widget: string
+          - hint: >-
+              Original link:
+              https://drive.google.com/file/d/1zLtXArUaZtAGiN7HvgHxPDBbPbFYQX9r,
+              key: 276620c6
+            label: Link
+            name: 276620c6
+            widget: string
+          - hint: 'Original link: #realtime, key: 1224da8e'
+            label: Link
+            name: 1224da8e
+            widget: string
+          - hint: 'Original link: #conversion, key: -2af24a87'
+            label: Link
+            name: '-2af24a87'
+            widget: string
+          - hint: 'Original link: #watcher, key: 76e5fc39'
+            label: Link
+            name: 76e5fc39
+            widget: string
+          - hint: 'Original link: #bill, key: 21b5aaa'
+            label: Link
+            name: 21b5aaa
+            widget: string
+          - hint: 'Original link: #scanning, key: 105305d4'
+            label: Link
+            name: 105305d4
+            widget: string
+          - hint: 'Original link: #why, key: 11b4c5'
+            label: Link
+            name: 11b4c5
+            widget: string
+      - label: Images
+        name: images
+        file: cms/_data/images.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Images
+          - label: Image
+            name: 6df0c780
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i435bfd2a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i6bd08110
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 3a168b8d
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 552124af
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 553d53b1
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 554b6b32
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5eaaa1bf
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 775582bb
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i1b219277
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i6097b084
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i44421c45
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i738b46ad
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i3ea50b6c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 578e7e12
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i265bf288
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 356f25af
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5132e2ea
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 62f4ab6b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5f3c4697
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i60b67532
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i1967369f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 421f4b88
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4aaaa30e
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: db4a605
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1c72bf08
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i20378ab1
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i13c47387
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 8a4f222
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i401c8da0
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i111aade5
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2001fdb4
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7a2568a3
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-50fe5f63'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 21e144a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 3d3a668b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 37f9f04f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2768bbbd'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 50ce9229
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 195b98e6
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-45eb9a8'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2e991245'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3f9a5d3e'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: b6c8928
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1a18a853'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5f622240'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 3d890f90
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4232c66a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 711469dc
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7b10744f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6d058dd7
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '60198481'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-c341ce9'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1b473663'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1b391ee2'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-163da255'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-162f748c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 94c93b4
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1fd4d19a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4abef31c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-383cb21b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 44829ebb
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-53734f74'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-69128d7d'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 599f6d29
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-68f64833'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 68d3058f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-65aa2f48'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 175d0ddf
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 49fad8c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4d0e943b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6995135e
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5fb5e87d'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2e454af7'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2f72b1e1'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2f5682df'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2a485a80'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1ee2d61c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1f823f6b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 35480d1f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-467c3ca'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2611be41'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-a9f4dda'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 71dd31fe
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-51ee9667'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1d5be586'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2cfd2270'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 770b909b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 41b80fb1
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4026f2f5'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-17625535'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5316471'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7bfb0553'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5a7d912b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4782532f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7bae6767
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5361e5a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1810ecd'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+publish_mode: editorial_workflow
