@@ -2,21 +2,19 @@
 f_link-text: Stay compliant
 title: GDPR
 f_icon:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef951217fa63742fa6075a_GDPR.svg
+  url: /assets/external/62ef951217fa63742fa6075a_gdpr.svg
   alt: null
 slug: gdpr
 updated-on: '2022-08-14T12:06:32.439Z'
 created-on: '2022-03-29T15:58:47.351Z'
 published-on: '2022-08-14T12:14:47.590Z'
 f_image:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef96189147fe639a5ae911_GDPR.jpg
+  url: /assets/external/62ef96189147fe639a5ae911_gdpr.jpg
   alt: null
 f_pre-text: >-
   Stay compliant with privacy regulations and give yourself and your clients
   peace of mind.
-f_rich-text-2: "### GDPR\_Penalties\n\n![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef9e9c629f185a445aca88_gdpr-fines.jpg)\n\n![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef9f151cef28fd22288daf_gdpr-compensation.jpg)\n\n![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef9f5c043a3699c2fa8160_gdpr-reputation.jpg)\n\n‍\n\nMARS links structured and unstructured data together and creates a reliable federated search. With MARS, your company or your customer will be able to find the information they are looking for and decide what to do with it.\n\n![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62efa005d640650fa8be7b29_gdpr-options.png)\n\n‍\n\n### The Strategies\n\n**GDPR Compliance = Helix International’s MARS Platform + managing and viewing data.**\n\n*   Data management across ECM & data repositories with MARS RealTime Viewer (RTV) and our RESTify APIs.\n*   GDPR compliance and managing data access / deletion / retention with any ECMs or repositories using Helix International MARS Watcher.\n*   Predicting data feeds with Helix International’s MARS Watcher.\n*   Finding your data and light scanning data extraction and document creation."
+f_rich-text-2: "### GDPR\_Penalties\n\n![](/assets/external/62ef9e9c629f185a445aca88_gdpr-fines.jpg)\n\n![](/assets/external/62ef9f151cef28fd22288daf_gdpr-compensation.jpg)\n\n![](/assets/external/62ef9f5c043a3699c2fa8160_gdpr-reputation.jpg)\n\n‍\n\nMARS links structured and unstructured data together and creates a reliable federated search. With MARS, your company or your customer will be able to find the information they are looking for and decide what to do with it.\n\n![](/assets/external/62efa005d640650fa8be7b29_gdpr-options.png)\n\n‍\n\n### The Strategies\n\n**GDPR Compliance = Helix International’s MARS Platform + managing and viewing data.**\n\n*   Data management across ECM & data repositories with MARS RealTime Viewer (RTV) and our RESTify APIs.\n*   GDPR compliance and managing data access / deletion / retention with any ECMs or repositories using Helix International MARS Watcher.\n*   Predicting data feeds with Helix International’s MARS Watcher.\n*   Finding your data and light scanning data extraction and document creation."
 f_list: >-
   ### The Data Subject Rights
 
@@ -31,8 +29,7 @@ f_list: >-
   format’ and with the right to transmit that data to another controller.
 f_categories: cms/solutions-categories/compliance.md
 f_chart:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef9cdb17fa635b2ea681c7_gdpr.png
+  url: /assets/external/62ef9cdb17fa635b2ea681c7_gdpr.png
   alt: null
 layout: '[solutions].html'
 tags: solutions

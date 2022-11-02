@@ -1894,69 +1894,25 @@ collections:
             label: Text
             name: b76a829
             widget: string
-          - hint: 'Original text: 1/5, key: bdd7'
+          - hint: 'Original text: 1/3, key: bdd5'
             label: Text
-            name: bdd7
+            name: bdd5
             widget: string
-          - hint: 'Original text: About your Company, key: 48a89343'
+          - hint: 'Original text: Provide a professional bio, key: 3f16c16d'
             label: Text
-            name: 48a89343
+            name: 3f16c16d
             widget: string
-          - hint: 'Original text: 2/5, key: c198'
+          - hint: 'Original text: 2/3, key: c196'
             label: Text
-            name: c198
+            name: c196
             widget: string
-          - hint: 'Original text: How can I help you?, key: -2bf845d8'
+          - hint: 'Original text: Upload a professional photo, key: 7094edb7'
             label: Text
-            name: '-2bf845d8'
+            name: 7094edb7
             widget: string
-          - hint: 'Original text: UI Design, key: -f7b4316'
+          - hint: 'Original text: 3/3, key: c557'
             label: Text
-            name: '-f7b4316'
-            widget: string
-          - hint: 'Original text: Marketing Site, key: -700052bf'
-            label: Text
-            name: '-700052bf'
-            widget: string
-          - hint: 'Original text: UI Development, key: 4e38bd8f'
-            label: Text
-            name: 4e38bd8f
-            widget: string
-          - hint: 'Original text: Grab a beer, key: 4a81b0c3'
-            label: Text
-            name: 4a81b0c3
-            widget: string
-          - hint: 'Original text: 3/5, key: c559'
-            label: Text
-            name: c559
-            widget: string
-          - hint: 'Original text: Specify your time-frame, key: -2ad47065'
-            label: Text
-            name: '-2ad47065'
-            widget: string
-          - hint: >-
-              Original text: I'm looking for a long-term partnership, key:
-              51dee57d
-            label: Text
-            name: 51dee57d
-            widget: string
-          - hint: 'Original text: 4/5, key: c91a'
-            label: Text
-            name: c91a
-            widget: string
-          - hint: 'Original text: Specify your budget, key: -1be2fc8d'
-            label: Text
-            name: '-1be2fc8d'
-            widget: string
-          - hint: >-
-              Original text: I'm interested in discussing stock compensation,
-              key: 22dc44cd
-            label: Text
-            name: 22dc44cd
-            widget: string
-          - hint: 'Original text: 5/5, key: ccdb'
-            label: Text
-            name: ccdb
+            name: c557
             widget: string
           - hint: 'Original text: ← Back, key: 4788c197'
             label: Text
@@ -2092,64 +2048,134 @@ collections:
             label: Text
             name: 11a54
             widget: string
+          - hint: 'Original text: Infosys, key: -28d274c1'
+            label: Text
+            name: '-28d274c1'
+            widget: string
           - hint: 'Original text: Microsoft, key: 71d450ce'
             label: Text
             name: 71d450ce
             widget: string
-          - hint: 'Original text: Ricoh, key: 4b4c3c5'
+          - hint: 'Original text: Open-E, key: -72d7525e'
             label: Text
-            name: 4b4c3c5
+            name: '-72d7525e'
+            widget: string
+          - hint: 'Original text: Quadient, key: -494f3237'
+            label: Text
+            name: '-494f3237'
             widget: string
           - hint: 'Original text: Redhat, key: -6e544f76'
             label: Text
             name: '-6e544f76'
             widget: string
-          - hint: 'Original text: Quotient, key: -3089e175'
+          - hint: 'Original text: Ricoh, key: 4b4c3c5'
             label: Text
-            name: '-3089e175'
-            widget: string
-          - hint: 'Original text: Infosys, key: -28d274c1'
-            label: Text
-            name: '-28d274c1'
+            name: 4b4c3c5
             widget: string
           - hint: >-
-              Original text: Helix International provides data platform tools
-              purpose-built for IBM ECM solutions., key: 4fec99cf
+              Original text: Helix International is IBM's Premium Partner of
+              choice for enterprise content migrations., key: 2bdde833
             label: Text
-            name: 4fec99cf
+            name: 2bdde833
             widget: string
-          - hint: "Original text: When IBM brings the world's leading banks, insurance companies, healthcare companies, hospitals, and other enterprises with petabytes of sensitive data onto IBM's ECM solutions, they call Helix International to provide the ETL solutions and implementation. That includes holistic ETL software solutions, managed services, and modular API microservices to work around licenses and viewers, as well as extract and manipulate data from any combination of sources. That's why Helix International is the preferred Premium Partner of IBM for ECM and\_ETL-related projects., key: 59c7f6a5"
+          - hint: "Original text: When IBM brings the world's leading banks, insurance companies, healthcare companies, hospitals, and other enterprises with petabytes of sensitive data onto IBM's ECM solutions, they call Helix International to provide the ETL solutions and implementation. That includes holistic ETL software solutions, managed services, and modular API microservices to work around licenses and viewers, as well as extract and manipulate data from any combination of sources. That's why Helix International is the preferred Premium Partner of IBM for ECM, ESB, and\_ETL-related projects., key: 3357531"
             label: Text
-            name: 59c7f6a5
+            name: '3357531'
             widget: text
           - hint: 'Original text: See our partner listing on IBM , key: 153d9db8'
             label: Text
             name: 153d9db8
             widget: string
-          - hint: 'Original text: What we do with Microsoft., key: 2a2e057b'
+          - hint: >-
+              Original text: Helix International is an enterprise software
+              partner of Infosys., key: -4483892b
             label: Text
-            name: 2a2e057b
+            name: '-4483892b'
             widget: string
-          - hint: 'Original text: Details., key: 421fba4c'
+          - hint: >-
+              Original text: Helix International is proud to be an enterprise
+              partner of Infosys, exchanging software, solutions, and expertise
+              for our clients. Our development team includes enterprise content
+              engineers who are trained on Infosys's offerings and vice-versa.
+              Helix International and Infosys frequently work together in
+              delivering enterprise content migrations., key: 78414852
             label: Text
-            name: 421fba4c
-            widget: string
-          - hint: 'Original text: What we do with Ricoh., key: -5479a91c'
+            name: '78414852'
+            widget: text
+          - hint: >-
+              Original text: Helix International is a Gold Partner of
+              Microsoft., key: -77d5e5ae
             label: Text
-            name: '-5479a91c'
+            name: '-77d5e5ae'
             widget: string
-          - hint: 'Original text: What we do with Redhat., key: -41840597'
+          - hint: >-
+              Original text: Helix International is proud to be a Gold Partner
+              of Microsoft, exchanging software, solutions, and expertise for
+              our clients. Our development team includes enterprise content
+              engineers who are trained on the Microsoft Dynamics suite for
+              implementations, integrations, and advisory., key: -759d7485
             label: Text
-            name: '-41840597'
-            widget: string
-          - hint: 'Original text: What we do with Quotient., key: 53feff48'
+            name: '-759d7485'
+            widget: text
+          - hint: >-
+              Original text: Helix International is a Gold Partner of Open-E.,
+              key: -439c6d26
             label: Text
-            name: 53feff48
+            name: '-439c6d26'
             widget: string
-          - hint: 'Original text: What we do with Infosys., key: 4a0573ea'
+          - hint: >-
+              Original text: Helix International is proud to be a Gold Partner
+              of Open-E, exchanging software, solutions, and expertise for our
+              clients. Our development team includes enterprise content
+              engineers who are Open-E Certified as well as certified on OECE
+              for Open-E JovianDSS. , key: -24f01f1e
             label: Text
-            name: 4a0573ea
+            name: '-24f01f1e'
+            widget: text
+          - hint: 'Original text: See our partner listing on Open-E , key: 5aaf91d2'
+            label: Text
+            name: 5aaf91d2
             widget: string
+          - hint: >-
+              Original text: Helix International is an enterprise software
+              partner of Quadient., key: 1183923f
+            label: Text
+            name: 1183923f
+            widget: string
+          - hint: >-
+              Original text: Helix International is proud to be an enterprise
+              partner of Quadient, exchanging software, solutions, and expertise
+              for our clients. Our development team includes enterprise content
+              engineers who are trained on Quadient's offerings and vice-versa.,
+              key: 173d651
+            label: Text
+            name: 173d651
+            widget: text
+          - hint: >-
+              Original text: Helix International is an enterprise software
+              partner of Red Hat., key: 7e781d68
+            label: Text
+            name: 7e781d68
+            widget: string
+          - hint: "Original text: Helix International is proud to be an enterprise partner of Red Hat, exchanging software, solutions, and expertise for our clients. Our MARS\_data platform tools include Linux server versions which are deployable on Red Hat. Our development team includes enterprise content engineers who are trained on Red Hat's server, terminal, and automation offerings., key: 5dc897d6"
+            label: Text
+            name: 5dc897d6
+            widget: text
+          - hint: >-
+              Original text: Helix International is an enterprise software
+              partner of Ricoh., key: 4227188f
+            label: Text
+            name: 4227188f
+            widget: string
+          - hint: >-
+              Original text: Helix International is proud to be an enterprise
+              partner of Ricoh, exchanging software, solutions, and expertise
+              for our clients. Our development team includes enterprise content
+              engineers who are trained on the Ricoh suite for document scanning
+              and day forward migrations., key: 73ab6479
+            label: Text
+            name: 73ab6479
+            widget: text
           - hint: 'Original text: Search results, key: 7e85e19e'
             label: Text
             name: 7e85e19e
@@ -2588,12 +2614,9 @@ collections:
             label: Link
             name: 636eb9b8
             widget: string
-          - hint: >-
-              Original link:
-              mailto:hnguyen@helix-int.com?subject=Careers%20application, key:
-              4eeb4d6b
+          - hint: 'Original link: #career-apply-form, key: 5fabf3af'
             label: Link
-            name: 4eeb4d6b
+            name: 5fabf3af
             widget: string
           - hint: >-
               Original link:
@@ -2610,25 +2633,29 @@ collections:
             label: Link
             name: 117f71
             widget: string
+          - hint: 'Original link: #infosys, key: -5841ea24'
+            label: Link
+            name: '-5841ea24'
+            widget: string
           - hint: 'Original link: #microsoft, key: 606ca82b'
             label: Link
             name: 606ca82b
             widget: string
-          - hint: 'Original link: #ricoh, key: 423151a2'
+          - hint: 'Original link: #opene, key: 420a4118'
             label: Link
-            name: 423151a2
+            name: 420a4118
+            widget: string
+          - hint: 'Original link: #quadient, key: -7ce6934'
+            label: Link
+            name: '-7ce6934'
             widget: string
           - hint: 'Original link: #redhat, key: 3c0de4d'
             label: Link
             name: 3c0de4d
             widget: string
-          - hint: 'Original link: #quotient, key: 10f6e78e'
+          - hint: 'Original link: #ricoh, key: 423151a2'
             label: Link
-            name: 10f6e78e
-            widget: string
-          - hint: 'Original link: #infosys, key: -5841ea24'
-            label: Link
-            name: '-5841ea24'
+            name: 423151a2
             widget: string
           - hint: >-
               Original link:
@@ -2636,6 +2663,13 @@ collections:
               key: 4053364c
             label: Link
             name: 4053364c
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.open-e.com/where-to-buy/partners/helix-international/,
+              key: -5aae79ed
+            label: Link
+            name: '-5aae79ed'
             widget: string
           - hint: 'Original link: #event1, key: -117e0546'
             label: Link
@@ -3460,7 +3494,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-1fd4d19a'
+            name: 62efaa2
             widget: object
             fields:
               - name: url
@@ -3473,7 +3507,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 4abef31c
+            name: '-7a700be7'
             widget: object
             fields:
               - name: url
@@ -3486,7 +3520,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-383cb21b'
+            name: '-5a78c909'
             widget: object
             fields:
               - name: url
@@ -3499,7 +3533,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 44829ebb
+            name: 224687cd
             widget: object
             fields:
               - name: url
@@ -3512,7 +3546,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-53734f74'
+            name: '-75af6662'
             widget: object
             fields:
               - name: url
@@ -3785,6 +3819,19 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 770b909b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: 71dd31fe
             widget: object
             fields:
@@ -3798,7 +3845,20 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-51ee9667'
+            name: '-5099abee'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 756289b9
             widget: object
             fields:
               - name: url
@@ -3824,20 +3884,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-2cfd2270'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 770b909b
+            name: '-51ee9667'
             widget: object
             fields:
               - name: url
@@ -3902,7 +3949,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-7bfb0553'
+            name: 4d97d1e6
             widget: object
             fields:
               - name: url
@@ -3915,7 +3962,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-5a7d912b'
+            name: '-32f4b384'
             widget: object
             fields:
               - name: url
@@ -3928,7 +3975,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 4782532f
+            name: 11152a68
             widget: object
             fields:
               - name: url
@@ -3941,7 +3988,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 7bae6767
+            name: 2be85460
             widget: object
             fields:
               - name: url
@@ -3954,7 +4001,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 5361e5a
+            name: '-4a8ff4ad'
             widget: object
             fields:
               - name: url
@@ -3967,7 +4014,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-1810ecd'
+            name: 5582a35a
             widget: object
             fields:
               - name: url

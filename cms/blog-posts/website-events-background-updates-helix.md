@@ -2,8 +2,7 @@
 title: Website, events, background, and other updates at Helix
 slug: website-events-background-updates-helix
 f_image:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62fa8f2b1e97ff0f62f0e3de_HI-business-model.jpg
+  url: /assets/external/62fa8f2b1e97ff0f62f0e3de_hi-business-model.jpg
   alt: null
 updated-on: '2022-08-15T18:25:17.716Z'
 created-on: '2022-03-29T10:11:49.116Z'

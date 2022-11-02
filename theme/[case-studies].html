@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="62d6c2b3e387db538c274cec" data-wf-site="62ac613b752b17ca45419b3d"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
+<html data-wf-page="62d6c2b3e387db538c274cec" data-wf-site="62ac613b752b17ca45419b3d"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -21,7 +21,10 @@
   <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon">
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   {%- include "partials/navbar" -%}
   <div class="careers-top-banner about-us wf-section" style="background-image: url('{{f_background-image.url}}');">
@@ -41,7 +44,7 @@
         <div id="w-node-c06007f5-55cc-2359-b485-c04ada790095-8c274cec" class="portfolio-info-wrapper">
           <p id="w-node-_043252e3-51e4-4af7-4d8e-cc5b51202e97-8c274cec" class="paragraph-7">{{ title }}</p>
           {%- assign case-studies-categoriesOfCase-studies = f_portfolio-category | resolveReference -%}<p id="w-node-_843640b5-24e3-10e3-4e98-5116e3c77fb6-8c274cec" class="paragraph-7">{{ case-studies-categoriesOfCase-studies.data.title }}</p>
-        </div><img loading="lazy" id="w-node-_74af7905-ff61-9b20-d4c3-d777fdb42a28-8c274cec" src="{{ f_overview-image.url }}" alt="{{ f_overview-image.alt }}" class="overview-image">
+        </div>{%- image f_overview-image.url, f_overview-image.alt, '[]', 'loading="lazy" id="w-node-_74af7905-ff61-9b20-d4c3-d777fdb42a28-8c274cec" class="overview-image"' -%}
         <div id="w-node-a523ea10-3e8d-5fb4-3258-35b91eaf81bc-8c274cec" class="section-name">
           <h4 class="portfolio-section-heading">{{ texts.-34f363bd }}<br></h4>
         </div>
@@ -50,14 +53,14 @@
         </div>
         {%- assign setItems = f_multi-image -%}<div id="w-node-_3dcf13ae-80ca-9d7c-3230-60750971e344-8c274cec" class="w-dyn-list">
           {%- unless setItems.length == 0 -%}<div role="list" class="image-grid w-dyn-items w-row">
-            {%- for setItem in setItems -%}<div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img src="{{ setItem.url }}" loading="lazy" alt="{{ setItem.alt }}"></div>{%- endfor -%}
+            {%- for setItem in setItems -%}<div role="listitem" class="challenge-images w-dyn-item w-col w-col-6">{%- image setItem.url, setItem.alt, '[]', 'loading="lazy"' -%}</div>{%- endfor -%}
           </div>{%- endunless -%}
           {%- if setItems.length == 0 -%}<div class="w-dyn-empty">
             <div>{{ texts.3d503d2b }}</div>
           </div>{%- endif -%}
         <template><div id="w-node-_3dcf13ae-80ca-9d7c-3230-60750971e344-8c274cec" class="w-dyn-list">
           <div role="list" class="image-grid w-dyn-items w-row">
-            <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img src="{# setItem.url #}" loading="lazy" alt="{# setItem.alt #}"></div>
+            <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"></div>
           </div>
           <div class="w-dyn-empty">
             <div>{# texts.3d503d2b #}</div>
@@ -68,17 +71,17 @@
         </div>
         <div id="w-node-_1527c376-7962-bcc1-32a0-a6939674102d-8c274cec" class="section-paragraph">
           <div class="rich-text-portfolio w-richtext">{{ f_results-2 | markdown }}</div>
-        </div><img loading="lazy" id="w-node-fade2950-e84b-200b-74fd-2bd888a85d4b-8c274cec" src="{{ f_results-image-main.url }}" alt="{{ f_results-image-main.alt }}" class="overview-image">
+        </div>{%- image f_results-image-main.url, f_results-image-main.alt, '[]', 'loading="lazy" id="w-node-fade2950-e84b-200b-74fd-2bd888a85d4b-8c274cec" class="overview-image"' -%}
         {%- assign setItems = f_solutions-images -%}<div id="w-node-_3561c4e2-8c7d-99d4-7e1f-b20b1fc1fff0-8c274cec" class="w-dyn-list">
           {%- unless setItems.length == 0 -%}<div role="list" class="image-grid w-dyn-items w-row">
-            {%- for setItem in setItems -%}<div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img src="{{ setItem.url }}" loading="lazy" alt="{{ setItem.alt }}" class="overview-image"></div>{%- endfor -%}
+            {%- for setItem in setItems -%}<div role="listitem" class="challenge-images w-dyn-item w-col w-col-6">{%- image setItem.url, setItem.alt, '[]', 'loading="lazy" class="overview-image"' -%}</div>{%- endfor -%}
           </div>{%- endunless -%}
           {%- if setItems.length == 0 -%}<div class="w-dyn-empty">
             <div>{{ texts.3d503d2b }}</div>
           </div>{%- endif -%}
         <template><div id="w-node-_3561c4e2-8c7d-99d4-7e1f-b20b1fc1fff0-8c274cec" class="w-dyn-list">
           <div role="list" class="image-grid w-dyn-items w-row">
-            <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img src="{# setItem.url #}" loading="lazy" alt="{# setItem.alt #}" class="overview-image"></div>
+            <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"></div>
           </div>
           <div class="w-dyn-empty">
             <div>{# texts.3d503d2b #}</div>
@@ -92,7 +95,7 @@
         </div>
       </div>
       <div class="arrows-wrap">
-        <a data-w-id="8034b99c-1239-60bd-d50d-5b511557ce6e" href="{{ f_prev-post-link }}" class="arrow-wrap w-inline-block"><img loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" src="{{ f_prev-post-image.url }}" alt="{{ f_prev-post-image.alt }}" class="image-12 left">
+        <a data-w-id="8034b99c-1239-60bd-d50d-5b511557ce6e" href="{{ f_prev-post-link }}" class="arrow-wrap w-inline-block">{%- image f_prev-post-image.url, f_prev-post-image.alt, '[]', 'loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="image-12 left"' -%}
           <div class="vertical">
             <h5 class="case-study-headings left">{{ f_prev-post-name }}</h5>
             <p class="post">{{ texts.-4811e0e9 }}</p>
@@ -102,7 +105,7 @@
           <div class="vertical right">
             <h5 class="case-study-headings right">{{ f_next-post-name }}</h5>
             <p class="post">{{ texts.47ae36d }}</p>
-          </div><img height="62" loading="lazy" width="62" src="{{ f_next-post-image.url }}" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="{{ f_next-post-image.alt }}" class="image-12 right">
+          </div>{%- image f_next-post-image.url, f_next-post-image.alt, '[]', 'height="62" loading="lazy" width="62" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="image-12 right"' -%}
         </a>
       </div>
     </div>
@@ -130,7 +133,7 @@
   })();
 </script>
   <noscript>
-    <p><img src="{{ images.-1fd4d19a.url }}" style="border:0;" alt="{{ images.-1fd4d19a.alt | trim | escape }}"></p>
+    <p>{%- image images.62efaa2.url, images.62efaa2.alt, '[]', 'style="border:0;"' -%}</p>
   </noscript>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>

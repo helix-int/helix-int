@@ -3,20 +3,17 @@ f_link-text: Organize your data
 title: Enterprise Content Management
 slug: ecm
 f_icon:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef9703ca7d11684e65ea1e_supply-chain.svg
+  url: /assets/external/62ef9703ca7d11684e65ea1e_supply-chain.svg
   alt: null
 updated-on: '2022-08-18T12:56:23.439Z'
 created-on: '2022-03-29T15:54:57.587Z'
 published-on: '2022-08-18T12:56:47.203Z'
 f_categories: cms/solutions-categories/ecm.md
 f_image:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef97259147feec315af385_sales-processes.jpg
+  url: /assets/external/62ef97259147feec315af385_sales-processes.jpg
   alt: null
 f_chart:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62fa8c55ebf0646848f88c67_supply-chain.png
+  url: /assets/external/62fa8c55ebf0646848f88c67_supply-chain.png
   alt: null
 f_pre-text: >-
   Take control of and organize petabytes of data across countries and

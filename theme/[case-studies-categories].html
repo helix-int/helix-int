@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="62d6c2b3e387db0d43274ced" data-wf-site="62ac613b752b17ca45419b3d"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
+<html data-wf-page="62d6c2b3e387db0d43274ced" data-wf-site="62ac613b752b17ca45419b3d"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -21,7 +21,10 @@
   <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon">
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   {%- include "partials/navbar" -%}
   <div class="careers-top-banner blog wf-section">
@@ -33,7 +36,7 @@
     <div class="container w-container">
       {%- assign collection = collections.case-studies | sort: "-created-on" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="grid-collection-list w-dyn-items">
-          {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img src="{{ item.data.f_background-image.url }}" loading="lazy" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
+          {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_background-image.url, item.data.f_background-image.alt, '[]', 'loading="lazy" class="bg-image"' -%}
             <a href="{{ item.url }}" class="post-link absolute w-inline-block">
               <h5 class="portfolio-heading gray">{{ item.data.title }}</h5>
             </a>
@@ -67,7 +70,7 @@
   })();
 </script>
   <noscript>
-    <p><img src="{{ images.-1fd4d19a.url }}" style="border:0;" alt="{{ images.-1fd4d19a.alt | trim | escape }}"></p>
+    <p>{%- image images.62efaa2.url, images.62efaa2.alt, '[]', 'style="border:0;"' -%}</p>
   </noscript>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
