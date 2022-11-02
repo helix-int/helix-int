@@ -3,17 +3,20 @@ f_link-text: Retire licenses
 title: Migrations & Retirement
 slug: migrations
 f_icon:
-  url: /assets/external/62ef96840e99ef4905febc03_migration.svg
+  url: >-
+    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef96840e99ef4905febc03_migration.svg
   alt: null
 updated-on: '2022-08-14T12:25:54.569Z'
 created-on: '2022-03-29T15:57:35.697Z'
 published-on: '2022-08-14T12:26:14.215Z'
 f_image:
-  url: /assets/external/62ef96980897772d04623cb0_migration-retirement.jpg
+  url: >-
+    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef96980897772d04623cb0_migration-retirement.jpg
   alt: null
 f_pre-text: Take control of your data while retiring legacy licenses.
 f_chart:
-  url: /assets/external/62f8e5da5d479b4ab53496ea_migration.png
+  url: >-
+    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62f8e5da5d479b4ab53496ea_migration.png
   alt: null
 f_list: >-
   *   Full Migration – all data is migrated from the source system to the target
@@ -41,7 +44,7 @@ f_rich-text-2: >-
   ### Full Migration
 
 
-  ![](/assets/external/62f8e6f2eb2ac1c281372c7a_full-migration.png)
+  ![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62f8e6f2eb2ac1c281372c7a_full-migration.png)
 
 
   All selected data is migrated from the source repository to the target
@@ -56,7 +59,7 @@ f_rich-text-2: >-
   ### Ad Hoc Migration
 
 
-  ![](/assets/external/62f8e83a2a4c4e560c4092c4_ad-hoc-migration.png)
+  ![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62f8e83a2a4c4e560c4092c4_ad-hoc-migration.png)
 
 
   Helix international will cooperates in setting technical and business rules
@@ -72,7 +75,7 @@ f_rich-text-2: >-
   ### Federation with RealTime Viewer (RTV)
 
 
-  ![](/assets/external/62f8e8aab5d672b1cbd7f818_rtv.png)
+  ![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62f8e8aab5d672b1cbd7f818_rtv.png)
 
 
   Data is not migrated but is stored in an archive, the source system software
@@ -98,7 +101,7 @@ f_rich-text-2: >-
   ### Assisted Migration
 
 
-  ![](/assets/external/62f8e918679a83b4b5a3a6e5_assisted-migration.png)
+  ![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62f8e918679a83b4b5a3a6e5_assisted-migration.png)
 
 
   Helix International will run the pilot / proof of concept and train the client
@@ -118,7 +121,7 @@ f_rich-text-2: >-
   ### On Shore & Off Shore Team Enables 24x7x365 Migrations
 
 
-  ![](/assets/external/62f8e9682a4c4e735d40ae58_on-shore-off-shore.png)
+  ![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62f8e9682a4c4e735d40ae58_on-shore-off-shore.png)
 
 
   Businesses in the global marketplace cross not only borders but also time
@@ -132,7 +135,7 @@ f_rich-text-2: >-
   ### Lab Equipment Available for Offloading MIPS and Fast Performing Migrations
 
 
-  ![](/assets/external/62f8e9b48b3f66a0687ed9ba_lab-equipment.png)
+  ![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62f8e9b48b3f66a0687ed9ba_lab-equipment.png)
 
 
   We offer on-site essential hardware for system migrations which are widely

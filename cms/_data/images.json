@@ -231,24 +231,24 @@
     "url": "/assets/images/helix-negative.svg",
     "alt": ""
   },
-  "62efaa2": {
-    "url": "/assets/external/matomo.php",
+  "-1fd4d19a": {
+    "url": "https://analytics.helix-int.com/matomo.php?idsite=2&rec=1",
     "alt": ""
   },
-  "-7a700be7": {
-    "url": "/assets/external/utility-lock.ae54711958.svg",
+  "4abef31c": {
+    "url": "https://d3e54v103j8qbb.cloudfront.net/static/utility-lock.ae54711958.svg",
     "alt": ""
   },
-  "-5a78c909": {
-    "url": "/assets/external/624c485f1304b2853816848e_facts1-about.png",
+  "-383cb21b": {
+    "url": "https://uploads-ssl.webflow.com/623cd800893cf70fad24035e/624c485f1304b2853816848e_facts1-about.png",
     "alt": ""
   },
-  "224687cd": {
-    "url": "/assets/external/624c48632bc1265a1ee5b687_facts2-about.png",
+  "44829ebb": {
+    "url": "https://uploads-ssl.webflow.com/623cd800893cf70fad24035e/624c48632bc1265a1ee5b687_facts2-about.png",
     "alt": ""
   },
-  "-75af6662": {
-    "url": "/assets/external/624c4861dc2869c4d41e9069_facts3-about.png",
+  "-53734f74": {
+    "url": "https://uploads-ssl.webflow.com/623cd800893cf70fad24035e/624c4861dc2869c4d41e9069_facts3-about.png",
     "alt": ""
   },
   "-69128d7d": {
@@ -371,28 +371,28 @@
     "url": "/assets/images/opentext_logo.svg",
     "alt": ""
   },
-  "4d97d1e6": {
-    "url": "/assets/external/629c881ffb49d90bb4fe16b2_icon-facebook.png",
+  "-7bfb0553": {
+    "url": "https://uploads-ssl.webflow.com/629c881ffb49d97583fe169f/629c881ffb49d90bb4fe16b2_Icon-facebook.png",
     "alt": ""
   },
-  "-32f4b384": {
-    "url": "/assets/external/629c881ffb49d96ed1fe16af_icon-twitter.png",
+  "-5a7d912b": {
+    "url": "https://uploads-ssl.webflow.com/629c881ffb49d97583fe169f/629c881ffb49d96ed1fe16af_Icon-twitter.png",
     "alt": ""
   },
-  "11152a68": {
-    "url": "/assets/external/629c881ffb49d9336cfe16b3_icon-linkedin.png",
+  "4782532f": {
+    "url": "https://uploads-ssl.webflow.com/629c881ffb49d97583fe169f/629c881ffb49d9336cfe16b3_Icon-linkedin.png",
     "alt": ""
   },
-  "2be85460": {
-    "url": "/assets/external/629c881ffb49d97c12fe16bb_icon-user-white.png",
+  "7bae6767": {
+    "url": "https://uploads-ssl.webflow.com/629c881ffb49d97583fe169f/629c881ffb49d97c12fe16bb_Icon-user-white.png",
     "alt": ""
   },
-  "-4a8ff4ad": {
-    "url": "/assets/external/629c881ffb49d98519fe16b1_icon-mail-white.png",
+  "5361e5a": {
+    "url": "https://uploads-ssl.webflow.com/629c881ffb49d97583fe169f/629c881ffb49d98519fe16b1_Icon-mail-white.png",
     "alt": ""
   },
-  "5582a35a": {
-    "url": "/assets/external/629c881ffb49d90237fe16b6_icon-phone-white.png",
+  "-1810ecd": {
+    "url": "https://uploads-ssl.webflow.com/629c881ffb49d97583fe169f/629c881ffb49d90237fe16b6_Icon-phone-white.png",
     "alt": ""
   }
 }

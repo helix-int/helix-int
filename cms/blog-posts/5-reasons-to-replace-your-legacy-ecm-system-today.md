@@ -5,7 +5,8 @@ f_prev-text: >-
   modern enterprise content management system is easier than you think.
 title: 5 Reasons to Replace Your Legacy ECM System Today
 f_image:
-  url: /assets/external/635a29a14bede0abbd0ad1ab_header-ecm.jpg
+  url: >-
+    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/635a29a14bede0abbd0ad1ab_header-ECM.jpg
   alt: null
 slug: 5-reasons-to-replace-your-legacy-ecm-system-today
 f_ref: cms/blog-category/ecm.md
@@ -16,7 +17,7 @@ layout: '[blog-posts].html'
 tags: blog-posts
 ---
 
-![](/assets/external/635a29a14bede0abbd0ad1ab_header-ecm.jpg)
+![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/635a29a14bede0abbd0ad1ab_header-ECM.jpg)
 
 We've all been there, whether it's outdated line-of-business applications, ancient database servers, or your legacy enterprise content management (ECM) platform--maintaining old technology is one of the most difficult challenges CIOs face.
 
@@ -46,7 +47,7 @@ The new data privacy laws such as GDPR and CCPA have stricter compliance require
 
 ### Risk-free Migration to New ECM with Helix International
 
-![](/assets/external/635a2a4e3f3edc5ebd9299f5_1-in-ecm.jpg)
+![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/635a2a4e3f3edc5ebd9299f5_1-in-ECM.jpg)
 
 One of the cardinal principles in business is cutting costs to ensure customer satisfaction. Helix International gives you the muscles to achieve precisely that purpose.
 

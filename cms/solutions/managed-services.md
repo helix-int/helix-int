@@ -211,13 +211,16 @@ f_pre-text: >-
 f_list: "**Helix international has perfected the software and managed services for:**\n\n*   Healthcare companies and hospitals\n*   Retail, FMCG\_companies, and suppliers, and distributors\n*   Media companies\n*   Insurance companies\n*   Financial enterprises and banks"
 slug: managed-services
 f_image:
-  url: /assets/external/62ef975add39ff73fbfda586_universal-accesibility.jpg
+  url: >-
+    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef975add39ff73fbfda586_universal-accesibility.jpg
   alt: null
 f_chart:
-  url: /assets/external/62fa76b08b9de5c6867ef226_universal-accesibility.png
+  url: >-
+    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62fa76b08b9de5c6867ef226_universal-accesibility.png
   alt: null
 f_icon:
-  url: /assets/external/62fa72b7c10b298333e9b50c_universal-accessibility.svg
+  url: >-
+    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62fa72b7c10b298333e9b50c_universal-accessibility.svg
   alt: null
 f_categories: cms/solutions-categories/development.md
 updated-on: '2022-08-15T17:20:13.655Z'

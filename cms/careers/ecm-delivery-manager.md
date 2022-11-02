@@ -4,9 +4,9 @@ f_type: Full Time
 f_time: 9am - 5pm, may need to join occasional calls in international timezones.
 title: ECM Delivery Manager
 slug: ecm-delivery-manager
-updated-on: '2022-09-29T22:18:30.167Z'
+updated-on: '2022-11-02T13:59:12.423Z'
 created-on: '2022-09-29T21:58:49.310Z'
-published-on: '2022-09-29T22:19:38.320Z'
+published-on: '2022-11-02T13:59:19.310Z'
 layout: '[careers].html'
 tags: careers
 ---
@@ -33,4 +33,4 @@ We are currently seeking an Enterprise Content Manager (ECM) Delivery Manager 
 
 Please email CV and supporting materials to our HR Manager Ms. Huong at: [HNguyen@Helix-Int.com](mailto:HNguyen@Helix-Int.com)
 
-Or via the application button below:
+Or via the application form below:

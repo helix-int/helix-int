@@ -5,12 +5,14 @@ updated-on: '2022-08-25T15:59:20.715Z'
 created-on: '2022-03-29T15:53:10.501Z'
 published-on: '2022-08-25T15:59:52.739Z'
 f_icon:
-  url: /assets/external/62ef973f7d098c30e96cc65a_development.svg
+  url: >-
+    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef973f7d098c30e96cc65a_development.svg
   alt: null
 f_link-text: Bespoke solutions
 f_categories: cms/solutions-categories/development.md
 f_image:
-  url: /assets/external/62ef975add39ff73fbfda586_universal-accesibility.jpg
+  url: >-
+    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef975add39ff73fbfda586_universal-accesibility.jpg
   alt: null
 f_rich-text-2: >-
   ### SOAP or REST
