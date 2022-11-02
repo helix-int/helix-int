@@ -4,9 +4,9 @@ f_type: Full Time
 f_time: 9am - 5pm, may need to join occasional calls in international timezones.
 title: Java / C# / Mainframe Fresher
 slug: java-c-mainframe-fresher
-updated-on: '2022-09-29T22:19:31.110Z'
+updated-on: '2022-11-02T13:48:58.830Z'
 created-on: '2022-09-29T22:01:01.735Z'
-published-on: '2022-09-29T22:19:38.320Z'
+published-on: '2022-11-02T13:49:03.968Z'
 layout: '[careers].html'
 tags: careers
 ---
@@ -33,4 +33,4 @@ We are currently seeking freshers with proficiency in Java, C#, and/or Mainfram
 
 Please email CV and supporting materials to our HR Manager Ms. Huong at: [HNguyen@Helix-Int.com](mailto:HNguyen@Helix-Int.com)
 
-Or via the application button below:
+Or via the application form below:
