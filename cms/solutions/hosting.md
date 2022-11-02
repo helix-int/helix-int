@@ -3,15 +3,13 @@ f_link-text: Host securely
 title: Hosting
 slug: hosting
 f_icon:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef963d58ad15863c11ef54_hosting.svg
+  url: /assets/external/62ef963d58ad15863c11ef54_hosting.svg
   alt: null
 updated-on: '2022-08-25T15:43:20.288Z'
 created-on: '2022-03-29T15:58:00.726Z'
 published-on: '2022-08-25T15:43:29.383Z'
 f_image:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef96329147fe6b635ae97f_hosting.jpg
+  url: /assets/external/62ef96329147fe6b635ae97f_hosting.jpg
   alt: null
 f_pre-text: >-
   Host securely with flexible options including cloud, private, and hybrid
@@ -23,8 +21,7 @@ f_list: |-
   *   Wide selection of cloud computing service providers.
   *   Free to join, pay only for what you use.
 f_chart:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62efaea9ca7d1105f86724c0_hosting.png
+  url: /assets/external/62efaea9ca7d1105f86724c0_hosting.png
   alt: null
 f_categories: cms/solutions-categories/compliance.md
 f_rich-text-2: >-

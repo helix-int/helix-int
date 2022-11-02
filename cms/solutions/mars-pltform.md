@@ -52,16 +52,13 @@ f_list: >-
   data.
 slug: mars-pltform
 f_chart:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62f8e5da5d479b4ab53496ea_migration.png
+  url: /assets/external/62f8e5da5d479b4ab53496ea_migration.png
   alt: null
 f_image:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef96980897772d04623cb0_migration-retirement.jpg
+  url: /assets/external/62ef96980897772d04623cb0_migration-retirement.jpg
   alt: null
 f_icon:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/62ef96840e99ef4905febc03_migration.svg
+  url: /assets/external/62ef96840e99ef4905febc03_migration.svg
   alt: null
 f_categories: cms/solutions-categories/mars.md
 updated-on: '2022-09-02T10:24:48.193Z'

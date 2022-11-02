@@ -4,9 +4,9 @@ f_type: Full Time
 f_time: 9am - 5pm, may need to join occasional calls in international timezones.
 title: TSM (Spectrum Protect) Specialist
 slug: tsm-spectrum-protect-specialist
-updated-on: '2022-09-29T22:17:45.985Z'
+updated-on: '2022-11-02T14:05:07.126Z'
 created-on: '2022-09-29T21:54:58.417Z'
-published-on: '2022-09-29T22:19:38.320Z'
+published-on: '2022-11-02T14:05:12.943Z'
 layout: '[careers].html'
 tags: careers
 ---
@@ -33,4 +33,4 @@ We are currently seeking a subject matter expert on TSM (Spectrum Protect) to a
 
 Please email CV and supporting materials to our HR Manager Ms. Huong at: [HNguyen@Helix-Int.com](mailto:HNguyen@Helix-Int.com)
 
-Or via the application button below:
+Or via the application form below:

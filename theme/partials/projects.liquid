@@ -4,8 +4,8 @@
       <div class="w-layout-grid projects-grid we-worked-on-smaller-section">
         {%- assign collection = collections.case-studies | limit: 1 | sort: "-created-on" -%}<div id="w-node-_8f849483-8194-2e99-f313-953902bbc698-02bbc691" class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_background-image.url, item.data.f_background-image.alt, '[{"max":479,"size":"100vw"},{"max":767,"size":"46vw"},{"max":991,"size":"47vw"},{"max":1279,"size":"48vw"},{"max":10000,"size":"593px"}]', 'loading="lazy" class="bg-image"' -%}
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block">{%- image item.data.f_logo.url, item.data.f_logo.alt, '[{"max":239,"size":"38vw"},{"max":10000,"size":"91px"}]', 'loading="lazy" class="project-logo"' -%}
+            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -17,8 +17,8 @@
         </div>
         {%- assign collection = collections.case-studies | offset: 1 | limit: 1 | sort: "-created-on" -%}<div class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_background-image.url, item.data.f_background-image.alt, '[{"max":479,"size":"100vw"},{"max":767,"size":"46vw"},{"max":991,"size":"47vw"},{"max":1279,"size":"48vw"},{"max":10000,"size":"593px"}]', 'loading="lazy" class="bg-image"' -%}
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block">{%- image item.data.f_logo.url, item.data.f_logo.alt, '[{"max":239,"size":"38vw"},{"max":10000,"size":"91px"}]', 'loading="lazy" class="project-logo"' -%}
+            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -30,8 +30,8 @@
         </div>
         {%- assign collection = collections.case-studies | offset: 2 | limit: 1 | sort: "-created-on" -%}<div id="w-node-_8f849483-8194-2e99-f313-953902bbc6ae-02bbc691" class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 middle-one w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_background-image.url, item.data.f_background-image.alt, '[{"max":479,"size":"100vw"},{"max":767,"size":"46vw"},{"max":991,"size":"47vw"},{"max":1279,"size":"48vw"},{"max":10000,"size":"593px"}]', 'loading="lazy" class="bg-image"' -%}
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block">{%- image item.data.f_logo.url, item.data.f_logo.alt, '[{"max":239,"size":"38vw"},{"max":10000,"size":"91px"}]', 'loading="lazy" class="project-logo"' -%}
+            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>

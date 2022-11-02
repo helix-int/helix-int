@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-wf-page="62e6a0faa26fe386bfa596ca" data-wf-site="62ac613b752b17ca45419b3d"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
+<html data-wf-page="62e6a0faa26fe386bfa596ca" data-wf-site="62ac613b752b17ca45419b3d"><head>{%- seo seo -%}
   <meta charset="utf-8">
   
   
@@ -23,10 +23,7 @@
   <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon">
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style><style>picture { border: 0;
-        max-width: 100%;
-        vertical-align: middle;
-        display: inline-block; }</style></head>
+        }</style></head>
 <body>
   {%- include "partials/navbar" -%}
   <div class="services-top-banner join-us wf-section">
@@ -49,7 +46,7 @@
       <div class="services wf-section">
         <div id="event1">
           <h2 class="serv-heading">{{ texts.2968f3e3 }}</h2>
-          <div class="div-block-32">{%- image images.2001fdb4.url, images.2001fdb4.alt, '[]', 'loading="lazy" width="300" height="72" class="partner-image"' -%}{%- image images.-5316471.url, images.-5316471.alt, '[]', 'loading="lazy" width="300" height="72" class="partner-image"' -%}</div>
+          <div class="div-block-32"><img src="{{ images.2001fdb4.url }}" loading="lazy" width="300" height="72" alt="{{ images.2001fdb4.alt | trim | escape }}" class="partner-image"><img src="{{ images.-5316471.url }}" loading="lazy" width="300" height="72" alt="{{ images.-5316471.alt | trim | escape }}" class="partner-image"></div>
           <div>{{ texts.10011940 }}</div>
           <p class="paragraph-8">{{ texts.-7774c9d5 }}</p>
           <a href="{{ links.289a1c7b }}" target="_blank" class="orange-link padding"><strong>{{ texts.7c1bc5bd }}</strong><span class="triangle"><strong>{{ texts.f0da }}</strong></span><strong> </strong></a>
@@ -82,7 +79,7 @@
   })();
 </script>
   <noscript>
-    <p>{%- image images.-1fd4d19a.url, images.-1fd4d19a.alt, '[]', 'style="border:0;"' -%}</p>
+    <p><img src="{{ images.62efaa2.url }}" style="border:0;" alt="{{ images.62efaa2.alt | trim | escape }}"></p>
   </noscript>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>

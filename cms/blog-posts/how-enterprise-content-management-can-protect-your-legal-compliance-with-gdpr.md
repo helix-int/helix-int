@@ -1,8 +1,7 @@
 ---
 title: How Enterprise Content Management Can Protect Your Legal Compliance with GDPR
 f_image:
-  url: >-
-    https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/635a2567ed3737793a5e996d_header-GDPR-01.jpg
+  url: /assets/external/635a2567ed3737793a5e996d_header-gdpr-01.jpg
   alt: null
 slug: how-enterprise-content-management-can-protect-your-legal-compliance-with-gdpr
 f_ref: cms/blog-category/ecm.md
@@ -16,7 +15,7 @@ layout: '[blog-posts].html'
 tags: blog-posts
 ---
 
-![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/635a2567ed3737793a5e996d_header-GDPR-01.jpg)
+![](/assets/external/635a2567ed3737793a5e996d_header-gdpr-01.jpg)
 
 Enterprises are in a bind. They need to comply with the GDPR, but the actual processes involved are rather complex. Today's organizations produce, use, and manage huge amounts of content. The proper management of business information includes clear regulation of access authorizations, as well as orderly retention and complete traceability--from creation to deletion.
 
@@ -30,7 +29,7 @@ Organizations can secure customer data by enforcing security and governance poli
 
 ### 2.) The movement and sharing of data
 
-![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/635a9b09593e067f5c6ef812_1-in-GDPR.jpg)
+![](/assets/external/635a9b09593e067f5c6ef812_1-in-gdpr.jpg)
 
 It is critical to control and understand the movement of data and implement prevention protocols where necessary. This is a core part of the GDPR. ECM solutions can implement controls to ensure compliance with the GDPR's Chapter 5 regulations regarding transfers of personal information.
 
@@ -42,7 +41,7 @@ When changes are made to PII files and objects, EM systems can track those chang
 
 ### 4.) Applying sophisticated security and protection
 
-![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/635a9c935947360dedacf2c1_2-in-GDPR.jpg)
+![](/assets/external/635a9c935947360dedacf2c1_2-in-gdpr.jpg)
 
 ECM will provide security to prevent unauthorized users from sharing or printing files containing sensitive PII information. Enterprise content management systems come with security features to prevent unauthorized users from sharing files and data objects containing sensitive PII. Such breaches may result in penalties under the new laws which range from €10 million to €20 million for enterprises that fail to protect customers' PII from loss or misuse.
 
@@ -62,7 +61,7 @@ Should it be necessary to amend or dispose of PII information upon request, mode
 
 ### Achieving Excellent GDPR Compliance With Helix International
 
-![](https://uploads-ssl.webflow.com/62ac613c752b177b24419b4d/635a9c9f3097f65c17ec4565_3-in-GDPR.jpg)
+![](/assets/external/635a9c9f3097f65c17ec4565_3-in-gdpr.jpg)
 
 Helix International has proprietary software purpose-built for enterprise content management to help you avoid the expensive fine and embarrassment of GDPR non-compliance. As the market leader in our field, we have the modern tools to make your business adhere to this strict regulation more straightforwardly.
 
