@@ -4,9 +4,9 @@ f_type: Full Time
 f_time: 9am - 5pm, may need to join occasional calls in international timezones.
 title: CMOD Consultant
 slug: cmod-consultant
-updated-on: '2022-09-29T22:16:57.756Z'
+updated-on: '2022-11-04T09:41:06.375Z'
 created-on: '2022-09-29T21:52:19.216Z'
-published-on: '2022-09-29T22:19:38.320Z'
+published-on: '2022-11-04T09:41:16.721Z'
 layout: '[careers].html'
 tags: careers
 ---
@@ -33,4 +33,4 @@ We are currently seeking a subject matter expert on IBM Content Managed on Dema
 
 Please email CV and supporting materials to our HR Manager Ms. Huong at: [HNguyen@Helix-Int.com](mailto:HNguyen@Helix-Int.com)
 
-Or via the application button below:
+Or via the application form below:

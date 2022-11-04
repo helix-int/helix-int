@@ -2505,29 +2505,29 @@ collections:
             label: Link
             name: 2f
             widget: string
-          - hint: 'Original link: /assets/solutions/migrations., key: 761fc417'
+          - hint: 'Original link: /solutions/migrations, key: 76bf5429'
             label: Link
-            name: 761fc417
+            name: 76bf5429
             widget: string
-          - hint: 'Original link: /assets/solutions/ecm., key: 12ea1491'
+          - hint: 'Original link: /solutions/ecm, key: -1b0751b5'
             label: Link
-            name: 12ea1491
+            name: '-1b0751b5'
             widget: string
-          - hint: 'Original link: /assets/solutions/hosting., key: 70729746'
+          - hint: 'Original link: /solutions/hosting, key: -b35b60a'
             label: Link
-            name: '70729746'
+            name: '-b35b60a'
             widget: string
-          - hint: 'Original link: /assets/solutions/gdpr., key: 4a75349d'
+          - hint: 'Original link: /solutions/gdpr, key: -45e1f79d'
             label: Link
-            name: 4a75349d
+            name: '-45e1f79d'
             widget: string
-          - hint: 'Original link: /assets/solutions/managed-services., key: -1a9b09f0'
+          - hint: 'Original link: /solutions/managed-services, key: 19085190'
             label: Link
-            name: '-1a9b09f0'
+            name: '19085190'
             widget: string
-          - hint: 'Original link: /assets/solutions/development., key: -8257d9b'
+          - hint: 'Original link: /solutions/development, key: -4b3b809'
             label: Link
-            name: '-8257d9b'
+            name: '-4b3b809'
             widget: string
           - hint: 'Original link: /mars-pltform, key: 4f87973'
             label: Link

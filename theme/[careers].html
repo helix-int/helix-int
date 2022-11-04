@@ -166,7 +166,10 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.2/css/ion.rangeSlider.skinFlat.min.css">
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   {%- include "partials/navbar" -%}
   <div class="careers-top-banner heading-careers-page wf-section">
@@ -265,7 +268,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
   })();
 </script>
   <noscript>
-    <p><img src="{{ images.62efaa2.url }}" style="border:0;" alt="{{ images.62efaa2.alt | trim | escape }}"></p>
+    <p>{%- image images.62efaa2.url, images.62efaa2.alt, '[]', 'style="border:0;"' -%}</p>
   </noscript>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.2/js/ion.rangeSlider.min.js"></script>
   <script>
