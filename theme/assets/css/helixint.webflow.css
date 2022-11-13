@@ -4166,6 +4166,10 @@ img {
   font-weight: 600;
 }
 
+.images-block {
+  width: 100%;
+}
+
 .image-block {
   width: 25%;
 }

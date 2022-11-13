@@ -4,9 +4,9 @@ f_type: Full Time
 f_time: 9 am - 5 pm, may need to join occasional calls on international timezones.
 title: Technical System Engineer / Sr. Java Developer
 slug: technical-system-engineer-sr-java-developer
-updated-on: '2022-09-29T22:19:20.267Z'
+updated-on: '2022-11-13T14:12:21.685Z'
 created-on: '2022-09-29T21:38:52.586Z'
-published-on: '2022-09-29T22:19:38.320Z'
+published-on: '2022-11-13T14:13:37.904Z'
 layout: '[careers].html'
 tags: careers
 ---
@@ -67,4 +67,4 @@ Primary role is to work on application development using java. Strong understand
 
 Please email CV and supporting materials to our HR Manager Ms. Huong at: [HNguyen@Helix-Int.com](mailto:HNguyen@Helix-Int.com)
 
-Or via the application button below:
+Or via the application form below:
