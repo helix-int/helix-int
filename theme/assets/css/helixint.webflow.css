@@ -3142,7 +3142,6 @@ img {
 .post-image {
   overflow: visible;
   height: 225px;
-  max-width: 50%;
   min-width: auto;
   padding-top: 20px;
   padding-right: 20px;
@@ -11969,6 +11968,10 @@ img {
     margin-left: 0px;
   }
 
+  .post-image {
+    display: none;
+  }
+
   .gray-link-home-3 {
     left: 45%;
   }
@@ -12137,6 +12140,10 @@ img {
     min-width: auto;
   }
 
+  .locations-wrapper {
+    margin-left: 0px;
+  }
+
   .form-2 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -12260,6 +12267,17 @@ img {
 
   .navbar-2 {
     display: none;
+  }
+
+  .contact-grid {
+    margin-top: 40px;
+    margin-left: 0px;
+    padding-right: 0px;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: minmax(108px, 1fr);
+    grid-template-columns: minmax(108px, 1fr);
+    -ms-grid-rows: minmax(auto, 1fr);
+    grid-template-rows: minmax(auto, 1fr);
   }
 
   .integrations-hero-images-main-wrapper {
@@ -12589,10 +12607,11 @@ img {
   }
 
   .collaborate-form-step {
-    width: 100%;
     min-height: 555px;
+    margin-right: 0px;
     margin-bottom: 140px;
-    padding: 50px 10px;
+    margin-left: 0px;
+    padding: 20px 10px;
   }
 
   .mask-4 {
@@ -12621,7 +12640,14 @@ img {
   }
 
   .form-wrapper {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     padding: 0px;
+  }
+
+  .container-4 {
+    max-width: 100%;
   }
 }
 
@@ -14028,14 +14054,16 @@ img {
   }
 
   #w-node-_0926c7d6-e717-7535-e208-8740e6d24519-99274ce7 {
-    -ms-grid-column: span 2;
-    grid-column-start: span 2;
-    -ms-grid-column-span: 2;
-    grid-column-end: span 2;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
     grid-row-end: span 1;
+    -ms-grid-column-align: auto;
+    justify-self: auto;
   }
 
   #w-node-_512a7720-6298-fec0-d18b-28024240550b-99274ce7 {
