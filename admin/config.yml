@@ -1742,25 +1742,55 @@ collections:
             label: Text
             name: '-53f399f2'
             widget: string
-          - hint: "Original text: Drop us a line and a Helix International IT\_Expert will be in contact ASAP., key: -4b101b26"
+          - hint: >-
+              Original text: Drop us a line and we'll get right back to you,
+              key: -62850d27
             label: Text
-            name: '-4b101b26'
+            name: '-62850d27'
             widget: string
-          - hint: 'Original text: Select*, key: -26dffd72'
+          - hint: 'Original text: 1/3, key: bdd5'
             label: Text
-            name: '-26dffd72'
+            name: bdd5
             widget: string
-          - hint: 'Original text: Inquiry Department 2*, key: 6404b6ed'
+          - hint: 'Original text: Let us know how to contact you, key: -2e199ebe'
             label: Text
-            name: 6404b6ed
+            name: '-2e199ebe'
             widget: string
-          - hint: 'Original text: Department*, key: -7d5c3108'
+          - hint: 'Original text: and / or, key: -3c4317e3'
             label: Text
-            name: '-7d5c3108'
+            name: '-3c4317e3'
             widget: string
-          - hint: 'Original text: Department 2*, key: 68ebd1a6'
+          - hint: 'Original text: 2/3, key: c196'
             label: Text
-            name: 68ebd1a6
+            name: c196
+            widget: string
+          - hint: 'Original text: What can we do for you?, key: -318e2c5a'
+            label: Text
+            name: '-318e2c5a'
+            widget: string
+          - hint: 'Original text: 3/3, key: c557'
+            label: Text
+            name: c557
+            widget: string
+          - hint: 'Original text: ← Back, key: 4788c197'
+            label: Text
+            name: 4788c197
+            widget: string
+          - hint: 'Original text: Next, key: 24ff13'
+            label: Text
+            name: 24ff13
+            widget: string
+          - hint: >-
+              Original text: Thanks! We got your submission, we'll get back to
+              you shortly!, key: -2258cd5b
+            label: Text
+            name: '-2258cd5b'
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form. Please try again or email us., key: 6d8f3bf1
+            label: Text
+            name: 6d8f3bf1
             widget: string
           - hint: 'Original text: 7 Global Offices, key: 6ae23cc3'
             label: Text
@@ -1894,46 +1924,26 @@ collections:
             label: Text
             name: b76a829
             widget: string
-          - hint: 'Original text: 1/3, key: bdd5'
-            label: Text
-            name: bdd5
-            widget: string
           - hint: 'Original text: Provide a professional bio, key: 3f16c16d'
             label: Text
             name: 3f16c16d
-            widget: string
-          - hint: 'Original text: 2/3, key: c196'
-            label: Text
-            name: c196
             widget: string
           - hint: 'Original text: Upload a professional photo, key: 7094edb7'
             label: Text
             name: 7094edb7
             widget: string
-          - hint: 'Original text: 3/3, key: c557'
-            label: Text
-            name: c557
-            widget: string
-          - hint: 'Original text: ← Back, key: 4788c197'
-            label: Text
-            name: 4788c197
-            widget: string
-          - hint: 'Original text: Next, key: 24ff13'
-            label: Text
-            name: 24ff13
-            widget: string
           - hint: >-
-              Original text: Thanks! I have received your form submission, I'll
-              get back to you shortly!, key: 658f235c
+              Original text: Thanks! We've received your application and will be
+              in touch shortly!, key: -643b6ca2
             label: Text
-            name: 658f235c
+            name: '-643b6ca2'
             widget: string
           - hint: >-
               Original text: Oops! Something went wrong while submitting the
-              form, key: 14c5a3a7
+              form. Please try again or email hr@helix-int.com, key: 4d9902fc
             label: Text
-            name: 14c5a3a7
-            widget: string
+            name: 4d9902fc
+            widget: text
           - hint: 'Original text: Overview, key: 23735199'
             label: Text
             name: '23735199'
@@ -2060,6 +2070,10 @@ collections:
             label: Text
             name: '-72d7525e'
             widget: string
+          - hint: 'Original text: OpenText, key: -1a39f149'
+            label: Text
+            name: '-1a39f149'
+            widget: string
           - hint: 'Original text: Quadient, key: -494f3237'
             label: Text
             name: '-494f3237'
@@ -2135,6 +2149,32 @@ collections:
           - hint: 'Original text: See our partner listing on Open-E , key: 5aaf91d2'
             label: Text
             name: 5aaf91d2
+            widget: string
+          - hint: >-
+              Original text: Helix International is a Silver Partner of
+              OpenText., key: 2a063898
+            label: Text
+            name: 2a063898
+            widget: string
+          - hint: >-
+              Original text: Helix International is proud to be a Silver Partner
+              of OpenText, exchanging software, solutions, and expertise for our
+              clients. Our development team includes enterprise content
+              engineers who are certified on the OpenText enterprise content
+              management products, and Helix products are popularly used to
+              conduct migrations to OpenText products. Whether migrating from
+              old legacy ECM and reporting systems into OpenText Content Suite
+              or from an on-prem version of Content Suite to the OpenText Cloud,
+              the Helix MARS platform provides the ability to securely migrate
+              your content and data (256-bit AES encryption both at-rest and
+              in-motion) and every step of the process is audited for compliance
+              requirements., key: -12f10e7b
+            label: Text
+            name: '-12f10e7b'
+            widget: text
+          - hint: 'Original text: See our partner listing on OpenText , key: 6f47de5d'
+            label: Text
+            name: 6f47de5d
             widget: string
           - hint: >-
               Original text: Helix International is an enterprise software
@@ -2338,6 +2378,12 @@ collections:
           - hint: 'Original text: Cancel, key: 77df1a9a'
             label: Text
             name: 77df1a9a
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form, key: 14c5a3a7
+            label: Text
+            name: 14c5a3a7
             widget: string
           - hint: "Original text: MARS\_Platform, key: -4b0df202"
             label: Text
@@ -2670,6 +2716,13 @@ collections:
               key: -5aae79ed
             label: Link
             name: '-5aae79ed'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.opentext.com/products-and-solutions/partners-and-alliances/partner-directory/partner-directory-detail?id=0013z00002rJ4oDAAS,
+              key: -2937a96e
+            label: Link
+            name: '-2937a96e'
             widget: string
           - hint: 'Original link: #event1, key: -117e0546'
             label: Link
@@ -3728,19 +3781,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-2a485a80'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-1ee2d61c'
             widget: object
             fields:
@@ -3858,6 +3898,19 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: '-5316471'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: 756289b9
             widget: object
             fields:
@@ -3924,19 +3977,6 @@ collections:
                 required: false
           - label: Image
             name: '-17625535'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-5316471'
             widget: object
             fields:
               - name: url
