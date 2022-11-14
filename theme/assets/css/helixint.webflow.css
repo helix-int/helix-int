@@ -3142,7 +3142,7 @@ img {
 .post-image {
   overflow: visible;
   height: 225px;
-  max-width: 60%;
+  max-width: 50%;
   min-width: auto;
   padding-top: 20px;
   padding-right: 20px;
@@ -4167,12 +4167,12 @@ img {
 }
 
 .images-block {
-  width: 100%;
+  width: auto;
 }
 
 .image-block {
   width: 25%;
-  min-width: 25%;
+  max-width: 25%;
 }
 
 .slider-2 {
