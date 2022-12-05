@@ -1924,13 +1924,37 @@ collections:
             label: Text
             name: b76a829
             widget: string
+          - hint: 'Original text: 1/4, key: bdd6'
+            label: Text
+            name: bdd6
+            widget: string
           - hint: 'Original text: Provide a professional bio, key: 3f16c16d'
             label: Text
             name: 3f16c16d
             widget: string
+          - hint: 'Original text: 2/4, key: c197'
+            label: Text
+            name: c197
+            widget: string
           - hint: 'Original text: Upload a professional photo, key: 7094edb7'
             label: Text
             name: 7094edb7
+            widget: string
+          - hint: 'Original text: or, key: de3'
+            label: Text
+            name: de3
+            widget: string
+          - hint: 'Original text: 3/4, key: c558'
+            label: Text
+            name: c558
+            widget: string
+          - hint: 'Original text: Upload your CV, key: 61a7e481'
+            label: Text
+            name: 61a7e481
+            widget: string
+          - hint: 'Original text: 4/4, key: c919'
+            label: Text
+            name: c919
             widget: string
           - hint: >-
               Original text: Thanks! We've received your application and will be
