@@ -199,7 +199,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
   </div>
   <div id="career-apply-form" class="w-container">
     <div class="form-wrapper w-form">
-      <form id="wf-form-Career-Application-Form" name="wf-form-Career-Application-Form" data-name="career_application" method="get" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+      <form method="get" data-netlify="true" name="wf-form-Career-Application-Form" data-name="career_application" enctype="multipart/form-data" id="Career-Application-Form" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
         <div data-delay="4000" data-animation="cross" class="step-paginator w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="true" data-disable-swipe="true" data-autoplay-limit="0" data-nav-spacing="3" data-duration="200" data-infinite="false">
           <div class="mask-4 w-slider-mask">
             <div class="step w-slide">
@@ -226,7 +226,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
                 <div class="form-content final">
                   <div data-ix="show-content-onslide" class="form-section-title">{{ texts.7094edb7 }}</div>
                   <div data-ix="show-content-onslide" class="form-title-line"></div>
-                  <div class="w-embed"><input name="Photo-upload" type="file"></div>
+                  <div class="w-embed"><label><span>Upload file: </span><input name="Photo-upload" type="file" data-netlify="true"></label></div>
                   <div class="text-block-2">{{ texts.de3 }}</div><input type="text" class="field-2 w-input" maxlength="256" name="Photo-link" data-name="Photo-link" data-ix="show-content-onslide" placeholder="Paste a link to your professional photo" id="Photo-link">
                 </div>
                 <div data-ix="show-content-onslide" class="step-counter">{{ texts.c558 }}</div>
@@ -237,7 +237,7 @@ textarea.area.field.w-input::-webkit-scrollbar-corner {
                 <div class="form-content final">
                   <div data-ix="show-content-onslide" class="form-section-title">{{ texts.61a7e481 }}</div>
                   <div data-ix="show-content-onslide" class="form-title-line"></div>
-                  <div class="w-embed"><input name="CV-upload" type="file"></div>
+                  <div class="w-embed"><label><span>Upload file: </span><input name="CV-upload" type="file" data-netlify="true"></label></div>
                   <div class="text-block-2">{{ texts.de3 }}</div><input type="text" class="field-2 w-input" maxlength="256" name="CV-link" data-name="CV-link" data-ix="show-content-onslide" placeholder="Paste a link to your CV file (not your LinkedIn page)" id="CV-link"><input type="submit" value="Submit Application" data-wait="Sending..." wait="Calculating Nash Equilibrium..." data-ix="show-content-onslide" class="submit-button w-button">
                 </div>
                 <div data-ix="show-content-onslide" class="step-counter">{{ texts.c919 }}</div>
