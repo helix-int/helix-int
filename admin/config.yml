@@ -79,6 +79,133 @@ collections:
             name: additional_tags
             widget: text
             required: false
+  - name: team
+    label: Teams
+    folder: cms/team
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: >-
+          Team member's full name, in the order First Name Last Name, e.g., John
+          Doe
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: >-
+          Team member's position title at Helix International, e.g., Sales
+          Director
+        name: f_title
+        label: Title
+        widget: string
+        required: true
+      - hint: Team member's @helix-int.com email address address
+        name: f_email-address
+        label: Email Address
+        widget: string
+        required: true
+      - hint: >-
+          Team member's primary work mobile phone number, including the area
+          code, e.g., +1 123 456 789
+        name: f_phone-number
+        label: Phone Number
+        widget: string
+        required: true
+      - hint: >-
+          URL to team member's LinkedIn account, or if they don't want to
+          include it, the company's account:
+          https://www.linkedin.com/company/helix-int/
+        name: f_linkedin
+        label: LinkedIn
+        widget: string
+        required: true
+      - hint: >-
+          Link to team member's Facebook account, or if they don't want to
+          include it, the company's account: https://www.facebook.com/helixint
+        name: f_facebook
+        label: Facebook
+        widget: string
+        required: true
+      - hint: >-
+          Link to team member's Twitter account, or if they don't want to
+          include it, the company's Twitter account:
+          https://twitter.com/SalesHelix
+        name: f_twitter
+        label: Twitter
+        widget: string
+        required: true
+      - hint: >-
+          A monochrome 450x450 compressed JPG professional headshot photo under
+          100kb size
+        name: f_profile-photo
+        label: Profile Photo
+        widget: object
+        required: true
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: true
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: The same photo as above with a radial blur applied
+        name: f_profile-photo-blurred
+        label: Profile Photo Blurred
+        widget: object
+        required: true
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: true
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: >-
+          Since Webflow doesn't allow uploading .vcf files, you need to upload
+          it somewhere and put the direct link here
+        name: f_url-to-vcard-file
+        label: URL to Vcard file
+        widget: string
+        required: true
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: team
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[team].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
   - name: solutions_categories
     label: Solutions Categories
     folder: cms/solutions-categories
@@ -2416,6 +2543,42 @@ collections:
             label: Text
             name: '-2c861c23'
             widget: text
+          - hint: 'Original text: Download my vCard, key: -24379a56'
+            label: Text
+            name: '-24379a56'
+            widget: string
+          - hint: 'Original text: Click to email, key: 5a1a056f'
+            label: Text
+            name: 5a1a056f
+            widget: string
+          - hint: 'Original text: Send an e-mail, key: 71f052fa'
+            label: Text
+            name: 71f052fa
+            widget: string
+          - hint: 'Original text: Drop me a line below:, key: -3180f101'
+            label: Text
+            name: '-3180f101'
+            widget: string
+          - hint: 'Original text: Cancel, key: 77df1a9a'
+            label: Text
+            name: 77df1a9a
+            widget: string
+          - hint: >-
+              Original text: Thank you! I got your email, and will get back to
+              you soon., key: 33e28e6d
+            label: Text
+            name: 33e28e6d
+            widget: string
+          - hint: 'Original text: Oops, something went wrong. , key: 17a43870'
+            label: Text
+            name: 17a43870
+            widget: string
+          - hint: >-
+              Original text: Please try again or email me directly., key:
+              -590f4b2a
+            label: Text
+            name: '-590f4b2a'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3833,6 +3996,84 @@ collections:
                 required: false
           - label: Image
             name: '-17625535'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 11152a68
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4d97d1e6
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-32f4b384'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2be85460
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4a8ff4ad'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5582a35a
             widget: object
             fields:
               - name: url
