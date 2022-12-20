@@ -39,7 +39,7 @@
       {%- assign collection = collections.blog-posts | sort: "-created-on" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="case-study-grid w-dyn-items">
           {%- for item in collection -%}<div id="w-node-fed545b4-e04d-ff4b-78a5-4187ed7ad53b-4d274cdc" role="listitem" class="inline-block-case-study-1 relative w-dyn-item">
-            <a href="{{ item.url }}" class="link-block-2 w-inline-block">{%- image item.data.f_image.url, item.data.f_image.alt, '[]', 'loading="lazy" class="blog-3"' -%}</a>
+            <a href="{{ item.url }}" class="link-block-2 w-inline-block">{%- image item.data.f_image.url, item.data.f_image.alt, '[{"max":479,"size":"100vw"},{"max":767,"size":"93vw"},{"max":991,"size":"46vw"},{"max":10000,"size":"100vw"}]', 'loading="lazy" class="blog-3"' -%}</a>
             {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<a href="{{ blog-categoryOfBlog-posts.url }}" class="classic-blog-date-info">{{ blog-categoryOfBlog-posts.data.title }}</a>
             <div data-w-id="fed545b4-e04d-ff4b-78a5-4187ed7ad53c" class="blog-3-image-wrapper">
               <p class="date-info">{{ item.data.created-on | formatDate: "MMMM d, yyyy" }}</p>

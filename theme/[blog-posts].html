@@ -33,7 +33,7 @@
         <div id="w-node-_62a35c5d-e61e-0a5b-699d-022fbb98d30c-17274cea" class="white-background blog">
           {%- assign blog-categoryOfBlog-posts = f_ref | resolveReference -%}<a href="{{ blog-categoryOfBlog-posts.url }}" class="category">{{ blog-categoryOfBlog-posts.data.title }}</a>
           <h1 class="heading-centured bold">{{ title }}</h1>
-          <p class="date-info-container central">{{ created-on | formatDate: "MMMM d, yyyy" }}</p>
+          <p class="date-info-container central">{{ updated-on | formatDate: "MMMM d, yyyy" }}</p>
           <div href="" class="rich-text-portfolio w-richtext">{{ content | markdown }}</div>
           <div class="social-links-container">
             <a href="{{ links.6c4279f0 }}" class="social-media-link">{{ texts.f39e }}</a>

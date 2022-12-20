@@ -1834,7 +1834,7 @@ img {
 }
 
 .date-info {
-  display: inline-block;
+  display: none;
   color: #8e8f9a;
   font-size: 17px;
   text-align: left;

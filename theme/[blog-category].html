@@ -36,7 +36,7 @@
     <div class="container w-container">
       {%- assign collection = collections.blog-posts | filter: "f_ref,eq,DYN_CONTEXT", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="grid-collection-list w-dyn-items">
-          {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_image.url, item.data.f_image.alt, '[]', 'loading="lazy" class="bg-image"' -%}
+          {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_image.url, item.data.f_image.alt, '[{"max":479,"size":"100vw"},{"max":767,"size":"93vw"},{"max":991,"size":"45vw"},{"max":1279,"size":"29vw"},{"max":10000,"size":"370px"}]', 'loading="lazy" class="bg-image"' -%}
             <a href="{{ item.url }}" class="post-link absolute w-inline-block">
               <h5 class="portfolio-heading gray">{{ item.data.title }}</h5>
             </a>
