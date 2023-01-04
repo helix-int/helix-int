@@ -1163,9 +1163,9 @@ collections:
             label: Text
             name: '-604c97a4'
             widget: string
-          - hint: 'Original text: 80, key: 6f8'
+          - hint: 'Original text: 90, key: 717'
             label: Text
-            name: 6f8
+            name: '717'
             widget: string
           - hint: 'Original text: +, key: 2b'
             label: Text
