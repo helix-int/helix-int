@@ -1145,11 +1145,11 @@ collections:
             name: 14f10354
             widget: string
           - hint: >-
-              Original text: Find out why Helix International has been IBM's
-              Premium Partner of choice for cloud migrations since 2007., key:
-              -5a617996
+              Original text: Find out why Helix International has been Big
+              Tech's partner of choice for cloud migrations since 2007., key:
+              1a13706d
             label: Text
-            name: '-5a617996'
+            name: 1a13706d
             widget: text
           - hint: 'Original text: , key: f0da'
             label: Text
