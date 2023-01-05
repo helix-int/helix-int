@@ -23,10 +23,7 @@
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-JZ76WZGNZH', {'anonymize_ip': false});</script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style><style>picture { border: 0;
-        max-width: 100%;
-        vertical-align: middle;
-        display: inline-block; }</style></head>
+        }</style></head>
 <body>
   {%- include "partials/navbar" -%}
   <div class="careers-top-banner blog wf-section">
@@ -38,7 +35,7 @@
     <div class="container w-container">
       {%- assign collection = collections.case-studies | sort: "-created-on" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="grid-collection-list w-dyn-items">
-          {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_background-image.url, item.data.f_background-image.alt, '[]', 'loading="lazy" class="bg-image"' -%}
+          {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img src="{{ item.data.f_background-image.url }}" loading="lazy" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
             <a href="{{ item.url }}" class="post-link absolute w-inline-block">
               <h5 class="portfolio-heading gray">{{ item.data.title }}</h5>
             </a>
@@ -53,7 +50,7 @@
   {%- include "partials/here-to-help" -%}
   {%- include "partials/images-block" -%}
   {%- include "partials/footer" -%}
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" crossorigin="anonymous"></script>
+  <script src="/assets/external/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" crossorigin="anonymous"></script>
   <script src="/assets/js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
@@ -72,7 +69,7 @@
   })();
 </script>
   <noscript>
-    <p>{%- image images.62efaa2.url, images.62efaa2.alt, '[]', 'style="border:0;"' -%}</p>
+    <p><img src="{{ images.62efaa2.url }}" style="border:0;" alt="{{ images.62efaa2.alt | trim | escape }}"></p>
   </noscript>
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JZ76WZGNZH">
 </script>
