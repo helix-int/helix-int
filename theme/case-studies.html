@@ -54,7 +54,7 @@
           <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
             {%- assign collection = collections.case-studies | sort: "-created-on" -%}<div class="w-dyn-list">
               {%- unless collection.length == 0 -%}<div data-w-id="c5dbfdcb-57fd-19bf-97b3-2afe5fe71c23" style="opacity:0" role="list" class="grid-collection-list w-dyn-items">
-                {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" src="{{ item.data.f_image-for-portfolio.url }}" alt="{{ item.data.f_image-for-portfolio.alt }}" class="bg-image">
+                {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" src="{{ item.data.f_image-for-portfolio.url }}" loading="lazy" alt="{{ item.data.f_image-for-portfolio.alt }}" class="bg-image">
                   <div class="info-wrapper">
                     {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<a href="{{ case-studies-categoriesOfCase-studies.url }}" class="link-block w-inline-block">
                       {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<p class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</p>
@@ -71,7 +71,7 @@
           <div data-w-tab="Tab 2" class="w-tab-pane">
             {%- assign collection = collections.case-studies | filter: "f_portfolio-category,eq,cms/case-studies-categories/finance.md", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
               {%- unless collection.length == 0 -%}<div role="list" class="grid-collection-list w-dyn-items">
-                {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" src="{{ item.data.f_image-for-portfolio.url }}" alt="{{ item.data.f_image-for-portfolio.alt }}" class="bg-image">
+                {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" src="{{ item.data.f_image-for-portfolio.url }}" loading="lazy" alt="{{ item.data.f_image-for-portfolio.alt }}" class="bg-image">
                   <div class="info-wrapper">
                     {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<a href="{{ case-studies-categoriesOfCase-studies.url }}" class="link-block w-inline-block">
                       {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<p class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</p>
@@ -88,7 +88,7 @@
           <div data-w-tab="Tab 3" class="w-tab-pane">
             {%- assign collection = collections.case-studies | filter: "f_portfolio-category,eq,cms/case-studies-categories/insurance.md", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
               {%- unless collection.length == 0 -%}<div role="list" class="grid-collection-list w-dyn-items">
-                {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" src="{{ item.data.f_image-for-portfolio.url }}" alt="{{ item.data.f_image-for-portfolio.alt }}" class="bg-image">
+                {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" src="{{ item.data.f_image-for-portfolio.url }}" loading="lazy" alt="{{ item.data.f_image-for-portfolio.alt }}" class="bg-image">
                   <div class="info-wrapper">
                     {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<a href="{{ case-studies-categoriesOfCase-studies.url }}" class="link-block w-inline-block">
                       {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<p class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</p>
@@ -105,7 +105,7 @@
           <div data-w-tab="Tab 4" class="w-tab-pane">
             {%- assign collection = collections.case-studies | filter: "f_portfolio-category,eq,cms/case-studies-categories/healthcare.md", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
               {%- unless collection.length == 0 -%}<div role="list" class="grid-collection-list w-dyn-items">
-                {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" src="{{ item.data.f_image-for-portfolio.url }}" alt="{{ item.data.f_image-for-portfolio.alt }}" class="bg-image">
+                {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" src="{{ item.data.f_image-for-portfolio.url }}" loading="lazy" alt="{{ item.data.f_image-for-portfolio.alt }}" class="bg-image">
                   <div class="info-wrapper">
                     {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<a href="{{ case-studies-categoriesOfCase-studies.url }}" class="link-block w-inline-block">
                       {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<p class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</p>

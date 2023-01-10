@@ -2378,16 +2378,16 @@ collections:
             name: '10011940'
             widget: string
           - hint: >-
-              Original text: The Helix International team will be present at the
+              Original text: The Helix International team was present at the
               2022 OpenText World event in Las Vegas, one of the largest and
               leading information management conferences. The event supports
-              both in-person and virtual attendance., key: -7774c9d5
+              both in-person and virtual attendance., key: 386c9c3
             label: Text
-            name: '-7774c9d5'
+            name: 386c9c3
             widget: text
-          - hint: 'Original text: Register , key: 7c1bc5bd'
+          - hint: 'Original text: Registration (closed) , key: 67527924'
             label: Text
-            name: 7c1bc5bd
+            name: '67527924'
             widget: string
           - hint: "Original text: MARS\_Platform, key: -4b0df202"
             label: Text
@@ -2656,17 +2656,19 @@ collections:
             label: Link
             name: 3ab25394
             widget: string
-          - hint: 'Original link: https://www.facebook.com/, key: 6c4279f0'
+          - hint: 'Original link: https://www.facebook.com/helixint, key: 337c50a1'
             label: Link
-            name: 6c4279f0
+            name: 337c50a1
             widget: string
-          - hint: 'Original link: https://www.linkedin.com/, key: 6e47a6b8'
+          - hint: >-
+              Original link: https://www.linkedin.com/company/helix-int, key:
+              27a99f56
             label: Link
-            name: 6e47a6b8
+            name: 27a99f56
             widget: string
-          - hint: 'Original link: https://twitter.com/, key: 636eb9b8'
+          - hint: 'Original link: https://twitter.com/SalesHelix, key: -688e8956'
             label: Link
-            name: 636eb9b8
+            name: '-688e8956'
             widget: string
           - hint: 'Original link: #career-apply-form, key: 5fabf3af'
             label: Link

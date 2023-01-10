@@ -35,7 +35,7 @@
     <div class="container w-container">
       {%- assign collection = collections.solutions | filter: "f_categories,eq,DYN_CONTEXT", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="grid-collection-list w-dyn-items">
-          {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img src="{{ item.data.f_image.url }}" loading="lazy" alt="{{ item.data.f_image.alt }}" class="bg-image">
+          {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="bg-image">
             <a href="{{ item.url }}" class="post-link absolute w-inline-block">
               <h5 class="portfolio-heading gray">{{ item.data.title }}</h5>
             </a>
