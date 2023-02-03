@@ -301,7 +301,7 @@
           <h3 class="heading-7">{{ texts.5b857b8c }}<span class="text-span-2">{{ texts.2e }}</span></h3>
           {%- assign collection = collections.blog-posts | offset: 3 | limit: 3 | sort: "-created-on" -%}<div class="w-dyn-list">
             {%- unless collection.length == 0 -%}<div role="list" class="collection-list w-dyn-items">
-              {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;75px&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="image-3">
+              {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;13vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;75px&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="image-3">
                 <a href="{{ item.url }}" class="w-inline-block">
                   <h5 class="post-heading">{{ item.data.title }}</h5>
                   <div class="date-info">{{ item.data.created-on | formatDate: "MMMM d, yyyy" }}</div>

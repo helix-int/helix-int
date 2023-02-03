@@ -7546,9 +7546,18 @@ img {
 }
 
 .partner-image {
+  max-width: 50%;
   margin-right: 0px;
   margin-bottom: 0px;
   padding-right: 0px;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 .team-cta {
@@ -8479,6 +8488,22 @@ img {
 
 .contact-icon-2 {
   height: 15px;
+}
+
+.partner-image-ser {
+  max-width: 50%;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: -45px;
+  padding-right: 0px;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 @media screen and (min-width: 1280px) {

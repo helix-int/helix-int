@@ -2124,6 +2124,10 @@ collections:
             label: Text
             name: 4b4c3c5
             widget: string
+          - hint: "Original text: SER\_Group, key: 18c579ff"
+            label: Text
+            name: 18c579ff
+            widget: string
           - hint: >-
               Original text: Helix International is IBM's Premium Partner of
               choice for enterprise content migrations., key: 2bdde833
@@ -2253,6 +2257,14 @@ collections:
               and day forward migrations., key: 73ab6479
             label: Text
             name: 73ab6479
+            widget: text
+          - hint: "Original text: Helix International is an enterprise software partner of SER\_Group., key: 5123f695"
+            label: Text
+            name: 5123f695
+            widget: string
+          - hint: "Original text: Helix International is proud to be an enterprise partner of SER\_Group, exchanging software, solutions, and expertise for our clients. SER\_Group provides one of the leading ECM\_solutions according to Gartner and Forrester reports, while Helix International provides the leading ECM retirement and migration solutions. Together, Helix and SER\_provide one of the best comprehensive solutions for drastically consolidating, reducing costs, and increasing efficiency and functionality your enterprise content management., key: 6d8e2800"
+            label: Text
+            name: 6d8e2800
             widget: text
           - hint: 'Original text: Search results, key: 7e85e19e'
             label: Text
@@ -2712,6 +2724,10 @@ collections:
           - hint: 'Original link: #ricoh, key: 423151a2'
             label: Link
             name: 423151a2
+            widget: string
+          - hint: 'Original link: #ser, key: 11a55d'
+            label: Link
+            name: 11a55d
             widget: string
           - hint: >-
               Original link:
@@ -3927,6 +3943,19 @@ collections:
                 required: false
           - label: Image
             name: '-51ee9667'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2601b54b'
             widget: object
             fields:
               - name: url
