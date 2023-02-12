@@ -134,7 +134,7 @@
   <div class="section wf-section">
     <div class="container w-container">
       <div id="w-node-daa79024-b873-8090-4bd9-92c112c3e28e-b2274cca" class="div-block-17">
-        <div class="div-block-19"><img class="main-image" src="{{ images.37f9f04f.url }}" width="768" alt="{{ images.37f9f04f.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;49vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;605px&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 991px) 48vw, (max-width: 1279px) 49vw, 605px" id="w-node-c13dfad9-bed2-6943-0f7f-f2d9065101b1-b2274cca" loading="lazy"></div>
+        <div class="div-block-19"><img class="main-image" src="{{ images.37f9f04f.url }}" width="768" alt="{{ images.37f9f04f.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;49vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;605px&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 767px) 48vw, (max-width: 1279px) 49vw, 605px" id="w-node-c13dfad9-bed2-6943-0f7f-f2d9065101b1-b2274cca" loading="lazy"></div>
         <div class="div-block-18">
           <h3 class="title left">{{ texts.14f10354 }}</h3>
           <p class="paragraph left">{{ texts.1a13706d }}</p>
@@ -257,7 +257,7 @@
           <div class="button-right-border"></div>
           <div class="botton-right-top"></div>
           <div class="botton-left-top"></div>
-          <div class="industries-block"><img src="{{ images.-2e991245.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;259.2875061035156px&quot;}]" alt="{{ images.-2e991245.alt | trim | escape }}" class="industries-images">
+          <div class="industries-block"><img src="{{ images.-2e991245.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;259.29168701171875px&quot;}]" alt="{{ images.-2e991245.alt | trim | escape }}" class="industries-images">
             <div class="right-alignment">
               <h3 class="title">{{ texts.305ce7ba }}<span class="dot">{{ texts.2e }}</span></h3>
               <p class="paragraph light-gray">{{ texts.7cf04d86 }}</p>
@@ -301,7 +301,7 @@
           <h3 class="heading-7">{{ texts.5b857b8c }}<span class="text-span-2">{{ texts.2e }}</span></h3>
           {%- assign collection = collections.blog-posts | offset: 3 | limit: 3 | sort: "-created-on" -%}<div class="w-dyn-list">
             {%- unless collection.length == 0 -%}<div role="list" class="collection-list w-dyn-items">
-              {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;13vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;75px&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="image-3">
+              {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;75px&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="image-3">
                 <a href="{{ item.url }}" class="w-inline-block">
                   <h5 class="post-heading">{{ item.data.title }}</h5>
                   <div class="date-info">{{ item.data.created-on | formatDate: "MMMM d, yyyy" }}</div>
@@ -332,7 +332,7 @@
           {%- assign collection = collections.blog-posts | offset: 2 | limit: 1 | sort: "-created-on" -%}<div class="w-dyn-list">
             {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
               {%- for item in collection -%}<div role="listitem" class="collection-item-2 w-dyn-item">
-                <div class="industry-insights"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1208.4000244140625px&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="bg-image-insights">
+                <div class="industry-insights"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1208.666748046875px&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="bg-image-insights">
                   <div class="info-wrapper">
                     <div class="horizontal">
                       {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<a href="{{ blog-categoryOfBlog-posts.url }}" class="clear-link-block-top w-inline-block">
@@ -360,7 +360,7 @@
           {%- assign collection = collections.blog-posts | limit: 2 | sort: "-created-on" -%}<div class="w-dyn-list">
             {%- unless collection.length == 0 -%}<div role="list" class="collection-list-2 w-dyn-items">
               {%- for item in collection -%}<div id="w-node-ff8b9ad8-1f97-2cbf-c570-6afe47b706f0-b2274cca" role="listitem" class="collection-item-2 w-dyn-item">
-                <div class="industry-insights"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;591.4000244140625px&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="bg-image-insights">
+                <div class="industry-insights"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;591.6666870117188px&quot;}]" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="bg-image-insights">
                   <div class="info-wrapper">
                     {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<a href="{{ blog-categoryOfBlog-posts.url }}" class="clear-link-block w-inline-block">
                       {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<h6 class="project-name-heading" style="background-color: {{blog-categoryOfBlog-posts.data.f_color}};">{{ blog-categoryOfBlog-posts.data.title }}</h6>
