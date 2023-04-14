@@ -5,7 +5,7 @@ f_twitter: https://twitter.com/CraigLett
 f_linkedin: https://www.linkedin.com/in/craiglett/
 f_phone-number: +1 616 340 2306
 title: Craig Lett
-f_title: Director, Global Partners
+f_title: VP, Global Partners
 slug: craig-lett
 updated-on: '2022-12-07T08:35:03.189Z'
 created-on: '2022-12-07T08:12:37.962Z'
