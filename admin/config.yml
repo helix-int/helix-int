@@ -1355,9 +1355,9 @@ collections:
             label: Text
             name: '-2f05211f'
             widget: string
-          - hint: 'Original text: Copyright © 2022 Helix International, key: 54b3c7ba'
+          - hint: 'Original text: Copyright © 2023 Helix International, key: 614cbd3b'
             label: Text
-            name: 54b3c7ba
+            name: 614cbd3b
             widget: string
           - hint: 'Original text: Protected Page, key: -11d4bbff'
             label: Text
@@ -2559,6 +2559,47 @@ collections:
             label: Text
             name: '-24379a56'
             widget: string
+          - hint: 'Original text: Employee Feedback, key: 106d2cb7'
+            label: Text
+            name: 106d2cb7
+            widget: string
+          - hint: 'Original text: Contact us directly, key: -42d9e1a8'
+            label: Text
+            name: '-42d9e1a8'
+            widget: string
+          - hint: 'Original text: hr@helix-int.com, key: 469aebfd'
+            label: Text
+            name: 469aebfd
+            widget: string
+          - hint: 'Original text: Help us improve, key: -54f1a1eb'
+            label: Text
+            name: '-54f1a1eb'
+            widget: string
+          - hint: >-
+              Original text: We're always listening to feedback from past and
+              current team members. Let us know if you want to hear back from
+              us, or skip the contact fields to leave an anonymous message.
+              Thank you!, key: 7c586c8d
+            label: Text
+            name: 7c586c8d
+            widget: text
+          - hint: 'Original text: Share your feedback here, key: 4797b87f'
+            label: Text
+            name: 4797b87f
+            widget: string
+          - hint: >-
+              Original text: Leave your contact info here if you'd like to hear
+              back from us, or leave these fields blank to send anonymously,
+              key: fd7cc37
+            label: Text
+            name: fd7cc37
+            widget: text
+          - hint: >-
+              Original text: We got your feedback, thanks for taking the time!,
+              key: 5ba45657
+            label: Text
+            name: 5ba45657
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -2788,6 +2829,12 @@ collections:
           - hint: 'Original link: #why, key: 11b4c5'
             label: Link
             name: 11b4c5
+            widget: string
+          - hint: >-
+              Original link: mailto:hr@helix-int.com?subject=Website%20inquiry,
+              key: -3808760c
+            label: Link
+            name: '-3808760c'
             widget: string
       - label: Images
         name: images

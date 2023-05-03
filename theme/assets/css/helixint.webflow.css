@@ -1169,7 +1169,7 @@ img {
 }
 
 .centured-heading.smaller {
-  margin-top: 40px;
+  margin-top: 0;
   margin-bottom: 15px;
 }
 
@@ -6370,7 +6370,7 @@ img {
 
 .step-counter {
   color: rgba(0, 0, 0, .35);
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -6389,9 +6389,9 @@ img {
 }
 
 .form-section-title {
-  margin-bottom: 10px;
+  margin-bottom: 0;
   font-family: Montserrat, sans-serif;
-  font-size: 2.2em;
+  font-size: 1.4em;
   font-weight: 600;
   line-height: 1.5em;
 }
@@ -6443,7 +6443,7 @@ img {
   letter-spacing: 1px;
   background-color: #a4161a;
   border-radius: 10px;
-  margin-bottom: -80px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
@@ -6551,16 +6551,15 @@ img {
   min-height: 500px;
   text-align: center;
   background-color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-bottom: 0 #0b090a;
+  border-radius: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  padding: 100px 0 75px;
+  padding: 0 0 40px;
   display: flex;
   position: relative;
 }
@@ -6767,6 +6766,10 @@ img {
   margin-left: -45px;
   margin-right: 0;
   padding-right: 0;
+}
+
+.section-5 {
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -10398,6 +10401,10 @@ img {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
+#w-node-_0926c7d6-e717-7535-e208-8740e6d24519-bd14d9a0, #Feedback-form.w-node-_8d27d55d-2417-2671-cad3-f084ceeb91d2-bd14d9a0 {
+  justify-self: auto;
+}
+
 @media screen and (min-width: 1440px) {
   #w-node-c13dfad9-bed2-6943-0f7f-f2d9065101b1-b2274cca {
     grid-area: span 3 / span 2 / span 3 / span 2;
@@ -10545,6 +10552,11 @@ img {
 
   #w-node-a77f9504-ea4f-2a71-1d2b-bae0130097b9-99274ce7, #w-node-_512a7720-6298-fec0-d18b-28024240551b-99274ce7 {
     grid-column: span 2 / span 2;
+  }
+
+  #w-node-_0926c7d6-e717-7535-e208-8740e6d24519-bd14d9a0 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+    justify-self: auto;
   }
 }
 
