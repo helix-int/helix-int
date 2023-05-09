@@ -1,5 +1,5 @@
 ---
-f_location: Europe, Asia, Middle East
+f_location: Europe, Middle East, Africa
 f_type: Full Time
 f_time: >-
   40-50 hours per week, may need to join occasional calls on international time
@@ -23,7 +23,7 @@ Helix International is Big Tech’s partner of choice for ECM, ETL, and ESB proj
 
 ### **About the Position**
 
-We are currently seeking an EMEA Regional Sales Executive who will work closely with our global sales, marketing, development, and project management teams, as well as report directly to our directors. The Sales Executive will be based in and responsible for sales in the EMEA (Europe, Middle East, and Asia) region. Candidates must have an extensive background in enterprise IT sales, particularly in selling Enterprise Content Management / Content Services and data migrations solutions, must have strong knowledge of the ECM / Content Services industry, and must have sufficient expertise with enterprise data projects to speak with client executives on a presales and technical level. Candidates must have a native or native-like professional level of fluency in English, including fluency with IT and enterprise sales terminology. Strong favor is given to multilingual candidates.
+We are currently seeking an EMEA Regional Sales Executive who will work closely with our global sales, marketing, development, and project management teams, as well as report directly to our directors. The Sales Executive will be based in and responsible for sales in the EMEA (Europe, Middle East, and Africa) region. Candidates must have an extensive background in enterprise IT sales, particularly in selling Enterprise Content Management / Content Services and data migrations solutions, must have strong knowledge of the ECM / Content Services industry, and must have sufficient expertise with enterprise data projects to speak with client executives on a presales and technical level. Candidates must have a native or native-like professional level of fluency in English, including fluency with IT and enterprise sales terminology. Strong favor is given to multilingual candidates.
 
 The Sales Executive is expected to travel often, meet onsite and remotely with global clients, attend, network, co-organize, and present at events, grow a wide network of partnerships, and cooperate with the marketing team to generate and close leads. The Sales Executive acts as one of the primary contacts for clients throughout the sales, presales, and project delivery process, and is primarily responsible for both landing and expanding contracts. Strong preference given to candidates with existing strong personal and professional networks in the Enterprise Content Management / Content Services industry and in our target client industries (big finance, big retail / FMCG, healthcare, construction).
 
