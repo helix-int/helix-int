@@ -20,10 +20,7 @@
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-JZ76WZGNZH', {'anonymize_ip': false});</script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style><style>picture { border: 0;
-        max-width: 100%;
-        vertical-align: middle;
-        display: inline-block; }</style></head>
+        }</style></head>
 <body>
   <div class="utility-page-wrap">
     <div class="utility-page-content">
@@ -55,7 +52,7 @@
   })();
 </script>
   <noscript>
-    <p>{%- image images.62efaa2.url, images.62efaa2.alt, '[]', 'style="border:0;"' -%}</p>
+    <p><img src="{{ images.62efaa2.url }}" style="border:0;" alt="{{ images.62efaa2.alt | trim | escape }}"></p>
   </noscript>
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JZ76WZGNZH">
 </script>
