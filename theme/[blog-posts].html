@@ -25,11 +25,14 @@
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-JZ76WZGNZH', {'anonymize_ip': false});</script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div data-animation="default" class="navbar-home-2 w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29eed7" role="banner" data-duration="400">
     <div class="navbar-container-home-2 w-container">
-      <a href="{{ links.2f }}" class="brand-home-2 w-nav-brand"><img src="{{ images.2001fdb4.url }}" loading="lazy" data-w-id="169dff34-9ac9-bcf7-5fc3-cf0c585a03d1" height="30" alt="{{ images.2001fdb4.alt | trim | escape }}" class="logo-image-home-2"></a>
+      <a href="{{ links.2f }}" class="brand-home-2 w-nav-brand">{%- image images.2001fdb4.url, images.2001fdb4.alt, '[]', 'loading="lazy" data-w-id="169dff34-9ac9-bcf7-5fc3-cf0c585a03d1" height="30" class="logo-image-home-2"' -%}</a>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <a href="{{ links.2f }}" class="nav-link-block w-inline-block">
           <div class="dropdown-icon-home-2 white-nav-text">{{ texts.2268ff }}</div>
@@ -139,7 +142,7 @@
       <div class="button-wrapper">
         <a href="{{ links.5e5270da }}" class="subscribe-button w-button">{{ texts.-364d0a89 }}</a>
       </div>
-      <div data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29ef51" class="menu-button w-nav-button"><img src="{{ images.7a2568a3.url }}" loading="lazy" data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29ef52" data-sizes="[{&quot;max&quot;:24,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;24px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="{{ images.7a2568a3.alt | trim | escape }}" class="burger-menu-home-2">
+      <div data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29ef51" class="menu-button w-nav-button">{%- image images.7a2568a3.url, images.7a2568a3.alt, '[{"max":24,"size":"100vw"},{"max":767,"size":"24px"},{"max":10000,"size":"100vw"}]', 'loading="lazy" data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29ef52" class="burger-menu-home-2"' -%}
         <div class="icon-2 w-icon-nav-menu"></div>
       </div>
     </div>
@@ -204,7 +207,7 @@
       </div>
     </div>
   </div>
-  <div class="images-block"><img src="{{ images.-1b473663.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;25vw&quot;}]" alt="{{ images.-1b473663.alt | trim | escape }}" class="image-block"><img src="{{ images.-1b391ee2.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;119.80000305175781px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;25vw&quot;}]" alt="{{ images.-1b391ee2.alt | trim | escape }}" class="image-block"><img src="{{ images.-163da255.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;119.80000305175781px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;25vw&quot;}]" alt="{{ images.-163da255.alt | trim | escape }}" class="image-block"><img src="{{ images.-162f748c.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;119.80000305175781px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;25vw&quot;}]" alt="{{ images.-162f748c.alt | trim | escape }}" class="image-block"></div>
+  <div class="images-block">{%- image images.-1b473663.url, images.-1b473663.alt, '[{"max":767,"size":"100vw"},{"max":10000,"size":"25vw"}]', 'loading="lazy" class="image-block"' -%}{%- image images.-1b391ee2.url, images.-1b391ee2.alt, '[{"max":479,"size":"119.80000305175781px"},{"max":10000,"size":"25vw"}]', 'loading="lazy" class="image-block"' -%}{%- image images.-163da255.url, images.-163da255.alt, '[{"max":479,"size":"119.80000305175781px"},{"max":10000,"size":"25vw"}]', 'loading="lazy" class="image-block"' -%}{%- image images.-162f748c.url, images.-162f748c.alt, '[{"max":479,"size":"119.80000305175781px"},{"max":10000,"size":"25vw"}]', 'loading="lazy" class="image-block"' -%}</div>
   <footer class="footer wf-section">
     <div class="container w-container">
       <div class="footer-wrapper">
@@ -221,7 +224,7 @@
               <div>{{ texts.-7c112e99 }}</div>
             </div>
           </div>
-          <a href="{{ links.2f }}" class="brand-footer w-nav-brand"><img src="{{ images.94c93b4.url }}" loading="lazy" alt="{{ images.94c93b4.alt | trim | escape }}" class="image-footer"></a>
+          <a href="{{ links.2f }}" class="brand-footer w-nav-brand">{%- image images.94c93b4.url, images.94c93b4.alt, '[]', 'loading="lazy" class="image-footer"' -%}</a>
         </div>
         <div class="footer-links-wrapper">
           <h5 class="white-text">{{ texts.-7dbf273c }}</h5>
@@ -266,7 +269,7 @@
   })();
 </script>
   <noscript>
-    <p><img src="{{ images.62efaa2.url }}" style="border:0;" alt="{{ images.62efaa2.alt | trim | escape }}"></p>
+    <p>{%- image images.62efaa2.url, images.62efaa2.alt, '[]', 'style="border:0;"' -%}</p>
   </noscript>
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JZ76WZGNZH">
 </script>

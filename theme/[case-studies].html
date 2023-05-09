@@ -25,11 +25,14 @@
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-JZ76WZGNZH', {'anonymize_ip': false});</script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div data-animation="default" class="navbar-home-2 w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29eed7" role="banner" data-duration="400">
     <div class="navbar-container-home-2 w-container">
-      <a href="{{ links.2f }}" class="brand-home-2 w-nav-brand"><img src="{{ images.2001fdb4.url }}" loading="lazy" data-w-id="169dff34-9ac9-bcf7-5fc3-cf0c585a03d1" height="30" alt="{{ images.2001fdb4.alt | trim | escape }}" class="logo-image-home-2"></a>
+      <a href="{{ links.2f }}" class="brand-home-2 w-nav-brand">{%- image images.2001fdb4.url, images.2001fdb4.alt, '[]', 'loading="lazy" data-w-id="169dff34-9ac9-bcf7-5fc3-cf0c585a03d1" height="30" class="logo-image-home-2"' -%}</a>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <a href="{{ links.2f }}" class="nav-link-block w-inline-block">
           <div class="dropdown-icon-home-2 white-nav-text">{{ texts.2268ff }}</div>
@@ -139,7 +142,7 @@
       <div class="button-wrapper">
         <a href="{{ links.5e5270da }}" class="subscribe-button w-button">{{ texts.-364d0a89 }}</a>
       </div>
-      <div data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29ef51" class="menu-button w-nav-button"><img src="{{ images.7a2568a3.url }}" loading="lazy" data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29ef52" data-sizes="[{&quot;max&quot;:24,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;24px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="{{ images.7a2568a3.alt | trim | escape }}" class="burger-menu-home-2">
+      <div data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29ef51" class="menu-button w-nav-button">{%- image images.7a2568a3.url, images.7a2568a3.alt, '[{"max":24,"size":"100vw"},{"max":767,"size":"24px"},{"max":10000,"size":"100vw"}]', 'loading="lazy" data-w-id="4f0f12b2-7631-b7cd-de83-cdb33f29ef52" class="burger-menu-home-2"' -%}
         <div class="icon-2 w-icon-nav-menu"></div>
       </div>
     </div>
@@ -161,7 +164,7 @@
         <div id="w-node-c06007f5-55cc-2359-b485-c04ada790095-8c274cec" class="portfolio-info-wrapper">
           <p id="w-node-_043252e3-51e4-4af7-4d8e-cc5b51202e97-8c274cec" class="paragraph-7">{{ title }}</p>
           {%- assign case-studies-categoriesOfCase-studies = f_portfolio-category | resolveReference -%}<p id="w-node-_843640b5-24e3-10e3-4e98-5116e3c77fb6-8c274cec" class="paragraph-7">{{ case-studies-categoriesOfCase-studies.data.title }}</p>
-        </div><img loading="lazy" id="w-node-_74af7905-ff61-9b20-d4c3-d777fdb42a28-8c274cec" src="{{ f_overview-image.url }}" alt="{{ f_overview-image.alt }}" class="overview-image">
+        </div>{%- image f_overview-image.url, f_overview-image.alt, '[]', 'loading="lazy" id="w-node-_74af7905-ff61-9b20-d4c3-d777fdb42a28-8c274cec" class="overview-image"' -%}
         <div id="w-node-a523ea10-3e8d-5fb4-3258-35b91eaf81bc-8c274cec" class="section-name">
           <h4 class="portfolio-section-heading">{{ texts.-34f363bd }}<br></h4>
         </div>
@@ -170,14 +173,14 @@
         </div>
         {%- assign setItems = f_multi-image -%}<div id="w-node-_3dcf13ae-80ca-9d7c-3230-60750971e344-8c274cec" class="w-dyn-list">
           {%- unless setItems.length == 0 -%}<div role="list" class="image-grid w-dyn-items w-row">
-            {%- for setItem in setItems -%}<div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img src="{{ setItem.url }}" loading="lazy" alt="{{ setItem.alt }}"></div>{%- endfor -%}
+            {%- for setItem in setItems -%}<div role="listitem" class="challenge-images w-dyn-item w-col w-col-6">{%- image setItem.url, setItem.alt, '[]', 'loading="lazy"' -%}</div>{%- endfor -%}
           </div>{%- endunless -%}
           {%- if setItems.length == 0 -%}<div class="w-dyn-empty">
             <div>{{ texts.3d503d2b }}</div>
           </div>{%- endif -%}
         <template><div id="w-node-_3dcf13ae-80ca-9d7c-3230-60750971e344-8c274cec" class="w-dyn-list">
           <div role="list" class="image-grid w-dyn-items w-row">
-            <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img src="{# setItem.url #}" loading="lazy" alt="{# setItem.alt #}"></div>
+            <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"></div>
           </div>
           <div class="w-dyn-empty">
             <div>{# texts.3d503d2b #}</div>
@@ -188,17 +191,17 @@
         </div>
         <div id="w-node-_1527c376-7962-bcc1-32a0-a6939674102d-8c274cec" class="section-paragraph">
           <div class="rich-text-portfolio w-richtext">{{ f_results-2 | markdown }}</div>
-        </div><img loading="lazy" id="w-node-fade2950-e84b-200b-74fd-2bd888a85d4b-8c274cec" src="{{ f_results-image-main.url }}" alt="{{ f_results-image-main.alt }}" class="overview-image">
+        </div>{%- image f_results-image-main.url, f_results-image-main.alt, '[]', 'loading="lazy" id="w-node-fade2950-e84b-200b-74fd-2bd888a85d4b-8c274cec" class="overview-image"' -%}
         {%- assign setItems = f_solutions-images -%}<div id="w-node-_3561c4e2-8c7d-99d4-7e1f-b20b1fc1fff0-8c274cec" class="w-dyn-list">
           {%- unless setItems.length == 0 -%}<div role="list" class="image-grid w-dyn-items w-row">
-            {%- for setItem in setItems -%}<div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img src="{{ setItem.url }}" loading="lazy" alt="{{ setItem.alt }}" class="overview-image"></div>{%- endfor -%}
+            {%- for setItem in setItems -%}<div role="listitem" class="challenge-images w-dyn-item w-col w-col-6">{%- image setItem.url, setItem.alt, '[]', 'loading="lazy" class="overview-image"' -%}</div>{%- endfor -%}
           </div>{%- endunless -%}
           {%- if setItems.length == 0 -%}<div class="w-dyn-empty">
             <div>{{ texts.3d503d2b }}</div>
           </div>{%- endif -%}
         <template><div id="w-node-_3561c4e2-8c7d-99d4-7e1f-b20b1fc1fff0-8c274cec" class="w-dyn-list">
           <div role="list" class="image-grid w-dyn-items w-row">
-            <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img src="{# setItem.url #}" loading="lazy" alt="{# setItem.alt #}" class="overview-image"></div>
+            <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"></div>
           </div>
           <div class="w-dyn-empty">
             <div>{# texts.3d503d2b #}</div>
@@ -212,7 +215,7 @@
         </div>
       </div>
       <div class="arrows-wrap">
-        <a data-w-id="8034b99c-1239-60bd-d50d-5b511557ce6e" href="{{ f_prev-post-link }}" class="arrow-wrap w-inline-block"><img loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" src="{{ f_prev-post-image.url }}" alt="{{ f_prev-post-image.alt }}" class="image-12 left">
+        <a data-w-id="8034b99c-1239-60bd-d50d-5b511557ce6e" href="{{ f_prev-post-link }}" class="arrow-wrap w-inline-block">{%- image f_prev-post-image.url, f_prev-post-image.alt, '[]', 'loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="image-12 left"' -%}
           <div class="vertical">
             <h5 class="case-study-headings left">{{ f_prev-post-name }}</h5>
             <p class="post">{{ texts.-4811e0e9 }}</p>
@@ -222,7 +225,7 @@
           <div class="vertical right">
             <h5 class="case-study-headings right">{{ f_next-post-name }}</h5>
             <p class="post">{{ texts.47ae36d }}</p>
-          </div><img height="62" loading="lazy" width="62" src="{{ f_next-post-image.url }}" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="{{ f_next-post-image.alt }}" class="image-12 right">
+          </div>{%- image f_next-post-image.url, f_next-post-image.alt, '[]', 'height="62" loading="lazy" width="62" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="image-12 right"' -%}
         </a>
       </div>
     </div>
@@ -233,8 +236,8 @@
       <div class="w-layout-grid projects-grid we-worked-on-smaller-section">
         {%- assign collection = collections.case-studies | limit: 1 | sort: "-created-on" -%}<div id="w-node-_8f849483-8194-2e99-f313-953902bbc698-02bbc691" class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
+            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_background-image.url, item.data.f_background-image.alt, '[{"max":479,"size":"100vw"},{"max":767,"size":"46vw"},{"max":991,"size":"47vw"},{"max":1279,"size":"48vw"},{"max":10000,"size":"593px"}]', 'loading="lazy" class="bg-image"' -%}
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block">{%- image item.data.f_logo.url, item.data.f_logo.alt, '[{"max":239,"size":"38vw"},{"max":10000,"size":"91px"}]', 'loading="lazy" class="project-logo"' -%}
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -246,8 +249,8 @@
         </div>
         {%- assign collection = collections.case-studies | offset: 1 | limit: 1 | sort: "-created-on" -%}<div class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
+            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_background-image.url, item.data.f_background-image.alt, '[{"max":479,"size":"100vw"},{"max":767,"size":"46vw"},{"max":991,"size":"47vw"},{"max":1279,"size":"48vw"},{"max":10000,"size":"593px"}]', 'loading="lazy" class="bg-image"' -%}
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block">{%- image item.data.f_logo.url, item.data.f_logo.alt, '[{"max":239,"size":"38vw"},{"max":10000,"size":"91px"}]', 'loading="lazy" class="project-logo"' -%}
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -259,8 +262,8 @@
         </div>
         {%- assign collection = collections.case-studies | offset: 2 | limit: 1 | sort: "-created-on" -%}<div id="w-node-_8f849483-8194-2e99-f313-953902bbc6ae-02bbc691" class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 middle-one w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
+            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item">{%- image item.data.f_background-image.url, item.data.f_background-image.alt, '[{"max":479,"size":"100vw"},{"max":767,"size":"46vw"},{"max":991,"size":"47vw"},{"max":1279,"size":"48vw"},{"max":10000,"size":"593px"}]', 'loading="lazy" class="bg-image"' -%}
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block">{%- image item.data.f_logo.url, item.data.f_logo.alt, '[{"max":239,"size":"38vw"},{"max":10000,"size":"91px"}]', 'loading="lazy" class="project-logo"' -%}
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -282,7 +285,7 @@
       </div>
     </div>
   </div>
-  <div class="images-block"><img src="{{ images.-1b473663.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;25vw&quot;}]" alt="{{ images.-1b473663.alt | trim | escape }}" class="image-block"><img src="{{ images.-1b391ee2.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;119.80000305175781px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;25vw&quot;}]" alt="{{ images.-1b391ee2.alt | trim | escape }}" class="image-block"><img src="{{ images.-163da255.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;119.80000305175781px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;25vw&quot;}]" alt="{{ images.-163da255.alt | trim | escape }}" class="image-block"><img src="{{ images.-162f748c.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;119.80000305175781px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;25vw&quot;}]" alt="{{ images.-162f748c.alt | trim | escape }}" class="image-block"></div>
+  <div class="images-block">{%- image images.-1b473663.url, images.-1b473663.alt, '[{"max":767,"size":"100vw"},{"max":10000,"size":"25vw"}]', 'loading="lazy" class="image-block"' -%}{%- image images.-1b391ee2.url, images.-1b391ee2.alt, '[{"max":479,"size":"119.80000305175781px"},{"max":10000,"size":"25vw"}]', 'loading="lazy" class="image-block"' -%}{%- image images.-163da255.url, images.-163da255.alt, '[{"max":479,"size":"119.80000305175781px"},{"max":10000,"size":"25vw"}]', 'loading="lazy" class="image-block"' -%}{%- image images.-162f748c.url, images.-162f748c.alt, '[{"max":479,"size":"119.80000305175781px"},{"max":10000,"size":"25vw"}]', 'loading="lazy" class="image-block"' -%}</div>
   <footer class="footer wf-section">
     <div class="container w-container">
       <div class="footer-wrapper">
@@ -299,7 +302,7 @@
               <div>{{ texts.-7c112e99 }}</div>
             </div>
           </div>
-          <a href="{{ links.2f }}" class="brand-footer w-nav-brand"><img src="{{ images.94c93b4.url }}" loading="lazy" alt="{{ images.94c93b4.alt | trim | escape }}" class="image-footer"></a>
+          <a href="{{ links.2f }}" class="brand-footer w-nav-brand">{%- image images.94c93b4.url, images.94c93b4.alt, '[]', 'loading="lazy" class="image-footer"' -%}</a>
         </div>
         <div class="footer-links-wrapper">
           <h5 class="white-text">{{ texts.-7dbf273c }}</h5>
@@ -344,7 +347,7 @@
   })();
 </script>
   <noscript>
-    <p><img src="{{ images.62efaa2.url }}" style="border:0;" alt="{{ images.62efaa2.alt | trim | escape }}"></p>
+    <p>{%- image images.62efaa2.url, images.62efaa2.alt, '[]', 'style="border:0;"' -%}</p>
   </noscript>
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JZ76WZGNZH">
 </script>

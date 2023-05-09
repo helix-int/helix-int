@@ -20,11 +20,14 @@
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-JZ76WZGNZH', {'anonymize_ip': false});</script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body>
   <div class="utility-page-wrap">
     <div class="utility-page-content w-password-page w-form">
-      <form action="/.wf_auth" method="post" id="email-form" name="email-form" data-name="email" class="utility-page-form w-password-page" data-ajax="true"><img src="{{ images.-7a700be7.url }}" alt="{{ images.-7a700be7.alt | trim | escape }}">
+      <form action="/.wf_auth" method="post" id="email-form" name="email-form" data-name="email" class="utility-page-form w-password-page" data-ajax="true">{%- image images.-7a700be7.url, images.-7a700be7.alt, '[]', '' -%}
         <h2 class="password-heading">{{ texts.-11d4bbff }}</h2><label for="pass" class="password-heading w-password-page">{{ texts.4c641ebb }}</label><input type="password" class="contact-us-form-field marging w-password-page w-input" autofocus="true" maxlength="256" name="pass" data-name="field" placeholder="Enter your password" id="pass"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-message-gray w-password-page w-button">
         <div class="w-password-page w-form-fail">
           <div>{{ texts.-f5c4b5f }}</div>
@@ -59,7 +62,7 @@
   })();
 </script>
   <noscript>
-    <p><img src="{{ images.62efaa2.url }}" style="border:0;" alt="{{ images.62efaa2.alt | trim | escape }}"></p>
+    <p>{%- image images.62efaa2.url, images.62efaa2.alt, '[]', 'style="border:0;"' -%}</p>
   </noscript>
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JZ76WZGNZH">
 </script>

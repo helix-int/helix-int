@@ -1319,10 +1319,10 @@ collections:
             name: '-18444813'
             widget: string
           - hint: >-
-              Original text: Our list of services does not end here. We’ll adapt
-              to your particular needs., key: -b2e3053
+              Original text: Our list of services does not end here. We adapt to
+              your specific needs., key: 4b78c21b
             label: Text
-            name: '-b2e3053'
+            name: 4b78c21b
             widget: string
           - hint: 'Original text: Get a Free Quote , key: -319ec351'
             label: Text
