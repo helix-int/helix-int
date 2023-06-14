@@ -9,9 +9,9 @@ f_image:
     /assets/external/6489cba6bf23f3a14a4c691a_helix-ser-partnership-announcement.png
   alt: null
 f_ref: cms/blog-category/news.md
-updated-on: '2023-06-14T14:16:26.594Z'
+updated-on: '2023-06-14T15:59:14.585Z'
 created-on: '2023-06-14T13:54:19.872Z'
-published-on: '2023-06-14T14:16:26.594Z'
+published-on: '2023-06-14T15:59:14.585Z'
 layout: '[blog-posts].html'
 tags: blog-posts
 ---
@@ -32,41 +32,3 @@ Helix International has over 20 years of experience in retiring legacy licenses 
 [**See this press release on the SER Group website**](https://www.sergroup.com/en/about-us/news-press/ser-and-helix-international-announce-strategic-partnership-for-content-management-migrations.html)
 
 ‍**See this press release in the news:**
-
-[
-
-![](/assets/external/6489c537ed83013e3375c2b6_yahoo-320-120.png)
-
-](https://finance.yahoo.com/news/ser-helix-international-announce-strategic-140000872.html)
-
-[
-
-![](/assets/external/6489c5a244ac7b501ffc3a5e_bloomberg-320-60.png)
-
-](https://www.bloomberg.com/press-releases/2023-06-13/ser-and-helix-international-announce-strategic-partnership-for-content-management-migrations)
-
-[
-
-![](/assets/external/6489c5bf8fec7a3e71b9c739_marketwatch-320-46.png)
-
-](https://www.marketwatch.com/press-release/ser-and-helix-international-announce-strategic-partnership-for-content-management-migrations-2023-06-13)
-
-[
-
-![](/assets/external/6489c5f793b13cf855ce2aa5_insider-320-53.png)
-
-](https://markets.businessinsider.com/news/stocks/ser-and-helix-international-announce-strategic-partnership-for-content-management-migrations-1032386361)
-
-[
-
-![](/assets/external/6489c619db95378502ffd542_fox-320-139.png)
-
-](https://www.nbc12.com/prnewswire/2023/06/13/ser-helix-international-announce-strategic-partnership-content-management-migrations/)
-
-![](/assets/external/6489c63ccefb4f61c1f13183_nbc-320-42.png)
-
-[
-
-![](/assets/external/6489c65b8db2b801c9a29129_cbs-320-43.png)
-
-](https://www.cbs7.com/prnewswire/2023/06/13/ser-helix-international-announce-strategic-partnership-content-management-migrations/)
