@@ -164,7 +164,7 @@
             </div>
             <div class="sticky-element blog">
               <h5 class="categories-headings">{{ texts.2d2c9ce }}<br></h5>
-              {%- assign collection = collections.blog-posts | sort: "-created-on" -%}<div class="collection-list-wrapper-4 w-dyn-list">
+              {%- assign collection = collections.blog-posts | offset: 1 | limit: 5 | sort: "-created-on" -%}<div class="collection-list-wrapper-4 w-dyn-list">
                 {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
                   {%- for item in collection -%}<div role="listitem" class="resent-post w-dyn-item">
                     <a href="{{ item.url }}" class="blogs-posts-paragraph">{{ item.data.title }}</a>
