@@ -2600,6 +2600,196 @@ collections:
             label: Text
             name: 5ba45657
             widget: string
+          - hint: 'Original text: Log in, key: -7804285f'
+            label: Text
+            name: '-7804285f'
+            widget: string
+          - hint: 'Original text: Email, key: 3ff5b7c'
+            label: Text
+            name: 3ff5b7c
+            widget: string
+          - hint: 'Original text: Don''t have an account?, key: 7c95c01d'
+            label: Text
+            name: 7c95c01d
+            widget: string
+          - hint: 'Original text: Sign Up, key: -204ff822'
+            label: Text
+            name: '-204ff822'
+            widget: string
+          - hint: >-
+              Original text: We're having trouble logging you in. Please try
+              again, or contact us if you continue to have problems., key:
+              -4ccc12f5
+            label: Text
+            name: '-4ccc12f5'
+            widget: text
+          - hint: 'Original text: Account activated, key: -3d3c5c82'
+            label: Text
+            name: '-3d3c5c82'
+            widget: string
+          - hint: >-
+              Original text: Your account was created successfully. You will be
+              redirected shortly., key: -7498bb4e
+            label: Text
+            name: '-7498bb4e'
+            widget: string
+          - hint: 'Original text: If nothing happens, click here., key: -7bf1dbc9'
+            label: Text
+            name: '-7bf1dbc9'
+            widget: string
+          - hint: 'Original text: Sign up, key: -204ff442'
+            label: Text
+            name: '-204ff442'
+            widget: string
+          - hint: 'Original text: Name, key: 24eeab'
+            label: Text
+            name: 24eeab
+            widget: string
+          - hint: >-
+              Original text: By creating an account, I agree to this website's ,
+              key: 4867e34d
+            label: Text
+            name: 4867e34d
+            widget: string
+          - hint: 'Original text: privacy policy, key: 329660ca'
+            label: Text
+            name: 329660ca
+            widget: string
+          - hint: 'Original text:  and , key: 1f0b149'
+            label: Text
+            name: 1f0b149
+            widget: string
+          - hint: 'Original text: terms of service, key: 4f204da5'
+            label: Text
+            name: 4f204da5
+            widget: string
+          - hint: >-
+              Original text: I consent to receive marketing emails., key:
+              -3db302e8
+            label: Text
+            name: '-3db302e8'
+            widget: string
+          - hint: 'Original text: Already have an account?, key: -76cf8d8b'
+            label: Text
+            name: '-76cf8d8b'
+            widget: string
+          - hint: 'Original text: Log In, key: -78042c3f'
+            label: Text
+            name: '-78042c3f'
+            widget: string
+          - hint: >-
+              Original text: There was an error signing you up. Please try
+              again, or contact us if you continue to have problems., key:
+              -191558ad
+            label: Text
+            name: '-191558ad'
+            widget: text
+          - hint: 'Original text: Verification Required, key: 8449804'
+            label: Text
+            name: '8449804'
+            widget: string
+          - hint: >-
+              Original text: Account verification required. Please check your
+              email to find your unique verification link., key: 66134559
+            label: Text
+            name: '66134559'
+            widget: text
+          - hint: 'Original text: Password Reset Email Sent, key: 6bfe9c32'
+            label: Text
+            name: 6bfe9c32
+            widget: string
+          - hint: >-
+              Original text: If we found an account associated with that email
+              address, we've sent a link to reset your password., key: -13a89bf
+            label: Text
+            name: '-13a89bf'
+            widget: text
+          - hint: 'Original text: Reset Password, key: 2bfd368c'
+            label: Text
+            name: 2bfd368c
+            widget: string
+          - hint: >-
+              Original text: There was an error resetting your password. Please
+              try again, or contact us if you continue to have problems., key:
+              -7c28e64b
+            label: Text
+            name: '-7c28e64b'
+            widget: text
+          - hint: 'Original text: Password updated, key: -16704faa'
+            label: Text
+            name: '-16704faa'
+            widget: string
+          - hint: >-
+              Original text: Your password was updated successfully. You were
+              automatically logged in and can continue your session., key:
+              5284c470
+            label: Text
+            name: 5284c470
+            widget: text
+          - hint: 'Original text: Go to Homepage, key: -27857705'
+            label: Text
+            name: '-27857705'
+            widget: string
+          - hint: 'Original text: Update Password, key: 69ed5012'
+            label: Text
+            name: 69ed5012
+            widget: string
+          - hint: >-
+              Original text: Please enter your new password in the field below.
+              Make sure you are not using your current password., key: -2d35ed29
+            label: Text
+            name: '-2d35ed29'
+            widget: text
+          - hint: 'Original text: New Password, key: 79707d5b'
+            label: Text
+            name: 79707d5b
+            widget: string
+          - hint: >-
+              Original text: There was an error updating your password. Please
+              try again, or contact us if you continue to have problems., key:
+              -2da7dae4
+            label: Text
+            name: '-2da7dae4'
+            widget: text
+          - hint: 'Original text: Access Denied, key: -2624ce29'
+            label: Text
+            name: '-2624ce29'
+            widget: string
+          - hint: >-
+              Original text: A site membership is required to view this page.
+              Please , key: 4617a544
+            label: Text
+            name: 4617a544
+            widget: string
+          - hint: 'Original text:  or , key: 103a7d'
+            label: Text
+            name: 103a7d
+            widget: string
+          - hint: 'Original text: My Account, key: -585ec447'
+            label: Text
+            name: '-585ec447'
+            widget: string
+          - hint: 'Original text: Password settings, key: 4f13dfe8'
+            label: Text
+            name: 4f13dfe8
+            widget: string
+          - hint: 'Original text: Reset password, key: 2822d26c'
+            label: Text
+            name: 2822d26c
+            widget: string
+          - hint: >-
+              Original text: Your account was updated successfully., key:
+              6d17ba0b
+            label: Text
+            name: 6d17ba0b
+            widget: string
+          - hint: >-
+              Original text: There was an error updating your account. Please
+              try again, or contact us if you continue to have problems., key:
+              13527f80
+            label: Text
+            name: 13527f80
+            widget: text
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -2835,6 +3025,18 @@ collections:
               key: -3808760c
             label: Link
             name: '-3808760c'
+            widget: string
+          - hint: 'Original link: /sign-up, key: -71311e64'
+            label: Link
+            name: '-71311e64'
+            widget: string
+          - hint: 'Original link: /log-in, key: 74dbfd3d'
+            label: Link
+            name: 74dbfd3d
+            widget: string
+          - hint: 'Original link: /reset-password, key: 6a9e2b48'
+            label: Link
+            name: 6a9e2b48
             widget: string
       - label: Images
         name: images
@@ -4120,6 +4322,32 @@ collections:
                 required: false
           - label: Image
             name: 5582a35a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 629d0096
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 62d22f6c
             widget: object
             fields:
               - name: url

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html data-wf-page="62d6c2b3e387db2975274cd8" data-wf-site="62ac613b752b17ca45419b3d"><head>{%- seo seo -%}
+<html data-wf-page="6489b08ff1261056db65f04f" data-wf-site="62ac613b752b17ca45419b3d"><head>{%- seo seo -%}
   <meta charset="utf-8">
-  
-  
   
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
@@ -21,22 +19,19 @@
             aspect-ratio: 16 / 9;
         }</style></head>
 <body>
-  <div class="utility-page-wrap">
-    <div class="utility-page-content w-password-page w-form">
-      <form action="/.wf_auth" method="post" id="email-form" name="email-form" data-name="email" class="utility-page-form w-password-page" data-wf-page-id="62d6c2b3e387db2975274cd8" data-wf-element-id="62552255bd70e0b584ffe1d200000000000c" data-ajax="true"><img src="{{ images.-7a700be7.url }}" alt="{{ images.-7a700be7.alt | trim | escape }}">
-        <h2 class="password-heading">{{ texts.-11d4bbff }}</h2><label for="pass" class="password-heading w-password-page">{{ texts.4c641ebb }}</label><input type="password" class="contact-us-form-field marging w-password-page w-input" autofocus="true" maxlength="256" name="pass" data-name="field" placeholder="Enter your password" id="pass"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-message-gray w-password-page w-button">
-        <div class="w-password-page w-form-fail">
-          <div>{{ texts.-f5c4b5f }}</div>
-        </div>
-        <div style="display:none" class="w-password-page w-embed w-script"><input type="hidden" name="path" value="<%WF_FORM_VALUE_PATH%>"><input type="hidden" name="page" value="<%WF_FORM_VALUE_PAGE%>"></div>
-        <div style="display:none" class="w-password-page w-embed w-script">
-          <script type="application/javascript">(function _handlePasswordPageOnload() {
-	  if (/[?&]e=1(&|$)/.test(document.location.search)) {
-	    document.querySelector('.w-password-page.w-form-fail').style.display = 'block';
-	  }
-	})()</script>
+  <div class="w-users-userformpagewrap">
+    <div class="w-users-userloginformwrapper">
+      <form data-wf-user-form-type="login" data-wf-user-form-redirect="/" method="post">
+        <div class="w-users-userformheader">
+          <h2>{{ texts.-7804285f }}</h2>
+        </div><label for="Email">{{ texts.3ff5b7c }}</label><input type="email" maxlength="256" placeholder="" name="Email" id="wf-log-in-email" class="w-input" autocomplete="username" required="" data-wf-user-form-input-type="email"><label for="Password">{{ texts.4c641ebb }}</label><input type="password" maxlength="256" placeholder="" name="Password" id="wf-log-in-password" class="w-input" required="" data-wf-user-form-input-type="password"><input type="submit" value="Log In" data-wait="Please wait..." class="w-users-userformbutton w-button">
+        <div class="w-users-userformfooter"><span>{{ texts.7c95c01d }}</span>
+          <a href="{{ links.-71311e64 }}" class="w-inline-block">{{ texts.-204ff822 }}</a>
         </div>
       </form>
+      <div style="display:none" data-wf-user-form-error="true" class="w-users-userformerrorstate w-form-fail">
+        <div class="user-form-error-msg" wf-login-form-general-error-error="We're having trouble logging you in. Please try again, or contact us if you continue to have problems." wf-login-form-invalid-email_or_password-error="Invalid email or password. Please try again.">{{ texts.-4ccc12f5 }}</div>
+      </div>
     </div>
   </div>
   <script src="/assets/external/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" crossorigin="anonymous"></script>
