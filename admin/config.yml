@@ -3,6 +3,7 @@ backend:
   accept_roles:
     - admin
     - editor
+  branch: master
 media_folder: theme/assets/images
 public_folder: /assets/images
 collections:
@@ -1398,9 +1399,9 @@ collections:
             label: Text
             name: 48d869eb
             widget: string
-          - hint: 'Original text: Interesting Facts, key: -756b3661'
+          - hint: 'Original text: Key Metrics, key: -5356943e'
             label: Text
-            name: '-756b3661'
+            name: '-5356943e'
             widget: string
           - hint: 'Original text: 500+, key: 18d1d6'
             label: Text
@@ -1421,9 +1422,9 @@ collections:
             label: Text
             name: '-52bd880f'
             widget: string
-          - hint: 'Original text: 90+, key: dbf4'
+          - hint: 'Original text: 120+, key: 1707dc'
             label: Text
-            name: dbf4
+            name: 1707dc
             widget: string
           - hint: 'Original text: Experts Around the World, key: -6e0d799'
             label: Text
@@ -1502,17 +1503,13 @@ collections:
             label: Text
             name: 64e0dfb6
             widget: string
-          - hint: 'Original text: View More, key: 162663f0'
+          - hint: 'Original text: View Case Studies, key: 796f6cb2'
             label: Text
-            name: 162663f0
+            name: 796f6cb2
             widget: string
-          - hint: 'Original text: We Are Not Just a Team,, key: 339e0467'
+          - hint: 'Original text: Our Leadership, key: 7ce97c59'
             label: Text
-            name: '339e0467'
-            widget: string
-          - hint: 'Original text: We Are a Family, key: 18034081'
-            label: Text
-            name: '18034081'
+            name: 7ce97c59
             widget: string
           - hint: 'Original text: Steve Goss, key: 6f0659b5'
             label: Text
@@ -1596,12 +1593,12 @@ collections:
             widget: string
           - hint: >-
               Original text: Our success is built on the trust we earned from
-              Fortune500 clients over decades of work and refinement. We are
+              Fortune 500 clients over decades of work and refinement. We are
               continuing to expand and develop into the preeminent global data
               management software platform and solutions provider., key:
-              38900406
+              578e87ac
             label: Text
-            name: '38900406'
+            name: 578e87ac
             widget: text
           - hint: 'Original text: See Why We''re the Best, key: -68e3ec74'
             label: Text
