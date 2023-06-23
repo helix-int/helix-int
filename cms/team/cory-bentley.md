@@ -2,7 +2,7 @@
 f_email-address: cbentley@helix-int.com
 f_facebook: https://www.facebook.com/cory.bentley/
 f_twitter: https://twitter.com/CS_Bentley
-f_url-to-vcard-file: https://helix-int.com/team/cory-bentley/cory-bentley.vcf
+f_url-to-vcard-file: https://helix-int.com/assets/vcf/cory-bentley.vcf
 f_linkedin: https://www.linkedin.com/in/corybentley/
 f_phone-number: +84 76 901 9966
 title: Cory Bentley

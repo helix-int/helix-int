@@ -16,7 +16,7 @@ f_profile-photo:
 f_profile-photo-blurred:
   url: /assets/external/63904b385fb6d11e3358c59e_craig-lett-blurred.jpg
   alt: null
-f_url-to-vcard-file: https://helix-int.com/team/craig-lett/craig-lett.vcf
+f_url-to-vcard-file: https://helix-int.com/assets/vcf/craig-lett.vcf
 layout: '[team].html'
 tags: team
 ---
