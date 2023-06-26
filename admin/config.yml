@@ -1391,9 +1391,10 @@ collections:
           - hint: >-
               Original text: A global team of seasoned experts, 30 years of
               experience, and nearly an exabyte of content migrated makes Helix
-              the go-to solution., key: -38f62e06
+              the go-to solution for moving to a modern ECM stack., key:
+              2c5a8f83
             label: Text
-            name: '-38f62e06'
+            name: 2c5a8f83
             widget: text
           - hint: 'Original text: About Helix, key: 48d869eb'
             label: Text
