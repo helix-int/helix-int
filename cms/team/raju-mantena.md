@@ -2,7 +2,7 @@
 f_email-address: ramaraju@helix-int.com
 f_facebook: https://www.facebook.com/ramaraju.manthena.3
 f_twitter: https://twitter.com/RamarajuManten1
-f_url-to-vcard-file: https://helix-int.com/assets/vcf/ramaraju-mantena.vcf
+f_url-to-vcard-file: https://helix-int.com/assets/vcf/raju-mantena.vcf
 f_linkedin: https://www.linkedin.com/in/ramaraju-mantena-raju-b8b57a91/
 f_phone-number: +91 900 000 2742
 title: Raju Mantena
@@ -14,9 +14,9 @@ f_profile-photo-blurred:
 f_profile-photo:
   url: /assets/external/63baed92f110990b6a60d689_ramaraju-mantena.jpg
   alt: null
-updated-on: '2023-01-08T16:30:05.325Z'
+updated-on: '2023-01-08T16:49:44.201Z'
 created-on: '2023-01-08T16:30:00.006Z'
-published-on: '2023-01-08T16:30:14.038Z'
+published-on: '2023-01-10T12:41:59.127Z'
 layout: '[team].html'
 tags: team
 ---

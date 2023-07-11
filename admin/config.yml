@@ -1013,6 +1013,10 @@ collections:
             label: Text
             name: 24ef970c
             widget: string
+          - hint: "Original text: MARS\_+\_Doxis, key: 54983f97"
+            label: Text
+            name: 54983f97
+            widget: string
           - hint: 'Original text: Platform, key: 7397cc93'
             label: Text
             name: 7397cc93
@@ -1611,10 +1615,10 @@ collections:
             widget: string
           - hint: >-
               Original text: Discover data and solutions you never knew you had.
-              Talk to a Helix Data Expert today to see how we can save you time,
-              reduce your costs, and reclaim your human capital., key: -453bb421
+              Talk to a Data Expert today to see how we can save you time,
+              reduce your costs, and reclaim your human capital., key: 23177321
             label: Text
-            name: '-453bb421'
+            name: '23177321'
             widget: text
           - hint: 'Original text: Talk to Us, key: -7d8e6dd1'
             label: Text
@@ -2788,6 +2792,97 @@ collections:
             label: Text
             name: 13527f80
             widget: text
+          - hint: >-
+              Original text: Turn off your enterprise license today, keep access
+              to your data, and complete your migration in the background. Your
+              upfront savings offset the cost of migrating, and your end users
+              don't even notice the ongoing migration., key: 44f996c9
+            label: Text
+            name: 44f996c9
+            widget: text
+          - hint: 'Original text: Value Proposition, key: -756b2d99'
+            label: Text
+            name: '-756b2d99'
+            widget: string
+          - hint: 'Original text: Migration Process, key: 601417dd'
+            label: Text
+            name: 601417dd
+            widget: string
+          - hint: 'Original text: The Value Proposition, key: 7cf94c58'
+            label: Text
+            name: 7cf94c58
+            widget: string
+          - hint: "Original text: You're overdue for a content stack upgrade--your current vendor has disappeared on you, your current system can't accommodate sorely needed features, support has gone out the window, and/or costs are going through the roof. Whatever it be, Helix International and SER\_Group have teamed up to offer a solution to get you off your enterprise stack and onto a modern content management solution in a way that is fast, audit-proof, tried and tested, and creates zero interruptions to business as usual., key: 574f2d05"
+            label: Text
+            name: 574f2d05
+            widget: text
+          - hint: 'Original text: How?, key: 226a0f'
+            label: Text
+            name: 226a0f
+            widget: string
+          - hint: "Original text: 1) We use a Helix-proprietary native source extractor to pull the data in its native format directly from your source repository. This completely bypasses licensing and\_APIs, so we can do it even after your source repository licenses have been turned off. Have a looming licensing renewal?\_Now you don't need to pay it, and you won't interrupt access to your data by doing so., key: -f0ede85"
+            label: Text
+            name: '-f0ede85'
+            widget: text
+          - hint: >-
+              Original text: 2) We give you the option to migrate as much data
+              as you like. Most clients needs to frequently edit around 10% of
+              their data, and the other 90% is archived reports, invoices, etc.
+              which must be kept accessible for regulatory reasons, but is not
+              intended to be edited. We compress this archive storage, migrate
+              the live files, and federate access to both in the interface of
+              your Doxis content solution. Your end users start using your new
+              content stack today, and can't tell the difference between whether
+              they're access migrated or non-migrated files. This also allows us
+              to conduct the migration in the background while you access
+              everything in your new system, even though your old system has
+              already been retired., key: 38ab6ab8
+            label: Text
+            name: 38ab6ab8
+            widget: text
+          - hint: >-
+              Original text: 3) We wrap our APIs around your existing business
+              applications so that you don't need to rewrite them for the new
+              system., key: -5bcaed63
+            label: Text
+            name: '-5bcaed63'
+            widget: text
+          - hint: 'Original text: The Migration Process, key: 527891ce'
+            label: Text
+            name: 527891ce
+            widget: string
+          - hint: >-
+              Original text: Our migration server allows you to collate,
+              combine, convert, and compress data. Any format to any format,
+              including line and print stream data. Eliminate data silos by
+              combining documents, data, and reports into new documents and
+              reports by metadata. Before you had 12 reports in 12 locations,
+              now you have one report that is updated automatically and
+              delivered every morning., key: -1f1acb7a
+            label: Text
+            name: '-1f1acb7a'
+            widget: text
+          - hint: >-
+              Original text: All of this is done with end-to-end encryption for
+              data both in motion and at rest, fully audited with complete chain
+              of custody, ensuring that you are both audit-proof and
+              future-proof., key: ee84eee
+            label: Text
+            name: ee84eee
+            widget: text
+          - hint: >-
+              Original text: Get in touch below to receive a free brochure on
+              strategic migrations and get in touch with our Data Experts who
+              will provide you free consultation on getting the ball rolling
+              towards saving millions every year on your content management and
+              bringing better satisfaction to your customers:, key: -24a05524
+            label: Text
+            name: '-24a05524'
+            widget: text
+          - hint: "Original text: Why Helix +\_SER, key: 6c82af91"
+            label: Text
+            name: 6c82af91
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -2823,6 +2918,10 @@ collections:
           - hint: 'Original link: /solutions/development, key: -4b3b809'
             label: Link
             name: '-4b3b809'
+            widget: string
+          - hint: 'Original link: /helix-mars-to-ser-doxis, key: 6ec09e12'
+            label: Link
+            name: 6ec09e12
             widget: string
           - hint: 'Original link: /mars-pltform, key: 4f87973'
             label: Link
@@ -3799,7 +3898,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 62efaa2
+            name: '-1fd4d19a'
             widget: object
             fields:
               - name: url
@@ -3812,7 +3911,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-7a700be7'
+            name: 4abef31c
             widget: object
             fields:
               - name: url
@@ -3825,7 +3924,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-5a78c909'
+            name: '-383cb21b'
             widget: object
             fields:
               - name: url
@@ -3838,7 +3937,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 224687cd
+            name: 44829ebb
             widget: object
             fields:
               - name: url
@@ -3851,7 +3950,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-75af6662'
+            name: '-53734f74'
             widget: object
             fields:
               - name: url
@@ -4242,6 +4341,201 @@ collections:
                 required: false
           - label: Image
             name: '-17625535'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4782532f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7bfb0553'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5a7d912b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7bae6767
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5361e5a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1810ecd'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 24155fd4
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-20982256'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-47424518'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2afed335
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 62efaa2
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7a700be7'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5a78c909'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 224687cd
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-75af6662'
             widget: object
             fields:
               - name: url

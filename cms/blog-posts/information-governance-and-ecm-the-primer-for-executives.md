@@ -8,9 +8,9 @@ slug: information-governance-and-ecm-the-primer-for-executives
 f_image:
   url: /assets/external/6388bff1a3e39911a04c7509_header.jpg
   alt: null
-updated-on: '2022-12-01T14:55:58.655Z'
+updated-on: '2022-12-20T11:52:27.087Z'
 created-on: '2022-12-01T14:55:58.655Z'
-published-on: '2022-12-01T14:55:58.655Z'
+published-on: '2022-12-20T11:52:27.087Z'
 layout: '[blog-posts].html'
 tags: blog-posts
 ---

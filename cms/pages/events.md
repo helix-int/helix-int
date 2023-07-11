@@ -16,10 +16,10 @@ seo:
     attending, when they are, and where." property="og:description"><meta
     content="Learn about the upcoming events Helix International will be
     attending, when they are, and where." property="twitter:description"><meta
-    content="https://uploads-ssl.webflow.com/62ac613b752b17ca45419b3d/62b483cd1ef6205d18fd6507_meta-image.png"
+    content="https://uploads-ssl.webflow.com/62ac613b752b17ca45419b3d/64523c3c737acdc0f38d17ac_meta-image.png"
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-
-    https://uploads-ssl.webflow.com/62ac613b752b17ca45419b3d/62b483cd1ef6205d18fd6507_meta-image.png
+    https://uploads-ssl.webflow.com/62ac613b752b17ca45419b3d/64523c3c737acdc0f38d17ac_meta-image.png
   twitter:title: Events
 ---
 

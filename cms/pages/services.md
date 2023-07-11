@@ -20,10 +20,10 @@ seo:
     to custom development projects and ECM software licensing, Helix
     International has a done-for-you, done-with-you, or do-it-yourself solution
     for any data challenge." property="twitter:description"><meta
-    content="https://uploads-ssl.webflow.com/62ac613b752b17ca45419b3d/62b483cd1ef6205d18fd6507_meta-image.png"
+    content="https://uploads-ssl.webflow.com/62ac613b752b17ca45419b3d/64523c3c737acdc0f38d17ac_meta-image.png"
     property="twitter:image"><meta property="og:type" content="website">
   og:image: >-
-    https://uploads-ssl.webflow.com/62ac613b752b17ca45419b3d/62b483cd1ef6205d18fd6507_meta-image.png
+    https://uploads-ssl.webflow.com/62ac613b752b17ca45419b3d/64523c3c737acdc0f38d17ac_meta-image.png
   twitter:title: Helix International - Services
 ---
 

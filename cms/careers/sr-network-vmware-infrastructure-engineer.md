@@ -4,9 +4,9 @@ f_type: Full Time
 f_time: 9 am - 5 pm, may need to join occasional calls on international timezones.
 title: 'Sr. Network, VMWare, and Infrastructure Engineer '
 slug: sr-network-vmware-infrastructure-engineer
-updated-on: '2022-09-29T22:12:06.907Z'
+updated-on: '2022-12-13T16:02:10.195Z'
 created-on: '2022-09-29T21:25:57.716Z'
-published-on: '2022-09-29T22:19:38.320Z'
+published-on: '2022-12-13T16:02:42.605Z'
 layout: '[careers].html'
 tags: careers
 ---
@@ -73,4 +73,4 @@ Helix International is IBM’s Premium Partner of choice for ECM, ETL, and ESB w
 
 Please email CV and supporting materials to our HR Manager Ms. Huong at: [HNguyen@Helix-Int.com](mailto:HNguyen@Helix-Int.com)
 
-Or via the application button below:
+Or via the application form below:

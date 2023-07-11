@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html data-wf-page="62d6c2b3e387dbf93e274ce9" data-wf-site="62ac613b752b17ca45419b3d"><head>{%- seo seo -%}
+<html data-wf-page="64a6ccaef0eee83abf58e82b" data-wf-site="62ac613b752b17ca45419b3d"><head>{%- seo seo -%}
   <meta charset="utf-8">
+  
+  
   
   
   
@@ -72,7 +74,7 @@
             </div>
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
-              <a href="{{ links.6ec09e12 }}" class="dropdown-link w-dropdown-link">{{ texts.54983f97 }}</a>
+              <a href="{{ links.6ec09e12 }}" aria-current="page" class="dropdown-link w-dropdown-link w--current">{{ texts.54983f97 }}</a>
             </div>
           </nav>
         </div>
@@ -147,25 +149,142 @@
       </div>
     </div>
   </div>
-  <div class="careers-top-banner blog wf-section">
+  <div class="careers-top-banner join-us wf-section">
     <div class="container w-container">
-      <h1 class="category-pages-heading">{{ title }}</h1>
+      <h1 class="pages-heading">{{ texts.54983f97 }}<span class="dot">{{ texts.2e }}</span></h1>
+      <h5 class="top-banner-subheading-pages">{{ texts.44f996c9 }}</h5>
     </div>
   </div>
-  <div class="section wf-section">
-    <div class="container w-container">
-      {%- assign collection = collections.blog-posts | filter: "f_ref,eq,DYN_CONTEXT", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
-        {%- unless collection.length == 0 -%}<div role="list" class="grid-collection-list w-dyn-items">
-          {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" loading="lazy" src="{{ item.data.f_image.url }}" alt="{{ item.data.title }}" class="bg-image">
-            <a href="{{ item.url }}" class="post-link absolute w-inline-block">
-              <h5 class="portfolio-heading gray">{{ item.data.title }}</h5>
-            </a>
-          </div>{%- endfor -%}
-        </div>{%- endunless -%}
-        {%- if collection.length == 0 -%}<div class="w-dyn-empty">
-          <div>{{ texts.3d503d2b }}</div>
-        </div>{%- endif -%}
+  <div class="container-3 w-container">
+    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-2 w-nav">
+      <div class="container-2 w-container">
+        <nav role="navigation" class="nav-menu-2 w-nav-menu">
+          <a href="{{ links.1224da8e }}" class="nav-link w-nav-link">{{ texts.-756b2d99 }}</a>
+          <a href="{{ links.-2af24a87 }}" class="nav-link w-nav-link">{{ texts.601417dd }}</a>
+          <a href="{{ links.76e5fc39 }}" class="nav-link w-nav-link">{{ texts.-52bd880f }}</a>
+        </nav>
       </div>
+    </div>
+    <div id="div" class="div-block-26">
+      <section id="about-us" class="section-3 wf-section">
+        <div class="div-block-20">
+          <h5 class="pages-subheading">{{ texts.-4b0df202 }}</h5>
+        </div>
+      </section>
+      <section id="realtime" class="section-3 wf-section">
+        <div class="div-block-25">
+          <h2 class="centured-heading smaller">{{ texts.7cf94c58 }}<span class="dot">{{ texts.2e }}</span></h2><img src="{{ images.-47424518.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;85vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;81vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;798.9791870117188px&quot;}]" sizes="(max-width: 767px) 85vw, (max-width: 991px) 81vw, 798.9874877929688px" alt="{{ images.-47424518.alt | trim | escape }}">
+          <div class="div-block-24">
+            <p class="central">{{ texts.574f2d05 }}<br><br>{{ texts.226a0f }}<br><br>{{ texts.-f0ede85 }}<br><br>{{ texts.38ab6ab8 }}<br><br>{{ texts.-5bcaed63 }}</p>
+          </div>
+        </div>
+      </section>
+      <section id="conversion" class="section-3 wf-section">
+        <div class="div-block-25">
+          <h2 class="centured-heading smaller">{{ texts.527891ce }}<span class="dot">{{ texts.2e }}</span></h2><img src="{{ images.2afed335.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;85vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;81vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;798.9791870117188px&quot;}]" sizes="(max-width: 767px) 85vw, (max-width: 991px) 81vw, 798.9874877929688px" alt="{{ images.2afed335.alt | trim | escape }}">
+          <div class="div-block-24">
+            <p class="central"><br>{{ texts.-1f1acb7a }}<br><br>{{ texts.ee84eee }}</p>
+          </div>
+        </div>
+      </section>
+      <section id="watcher" class="section-3 wf-section">
+        <div class="div-block-25">
+          <h2 class="centured-heading smaller">{{ texts.-52bd880f }}<span class="dot">{{ texts.2e }}</span></h2>
+          <div class="div-block-24">
+            <p class="central">{{ texts.-24a05524 }}<br>{{ texts.200d }}</p>
+            <div class="form-wrapper w-form">
+              <form id="General-contact-form" name="wf-form-Contact-Form" data-name="contact" method="get" class="form-3" data-wf-page-id="64a6ccaef0eee83abf58e82b" data-wf-element-id="8171f55f-62ff-e590-30e7-3280519cff4f" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+                <div data-delay="4000" data-animation="cross" class="step-paginator w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="true" data-disable-swipe="true" data-autoplay-limit="0" data-nav-spacing="3" data-duration="200" data-infinite="false">
+                  <div class="mask-4 w-slider-mask">
+                    <div class="step w-slide">
+                      <div class="collaborate-form-step">
+                        <div id="Contact-Form" class="form-content">
+                          <h2 class="centured-heading smaller">{{ texts.-53f399f2 }}<span class="dot">{{ texts.21 }}</span></h2>
+                          <div data-ix="show-content-onslide" class="form-section-title">{{ texts.-62850d27 }}</div>
+                          <div data-ix="show-content-onslide" class="form-title-line"></div><input type="text" class="field-2 w-input" maxlength="256" name="Name" data-name="Name" data-ix="show-content-onslide" placeholder="Enter your name" id="Name" required="">
+                        </div>
+                        <div data-ix="show-content-onslide" class="step-counter">{{ texts.bdd5 }}</div>
+                      </div>
+                    </div>
+                    <div class="step w-slide">
+                      <div class="collaborate-form-step">
+                        <div class="form-content">
+                          <div data-ix="show-content-onslide" class="form-section-title">{{ texts.-2e199ebe }}</div>
+                          <div data-ix="show-content-onslide" class="form-title-line"></div><input type="email" class="field-2 w-input" maxlength="256" name="Email" data-name="Email" data-ix="show-content-onslide" placeholder="Enter your email" id="Email">
+                          <div class="text-block-3">{{ texts.-3c4317e3 }}</div><input type="tel" class="field-2 w-input" maxlength="256" name="Phone" data-name="Phone" data-ix="show-content-onslide" placeholder="Enter your phone number" id="Phone">
+                        </div>
+                        <div data-ix="show-content-onslide" class="step-counter">{{ texts.c196 }}</div>
+                      </div>
+                    </div>
+                    <div class="step w-slide">
+                      <div class="collaborate-form-step">
+                        <div class="form-content final">
+                          <div data-ix="show-content-onslide" class="form-section-title">{{ texts.-318e2c5a }}</div>
+                          <div data-ix="show-content-onslide" class="form-title-line"></div><textarea class="field-2 area w-input" maxlength="5000" name="Message" data-name="Message" data-ix="show-content-onslide" placeholder="Enter your message here and we'll forward it to the appropriate department to respond" id="Message" required=""></textarea><input type="submit" value="Submit" data-wait="Sending..." wait="Calculating Nash Equilibrium..." data-ix="show-content-onslide" class="submit-button w-button">
+                        </div>
+                        <div data-ix="show-content-onslide" class="step-counter">{{ texts.c557 }}</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="previous w-slider-arrow-left">
+                    <div class="previous-button">{{ texts.4788c197 }}</div>
+                  </div>
+                  <div class="next w-slider-arrow-right">
+                    <div class="next-button">{{ texts.24ff13 }}</div>
+                  </div>
+                </div>
+              </form>
+              <div class="success-message-3 w-form-done">
+                <div>{{ texts.-2258cd5b }}</div>
+              </div>
+              <div class="error-message-2 w-form-fail">
+                <div>{{ texts.6d8f3bf1 }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="why" class="section-3 wf-section">
+        <div class="div-block-25">
+          <h2 class="centured-heading smaller">{{ texts.6c82af91 }}<span class="dot">{{ texts.2e }}</span></h2>
+          <div class="dropdowns-wrapper">
+            <div class="dropdown-wrapper">
+              <div data-hover="false" data-delay="250" class="position-container w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <h5 class="position-name right">{{ texts.-3e2220a9 }}</h5>
+                  <div class="none w-icon-dropdown-toggle"></div>
+                  <div class="triangle">{{ texts.f0da }}</div>
+                </div>
+                <nav class="dropdown-list-2 w-dropdown-list">
+                  <p class="paragraph-6"><strong>{{ texts.-967f218 }}</strong>{{ texts.-334118bc }}</p>
+                </nav>
+              </div>
+            </div>
+            <div class="dropdown-wrapper">
+              <div data-hover="false" data-delay="400" class="position-container w-dropdown">
+                <div class="dropdown-toggle-2 w-dropdown-toggle">
+                  <h5 class="position-name right">{{ texts.6df45e1 }}</h5>
+                  <div class="none w-icon-dropdown-toggle"></div>
+                  <div class="triangle">{{ texts.f0da }}</div>
+                </div>
+                <nav class="dropdown-list-2 w-dropdown-list">
+                  <p class="paragraph-6"><strong>{{ texts.-61e830d1 }}</strong>{{ texts.-da1b47 }}</p>
+                </nav>
+              </div>
+            </div>
+            <div data-hover="false" data-delay="250" class="position-container w-dropdown">
+              <div class="dropdown-toggle-2 w-dropdown-toggle">
+                <h5 class="position-name right">{{ texts.77351a4e }}</h5>
+                <div class="none w-icon-dropdown-toggle"></div>
+                <div class="triangle">{{ texts.f0da }}</div>
+              </div>
+              <nav class="dropdown-list-2 w-dropdown-list">
+                <p class="paragraph-6"><strong>{{ texts.697d0286 }}</strong>{{ texts.-2de1de68 }}</p>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
   <div class="section red-dot wf-section">
@@ -184,7 +303,7 @@
         <div class="footer-brand-wrapper">
           <p class="footer-brand-description">{{ texts.-295e085a }}</p>
           <div class="form-block-3 w-form">
-            <form id="email-form-2" name="email-form-2" data-name="email_2" method="get" class="subscribe-form-flex" data-wf-page-id="62d6c2b3e387dbf93e274ce9" data-wf-element-id="9e9e97d8-995e-2fbf-f6cd-5844e76115da" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+            <form id="email-form-2" name="email-form-2" data-name="email_2" method="get" class="subscribe-form-flex" data-wf-page-id="64a6ccaef0eee83abf58e82b" data-wf-element-id="9e9e97d8-995e-2fbf-f6cd-5844e76115da" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
               <div class="subscribe-form-input-wrapper"><input type="email" class="subscribe-form-input w-input" maxlength="256" name="Subscriber-Email" data-name="Subscriber Email" placeholder="Subscribe to Our Newsletter" id="Subscriber-Email" required=""></div><input type="submit" value="" data-wait="Please wait..." class="fa-icon background w-button">
             </form>
             <div class="w-form-done">

@@ -14,9 +14,9 @@ f_profile-photo:
   url: /assets/external/639066235fb6d10ad25a47b8_cory.jpg
   alt: null
 slug: cory-bentley
-updated-on: '2022-12-07T10:09:15.908Z'
+updated-on: '2023-06-23T09:20:46.379Z'
 created-on: '2022-12-07T10:09:05.112Z'
-published-on: '2022-12-07T10:09:43.240Z'
+published-on: '2023-06-23T09:27:28.643Z'
 layout: '[team].html'
 tags: team
 ---

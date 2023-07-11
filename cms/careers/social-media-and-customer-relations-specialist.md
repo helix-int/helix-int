@@ -1,14 +1,14 @@
 ---
-f_location: US, UK, South America, Central America, Vietnam, India, or Eastern Europe
+f_location: South America, Central America, Vietnam, India
 f_type: Full Time
 f_time: >-
   40-50 hours per week, may need to join occasional calls on international time
   zones.
 title: Social Media and Customer Relations Specialist
 slug: social-media-and-customer-relations-specialist
-updated-on: '2022-12-20T17:14:13.262Z'
+updated-on: '2022-12-27T13:04:00.685Z'
 created-on: '2022-12-20T17:06:53.405Z'
-published-on: '2022-12-20T17:14:27.742Z'
+published-on: '2023-01-04T16:41:26.041Z'
 layout: '[careers].html'
 tags: careers
 ---
@@ -23,7 +23,7 @@ Helix International is the partner of choice of the biggest names in Big Tech fo
 
 ### **About the Position**
 
-We are seeking a Social Media & Customer Relations Specialist who will work closely with our Marketing, Sales, and Development teams, reporting to our Marketing Director. Although this is a remote position, preference is given to candidates eligible to apply for a US business visa if needed, as some team members may need to travel occasionally for in-person client meetings or team meetings. Additionally, applicants are required to currently reside or be willing to relocate to one of the regions where we have offices: US, UK, South America, Central America, Vietnam, India, or Eastern Europe.
+We are seeking a Social Media & Customer Relations Specialist who will work closely with our Marketing, Sales, and Development teams, reporting to our Marketing Director. Although this is a remote position, preference is given to candidates eligible to apply for a US business visa if needed, as some team members may need to travel occasionally for in-person client meetings or team meetings. Additionally, applicants are required to currently reside in or be willing to relocate to one of the following regions: UK, South America, Central America, Vietnam, or India.
 
 ### **Roles and Responsibilities**
 

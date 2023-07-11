@@ -6,9 +6,9 @@ f_time: >-
   zones.
 title: EMEA Sales Executive
 slug: emea-sales-executive
-updated-on: '2023-05-08T16:43:09.155Z'
+updated-on: '2023-05-09T09:33:06.956Z'
 created-on: '2023-05-08T16:17:48.669Z'
-published-on: '2023-05-08T16:46:12.880Z'
+published-on: '2023-05-09T09:34:47.889Z'
 layout: '[careers].html'
 tags: careers
 ---
@@ -67,7 +67,7 @@ The Sales Executive is expected to travel often, meet onsite and remotely with g
 
 #### Required Documents
 
-1.  CV / Resume
+1.  CV / resume
 2.  Personal bio (example: [https://tinyurl.com/y8t7el4k](https://tinyurl.com/y8t7el4k))
 3.  Professional photo (example: [https://tinyurl.com/y78j9s4s](https://tinyurl.com/y78j9s4s))
 
