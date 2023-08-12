@@ -3468,6 +3468,12 @@ collections:
             label: Text
             name: f3d1850
             widget: string
+          - hint: >-
+              Original text: Thanks! We got your submission, forwarding you to
+              the demo..., key: -31bdc5b4
+            label: Text
+            name: '-31bdc5b4'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
