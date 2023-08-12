@@ -6941,11 +6941,14 @@ img {
 }
 
 .rtvviewergrid {
-  margin: 100px 40px 60px;
+  margin: 100px 80px 60px;
 }
 
 .grid-10 {
   grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 .text-block-4, .text-block-5, .text-block-6 {
@@ -6961,7 +6964,7 @@ img {
 }
 
 .rtvviewertabs {
-  margin: 100px 10px;
+  margin: 100px 80px;
 }
 
 .text-block-7 {
@@ -7045,6 +7048,10 @@ img {
 
 .heading-409 {
   margin-bottom: 0;
+}
+
+.image-16 {
+  margin-right: 0;
 }
 
 @media screen and (min-width: 1280px) {

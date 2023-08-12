@@ -2923,10 +2923,16 @@ collections:
             label: Text
             name: '-e9311a'
             widget: string
-          - hint: "Original text: Use RTV\_Viewer as a standalone viewer with documents and reports opened from your device, or pair it with our API ecosystem to leverage federated search and viewing of both static (archive) and active documents and reports located across various repositories. , key: 34ef5ad5"
+          - hint: "Original text: Use RTV\_Viewer as a standalone viewer with documents and reports opened from your device, or pair it with our API ecosystem to leverage federated search and viewing of both static (archive) and active documents and reports located across various repositories., key: 6d0ffaab"
             label: Text
-            name: 34ef5ad5
+            name: 6d0ffaab
             widget: text
+          - hint: >-
+              Original text: Add Functions to Your Current Content Solution,
+              key: -1b69314d
+            label: Text
+            name: '-1b69314d'
+            widget: string
           - hint: "Original text: RTV\_Viewer can also be implemented within any existing ECM or content services UI, increasing the functionality of your preferred interface with no retraining needed. Considering changing you content stack to annotate print stream archive reports?\_Now you don't need to., key: 430c3267"
             label: Text
             name: 430c3267
