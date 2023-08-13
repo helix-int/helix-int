@@ -1069,11 +1069,9 @@ collections:
             label: Text
             name: '-364d0a89'
             widget: string
-          - hint: >-
-              Original text: The Global Leader in ECM, ETL, and ESB Solutions,
-              key: -51ab24db
+          - hint: "Original text: Leading Content Application Retirement, &\_Consolidation, key: 1ef26b34"
             label: Text
-            name: '-51ab24db'
+            name: 1ef26b34
             widget: string
           - hint: 'Original text: ., key: 2e'
             label: Text
@@ -2451,9 +2449,12 @@ collections:
               static repositories, and even during an ongoing migration—your end
               users won't be able to tell the difference. This also means you
               can add functionality to your existing application(s) without
-              needing to buy new software or retrain users., key: -215719c5
+              needing to buy a new content services solution or retrain users,
+              and retire redundant content services applications that you may be
+              maintaining, especially after a merger or divestiture., key:
+              -78874518
             label: Text
-            name: '-215719c5'
+            name: '-78874518'
             widget: text
           - hint: "Original text: Learn More and Try the RTV\_Viewer Demo , key: 51d1c307"
             label: Text
@@ -2927,17 +2928,17 @@ collections:
             label: Text
             name: '-1b69314d'
             widget: string
-          - hint: "Original text: RTV\_Viewer can also be implemented within any existing ECM or content services UI, increasing the functionality of your preferred interface with no retraining needed. Considering changing you content stack to annotate print stream archive reports?\_Now you don't need to., key: 430c3267"
+          - hint: "Original text: RTV\_Viewer can also be implemented within any existing ECM or content services UI, increasing the functionality of your preferred static and/or active interface with no retraining needed. Considering changing your content stack to annotate print stream archive reports?\_Now you don't need to, instead you can add more output management options, viewing capabilities, and the ability to store and retrieve from archive blobs with up to a 300:1 compression ratio., key: 9a99249"
             label: Text
-            name: 430c3267
+            name: 9a99249
             widget: text
           - hint: 'Original text: Uninterrupted Migrations, key: 7ac7791c'
             label: Text
             name: 7ac7791c
             widget: string
-          - hint: "Original text: RTV\_Viewer is a key component of our flexible and invisible application retirement process. Start using your new content stack today with access to migrated, unmigrated, and archive content in one place. Your end users can't tell that a migration is ongoing., key: 2c0e1a4d"
+          - hint: "Original text: RTV\_Viewer is a key component of our flexible and invisible application retirement process. Start using your new content stack today with access to migrated, unmigrated, and archive content all in one place. Your end users can't tell that a migration is ongoing., key: -7557ce94"
             label: Text
-            name: 2c0e1a4d
+            name: '-7557ce94'
             widget: text
           - hint: 'Original text: Supported Formats, key: 3202c1aa'
             label: Text
