@@ -291,7 +291,7 @@
         {%- assign collection = collections.case-studies | limit: 1 | sort: "-created-on" -%}<div id="w-node-_71dc9be7-8b7f-fd27-31d5-db8a6d3595a9-b2274cca" class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;98vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1210px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="{{ item.data.title }}" loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -304,7 +304,7 @@
         {%- assign collection = collections.case-studies | offset: 1 | limit: 1 | sort: "-created-on" -%}<div class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;98vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1210px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="{{ item.data.title }}" loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -317,7 +317,7 @@
         {%- assign collection = collections.case-studies | offset: 2 | limit: 1 | sort: "-created-on" -%}<div class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;98vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1210px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="{{ item.data.title }}" loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -338,7 +338,7 @@
   </div>
   <div class="link-section background">
     <div class="container animated w-container">
-      <div class="lightbox-wrapper"><img src="{{ images.-2768bbbd.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;996px&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 767px) 96vw, (max-width: 1279px) 97vw, 996px" alt="{{ images.-2768bbbd.alt | trim | escape }}" class="video-section-video">
+      <div class="lightbox-wrapper"><img class="video-section-video" src="{{ images.-2768bbbd.url }}" alt="{{ images.-2768bbbd.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;996px&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 767px) 96vw, (max-width: 1279px) 97vw, 996px" loading="lazy">
         <a href="{{ links.23 }}" class="lightbox-link-video w-inline-block w-lightbox"><img src="{{ images.50ce9229.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:193,&quot;size&quot;:&quot;81vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;157px&quot;}]" alt="{{ images.50ce9229.alt | trim | escape }}" class="image-2">
           <p class="play-button-text big">{{ texts.f42b }}</p>
           <script type="application/json" class="w-json">{"items":[{"url":"https://www.youtube.com/watch?v=CrQuhlqkTFA","originalUrl":"https://www.youtube.com/watch?v=CrQuhlqkTFA","width":940,"height":528,"thumbnailUrl":"https://i.ytimg.com/vi/CrQuhlqkTFA/hqdefault.jpg","html":"<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FCrQuhlqkTFA%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCrQuhlqkTFA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FCrQuhlqkTFA%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>","type":"video"}],"group":""}</script>
@@ -351,7 +351,7 @@
         <p id="w-node-_3d7832ad-7b95-ab9f-cdfb-1a09771ff3a5-b2274cca" class="right-alignment">{{ texts.-5eb0f4f2 }}</p>
       </div>
     </div>
-    <div class="container padding w-container"><img src="{{ images.195b98e6.url }}" loading="lazy" width="907" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;907px&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, 907px" alt="{{ images.195b98e6.alt | trim | escape }}"></div>
+    <div class="container padding w-container"><img src="{{ images.195b98e6.url }}" width="907" alt="{{ images.195b98e6.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;907px&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, 907px" loading="lazy"></div>
     <div class="container padding w-container">
       <div class="w-layout-grid projects-grid">
         <div id="w-node-b1a98e1c-9914-11f7-6925-971d1d8f679b-b2274cca" data-w-id="b1a98e1c-9914-11f7-6925-971d1d8f679b" style="background-color:rgba(0,0,0,0);-webkit-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="industries-block-wrapper">
@@ -519,7 +519,7 @@
     </div>
   </div>
   <div class="section background-image products-container">
-    <div class="container padding w-container"><img src="{{ images.-c341ce9.url }}" loading="lazy" width="907" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;907px&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, 907px" alt="{{ images.-c341ce9.alt | trim | escape }}"></div>
+    <div class="container padding w-container"><img src="{{ images.-c341ce9.url }}" width="907" alt="{{ images.-c341ce9.alt | trim | escape }}" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;907px&quot;}]" sizes="(max-width: 479px) 100vw, (max-width: 991px) 96vw, 907px" loading="lazy"></div>
     {%- assign collection = collections.solutions | offset: 1 | limit: 6 | sort: "-created-on" -%}<div class="collection-list-wrapper w-dyn-list">
       {%- unless collection.length == 0 -%}<div role="list" class="collection-list-4 w-dyn-items">
         {%- for item in collection -%}<div data-w-id="c3fdc77d-1df3-ad64-64f8-d50001898d16" role="listitem" class="collection-item-4 w-dyn-item">

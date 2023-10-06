@@ -1518,33 +1518,35 @@ collections:
             label: Text
             name: 6f0659b5
             widget: string
-          - hint: "Original text: CEO\_and Solutions Architect, key: 3352bdf3"
+          - hint: "Original text: CEO\_& Solutions Architect, key: -11b339fe"
             label: Text
-            name: 3352bdf3
+            name: '-11b339fe'
             widget: string
           - hint: 'Original text: Raju Mantena, key: 5c6e25d8'
             label: Text
             name: 5c6e25d8
             widget: string
-          - hint: 'Original text: CTO and Managing Director, India, key: beee4e4'
+          - hint: 'Original text: CTO & Managing Director, India, key: f0715f5'
             label: Text
-            name: beee4e4
+            name: f0715f5
             widget: string
           - hint: 'Original text: Will Montague, key: -70c35f54'
             label: Text
             name: '-70c35f54'
             widget: string
-          - hint: 'Original text: VP of Sales and Marketing, key: 255f1b26'
+          - hint: 'Original text: VP of Sales & Marketing, key: 1f4240f5'
             label: Text
-            name: 255f1b26
+            name: 1f4240f5
             widget: string
           - hint: 'Original text: Glenn Wilcox, key: -1ce5da0e'
             label: Text
             name: '-1ce5da0e'
             widget: string
-          - hint: "Original text: Chief Technical Document Artist &\_IT\_Lead, key: -7d68b77b"
+          - hint: >-
+              Original text: CISO / Chief Technical Documentation Artist & IT
+              Lead, key: 49edd0b1
             label: Text
-            name: '-7d68b77b'
+            name: 49edd0b1
             widget: string
           - hint: 'Original text: Nichole Johnson, key: -772840f1'
             label: Text
@@ -1566,13 +1568,13 @@ collections:
             label: Text
             name: 5041729a
             widget: string
-          - hint: 'Original text: Craig Lett, key: -49e37a57'
+          - hint: 'Original text: Pradeep Nagaraju, key: -2755cc44'
             label: Text
-            name: '-49e37a57'
+            name: '-2755cc44'
             widget: string
-          - hint: 'Original text: Director, Global Partners, key: f391668'
+          - hint: "Original text: Partnerships Manager &\_Sr Project Manager, key: -18bfa05d"
             label: Text
-            name: f391668
+            name: '-18bfa05d'
             widget: string
           - hint: 'Original text: Barry Beach, key: 76c7e31d'
             label: Text
@@ -1581,6 +1583,14 @@ collections:
           - hint: "Original text: VP\_of Product Management, key: 3e8b1bd7"
             label: Text
             name: 3e8b1bd7
+            widget: string
+          - hint: 'Original text: Jawadulla Mohammed, key: -6ca22ef5'
+            label: Text
+            name: '-6ca22ef5'
+            widget: string
+          - hint: "Original text: Lead Technical PM for SDLC &\_Product Development, key: -1781d55"
+            label: Text
+            name: '-1781d55'
             widget: string
           - hint: 'Original text: Our Mission, key: 3dba0078'
             label: Text
@@ -2092,6 +2102,26 @@ collections:
             label: Text
             name: '-63669a8'
             widget: text
+          - hint: 'Original text: Become a Helix Partner, key: 373d4d2e'
+            label: Text
+            name: 373d4d2e
+            widget: string
+          - hint: >-
+              Original text: Join the Helix Partnership Network for access to
+              resources, plays, deal recognition, and more!, key: 68e22dfd
+            label: Text
+            name: 68e22dfd
+            widget: text
+          - hint: 'Original text: Anything else we should know?, key: f3d1850'
+            label: Text
+            name: f3d1850
+            widget: string
+          - hint: >-
+              Original text: Thanks! We got your submission, and we'll be in
+              contact shortly!, key: -4978092b
+            label: Text
+            name: '-4978092b'
+            widget: string
           - hint: 'Original text: IBM, key: 11a54'
             label: Text
             name: 11a54
@@ -3459,10 +3489,6 @@ collections:
             label: Text
             name: 5001b4d7
             widget: string
-          - hint: 'Original text: Anything else we should know?, key: f3d1850'
-            label: Text
-            name: f3d1850
-            widget: string
           - hint: >-
               Original text: Thanks! We got your submission, forwarding you to
               the demo..., key: -31bdc5b4
@@ -4496,7 +4522,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 62efaa2
+            name: '-1fd4d19a'
             widget: object
             fields:
               - name: url
@@ -4509,7 +4535,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-7a700be7'
+            name: 4abef31c
             widget: object
             fields:
               - name: url
@@ -4522,7 +4548,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-5a78c909'
+            name: '-383cb21b'
             widget: object
             fields:
               - name: url
@@ -4535,7 +4561,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 224687cd
+            name: 44829ebb
             widget: object
             fields:
               - name: url
@@ -4548,7 +4574,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-75af6662'
+            name: '-53734f74'
             widget: object
             fields:
               - name: url
@@ -4951,6 +4977,227 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 4782532f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7bfb0553'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5a7d912b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7bae6767
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5361e5a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1810ecd'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 24155fd4
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-20982256'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-47424518'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2afed335
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-36fa62a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7a123e68
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 62efaa2
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7a700be7'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-5a78c909'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 224687cd
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-75af6662'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: 11152a68
             widget: object
             fields:
@@ -5043,58 +5290,6 @@ collections:
                 required: false
           - label: Image
             name: 62d22f6c
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-47424518'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 2afed335
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-36fa62a'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 7a123e68
             widget: object
             fields:
               - name: url
