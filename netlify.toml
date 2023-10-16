@@ -1,10 +1,3 @@
 [build]
-publish = "public"
-command = "CI= yarn build"
-functions = "functions"
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
-  force = true
+	publish = "_site"
+	command = "CI= npm run build"
