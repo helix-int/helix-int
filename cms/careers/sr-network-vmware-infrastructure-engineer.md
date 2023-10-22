@@ -6,7 +6,7 @@ title: 'Sr. Network, VMWare, and Infrastructure Engineer '
 slug: sr-network-vmware-infrastructure-engineer
 updated-on: '2022-12-13T16:02:10.195Z'
 created-on: '2022-09-29T21:25:57.716Z'
-published-on: '2022-12-13T16:02:42.605Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

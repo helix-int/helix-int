@@ -16,7 +16,7 @@ f_profile-photo:
 slug: cory-bentley
 updated-on: '2023-06-23T09:20:46.379Z'
 created-on: '2022-12-07T10:09:05.112Z'
-published-on: '2023-06-23T09:27:28.643Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[team].html'
 tags: team
 ---

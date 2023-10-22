@@ -7,7 +7,7 @@ slug: how-enterprise-content-management-can-protect-your-legal-compliance-with-g
 f_ref: cms/blog-category/ecm.md
 updated-on: '2022-10-27T14:58:48.702Z'
 created-on: '2022-10-27T06:30:25.383Z'
-published-on: '2022-10-28T10:33:34.101Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_prev-text: >-
   Enterprises are in a bind. They need to comply with the GDPR, but the actual
   processes involved are rather complex.

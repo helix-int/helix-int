@@ -8,7 +8,7 @@ slug: migration-gone-wrong-the-high-cost-of-poor-data-quality
 f_ref: cms/blog-category/ecm.md
 updated-on: '2023-01-15T12:16:47.368Z'
 created-on: '2022-12-20T12:56:05.438Z'
-published-on: '2023-01-15T12:16:47.368Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_image:
   url: /assets/external/63c3ee789bcbb41129836bb7_header.jpg
   alt: null

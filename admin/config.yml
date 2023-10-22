@@ -1021,6 +1021,34 @@ collections:
             label: Text
             name: 7397cc93
             widget: string
+          - hint: 'Original text: Archive Format, key: -59adc6ab'
+            label: Text
+            name: '-59adc6ab'
+            widget: string
+          - hint: 'Original text: Active Content, key: -2ac8b2a1'
+            label: Text
+            name: '-2ac8b2a1'
+            widget: string
+          - hint: "Original text: Real Time\_Viewer, key: -4e70081d"
+            label: Text
+            name: '-4e70081d'
+            widget: string
+          - hint: 'Original text: Conversion Platform, key: -770277c3'
+            label: Text
+            name: '-770277c3'
+            widget: string
+          - hint: 'Original text: Watcher, key: -59aa8e64'
+            label: Text
+            name: '-59aa8e64'
+            widget: string
+          - hint: 'Original text: Bill Presentment, key: -3e65e00'
+            label: Text
+            name: '-3e65e00'
+            widget: string
+          - hint: 'Original text: Scanning App, key: 6ee4fa32'
+            label: Text
+            name: 6ee4fa32
+            widget: string
           - hint: 'Original text: Resources, key: 13ede05'
             label: Text
             name: 13ede05
@@ -1635,1156 +1663,6 @@ collections:
             label: Text
             name: '-7d8e6dd1'
             widget: string
-          - hint: 'Original text: Blog Articles, key: -27677305'
-            label: Text
-            name: '-27677305'
-            widget: string
-          - hint: 'Original text: Read full post, key: -57de9259'
-            label: Text
-            name: '-57de9259'
-            widget: string
-          - hint: 'Original text: Join Us, key: df13554'
-            label: Text
-            name: df13554
-            widget: string
-          - hint: 'Original text: !, key: 21'
-            label: Text
-            name: '21'
-            widget: string
-          - hint: >-
-              Original text: We are on the look-out for dynamic individuals that
-              bring energy and passion to their work. Just like us., key:
-              -87fc264
-            label: Text
-            name: '-87fc264'
-            widget: text
-          - hint: 'Original text: Seeking Opportunities?, key: 14a9d064'
-            label: Text
-            name: 14a9d064
-            widget: string
-          - hint: 'Original text: Join Our Big Family, key: 5bab95ce'
-            label: Text
-            name: 5bab95ce
-            widget: string
-          - hint: >-
-              Original text: Helix International’s market leadership and
-              industry reputation for excellence has been built and sustained
-              over 30 years by a diverse team of exceptional individuals. We
-              hire experienced professionals who are smart, ambitious, and
-              passionate about their specialty., key: 1597a5d1
-            label: Text
-            name: 1597a5d1
-            widget: text
-          - hint: >-
-              Original text: Relocation assistance is provided for candidates
-              and their families who are not currently located in one of the
-              countries indicated in the position., key: 5c6b050f
-            label: Text
-            name: 5c6b050f
-            widget: text
-          - hint: 'Original text: Position, key: 306cfd49'
-            label: Text
-            name: 306cfd49
-            widget: string
-          - hint: 'Original text: Location, key: 752a03d5'
-            label: Text
-            name: 752a03d5
-            widget: string
-          - hint: 'Original text: Type, key: 28035a'
-            label: Text
-            name: 28035a
-            widget: string
-          - hint: 'Original text: Apply Now, key: -45e051c'
-            label: Text
-            name: '-45e051c'
-            widget: string
-          - hint: 'Original text: Want to Join Our Successful Team, key: -74000092'
-            label: Text
-            name: '-74000092'
-            widget: string
-          - hint: 'Original text: ?, key: 3f'
-            label: Text
-            name: 3f
-            widget: string
-          - hint: >-
-              Original text: We are always interested to meet potential team
-              members to join our fast-growing, dynamic team of professionals.,
-              key: -78470c70
-            label: Text
-            name: '-78470c70'
-            widget: text
-          - hint: 'Original text: Get in Touch Now!, key: 238f46fd'
-            label: Text
-            name: 238f46fd
-            widget: string
-          - hint: 'Original text: Our Latest Case Studies, key: 2616d41c'
-            label: Text
-            name: 2616d41c
-            widget: string
-          - hint: 'Original text: All, key: 10181'
-            label: Text
-            name: '10181'
-            widget: string
-          - hint: 'Original text: Insurance, key: 7bccc6ba'
-            label: Text
-            name: 7bccc6ba
-            widget: string
-          - hint: 'Original text: Head Office, key: 2c9310fc'
-            label: Text
-            name: 2c9310fc
-            widget: string
-          - hint: 'Original text: , key: f279'
-            label: Text
-            name: f279
-            widget: string
-          - hint: "Original text: 5175 Plainfield Ave.\_NE., key: -32e8a0e1"
-            label: Text
-            name: '-32e8a0e1'
-            widget: string
-          - hint: 'Original text: Grand Rapids, MI 49525 USA, key: 9cf23d1'
-            label: Text
-            name: 9cf23d1
-            widget: string
-          - hint: 'Original text: , key: f095'
-            label: Text
-            name: f095
-            widget: string
-          - hint: 'Original text: +1 (888) 400 2128, key: -51ee83ae'
-            label: Text
-            name: '-51ee83ae'
-            widget: string
-          - hint: 'Original text: , key: f0e0'
-            label: Text
-            name: f0e0
-            widget: string
-          - hint: 'Original text: sales@helix-int.com, key: -1dc50381'
-            label: Text
-            name: '-1dc50381'
-            widget: string
-          - hint: 'Original text: More locations, key: -3851e38d'
-            label: Text
-            name: '-3851e38d'
-            widget: string
-          - hint: 'Original text: Get in Touch, key: -53f399f2'
-            label: Text
-            name: '-53f399f2'
-            widget: string
-          - hint: >-
-              Original text: Drop us a line and we'll get right back to you,
-              key: -62850d27
-            label: Text
-            name: '-62850d27'
-            widget: string
-          - hint: 'Original text: 1/3, key: bdd5'
-            label: Text
-            name: bdd5
-            widget: string
-          - hint: 'Original text: Let us know how to contact you, key: -2e199ebe'
-            label: Text
-            name: '-2e199ebe'
-            widget: string
-          - hint: 'Original text: and / or, key: -3c4317e3'
-            label: Text
-            name: '-3c4317e3'
-            widget: string
-          - hint: 'Original text: 2/3, key: c196'
-            label: Text
-            name: c196
-            widget: string
-          - hint: 'Original text: What can we do for you?, key: -318e2c5a'
-            label: Text
-            name: '-318e2c5a'
-            widget: string
-          - hint: 'Original text: 3/3, key: c557'
-            label: Text
-            name: c557
-            widget: string
-          - hint: 'Original text: ← Back, key: 4788c197'
-            label: Text
-            name: 4788c197
-            widget: string
-          - hint: 'Original text: Next, key: 24ff13'
-            label: Text
-            name: 24ff13
-            widget: string
-          - hint: >-
-              Original text: Thanks! We got your submission, we'll get back to
-              you shortly!, key: -2258cd5b
-            label: Text
-            name: '-2258cd5b'
-            widget: string
-          - hint: >-
-              Original text: Oops! Something went wrong while submitting the
-              form. Please try again or email us., key: 6d8f3bf1
-            label: Text
-            name: 6d8f3bf1
-            widget: string
-          - hint: 'Original text: 7 Global Offices, key: 6ae23cc3'
-            label: Text
-            name: 6ae23cc3
-            widget: string
-          - hint: >-
-              Original text: Shake hands with Helix International team members
-              anywhere across the globe., key: 591b713e
-            label: Text
-            name: 591b713e
-            widget: string
-          - hint: 'Original text: United States, key: -7925c061'
-            label: Text
-            name: '-7925c061'
-            widget: string
-          - hint: 'Original text: ‍, key: 200d'
-            label: Text
-            name: 200d
-            widget: string
-          - hint: 'Original text: P.O. Box 202 , key: -2e4db11c'
-            label: Text
-            name: '-2e4db11c'
-            widget: string
-          - hint: 'Original text: Rockford, , key: -7a1eb4cc'
-            label: Text
-            name: '-7a1eb4cc'
-            widget: string
-          - hint: 'Original text: MI 49341, key: -720c1239'
-            label: Text
-            name: '-720c1239'
-            widget: string
-          - hint: 'Original text: 12149 Petersen Bluff Drive, key: -4c066a50'
-            label: Text
-            name: '-4c066a50'
-            widget: string
-          - hint: 'Original text: Riverton, UT 84065-4046, key: 3ffabd7e'
-            label: Text
-            name: 3ffabd7e
-            widget: string
-          - hint: 'Original text: 188 Old Mill Way SW, key: -13d91a0f'
-            label: Text
-            name: '-13d91a0f'
-            widget: string
-          - hint: 'Original text: Conyers, GA 30094, key: -51101d95'
-            label: Text
-            name: '-51101d95'
-            widget: string
-          - hint: 'Original text: Help Center, key: 558d7e14'
-            label: Text
-            name: 558d7e14
-            widget: string
-          - hint: 'Original text: United Kingdom, key: -64d82fb2'
-            label: Text
-            name: '-64d82fb2'
-            widget: string
-          - hint: 'Original text: 272 Turton Road , key: -2a43904b'
-            label: Text
-            name: '-2a43904b'
-            widget: string
-          - hint: 'Original text: Bolton, UK BL23EF, key: 701b1bee'
-            label: Text
-            name: 701b1bee
-            widget: string
-          - hint: 'Original text: Asia, key: 1f48ea'
-            label: Text
-            name: 1f48ea
-            widget: string
-          - hint: >-
-              Original text: 1018, F1 Pragathi Nagar Hyderabad, Telangana
-              500090, key: -430e10f
-            label: Text
-            name: '-430e10f'
-            widget: string
-          - hint: 'Original text: 138 Le Hong Phong, key: -2237e513'
-            label: Text
-            name: '-2237e513'
-            widget: string
-          - hint: 'Original text: Nha Trang, Vietnam 650000, key: 4775c89e'
-            label: Text
-            name: 4775c89e
-            widget: string
-          - hint: 'Original text: Romania, key: -4aa9544b'
-            label: Text
-            name: '-4aa9544b'
-            widget: string
-          - hint: 'Original text: 44 Dezrobirii Street Building , key: -71146606'
-            label: Text
-            name: '-71146606'
-            widget: string
-          - hint: 'Original text: 09 , key: bb37'
-            label: Text
-            name: bb37
-            widget: string
-          - hint: 'Original text: Bucharest Sector 6, key: 7532303f'
-            label: Text
-            name: 7532303f
-            widget: string
-          - hint: 'Original text: Romania 060989, key: -7528a765'
-            label: Text
-            name: '-7528a765'
-            widget: string
-          - hint: 'Original text: , key: f39e'
-            label: Text
-            name: f39e
-            widget: string
-          - hint: 'Original text: , key: f08c'
-            label: Text
-            name: f08c
-            widget: string
-          - hint: 'Original text: , key: f099'
-            label: Text
-            name: f099
-            widget: string
-          - hint: 'Original text: Recent Posts, key: 2d2c9ce'
-            label: Text
-            name: 2d2c9ce
-            widget: string
-          - hint: 'Original text: , key: f0b1'
-            label: Text
-            name: f0b1
-            widget: string
-          - hint: 'Original text: , key: f017'
-            label: Text
-            name: f017
-            widget: string
-          - hint: 'Original text: Email Job, key: -a431307'
-            label: Text
-            name: '-a431307'
-            widget: string
-          - hint: 'Original text: Please fill in your details, key: b76a829'
-            label: Text
-            name: b76a829
-            widget: string
-          - hint: 'Original text: 1/4, key: bdd6'
-            label: Text
-            name: bdd6
-            widget: string
-          - hint: 'Original text: Provide a professional bio, key: 3f16c16d'
-            label: Text
-            name: 3f16c16d
-            widget: string
-          - hint: 'Original text: 2/4, key: c197'
-            label: Text
-            name: c197
-            widget: string
-          - hint: 'Original text: Upload a professional photo, key: 7094edb7'
-            label: Text
-            name: 7094edb7
-            widget: string
-          - hint: 'Original text: or, key: de3'
-            label: Text
-            name: de3
-            widget: string
-          - hint: 'Original text: 3/4, key: c558'
-            label: Text
-            name: c558
-            widget: string
-          - hint: 'Original text: Upload your CV, key: 61a7e481'
-            label: Text
-            name: 61a7e481
-            widget: string
-          - hint: 'Original text: 4/4, key: c919'
-            label: Text
-            name: c919
-            widget: string
-          - hint: >-
-              Original text: Thanks! We've received your application and will be
-              in touch shortly!, key: -643b6ca2
-            label: Text
-            name: '-643b6ca2'
-            widget: string
-          - hint: >-
-              Original text: Oops! Something went wrong while submitting the
-              form. Please try again or email hr@helix-int.com, key: 4d9902fc
-            label: Text
-            name: 4d9902fc
-            widget: text
-          - hint: 'Original text: Overview, key: 23735199'
-            label: Text
-            name: '23735199'
-            widget: string
-          - hint: 'Original text: Challenge, key: -34f363bd'
-            label: Text
-            name: '-34f363bd'
-            widget: string
-          - hint: 'Original text: Results, key: -5b5c2c2a'
-            label: Text
-            name: '-5b5c2c2a'
-            widget: string
-          - hint: 'Original text: Solution, key: 5cc7b199'
-            label: Text
-            name: 5cc7b199
-            widget: string
-          - hint: 'Original text: Previous, key: -4811e0e9'
-            label: Text
-            name: '-4811e0e9'
-            widget: string
-          - hint: 'Original text: Next , key: 47ae36d'
-            label: Text
-            name: 47ae36d
-            widget: string
-          - hint: 'Original text: Projects We Worked On, key: 518853a3'
-            label: Text
-            name: 518853a3
-            widget: string
-          - hint: 'Original text: Why Helix?, key: 77970b19'
-            label: Text
-            name: 77970b19
-            widget: string
-          - hint: 'Original text: Flexible migration options, key: -3e2220a9'
-            label: Text
-            name: '-3e2220a9'
-            widget: string
-          - hint: >-
-              Original text: Migrate all, some, or none of your existing data,
-              key: -967f218
-            label: Text
-            name: '-967f218'
-            widget: string
-          - hint: >-
-              Original text: . Helix International provides the unique
-              capability of migrating dynamic content while leaving your static
-              content in the original repository and serving it up on demand
-              within your chosen ECM solution, circumventing legacy ECMs,
-              viewers, licenses, and APIs. , key: -334118bc
-            label: Text
-            name: '-334118bc'
-            widget: text
-          - hint: 'Original text: Unparalleled security, key: 6df45e1'
-            label: Text
-            name: 6df45e1
-            widget: string
-          - hint: >-
-              Original text: End-to-end encryption in motion and in rest., key:
-              -61e830d1
-            label: Text
-            name: '-61e830d1'
-            widget: string
-          - hint: "Original text:  The Helix International MARS\_Migration Platform includes built-in end-to-end encryption, a complete audit trail including full chain of custody, and the option of offline migration wherein we supply appliances and install on-prem before uploading directly from the hardware to our migration server., key: -da1b47"
-            label: Text
-            name: '-da1b47'
-            widget: text
-          - hint: 'Original text: Complete data control, key: 77351a4e'
-            label: Text
-            name: 77351a4e
-            widget: string
-          - hint: >-
-              Original text: Extract, Transform, and Load from any sources, to
-              any sources, in any formats., key: 697d0286
-            label: Text
-            name: 697d0286
-            widget: string
-          - hint: "Original text:  The Helix MARS\_platform includes 45 different source extractors for every enterprise ECM\_solution out there, as well as AI-enabled tools to structure any unstructured data, intelligently combine data from disparate sources into unified documents, and serve up new documents and reports in any formats., key: -2de1de68"
-            label: Text
-            name: '-2de1de68'
-            widget: text
-          - hint: 'Original text: Ready? Get started with Helix, key: -aac37cf'
-            label: Text
-            name: '-aac37cf'
-            widget: string
-          - hint: 'Original text: Phone:, key: -718ea354'
-            label: Text
-            name: '-718ea354'
-            widget: string
-          - hint: 'Original text:  +1 (888) 400 2128, key: 404dc032'
-            label: Text
-            name: 404dc032
-            widget: string
-          - hint: 'Original text: Email: , key: 19673a2'
-            label: Text
-            name: 19673a2
-            widget: string
-          - hint: 'Original text: Solutions Categories, key: 6391d822'
-            label: Text
-            name: 6391d822
-            widget: string
-          - hint: 'Original text: Our Partners, key: 8531b3f'
-            label: Text
-            name: 8531b3f
-            widget: string
-          - hint: >-
-              Original text: Learn more about the companies with whom we work
-              closely together to deliver you the best products and services.,
-              key: -63669a8
-            label: Text
-            name: '-63669a8'
-            widget: text
-          - hint: 'Original text: Become a Helix Partner, key: 373d4d2e'
-            label: Text
-            name: 373d4d2e
-            widget: string
-          - hint: >-
-              Original text: Join the Helix Partnership Network for access to
-              resources, plays, deal recognition, and more!, key: 68e22dfd
-            label: Text
-            name: 68e22dfd
-            widget: text
-          - hint: 'Original text: Anything else we should know?, key: f3d1850'
-            label: Text
-            name: f3d1850
-            widget: string
-          - hint: >-
-              Original text: Thanks! We got your submission, and we'll be in
-              contact shortly!, key: -4978092b
-            label: Text
-            name: '-4978092b'
-            widget: string
-          - hint: 'Original text: IBM, key: 11a54'
-            label: Text
-            name: 11a54
-            widget: string
-          - hint: 'Original text: Infosys, key: -28d274c1'
-            label: Text
-            name: '-28d274c1'
-            widget: string
-          - hint: 'Original text: Microsoft, key: 71d450ce'
-            label: Text
-            name: 71d450ce
-            widget: string
-          - hint: 'Original text: Open-E, key: -72d7525e'
-            label: Text
-            name: '-72d7525e'
-            widget: string
-          - hint: 'Original text: OpenText, key: -1a39f149'
-            label: Text
-            name: '-1a39f149'
-            widget: string
-          - hint: 'Original text: Quadient, key: -494f3237'
-            label: Text
-            name: '-494f3237'
-            widget: string
-          - hint: 'Original text: Redhat, key: -6e544f76'
-            label: Text
-            name: '-6e544f76'
-            widget: string
-          - hint: 'Original text: Ricoh, key: 4b4c3c5'
-            label: Text
-            name: 4b4c3c5
-            widget: string
-          - hint: "Original text: SER\_Group, key: 18c579ff"
-            label: Text
-            name: 18c579ff
-            widget: string
-          - hint: >-
-              Original text: Helix International is IBM's Premium Partner of
-              choice for enterprise content migrations., key: 2bdde833
-            label: Text
-            name: 2bdde833
-            widget: string
-          - hint: "Original text: When IBM brings the world's leading banks, insurance companies, healthcare companies, hospitals, and other enterprises with petabytes of sensitive data onto IBM's ECM solutions, they call Helix International to provide the ETL solutions and implementation. That includes holistic ETL software solutions, managed services, and modular API microservices to work around licenses and viewers, as well as extract and manipulate data from any combination of sources. That's why Helix International is the preferred Premium Partner of IBM for ECM, ESB, and\_ETL-related projects., key: 3357531"
-            label: Text
-            name: '3357531'
-            widget: text
-          - hint: 'Original text: See our partner listing on IBM , key: 153d9db8'
-            label: Text
-            name: 153d9db8
-            widget: string
-          - hint: >-
-              Original text: Helix International is an enterprise software
-              partner of Infosys., key: -4483892b
-            label: Text
-            name: '-4483892b'
-            widget: string
-          - hint: >-
-              Original text: Helix International is proud to be an enterprise
-              partner of Infosys, exchanging software, solutions, and expertise
-              for our clients. Our development team includes enterprise content
-              engineers who are trained on Infosys's offerings and vice-versa.
-              Helix International and Infosys frequently work together in
-              delivering enterprise content migrations., key: 78414852
-            label: Text
-            name: '78414852'
-            widget: text
-          - hint: >-
-              Original text: Helix International is a Gold Partner of
-              Microsoft., key: -77d5e5ae
-            label: Text
-            name: '-77d5e5ae'
-            widget: string
-          - hint: >-
-              Original text: Helix International is proud to be a Gold Partner
-              of Microsoft, exchanging software, solutions, and expertise for
-              our clients. Our development team includes enterprise content
-              engineers who are trained on the Microsoft Dynamics suite for
-              implementations, integrations, and advisory., key: -759d7485
-            label: Text
-            name: '-759d7485'
-            widget: text
-          - hint: >-
-              Original text: Helix International is a Gold Partner of Open-E.,
-              key: -439c6d26
-            label: Text
-            name: '-439c6d26'
-            widget: string
-          - hint: >-
-              Original text: Helix International is proud to be a Gold Partner
-              of Open-E, exchanging software, solutions, and expertise for our
-              clients. Our development team includes enterprise content
-              engineers who are Open-E Certified as well as certified on OECE
-              for Open-E JovianDSS. , key: -24f01f1e
-            label: Text
-            name: '-24f01f1e'
-            widget: text
-          - hint: 'Original text: See our partner listing on Open-E , key: 5aaf91d2'
-            label: Text
-            name: 5aaf91d2
-            widget: string
-          - hint: >-
-              Original text: Helix International is a Silver Partner of
-              OpenText., key: 2a063898
-            label: Text
-            name: 2a063898
-            widget: string
-          - hint: >-
-              Original text: Helix International is proud to be a Silver Partner
-              of OpenText, exchanging software, solutions, and expertise for our
-              clients. Our development team includes enterprise content
-              engineers who are certified on the OpenText enterprise content
-              management products, and Helix products are popularly used to
-              conduct migrations to OpenText products. Whether migrating from
-              old legacy ECM and reporting systems into OpenText Content Suite
-              or from an on-prem version of Content Suite to the OpenText Cloud,
-              the Helix MARS platform provides the ability to securely migrate
-              your content and data (256-bit AES encryption both at-rest and
-              in-motion) and every step of the process is audited for compliance
-              requirements., key: -12f10e7b
-            label: Text
-            name: '-12f10e7b'
-            widget: text
-          - hint: 'Original text: See our partner listing on OpenText , key: 6f47de5d'
-            label: Text
-            name: 6f47de5d
-            widget: string
-          - hint: >-
-              Original text: Helix International is an enterprise software
-              partner of Quadient., key: 1183923f
-            label: Text
-            name: 1183923f
-            widget: string
-          - hint: >-
-              Original text: Helix International is proud to be an enterprise
-              partner of Quadient, exchanging software, solutions, and expertise
-              for our clients. Our development team includes enterprise content
-              engineers who are trained on Quadient's offerings and vice-versa.,
-              key: 173d651
-            label: Text
-            name: 173d651
-            widget: text
-          - hint: >-
-              Original text: Helix International is an enterprise software
-              partner of Red Hat., key: 7e781d68
-            label: Text
-            name: 7e781d68
-            widget: string
-          - hint: "Original text: Helix International is proud to be an enterprise partner of Red Hat, exchanging software, solutions, and expertise for our clients. Our MARS\_data platform tools include Linux server versions which are deployable on Red Hat. Our development team includes enterprise content engineers who are trained on Red Hat's server, terminal, and automation offerings., key: 5dc897d6"
-            label: Text
-            name: 5dc897d6
-            widget: text
-          - hint: >-
-              Original text: Helix International is an enterprise software
-              partner of Ricoh., key: 4227188f
-            label: Text
-            name: 4227188f
-            widget: string
-          - hint: >-
-              Original text: Helix International is proud to be an enterprise
-              partner of Ricoh, exchanging software, solutions, and expertise
-              for our clients. Our development team includes enterprise content
-              engineers who are trained on the Ricoh suite for document scanning
-              and day forward migrations., key: 73ab6479
-            label: Text
-            name: 73ab6479
-            widget: text
-          - hint: "Original text: Helix International is an enterprise software partner of SER\_Group., key: 5123f695"
-            label: Text
-            name: 5123f695
-            widget: string
-          - hint: "Original text: Helix International is proud to be an enterprise partner of SER\_Group, exchanging software, solutions, and expertise for our clients. SER\_Group provides one of the leading ECM\_solutions according to Gartner and Forrester reports, while Helix International provides the leading ECM retirement and migration solutions. Together, Helix and SER\_provide one of the best comprehensive solutions for drastically consolidating, reducing costs, and increasing efficiency and functionality your enterprise content management., key: 6d8e2800"
-            label: Text
-            name: 6d8e2800
-            widget: text
-          - hint: 'Original text: Search results, key: 7e85e19e'
-            label: Text
-            name: 7e85e19e
-            widget: string
-          - hint: 'Original text: No matching results., key: -75764c4'
-            label: Text
-            name: '-75764c4'
-            widget: string
-          - hint: 'Original text: Helix Solutions, key: -46158f48'
-            label: Text
-            name: '-46158f48'
-            widget: string
-          - hint: >-
-              Original text: Solve compliance issues, save money, and reclaim
-              human capital with Helix International's modular data platform.,
-              key: -3a5ccc91
-            label: Text
-            name: '-3a5ccc91'
-            widget: text
-          - hint: 'Original text: Solutions for Key Use Cases, key: 14da62cc'
-            label: Text
-            name: 14da62cc
-            widget: string
-          - hint: 'Original text: Get It Now , key: -4aefc10b'
-            label: Text
-            name: '-4aefc10b'
-            widget: string
-          - hint: >-
-              Original text: We have the expertise to deliver your needs, no
-              matter how complex, key: -2e5b8580
-            label: Text
-            name: '-2e5b8580'
-            widget: string
-          - hint: 'Original text: Security, key: 3c6cdb60'
-            label: Text
-            name: 3c6cdb60
-            widget: string
-          - hint: 'Original text: 91%, key: dc0d'
-            label: Text
-            name: dc0d
-            widget: string
-          - hint: 'Original text: Speed, key: 4c61027'
-            label: Text
-            name: 4c61027
-            widget: string
-          - hint: 'Original text: 85%, key: d8c8'
-            label: Text
-            name: d8c8
-            widget: string
-          - hint: 'Original text: Flexibility, key: 55b4fcf9'
-            label: Text
-            name: 55b4fcf9
-            widget: string
-          - hint: 'Original text: 93%, key: dc4b'
-            label: Text
-            name: dc4b
-            widget: string
-          - hint: 'Original text: Design and Deployment, key: -af4e4b0'
-            label: Text
-            name: '-af4e4b0'
-            widget: string
-          - hint: >-
-              Original text: As a leading Outsourceo, we connect people with
-              technology that enhances growth, elevates..., key: 75f6694
-            label: Text
-            name: 75f6694
-            widget: text
-          - hint: 'Original text: View Case Study, key: -f06eec'
-            label: Text
-            name: '-f06eec'
-            widget: string
-          - hint: 'Original text: View All Case Study, key: 55f80793'
-            label: Text
-            name: 55f80793
-            widget: string
-          - hint: 'Original text: Rewamping in Healthcare, key: -27972d16'
-            label: Text
-            name: '-27972d16'
-            widget: string
-          - hint: >-
-              Original text: HHC, the largest municipal healthcare organization
-              in the country..., key: -797d0910
-            label: Text
-            name: '-797d0910'
-            widget: string
-          - hint: 'Original text: BlueCross BlueShield, key: -344e4703'
-            label: Text
-            name: '-344e4703'
-            widget: string
-          - hint: >-
-              Original text: Secure migration of patient and financial records
-              for BlueCross BlueShield organizations..., key: -2429556d
-            label: Text
-            name: '-2429556d'
-            widget: text
-          - hint: 'Original text: Upcoming Events, key: 6b492c9d'
-            label: Text
-            name: 6b492c9d
-            widget: string
-          - hint: >-
-              Original text: Learn about when and where to find Helix
-              International at upcoming events around the globe., key: 5c4ec7e2
-            label: Text
-            name: 5c4ec7e2
-            widget: text
-          - hint: 'Original text: OpenText World, key: -634ed737'
-            label: Text
-            name: '-634ed737'
-            widget: string
-          - hint: 'Original text: Events Map, key: -4d8ebe2b'
-            label: Text
-            name: '-4d8ebe2b'
-            widget: string
-          - hint: "Original text: OpenText\_World Event, key: 2968f3e3"
-            label: Text
-            name: 2968f3e3
-            widget: string
-          - hint: >-
-              Original text: 4-6 October 2022, Venetian Resort, Las Vegas, key:
-              10011940
-            label: Text
-            name: '10011940'
-            widget: string
-          - hint: >-
-              Original text: The Helix International team was present at the
-              2022 OpenText World event in Las Vegas, one of the largest and
-              leading information management conferences. The event supports
-              both in-person and virtual attendance., key: 386c9c3
-            label: Text
-            name: 386c9c3
-            widget: text
-          - hint: 'Original text: Registration (closed) , key: 67527924'
-            label: Text
-            name: '67527924'
-            widget: string
-          - hint: "Original text: MARS\_Platform, key: -4b0df202"
-            label: Text
-            name: '-4b0df202'
-            widget: string
-          - hint: "Original text: Our proprietary Helix MARS\_software platform features over 70 tools, components, and extractors to connect your documents and data., key: -38ba2b64"
-            label: Text
-            name: '-38ba2b64'
-            widget: text
-          - hint: "Original text: RealTime\_Viewer, key: 5620fac7"
-            label: Text
-            name: 5620fac7
-            widget: string
-          - hint: 'Original text: Conversion Platform, key: -770277c3'
-            label: Text
-            name: '-770277c3'
-            widget: string
-          - hint: 'Original text: Watcher, key: -59aa8e64'
-            label: Text
-            name: '-59aa8e64'
-            widget: string
-          - hint: 'Original text: Bill Presentment, key: -3e65e00'
-            label: Text
-            name: '-3e65e00'
-            widget: string
-          - hint: 'Original text: Scanning, key: -312dc32f'
-            label: Text
-            name: '-312dc32f'
-            widget: string
-          - hint: 'Original text: Why Helix, key: -2db0ce1a'
-            label: Text
-            name: '-2db0ce1a'
-            widget: string
-          - hint: 'Original text: Real Time Viewer, key: 3e725763'
-            label: Text
-            name: '3e725763'
-            widget: string
-          - hint: "Original text: RTV Viewer is the “flashlight” that allows federated search, retrieval, and display of files across multiple repositories. View any formats (print stream, line data, documents, reports, images, audio, video...) as a standalone application or embedded within any ECM\_/ content services solution. , key: -6ed2f0b8"
-            label: Text
-            name: '-6ed2f0b8'
-            widget: text
-          - hint: >-
-              Original text: RTV Viewer allows an end user to view an archive
-              version of a report without extracting or migrating it. Our
-              RESTful RTV APIs allow your end users to seamlessly access,
-              annotate, and redact documents and reports, even from compressed
-              static repositories, and even during an ongoing migration—your end
-              users won't be able to tell the difference. This also means you
-              can add functionality to your existing application(s) without
-              needing to buy a new content services solution or retrain users,
-              and retire redundant content services applications that you may be
-              maintaining, especially after a merger or divestiture., key:
-              -78874518
-            label: Text
-            name: '-78874518'
-            widget: text
-          - hint: "Original text: Learn More and Try the RTV\_Viewer Demo , key: 51d1c307"
-            label: Text
-            name: 51d1c307
-            widget: string
-          - hint: 'Original text: MARS Conversion Platform, key: 4cb59672'
-            label: Text
-            name: 4cb59672
-            widget: string
-          - hint: >-
-              Original text: Using our experience-based conversion methodology
-              and powerful MARS Conversion Platform technology, we enable
-              content migration from legacy systems into current ECM systems, or
-              from one heterogeneous system of record into another. Our ECM
-              solutions help clients improve information access while minimizing
-              support needs, reducing licensing costs and eliminating redundant
-              or obsolete technology., key: -2a346651
-            label: Text
-            name: '-2a346651'
-            widget: text
-          - hint: >-
-              Original text: Mars Conversion Platform is meant to manage the
-              audits track all migrations and prioritize and provide reporting
-              on end times, reconciliation, and scheduling tasks with priority
-              and number of threads to handle bottlenecks and be agile in a
-              production environment., key: 4644572
-            label: Text
-            name: '4644572'
-            widget: text
-          - hint: 'Original text: MARS Watcher, key: 12b16751'
-            label: Text
-            name: 12b16751
-            widget: string
-          - hint: >-
-              Original text: 1. The first step taken by the Helix International
-              MARS Watcher utility program is to watch all output data that it
-              is set to receive., key: -26b53894
-            label: Text
-            name: '-26b53894'
-            widget: text
-          - hint: >-
-              Original text: 2. The second step is the TEXT to XML process.,
-              key: -346c4d1c
-            label: Text
-            name: '-346c4d1c'
-            widget: string
-          - hint: >-
-              Original text: 3. The third and last step of the Watcher utility
-              is to present the converted data., key: -18bd82dd
-            label: Text
-            name: '-18bd82dd'
-            widget: string
-          - hint: >-
-              Original text: The data is presented based on your specifications
-              during setup. Customize your output templates with your logos,
-              fonts, page formats, calculations and more. There is no need to
-              hire a specialist to make future updates. Our intuitive Graphical
-              User Interface allows your system administrators to make
-              stress-free changes., key: -17bcbbeb
-            label: Text
-            name: '-17bcbbeb'
-            widget: text
-          - hint: >-
-              Original text: To summarize Helix MARS Watcher allows for the
-              processing of day forward reports and creating the data model to
-              gather data from within the report and or attributes without
-              having to recode. (it takes this from the legacy repository
-              creating new rules) It has many out of the box processors for
-              handling custom preprocessing from legacy systems minimizing the
-              amount of coding to be done. (examples are preprocessing for
-              international character sets, Extracting data from reports,
-              receiving files from disparate systems)., key: 119784ec
-            label: Text
-            name: 119784ec
-            widget: text
-          - hint: >-
-              Original text: Optimize your business efficiency by having MARS
-              Bill Presentment. Your ERM systems are guaranteed to be equipped
-              with an electronic bill presentment solution that retrieves,
-              displays, emails and reprints invoices, credit memos, bills and
-              statements, in addition to providing Internet self-services., key:
-              7fd1a133
-            label: Text
-            name: 7fd1a133
-            widget: text
-          - hint: >-
-              Original text: Receive and process reports, documents and scanned
-              images., key: -36a1a107
-            label: Text
-            name: '-36a1a107'
-            widget: string
-          - hint: >-
-              Original text: Documents are typically received by companies in
-              one of the following ways — via mail, in person delivery,
-              electronically (i.e., fax, e-mail), and in court. Scan Operators
-              are then made responsible for preparing a batch that is then
-              scanned and, if necessary, reviewed, validated and updated., key:
-              -2c861c23
-            label: Text
-            name: '-2c861c23'
-            widget: text
-          - hint: 'Original text: Download my vCard, key: -24379a56'
-            label: Text
-            name: '-24379a56'
-            widget: string
-          - hint: 'Original text: Employee Feedback, key: 106d2cb7'
-            label: Text
-            name: 106d2cb7
-            widget: string
-          - hint: 'Original text: Contact us directly, key: -42d9e1a8'
-            label: Text
-            name: '-42d9e1a8'
-            widget: string
-          - hint: 'Original text: hr@helix-int.com, key: 469aebfd'
-            label: Text
-            name: 469aebfd
-            widget: string
-          - hint: 'Original text: Help us improve, key: -54f1a1eb'
-            label: Text
-            name: '-54f1a1eb'
-            widget: string
-          - hint: >-
-              Original text: We're always listening to feedback from past and
-              current team members. Let us know if you want to hear back from
-              us, or skip the contact fields to leave an anonymous message.
-              Thank you!, key: 7c586c8d
-            label: Text
-            name: 7c586c8d
-            widget: text
-          - hint: 'Original text: Share your feedback here, key: 4797b87f'
-            label: Text
-            name: 4797b87f
-            widget: string
-          - hint: >-
-              Original text: Leave your contact info here if you'd like to hear
-              back from us, or leave these fields blank to send anonymously,
-              key: fd7cc37
-            label: Text
-            name: fd7cc37
-            widget: text
-          - hint: >-
-              Original text: We got your feedback, thanks for taking the time!,
-              key: 5ba45657
-            label: Text
-            name: 5ba45657
-            widget: string
-          - hint: 'Original text: Log in, key: -7804285f'
-            label: Text
-            name: '-7804285f'
-            widget: string
-          - hint: 'Original text: Email, key: 3ff5b7c'
-            label: Text
-            name: 3ff5b7c
-            widget: string
-          - hint: 'Original text: Don''t have an account?, key: 7c95c01d'
-            label: Text
-            name: 7c95c01d
-            widget: string
-          - hint: 'Original text: Sign Up, key: -204ff822'
-            label: Text
-            name: '-204ff822'
-            widget: string
-          - hint: >-
-              Original text: We're having trouble logging you in. Please try
-              again, or contact us if you continue to have problems., key:
-              -4ccc12f5
-            label: Text
-            name: '-4ccc12f5'
-            widget: text
-          - hint: 'Original text: Account activated, key: -3d3c5c82'
-            label: Text
-            name: '-3d3c5c82'
-            widget: string
-          - hint: >-
-              Original text: Your account was created successfully. You will be
-              redirected shortly., key: -7498bb4e
-            label: Text
-            name: '-7498bb4e'
-            widget: string
-          - hint: 'Original text: If nothing happens, click here., key: -7bf1dbc9'
-            label: Text
-            name: '-7bf1dbc9'
-            widget: string
-          - hint: 'Original text: Sign up, key: -204ff442'
-            label: Text
-            name: '-204ff442'
-            widget: string
-          - hint: 'Original text: Name, key: 24eeab'
-            label: Text
-            name: 24eeab
-            widget: string
-          - hint: >-
-              Original text: By creating an account, I agree to this website's ,
-              key: 4867e34d
-            label: Text
-            name: 4867e34d
-            widget: string
-          - hint: 'Original text: privacy policy, key: 329660ca'
-            label: Text
-            name: 329660ca
-            widget: string
-          - hint: 'Original text:  and , key: 1f0b149'
-            label: Text
-            name: 1f0b149
-            widget: string
-          - hint: 'Original text: terms of service, key: 4f204da5'
-            label: Text
-            name: 4f204da5
-            widget: string
-          - hint: >-
-              Original text: I consent to receive marketing emails., key:
-              -3db302e8
-            label: Text
-            name: '-3db302e8'
-            widget: string
-          - hint: 'Original text: Already have an account?, key: -76cf8d8b'
-            label: Text
-            name: '-76cf8d8b'
-            widget: string
-          - hint: 'Original text: Log In, key: -78042c3f'
-            label: Text
-            name: '-78042c3f'
-            widget: string
-          - hint: >-
-              Original text: There was an error signing you up. Please try
-              again, or contact us if you continue to have problems., key:
-              -191558ad
-            label: Text
-            name: '-191558ad'
-            widget: text
-          - hint: 'Original text: Verification Required, key: 8449804'
-            label: Text
-            name: '8449804'
-            widget: string
-          - hint: >-
-              Original text: Account verification required. Please check your
-              email to find your unique verification link., key: 66134559
-            label: Text
-            name: '66134559'
-            widget: text
-          - hint: 'Original text: Password Reset Email Sent, key: 6bfe9c32'
-            label: Text
-            name: 6bfe9c32
-            widget: string
-          - hint: >-
-              Original text: If we found an account associated with that email
-              address, we've sent a link to reset your password., key: -13a89bf
-            label: Text
-            name: '-13a89bf'
-            widget: text
-          - hint: 'Original text: Reset Password, key: 2bfd368c'
-            label: Text
-            name: 2bfd368c
-            widget: string
-          - hint: >-
-              Original text: There was an error resetting your password. Please
-              try again, or contact us if you continue to have problems., key:
-              -7c28e64b
-            label: Text
-            name: '-7c28e64b'
-            widget: text
-          - hint: 'Original text: Password updated, key: -16704faa'
-            label: Text
-            name: '-16704faa'
-            widget: string
-          - hint: >-
-              Original text: Your password was updated successfully. You were
-              automatically logged in and can continue your session., key:
-              5284c470
-            label: Text
-            name: 5284c470
-            widget: text
-          - hint: 'Original text: Go to Homepage, key: -27857705'
-            label: Text
-            name: '-27857705'
-            widget: string
-          - hint: 'Original text: Update Password, key: 69ed5012'
-            label: Text
-            name: 69ed5012
-            widget: string
-          - hint: >-
-              Original text: Please enter your new password in the field below.
-              Make sure you are not using your current password., key: -2d35ed29
-            label: Text
-            name: '-2d35ed29'
-            widget: text
-          - hint: 'Original text: New Password, key: 79707d5b'
-            label: Text
-            name: 79707d5b
-            widget: string
-          - hint: >-
-              Original text: There was an error updating your password. Please
-              try again, or contact us if you continue to have problems., key:
-              -2da7dae4
-            label: Text
-            name: '-2da7dae4'
-            widget: text
           - hint: 'Original text: Access Denied, key: -2624ce29'
             label: Text
             name: '-2624ce29'
@@ -2795,183 +1673,191 @@ collections:
             label: Text
             name: 4617a544
             widget: string
+          - hint: 'Original text: Sign up, key: -204ff442'
+            label: Text
+            name: '-204ff442'
+            widget: string
           - hint: 'Original text:  or , key: 103a7d'
             label: Text
             name: 103a7d
             widget: string
-          - hint: 'Original text: My Account, key: -585ec447'
+          - hint: 'Original text: Log in, key: -7804285f'
             label: Text
-            name: '-585ec447'
-            widget: string
-          - hint: 'Original text: Password settings, key: 4f13dfe8'
-            label: Text
-            name: 4f13dfe8
-            widget: string
-          - hint: 'Original text: Reset password, key: 2822d26c'
-            label: Text
-            name: 2822d26c
+            name: '-7804285f'
             widget: string
           - hint: >-
-              Original text: Your account was updated successfully., key:
-              6d17ba0b
+              Original text: Add Active Content Support to Your Current ECM,
+              key: 3f8746ad
             label: Text
-            name: 6d17ba0b
+            name: 3f8746ad
             widget: string
           - hint: >-
-              Original text: There was an error updating your account. Please
-              try again, or contact us if you continue to have problems., key:
-              13527f80
+              Original text: Elevate Your ECM with Active Content Support, key:
+              75753a10
             label: Text
-            name: 13527f80
-            widget: text
-          - hint: >-
-              Original text: Turn off your enterprise license today, keep access
-              to your data, and complete your migration in the background. Your
-              upfront savings offset the cost of migrating, and your end users
-              don't even notice the ongoing migration., key: 44f996c9
-            label: Text
-            name: 44f996c9
-            widget: text
-          - hint: 'Original text: Value Proposition, key: -756b2d99'
-            label: Text
-            name: '-756b2d99'
+            name: 75753a10
             widget: string
-          - hint: 'Original text: Migration Process, key: 601417dd'
+          - hint: 'Original text: ‍, key: 200d'
             label: Text
-            name: 601417dd
-            widget: string
-          - hint: 'Original text: The Value Proposition, key: 7cf94c58'
-            label: Text
-            name: 7cf94c58
-            widget: string
-          - hint: "Original text: You're overdue for a content stack upgrade--your current vendor has disappeared on you, your current system can't accommodate sorely needed features, support has gone out the window, and/or costs are going through the roof. Whatever it be, Helix International and SER\_Group have teamed up to offer a solution to get you off your enterprise stack and onto a modern content management solution in a way that is fast, audit-proof, tried and tested, and creates zero interruptions to business as usual., key: 574f2d05"
-            label: Text
-            name: 574f2d05
-            widget: text
-          - hint: 'Original text: How?, key: 226a0f'
-            label: Text
-            name: 226a0f
-            widget: string
-          - hint: "Original text: 1) We use a Helix-proprietary native source extractor to pull the data in its native format directly from your source repository. This completely bypasses licensing and\_APIs, so we can do it even after your source repository licenses have been turned off. Have a looming licensing renewal?\_Now you don't need to pay it, and you won't interrupt access to your data by doing so., key: -f0ede85"
-            label: Text
-            name: '-f0ede85'
-            widget: text
-          - hint: >-
-              Original text: 2) We give you the option to migrate as much data
-              as you like. Most clients needs to frequently edit around 10% of
-              their data, and the other 90% is archived reports, invoices, etc.
-              which must be kept accessible for regulatory reasons, but is not
-              intended to be edited. We compress this archive storage, migrate
-              the live files, and federate access to both in the interface of
-              your Doxis content solution. Your end users start using your new
-              content stack today, and can't tell the difference between whether
-              they're access migrated or non-migrated files. This also allows us
-              to conduct the migration in the background while you access
-              everything in your new system, even though your old system has
-              already been retired., key: 38ab6ab8
-            label: Text
-            name: 38ab6ab8
-            widget: text
-          - hint: >-
-              Original text: 3) We wrap our APIs around your existing business
-              applications so that you don't need to rewrite them for the new
-              system., key: -5bcaed63
-            label: Text
-            name: '-5bcaed63'
-            widget: text
-          - hint: 'Original text: The Migration Process, key: 527891ce'
-            label: Text
-            name: 527891ce
+            name: 200d
             widget: string
           - hint: >-
-              Original text: Our migration server allows you to collate,
-              combine, convert, and compress data. Any format to any format,
-              including line and print stream data. Eliminate data silos by
-              combining documents, data, and reports into new documents and
-              reports by metadata. Before you had 12 reports in 12 locations,
-              now you have one report that is updated automatically and
-              delivered every morning., key: -1f1acb7a
+              Original text: Unlock new levels of productivity in your archive
+              ECM, such as CMOD or Mobius, with MARS RTV APIs and Viewers. Say
+              goodbye to missed opportunities in document collaboration,
+              annotations, redactions, workflow automation, and more., key:
+              66d6d2e5
             label: Text
-            name: '-1f1acb7a'
+            name: 66d6d2e5
             widget: text
           - hint: >-
-              Original text: All of this is done with end-to-end encryption for
-              data both in motion and at rest, fully audited with complete chain
-              of custody, ensuring that you are both audit-proof and
-              future-proof., key: ee84eee
+              Original text: Integrating MARS RTV APIs and Viewers into your
+              existing ECM is a game-changer. Seamlessly search and view archive
+              formats (line, EBCDIC, AFP) and active formats (PNG, JPG, PDF,
+              MP3, MP4, WAV, Office files, and more) within a single viewer that
+              effortlessly blends with your current ECM interface. Your
+              workflows remain intact., key: -3538f4b2
             label: Text
-            name: ee84eee
+            name: '-3538f4b2'
             widget: text
           - hint: >-
-              Original text: Get in touch below to receive a free brochure on
-              strategic migrations and get in touch with our Data Experts who
-              will provide you free consultation on getting the ball rolling
-              towards saving millions every year on your content management and
-              bringing better satisfaction to your customers:, key: -24a05524
+              Original text: This integration enables live collaboration,
+              annotation and redaction management, access control, document
+              version comparison, and more—all through a consistent interface
+              with reliable governance. Elevate your ECM experience with MARS,
+              where productivity meets efficiency., key: 7fd0e15d
             label: Text
-            name: '-24a05524'
+            name: 7fd0e15d
             widget: text
-          - hint: "Original text: Why Helix +\_SER, key: 6c82af91"
+          - hint: 'Original text: Static Data / Content, key: 36a1fc64'
             label: Text
-            name: 6c82af91
+            name: 36a1fc64
             widget: string
-          - hint: "Original text: MARS\_RTV Viewer Demo, key: -64f04066"
+          - hint: 'Original text: (AKA archive data / content), key: 4b3add88'
             label: Text
-            name: '-64f04066'
-            widget: string
-          - hint: 'Original text: A Viewer with Beautiful Design, key: -c657868'
-            label: Text
-            name: '-c657868'
+            name: 4b3add88
             widget: string
           - hint: >-
-              Original text: RTV Viewer allows you to rapidly view and navigate
-              repository content in a wide range of formats. It uses Web 2.0
-              technology with beautiful, responsive layouts., key: 12b9546f
+              Original text: System examples: Mainframe systems, CMOD, CA View,
+              BMC Ctrl-D, ASG/Rocket Mobius…, key: 2d847107
             label: Text
-            name: 12b9546f
-            widget: text
-          - hint: 'Original text: Integrated with RTV API, key: -5031799f'
-            label: Text
-            name: '-5031799f'
+            name: 2d847107
             widget: string
           - hint: >-
-              Original text: RTV Viewer can open AFP, TIFF (multiple pages),
-              EBCDIC, ANSI, and Machine Text Files, PDF, word processing
-              documents, spreadsheets, and many other common file types in their
-              native view. It also can play audio and video file formats., key:
-              393cf40b
+              Original text: Content that is not meant to be changed, but rather
+              stored for reference and regulatory purposes, key: 2f49520e
             label: Text
-            name: 393cf40b
+            name: 2f49520e
+            widget: text
+          - hint: >-
+              Original text: Typically computer-generated rather than
+              user-generated, with potentially very large data streams (millions
+              of documents daily), key: 3a20d59d
+            label: Text
+            name: 3a20d59d
+            widget: text
+          - hint: >-
+              Original text: May feature annotations, kept on a separate layer
+              to preserve authenticity of documents, key: 7dbde974
+            label: Text
+            name: 7dbde974
+            widget: string
+          - hint: >-
+              Original text: Focus on lightweight long-term storage, often in a
+              code-based format in blobs containing many items which are
+              rendered to view on demand, key: 5157c9b3
+            label: Text
+            name: 5157c9b3
+            widget: text
+          - hint: >-
+              Original text: Content examples: invoices, statements, policies,
+              signed applications…, key: -2e44d7d5
+            label: Text
+            name: '-2e44d7d5'
+            widget: string
+          - hint: 'Original text: Non-Static Data / Content, key: 48d80d44'
+            label: Text
+            name: 48d80d44
+            widget: string
+          - hint: >-
+              Original text: (AKA active or dynamic data / content), key:
+              5b481262
+            label: Text
+            name: 5b481262
+            widget: string
+          - hint: >-
+              Original text: System examples: FileNet P8, SER Doxis, OpenText
+              Documentum, OpenText Content Server…, key: -4fa6092d
+            label: Text
+            name: '-4fa6092d'
+            widget: string
+          - hint: >-
+              Original text: Content that is meant to be edited regularly,
+              collaborated upon, used in workflow/process automation, and/or
+              includes versioning, key: 66cd4c35
+            label: Text
+            name: 66cd4c35
+            widget: text
+          - hint: >-
+              Original text: Typically user-generated rather than
+              computer-generated, key: 52c435bc
+            label: Text
+            name: 52c435bc
+            widget: string
+          - hint: >-
+              Original text: Focus on rapid retrieval and updates in the native
+              file format, key: -264c20c
+            label: Text
+            name: '-264c20c'
+            widget: string
+          - hint: >-
+              Original text: Less dense than static content, therefore
+              lightweight storage is not as important as rapidly managing
+              individual documents, key: -298466a4
+            label: Text
+            name: '-298466a4'
+            widget: text
+          - hint: >-
+              Original text: Content examples: Office documents, working
+              quotations and proposals, project status tracking, documentation…,
+              key: 27ff113e
+            label: Text
+            name: 27ff113e
             widget: text
           - hint: 'Original text: Try the Demo, key: 11337537'
             label: Text
             name: '11337537'
             widget: string
-          - hint: "Original text: Flexible Implementation with RTV\_APIs, key: -e9311a"
+          - hint: 'Original text: Heading, key: -6d5fea1e'
             label: Text
-            name: '-e9311a'
+            name: '-6d5fea1e'
             widget: string
-          - hint: "Original text: Use RTV\_Viewer as a standalone viewer with documents and reports opened from your device, or pair it with our API ecosystem to leverage federated search and viewing of both static (archive) and active documents and reports located across various repositories., key: 6d0ffaab"
+          - hint: >-
+              Original text: Automate retention management – e.g., if you are
+              legally obligated to retain certain data (insurance policies,
+              customer invoices…) for a certain period of time, you can set for
+              these files to be automatically deleted after that retention
+              period expires, key: -79263361
             label: Text
-            name: 6d0ffaab
+            name: '-79263361'
             widget: text
           - hint: >-
-              Original text: Add Functions to Your Current Content Solution,
-              key: -1b69314d
+              Original text: Flexible archive storage – our proprietary archive
+              storage framework retains the ability to easily delete specific
+              information within a storage object without affecting the rest of
+              the object. Other archive storage frameworks struggle with this.
+              This means that GDPR is no problem with MARS Archive Format – you
+              can have 400x compression and retention automation AND easily
+              comply with GDPR Right to Forget requests, key: -628dc90a
             label: Text
-            name: '-1b69314d'
-            widget: string
-          - hint: "Original text: RTV\_Viewer can also be implemented within any existing ECM or content services UI, increasing the functionality of your preferred static and/or active interface with no retraining needed. Considering changing your content stack to annotate print stream archive reports?\_Now you don't need to, instead you can add more output management options, viewing capabilities, and the ability to store and retrieve from archive blobs with up to a 300:1 compression ratio., key: 9a99249"
-            label: Text
-            name: 9a99249
+            name: '-628dc90a'
             widget: text
-          - hint: 'Original text: Uninterrupted Migrations, key: 7ac7791c'
+          - hint: >-
+              Original text: You can add MARS Archive Format to your existing
+              ECM – no need to change your content services stack or workflow,
+              your end users won’t notice any change, key: -237f6d74
             label: Text
-            name: 7ac7791c
-            widget: string
-          - hint: "Original text: RTV\_Viewer is a key component of our flexible and invisible application retirement process. Start using your new content stack today with access to migrated, unmigrated, and archive content all in one place. Your end users can't tell that a migration is ongoing., key: -7557ce94"
-            label: Text
-            name: '-7557ce94'
+            name: '-237f6d74'
             widget: text
           - hint: 'Original text: Supported Formats, key: 3202c1aa'
             label: Text
@@ -3486,17 +2372,110 @@ collections:
             label: Text
             name: '-61981b02'
             widget: string
+          - hint: 'Original text: !, key: 21'
+            label: Text
+            name: '21'
+            widget: string
           - hint: >-
               Original text: Let us know a little background on you to access
               our RTV Viewer demo, key: 5001b4d7
             label: Text
             name: 5001b4d7
             widget: string
+          - hint: 'Original text: 1/3, key: bdd5'
+            label: Text
+            name: bdd5
+            widget: string
+          - hint: 'Original text: Let us know how to contact you, key: -2e199ebe'
+            label: Text
+            name: '-2e199ebe'
+            widget: string
+          - hint: 'Original text: and / or, key: -3c4317e3'
+            label: Text
+            name: '-3c4317e3'
+            widget: string
+          - hint: 'Original text: 2/3, key: c196'
+            label: Text
+            name: c196
+            widget: string
+          - hint: 'Original text: Anything else we should know?, key: f3d1850'
+            label: Text
+            name: f3d1850
+            widget: string
+          - hint: 'Original text: 3/3, key: c557'
+            label: Text
+            name: c557
+            widget: string
+          - hint: 'Original text: ← Back, key: 4788c197'
+            label: Text
+            name: 4788c197
+            widget: string
+          - hint: 'Original text: Next, key: 24ff13'
+            label: Text
+            name: 24ff13
+            widget: string
           - hint: >-
               Original text: Thanks! We got your submission, forwarding you to
               the demo..., key: -31bdc5b4
             label: Text
             name: '-31bdc5b4'
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form. Please try again or email us., key: 6d8f3bf1
+            label: Text
+            name: 6d8f3bf1
+            widget: string
+          - hint: 'Original text: Any Content System , key: 4a761096'
+            label: Text
+            name: 4a761096
+            widget: string
+          - hint: 'Original text: or Repository, key: 5f9a85c7'
+            label: Text
+            name: 5f9a85c7
+            widget: string
+          - hint: 'Original text: MARS RTV APIs + Viewers, key: -5cb355a4'
+            label: Text
+            name: '-5cb355a4'
+            widget: string
+          - hint: 'Original text: Add graphical annotations, key: -1328aac8'
+            label: Text
+            name: '-1328aac8'
+            widget: string
+          - hint: >-
+              Original text: Add redactions, including True Redaction (flatten
+              annotation layer to document when taking out of content system),
+              key: -50322fa1
+            label: Text
+            name: '-50322fa1'
+            widget: text
+          - hint: 'Original text: Add collaboration features, key: -397951c9'
+            label: Text
+            name: '-397951c9'
+            widget: string
+          - hint: >-
+              Original text: Add extraction features (extract text from image,
+              text, and line data / print stream formats), key: -1fb86d39
+            label: Text
+            name: '-1fb86d39'
+            widget: text
+          - hint: >-
+              Original text: Extract by search, wild card, or RegEx patterns,
+              key: 5aa424a5
+            label: Text
+            name: 5aa424a5
+            widget: string
+          - hint: >-
+              Original text: Create new documents and reports by UI or API, key:
+              -7660a96a
+            label: Text
+            name: '-7660a96a'
+            widget: string
+          - hint: >-
+              Original text: Works at scale with 10GB+ / millions of pages
+              reports, key: -37b8ed02
+            label: Text
+            name: '-37b8ed02'
             widget: string
           - hint: >-
               Original text: Add Object Archives to Your Content Services, key:
@@ -3531,101 +2510,6 @@ collections:
             label: Text
             name: 7ff66d0d
             widget: string
-          - hint: 'Original text: Static Data / Content, key: 36a1fc64'
-            label: Text
-            name: 36a1fc64
-            widget: string
-          - hint: 'Original text: (AKA archive data / content), key: 4b3add88'
-            label: Text
-            name: 4b3add88
-            widget: string
-          - hint: >-
-              Original text: System examples: Mainframe systems, CMOD, CA View,
-              BMC Ctrl-D, ASG/Rocket Mobius…, key: 2d847107
-            label: Text
-            name: 2d847107
-            widget: string
-          - hint: >-
-              Original text: Content that is not meant to be changed, but rather
-              stored for reference and regulatory purposes, key: 2f49520e
-            label: Text
-            name: 2f49520e
-            widget: text
-          - hint: >-
-              Original text: Typically computer-generated rather than
-              user-generated, with potentially very large data streams (millions
-              of documents daily), key: 3a20d59d
-            label: Text
-            name: 3a20d59d
-            widget: text
-          - hint: >-
-              Original text: May feature annotations, kept on a separate layer
-              to preserve authenticity of documents, key: 7dbde974
-            label: Text
-            name: 7dbde974
-            widget: string
-          - hint: >-
-              Original text: Focus on lightweight long-term storage, often in a
-              code-based format in blobs containing many items which are
-              rendered to view on demand, key: 5157c9b3
-            label: Text
-            name: 5157c9b3
-            widget: text
-          - hint: >-
-              Original text: Content examples: invoices, statements, policies,
-              signed applications…, key: -2e44d7d5
-            label: Text
-            name: '-2e44d7d5'
-            widget: string
-          - hint: 'Original text: Non-Static Data / Content, key: 48d80d44'
-            label: Text
-            name: 48d80d44
-            widget: string
-          - hint: >-
-              Original text: (AKA active or dynamic data / content), key:
-              5b481262
-            label: Text
-            name: 5b481262
-            widget: string
-          - hint: >-
-              Original text: System examples: FileNet P8, SER Doxis, OpenText
-              Documentum, OpenText Content Server…, key: -4fa6092d
-            label: Text
-            name: '-4fa6092d'
-            widget: string
-          - hint: >-
-              Original text: Content that is meant to be edited regularly,
-              collaborated upon, used in workflow/process automation, and/or
-              includes versioning, key: 66cd4c35
-            label: Text
-            name: 66cd4c35
-            widget: text
-          - hint: >-
-              Original text: Typically user-generated rather than
-              computer-generated, key: 52c435bc
-            label: Text
-            name: 52c435bc
-            widget: string
-          - hint: >-
-              Original text: Focus on rapid retrieval and updates in the native
-              file format, key: -264c20c
-            label: Text
-            name: '-264c20c'
-            widget: string
-          - hint: >-
-              Original text: Less dense than static content, therefore
-              lightweight storage is not as important as rapidly managing
-              individual documents, key: -298466a4
-            label: Text
-            name: '-298466a4'
-            widget: text
-          - hint: >-
-              Original text: Content examples: Office documents, working
-              quotations and proposals, project status tracking, documentation…,
-              key: 27ff113e
-            label: Text
-            name: 27ff113e
-            widget: text
           - hint: >-
               Original text: Streamline Retention Management with Automation,
               key: afad682
@@ -3722,10 +2606,6 @@ collections:
             label: Text
             name: '-79436886'
             widget: string
-          - hint: 'Original text: MARS RTV APIs + Viewers, key: -5cb355a4'
-            label: Text
-            name: '-5cb355a4'
-            widget: string
           - hint: >-
               Original text: Functions can be implemented to work within the
               existing interface, including seamless search, viewing,
@@ -3758,124 +2638,1320 @@ collections:
             label: Text
             name: 569c9e64
             widget: string
-          - hint: >-
-              Original text: Add Active Content Support to Your Current ECM,
-              key: 3f8746ad
+          - hint: 'Original text: Blog Articles, key: -27677305'
             label: Text
-            name: 3f8746ad
+            name: '-27677305'
+            widget: string
+          - hint: 'Original text: Read full post, key: -57de9259'
+            label: Text
+            name: '-57de9259'
+            widget: string
+          - hint: 'Original text: Join Us, key: df13554'
+            label: Text
+            name: df13554
             widget: string
           - hint: >-
-              Original text: Elevate Your ECM with Active Content Support, key:
-              75753a10
+              Original text: We are on the look-out for dynamic individuals that
+              bring energy and passion to their work. Just like us., key:
+              -87fc264
             label: Text
-            name: 75753a10
+            name: '-87fc264'
+            widget: text
+          - hint: 'Original text: Seeking Opportunities?, key: 14a9d064'
+            label: Text
+            name: 14a9d064
+            widget: string
+          - hint: 'Original text: Join Our Big Family, key: 5bab95ce'
+            label: Text
+            name: 5bab95ce
             widget: string
           - hint: >-
-              Original text: Unlock new levels of productivity in your archive
-              ECM, such as CMOD or Mobius, with MARS RTV APIs and Viewers. Say
-              goodbye to missed opportunities in document collaboration,
-              annotations, redactions, workflow automation, and more., key:
-              66d6d2e5
+              Original text: Helix International’s market leadership and
+              industry reputation for excellence has been built and sustained
+              over 30 years by a diverse team of exceptional individuals. We
+              hire experienced professionals who are smart, ambitious, and
+              passionate about their specialty., key: 1597a5d1
             label: Text
-            name: 66d6d2e5
+            name: 1597a5d1
             widget: text
           - hint: >-
-              Original text: Integrating MARS RTV APIs and Viewers into your
-              existing ECM is a game-changer. Seamlessly search and view archive
+              Original text: Relocation assistance is provided for candidates
+              and their families who are not currently located in one of the
+              countries indicated in the position., key: 5c6b050f
+            label: Text
+            name: 5c6b050f
+            widget: text
+          - hint: 'Original text: Position, key: 306cfd49'
+            label: Text
+            name: 306cfd49
+            widget: string
+          - hint: 'Original text: Location, key: 752a03d5'
+            label: Text
+            name: 752a03d5
+            widget: string
+          - hint: 'Original text: Type, key: 28035a'
+            label: Text
+            name: 28035a
+            widget: string
+          - hint: 'Original text: Apply Now, key: -45e051c'
+            label: Text
+            name: '-45e051c'
+            widget: string
+          - hint: 'Original text: Want to Join Our Successful Team, key: -74000092'
+            label: Text
+            name: '-74000092'
+            widget: string
+          - hint: 'Original text: ?, key: 3f'
+            label: Text
+            name: 3f
+            widget: string
+          - hint: >-
+              Original text: We are always interested to meet potential team
+              members to join our fast-growing, dynamic team of professionals.,
+              key: -78470c70
+            label: Text
+            name: '-78470c70'
+            widget: text
+          - hint: 'Original text: Get in Touch Now!, key: 238f46fd'
+            label: Text
+            name: 238f46fd
+            widget: string
+          - hint: 'Original text: Our Latest Case Studies, key: 2616d41c'
+            label: Text
+            name: 2616d41c
+            widget: string
+          - hint: 'Original text: All, key: 10181'
+            label: Text
+            name: '10181'
+            widget: string
+          - hint: 'Original text: Insurance, key: 7bccc6ba'
+            label: Text
+            name: 7bccc6ba
+            widget: string
+          - hint: 'Original text: Head Office, key: 2c9310fc'
+            label: Text
+            name: 2c9310fc
+            widget: string
+          - hint: 'Original text: , key: f279'
+            label: Text
+            name: f279
+            widget: string
+          - hint: "Original text: 5175 Plainfield Ave.\_NE., key: -32e8a0e1"
+            label: Text
+            name: '-32e8a0e1'
+            widget: string
+          - hint: 'Original text: Grand Rapids, MI 49525 USA, key: 9cf23d1'
+            label: Text
+            name: 9cf23d1
+            widget: string
+          - hint: 'Original text: , key: f095'
+            label: Text
+            name: f095
+            widget: string
+          - hint: 'Original text: +1 (888) 400 2128, key: -51ee83ae'
+            label: Text
+            name: '-51ee83ae'
+            widget: string
+          - hint: 'Original text: , key: f0e0'
+            label: Text
+            name: f0e0
+            widget: string
+          - hint: 'Original text: sales@helix-int.com, key: -1dc50381'
+            label: Text
+            name: '-1dc50381'
+            widget: string
+          - hint: 'Original text: More locations, key: -3851e38d'
+            label: Text
+            name: '-3851e38d'
+            widget: string
+          - hint: 'Original text: Get in Touch, key: -53f399f2'
+            label: Text
+            name: '-53f399f2'
+            widget: string
+          - hint: >-
+              Original text: Drop us a line and we'll get right back to you,
+              key: -62850d27
+            label: Text
+            name: '-62850d27'
+            widget: string
+          - hint: 'Original text: What can we do for you?, key: -318e2c5a'
+            label: Text
+            name: '-318e2c5a'
+            widget: string
+          - hint: >-
+              Original text: Thanks! We got your submission, we'll get back to
+              you shortly!, key: -2258cd5b
+            label: Text
+            name: '-2258cd5b'
+            widget: string
+          - hint: 'Original text: 7 Global Offices, key: 6ae23cc3'
+            label: Text
+            name: 6ae23cc3
+            widget: string
+          - hint: >-
+              Original text: Shake hands with Helix International team members
+              anywhere across the globe., key: 591b713e
+            label: Text
+            name: 591b713e
+            widget: string
+          - hint: 'Original text: United States, key: -7925c061'
+            label: Text
+            name: '-7925c061'
+            widget: string
+          - hint: 'Original text: P.O. Box 202 , key: -2e4db11c'
+            label: Text
+            name: '-2e4db11c'
+            widget: string
+          - hint: 'Original text: Rockford, , key: -7a1eb4cc'
+            label: Text
+            name: '-7a1eb4cc'
+            widget: string
+          - hint: 'Original text: MI 49341, key: -720c1239'
+            label: Text
+            name: '-720c1239'
+            widget: string
+          - hint: 'Original text: 12149 Petersen Bluff Drive, key: -4c066a50'
+            label: Text
+            name: '-4c066a50'
+            widget: string
+          - hint: 'Original text: Riverton, UT 84065-4046, key: 3ffabd7e'
+            label: Text
+            name: 3ffabd7e
+            widget: string
+          - hint: 'Original text: 188 Old Mill Way SW, key: -13d91a0f'
+            label: Text
+            name: '-13d91a0f'
+            widget: string
+          - hint: 'Original text: Conyers, GA 30094, key: -51101d95'
+            label: Text
+            name: '-51101d95'
+            widget: string
+          - hint: 'Original text: Help Center, key: 558d7e14'
+            label: Text
+            name: 558d7e14
+            widget: string
+          - hint: 'Original text: United Kingdom, key: -64d82fb2'
+            label: Text
+            name: '-64d82fb2'
+            widget: string
+          - hint: 'Original text: 272 Turton Road , key: -2a43904b'
+            label: Text
+            name: '-2a43904b'
+            widget: string
+          - hint: 'Original text: Bolton, UK BL23EF, key: 701b1bee'
+            label: Text
+            name: 701b1bee
+            widget: string
+          - hint: 'Original text: Asia, key: 1f48ea'
+            label: Text
+            name: 1f48ea
+            widget: string
+          - hint: >-
+              Original text: 1018, F1 Pragathi Nagar Hyderabad, Telangana
+              500090, key: -430e10f
+            label: Text
+            name: '-430e10f'
+            widget: string
+          - hint: 'Original text: 138 Le Hong Phong, key: -2237e513'
+            label: Text
+            name: '-2237e513'
+            widget: string
+          - hint: 'Original text: Nha Trang, Vietnam 650000, key: 4775c89e'
+            label: Text
+            name: 4775c89e
+            widget: string
+          - hint: 'Original text: Romania, key: -4aa9544b'
+            label: Text
+            name: '-4aa9544b'
+            widget: string
+          - hint: 'Original text: 44 Dezrobirii Street Building , key: -71146606'
+            label: Text
+            name: '-71146606'
+            widget: string
+          - hint: 'Original text: 09 , key: bb37'
+            label: Text
+            name: bb37
+            widget: string
+          - hint: 'Original text: Bucharest Sector 6, key: 7532303f'
+            label: Text
+            name: 7532303f
+            widget: string
+          - hint: 'Original text: Romania 060989, key: -7528a765'
+            label: Text
+            name: '-7528a765'
+            widget: string
+          - hint: 'Original text: , key: f39e'
+            label: Text
+            name: f39e
+            widget: string
+          - hint: 'Original text: , key: f08c'
+            label: Text
+            name: f08c
+            widget: string
+          - hint: 'Original text: , key: f099'
+            label: Text
+            name: f099
+            widget: string
+          - hint: 'Original text: Recent Posts, key: 2d2c9ce'
+            label: Text
+            name: 2d2c9ce
+            widget: string
+          - hint: 'Original text: , key: f0b1'
+            label: Text
+            name: f0b1
+            widget: string
+          - hint: 'Original text: , key: f017'
+            label: Text
+            name: f017
+            widget: string
+          - hint: 'Original text: Email Job, key: -a431307'
+            label: Text
+            name: '-a431307'
+            widget: string
+          - hint: 'Original text: Please fill in your details, key: b76a829'
+            label: Text
+            name: b76a829
+            widget: string
+          - hint: 'Original text: 1/4, key: bdd6'
+            label: Text
+            name: bdd6
+            widget: string
+          - hint: 'Original text: Provide a professional bio, key: 3f16c16d'
+            label: Text
+            name: 3f16c16d
+            widget: string
+          - hint: 'Original text: 2/4, key: c197'
+            label: Text
+            name: c197
+            widget: string
+          - hint: 'Original text: Upload a professional photo, key: 7094edb7'
+            label: Text
+            name: 7094edb7
+            widget: string
+          - hint: 'Original text: or, key: de3'
+            label: Text
+            name: de3
+            widget: string
+          - hint: 'Original text: 3/4, key: c558'
+            label: Text
+            name: c558
+            widget: string
+          - hint: 'Original text: Upload your CV, key: 61a7e481'
+            label: Text
+            name: 61a7e481
+            widget: string
+          - hint: 'Original text: 4/4, key: c919'
+            label: Text
+            name: c919
+            widget: string
+          - hint: >-
+              Original text: Thanks! We've received your application and will be
+              in touch shortly!, key: -643b6ca2
+            label: Text
+            name: '-643b6ca2'
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form. Please try again or email hr@helix-int.com, key: 4d9902fc
+            label: Text
+            name: 4d9902fc
+            widget: text
+          - hint: 'Original text: Overview, key: 23735199'
+            label: Text
+            name: '23735199'
+            widget: string
+          - hint: 'Original text: Challenge, key: -34f363bd'
+            label: Text
+            name: '-34f363bd'
+            widget: string
+          - hint: 'Original text: Results, key: -5b5c2c2a'
+            label: Text
+            name: '-5b5c2c2a'
+            widget: string
+          - hint: 'Original text: Solution, key: 5cc7b199'
+            label: Text
+            name: 5cc7b199
+            widget: string
+          - hint: 'Original text: Previous, key: -4811e0e9'
+            label: Text
+            name: '-4811e0e9'
+            widget: string
+          - hint: 'Original text: Next , key: 47ae36d'
+            label: Text
+            name: 47ae36d
+            widget: string
+          - hint: 'Original text: Projects We Worked On, key: 518853a3'
+            label: Text
+            name: 518853a3
+            widget: string
+          - hint: 'Original text: Why Helix?, key: 77970b19'
+            label: Text
+            name: 77970b19
+            widget: string
+          - hint: 'Original text: Flexible migration options, key: -3e2220a9'
+            label: Text
+            name: '-3e2220a9'
+            widget: string
+          - hint: >-
+              Original text: Migrate all, some, or none of your existing data,
+              key: -967f218
+            label: Text
+            name: '-967f218'
+            widget: string
+          - hint: >-
+              Original text: . Helix International provides the unique
+              capability of migrating dynamic content while leaving your static
+              content in the original repository and serving it up on demand
+              within your chosen ECM solution, circumventing legacy ECMs,
+              viewers, licenses, and APIs. , key: -334118bc
+            label: Text
+            name: '-334118bc'
+            widget: text
+          - hint: 'Original text: Unparalleled security, key: 6df45e1'
+            label: Text
+            name: 6df45e1
+            widget: string
+          - hint: >-
+              Original text: End-to-end encryption in motion and in rest., key:
+              -61e830d1
+            label: Text
+            name: '-61e830d1'
+            widget: string
+          - hint: "Original text:  The Helix International MARS\_Migration Platform includes built-in end-to-end encryption, a complete audit trail including full chain of custody, and the option of offline migration wherein we supply appliances and install on-prem before uploading directly from the hardware to our migration server., key: -da1b47"
+            label: Text
+            name: '-da1b47'
+            widget: text
+          - hint: 'Original text: Complete data control, key: 77351a4e'
+            label: Text
+            name: 77351a4e
+            widget: string
+          - hint: >-
+              Original text: Extract, Transform, and Load from any sources, to
+              any sources, in any formats., key: 697d0286
+            label: Text
+            name: 697d0286
+            widget: string
+          - hint: "Original text:  The Helix MARS\_platform includes 45 different source extractors for every enterprise ECM\_solution out there, as well as AI-enabled tools to structure any unstructured data, intelligently combine data from disparate sources into unified documents, and serve up new documents and reports in any formats., key: -2de1de68"
+            label: Text
+            name: '-2de1de68'
+            widget: text
+          - hint: 'Original text: Ready? Get started with Helix, key: -aac37cf'
+            label: Text
+            name: '-aac37cf'
+            widget: string
+          - hint: 'Original text: Phone:, key: -718ea354'
+            label: Text
+            name: '-718ea354'
+            widget: string
+          - hint: 'Original text:  +1 (888) 400 2128, key: 404dc032'
+            label: Text
+            name: 404dc032
+            widget: string
+          - hint: 'Original text: Email: , key: 19673a2'
+            label: Text
+            name: 19673a2
+            widget: string
+          - hint: 'Original text: Solutions Categories, key: 6391d822'
+            label: Text
+            name: 6391d822
+            widget: string
+          - hint: 'Original text: Download my vCard, key: -24379a56'
+            label: Text
+            name: '-24379a56'
+            widget: string
+          - hint: 'Original text: Employee Feedback, key: 106d2cb7'
+            label: Text
+            name: 106d2cb7
+            widget: string
+          - hint: 'Original text: Contact us directly, key: -42d9e1a8'
+            label: Text
+            name: '-42d9e1a8'
+            widget: string
+          - hint: 'Original text: hr@helix-int.com, key: 469aebfd'
+            label: Text
+            name: 469aebfd
+            widget: string
+          - hint: 'Original text: Help us improve, key: -54f1a1eb'
+            label: Text
+            name: '-54f1a1eb'
+            widget: string
+          - hint: >-
+              Original text: We're always listening to feedback from past and
+              current team members. Let us know if you want to hear back from
+              us, or skip the contact fields to leave an anonymous message.
+              Thank you!, key: 7c586c8d
+            label: Text
+            name: 7c586c8d
+            widget: text
+          - hint: 'Original text: Share your feedback here, key: 4797b87f'
+            label: Text
+            name: 4797b87f
+            widget: string
+          - hint: >-
+              Original text: Leave your contact info here if you'd like to hear
+              back from us, or leave these fields blank to send anonymously,
+              key: fd7cc37
+            label: Text
+            name: fd7cc37
+            widget: text
+          - hint: >-
+              Original text: We got your feedback, thanks for taking the time!,
+              key: 5ba45657
+            label: Text
+            name: 5ba45657
+            widget: string
+          - hint: 'Original text: Upcoming Events, key: 6b492c9d'
+            label: Text
+            name: 6b492c9d
+            widget: string
+          - hint: >-
+              Original text: Learn about when and where to find Helix
+              International at upcoming events around the globe., key: 5c4ec7e2
+            label: Text
+            name: 5c4ec7e2
+            widget: text
+          - hint: 'Original text: OpenText World, key: -634ed737'
+            label: Text
+            name: '-634ed737'
+            widget: string
+          - hint: 'Original text: Events Map, key: -4d8ebe2b'
+            label: Text
+            name: '-4d8ebe2b'
+            widget: string
+          - hint: "Original text: OpenText\_World Event, key: 2968f3e3"
+            label: Text
+            name: 2968f3e3
+            widget: string
+          - hint: >-
+              Original text: 4-6 October 2022, Venetian Resort, Las Vegas, key:
+              10011940
+            label: Text
+            name: '10011940'
+            widget: string
+          - hint: >-
+              Original text: The Helix International team was present at the
+              2022 OpenText World event in Las Vegas, one of the largest and
+              leading information management conferences. The event supports
+              both in-person and virtual attendance., key: 386c9c3
+            label: Text
+            name: 386c9c3
+            widget: text
+          - hint: 'Original text: Registration (closed) , key: 67527924'
+            label: Text
+            name: '67527924'
+            widget: string
+          - hint: >-
+              Original text: Turn off your enterprise license today, keep access
+              to your data, and complete your migration in the background. Your
+              upfront savings offset the cost of migrating, and your end users
+              don't even notice the ongoing migration., key: 44f996c9
+            label: Text
+            name: 44f996c9
+            widget: text
+          - hint: 'Original text: Value Proposition, key: -756b2d99'
+            label: Text
+            name: '-756b2d99'
+            widget: string
+          - hint: 'Original text: Migration Process, key: 601417dd'
+            label: Text
+            name: 601417dd
+            widget: string
+          - hint: "Original text: MARS\_Platform, key: -4b0df202"
+            label: Text
+            name: '-4b0df202'
+            widget: string
+          - hint: 'Original text: The Value Proposition, key: 7cf94c58'
+            label: Text
+            name: 7cf94c58
+            widget: string
+          - hint: "Original text: You're overdue for a content stack upgrade--your current vendor has disappeared on you, your current system can't accommodate sorely needed features, support has gone out the window, and/or costs are going through the roof. Whatever it be, Helix International and SER\_Group have teamed up to offer a solution to get you off your enterprise stack and onto a modern content management solution in a way that is fast, audit-proof, tried and tested, and creates zero interruptions to business as usual., key: 574f2d05"
+            label: Text
+            name: 574f2d05
+            widget: text
+          - hint: 'Original text: How?, key: 226a0f'
+            label: Text
+            name: 226a0f
+            widget: string
+          - hint: "Original text: 1) We use a Helix-proprietary native source extractor to pull the data in its native format directly from your source repository. This completely bypasses licensing and\_APIs, so we can do it even after your source repository licenses have been turned off. Have a looming licensing renewal?\_Now you don't need to pay it, and you won't interrupt access to your data by doing so., key: -f0ede85"
+            label: Text
+            name: '-f0ede85'
+            widget: text
+          - hint: >-
+              Original text: 2) We give you the option to migrate as much data
+              as you like. Most clients needs to frequently edit around 10% of
+              their data, and the other 90% is archived reports, invoices, etc.
+              which must be kept accessible for regulatory reasons, but is not
+              intended to be edited. We compress this archive storage, migrate
+              the live files, and federate access to both in the interface of
+              your Doxis content solution. Your end users start using your new
+              content stack today, and can't tell the difference between whether
+              they're access migrated or non-migrated files. This also allows us
+              to conduct the migration in the background while you access
+              everything in your new system, even though your old system has
+              already been retired., key: 38ab6ab8
+            label: Text
+            name: 38ab6ab8
+            widget: text
+          - hint: >-
+              Original text: 3) We wrap our APIs around your existing business
+              applications so that you don't need to rewrite them for the new
+              system., key: -5bcaed63
+            label: Text
+            name: '-5bcaed63'
+            widget: text
+          - hint: 'Original text: The Migration Process, key: 527891ce'
+            label: Text
+            name: 527891ce
+            widget: string
+          - hint: >-
+              Original text: Our migration server allows you to collate,
+              combine, convert, and compress data. Any format to any format,
+              including line and print stream data. Eliminate data silos by
+              combining documents, data, and reports into new documents and
+              reports by metadata. Before you had 12 reports in 12 locations,
+              now you have one report that is updated automatically and
+              delivered every morning., key: -1f1acb7a
+            label: Text
+            name: '-1f1acb7a'
+            widget: text
+          - hint: >-
+              Original text: All of this is done with end-to-end encryption for
+              data both in motion and at rest, fully audited with complete chain
+              of custody, ensuring that you are both audit-proof and
+              future-proof., key: ee84eee
+            label: Text
+            name: ee84eee
+            widget: text
+          - hint: >-
+              Original text: Get in touch below to receive a free brochure on
+              strategic migrations and get in touch with our Data Experts who
+              will provide you free consultation on getting the ball rolling
+              towards saving millions every year on your content management and
+              bringing better satisfaction to your customers:, key: -24a05524
+            label: Text
+            name: '-24a05524'
+            widget: text
+          - hint: "Original text: Why Helix +\_SER, key: 6c82af91"
+            label: Text
+            name: 6c82af91
+            widget: string
+          - hint: 'Original text: Email, key: 3ff5b7c'
+            label: Text
+            name: 3ff5b7c
+            widget: string
+          - hint: 'Original text: Don''t have an account?, key: 7c95c01d'
+            label: Text
+            name: 7c95c01d
+            widget: string
+          - hint: 'Original text: Sign Up, key: -204ff822'
+            label: Text
+            name: '-204ff822'
+            widget: string
+          - hint: >-
+              Original text: We're having trouble logging you in. Please try
+              again, or contact us if you continue to have problems., key:
+              -4ccc12f5
+            label: Text
+            name: '-4ccc12f5'
+            widget: text
+          - hint: "Original text: Our proprietary Helix MARS\_software platform features over 70 tools, components, and extractors to connect your documents and data., key: -38ba2b64"
+            label: Text
+            name: '-38ba2b64'
+            widget: text
+          - hint: 'Original text: Archive Format (HSS), key: 2d65e21e'
+            label: Text
+            name: 2d65e21e
+            widget: string
+          - hint: 'Original text: Active Content Support, key: 39d031ee'
+            label: Text
+            name: 39d031ee
+            widget: string
+          - hint: "Original text: RealTime\_Viewer, key: 5620fac7"
+            label: Text
+            name: 5620fac7
+            widget: string
+          - hint: 'Original text: Scanning, key: -312dc32f'
+            label: Text
+            name: '-312dc32f'
+            widget: string
+          - hint: 'Original text: Why Helix, key: -2db0ce1a'
+            label: Text
+            name: '-2db0ce1a'
+            widget: string
+          - hint: 'Original text: MARS Archive Format (HSS), key: -1f506577'
+            label: Text
+            name: '-1f506577'
+            widget: string
+          - hint: "Original text: Add support for compressed storage objects to your existing content services applications, allowing you to store static / archive documents and reports (such as invoices, policies, signed contracts...anything you need to store for some period of time that is not meant to be altered) with up to 400x compression. The MARS\_Archive Format or HSS\_(for \"Helix Secret Sauce\") allows you to support archive formats such as AFP, EBCDIC, line and print stream data, etc. within your existing content application, saving you potentially millions in storage costs without having to buy or support a new application., key: 361f720d"
+            label: Text
+            name: 361f720d
+            widget: text
+          - hint: >-
+              Original text: HSS also allows you to easily delete specific
+              information within a storage object without impacting the rest of
+              the data – a challenge other frameworks struggle with. GDPR
+              compliance is a breeze with MARS Archive Format, offering 400x
+              compression, retention automation, and swift adherence to GDPR
+              Right to Forget requests., key: -11e86ad3
+            label: Text
+            name: '-11e86ad3'
+            widget: text
+          - hint: "Original text: Learn More About MARS\_Archive Format (HSS) , key: fc0b919"
+            label: Text
+            name: fc0b919
+            widget: string
+          - hint: 'Original text: MARS Active Content Support, key: 418d7b99'
+            label: Text
+            name: 418d7b99
+            widget: string
+          - hint: >-
+              Original text: Unlock new levels of productivity in your existing
+              static / archive content services application, such as CMOD or
+              Mobius, with MARS RTV APIs and Viewers. Say goodbye to missed
+              opportunities in document collaboration, annotations, redactions,
+              workflow automation, and more. Seamlessly search and view archive
               formats (line, EBCDIC, AFP) and active formats (PNG, JPG, PDF,
               MP3, MP4, WAV, Office files, and more) within a single viewer that
               effortlessly blends with your current ECM interface. Your
-              workflows remain intact., key: -3538f4b2
+              workflows remain intact., key: 226a1fa
             label: Text
-            name: '-3538f4b2'
+            name: 226a1fa
             widget: text
           - hint: >-
               Original text: This integration enables live collaboration,
               annotation and redaction management, access control, document
               version comparison, and more—all through a consistent interface
-              with reliable governance. Elevate your ECM experience with MARS,
-              where productivity meets efficiency., key: 7fd0e15d
+              with reliable governance. Best of all, there's no need to buy or
+              support a new application., key: 7775cd2b
             label: Text
-            name: 7fd0e15d
+            name: 7775cd2b
             widget: text
-          - hint: 'Original text: Heading, key: -6d5fea1e'
+          - hint: "Original text: Learn More About MARS\_Active Content Support , key: 1f67e989"
             label: Text
-            name: '-6d5fea1e'
+            name: 1f67e989
             widget: string
-          - hint: >-
-              Original text: Automate retention management – e.g., if you are
-              legally obligated to retain certain data (insurance policies,
-              customer invoices…) for a certain period of time, you can set for
-              these files to be automatically deleted after that retention
-              period expires, key: -79263361
+          - hint: 'Original text: Real Time Viewer, key: 3e725763'
             label: Text
-            name: '-79263361'
-            widget: text
-          - hint: >-
-              Original text: Flexible archive storage – our proprietary archive
-              storage framework retains the ability to easily delete specific
-              information within a storage object without affecting the rest of
-              the object. Other archive storage frameworks struggle with this.
-              This means that GDPR is no problem with MARS Archive Format – you
-              can have 400x compression and retention automation AND easily
-              comply with GDPR Right to Forget requests, key: -628dc90a
+            name: '3e725763'
+            widget: string
+          - hint: "Original text: RTV Viewer is the “flashlight” that allows federated search, retrieval, and display of files across multiple repositories. View any formats (print stream, line data, documents, reports, images, audio, video...) as a standalone application or embedded within any ECM\_/ content services solution. , key: -6ed2f0b8"
             label: Text
-            name: '-628dc90a'
+            name: '-6ed2f0b8'
             widget: text
           - hint: >-
-              Original text: You can add MARS Archive Format to your existing
-              ECM – no need to change your content services stack or workflow,
-              your end users won’t notice any change, key: -237f6d74
+              Original text: RTV Viewer allows an end user to view an archive
+              version of a report without extracting or migrating it. Our
+              RESTful RTV APIs allow your end users to seamlessly access,
+              annotate, and redact documents and reports, even from compressed
+              static repositories, and even during an ongoing migration—your end
+              users won't be able to tell the difference. This also means you
+              can add functionality to your existing application(s) without
+              needing to buy a new content services solution or retrain users,
+              and retire redundant content services applications that you may be
+              maintaining, especially after a merger or divestiture., key:
+              -78874518
             label: Text
-            name: '-237f6d74'
+            name: '-78874518'
             widget: text
-          - hint: 'Original text: Any Content System , key: 4a761096'
+          - hint: "Original text: Learn More and Try the RTV\_Viewer Demo , key: 51d1c307"
             label: Text
-            name: 4a761096
+            name: 51d1c307
             widget: string
-          - hint: 'Original text: or Repository, key: 5f9a85c7'
+          - hint: 'Original text: MARS Conversion Platform, key: 4cb59672'
             label: Text
-            name: 5f9a85c7
-            widget: string
-          - hint: 'Original text: Add graphical annotations, key: -1328aac8'
-            label: Text
-            name: '-1328aac8'
+            name: 4cb59672
             widget: string
           - hint: >-
-              Original text: Add redactions, including True Redaction (flatten
-              annotation layer to document when taking out of content system),
-              key: -50322fa1
+              Original text: Using our experience-based conversion methodology
+              and powerful MARS Conversion Platform technology, we enable
+              content migration from legacy systems into current ECM systems, or
+              from one heterogeneous system of record into another. Our ECM
+              solutions help clients improve information access while minimizing
+              support needs, reducing licensing costs and eliminating redundant
+              or obsolete technology., key: -2a346651
             label: Text
-            name: '-50322fa1'
-            widget: text
-          - hint: 'Original text: Add collaboration features, key: -397951c9'
-            label: Text
-            name: '-397951c9'
-            widget: string
-          - hint: >-
-              Original text: Add extraction features (extract text from image,
-              text, and line data / print stream formats), key: -1fb86d39
-            label: Text
-            name: '-1fb86d39'
+            name: '-2a346651'
             widget: text
           - hint: >-
-              Original text: Extract by search, wild card, or RegEx patterns,
-              key: 5aa424a5
+              Original text: Mars Conversion Platform is meant to manage the
+              audits track all migrations and prioritize and provide reporting
+              on end times, reconciliation, and scheduling tasks with priority
+              and number of threads to handle bottlenecks and be agile in a
+              production environment., key: 4644572
             label: Text
-            name: 5aa424a5
+            name: '4644572'
+            widget: text
+          - hint: 'Original text: MARS Watcher, key: 12b16751'
+            label: Text
+            name: 12b16751
             widget: string
           - hint: >-
-              Original text: Create new documents and reports by UI or API, key:
-              -7660a96a
+              Original text: 1. The first step taken by the Helix International
+              MARS Watcher utility program is to watch all output data that it
+              is set to receive., key: -26b53894
             label: Text
-            name: '-7660a96a'
+            name: '-26b53894'
+            widget: text
+          - hint: >-
+              Original text: 2. The second step is the TEXT to XML process.,
+              key: -346c4d1c
+            label: Text
+            name: '-346c4d1c'
             widget: string
           - hint: >-
-              Original text: Works at scale with 10GB+ / millions of pages
-              reports, key: -37b8ed02
+              Original text: 3. The third and last step of the Watcher utility
+              is to present the converted data., key: -18bd82dd
             label: Text
-            name: '-37b8ed02'
+            name: '-18bd82dd'
             widget: string
+          - hint: >-
+              Original text: The data is presented based on your specifications
+              during setup. Customize your output templates with your logos,
+              fonts, page formats, calculations and more. There is no need to
+              hire a specialist to make future updates. Our intuitive Graphical
+              User Interface allows your system administrators to make
+              stress-free changes., key: -17bcbbeb
+            label: Text
+            name: '-17bcbbeb'
+            widget: text
+          - hint: >-
+              Original text: To summarize Helix MARS Watcher allows for the
+              processing of day forward reports and creating the data model to
+              gather data from within the report and or attributes without
+              having to recode. (it takes this from the legacy repository
+              creating new rules) It has many out of the box processors for
+              handling custom preprocessing from legacy systems minimizing the
+              amount of coding to be done. (examples are preprocessing for
+              international character sets, Extracting data from reports,
+              receiving files from disparate systems)., key: 119784ec
+            label: Text
+            name: 119784ec
+            widget: text
+          - hint: >-
+              Original text: Optimize your business efficiency by having MARS
+              Bill Presentment. Your ERM systems are guaranteed to be equipped
+              with an electronic bill presentment solution that retrieves,
+              displays, emails and reprints invoices, credit memos, bills and
+              statements, in addition to providing Internet self-services., key:
+              7fd1a133
+            label: Text
+            name: 7fd1a133
+            widget: text
+          - hint: >-
+              Original text: Receive and process reports, documents and scanned
+              images., key: -36a1a107
+            label: Text
+            name: '-36a1a107'
+            widget: string
+          - hint: >-
+              Original text: Documents are typically received by companies in
+              one of the following ways — via mail, in person delivery,
+              electronically (i.e., fax, e-mail), and in court. Scan Operators
+              are then made responsible for preparing a batch that is then
+              scanned and, if necessary, reviewed, validated and updated., key:
+              -2c861c23
+            label: Text
+            name: '-2c861c23'
+            widget: text
+          - hint: 'Original text: Our Partners, key: 8531b3f'
+            label: Text
+            name: 8531b3f
+            widget: string
+          - hint: >-
+              Original text: Learn more about the companies with whom we work
+              closely together to deliver you the best products and services.,
+              key: -63669a8
+            label: Text
+            name: '-63669a8'
+            widget: text
+          - hint: 'Original text: Become a Helix Partner, key: 373d4d2e'
+            label: Text
+            name: 373d4d2e
+            widget: string
+          - hint: >-
+              Original text: Join the Helix Partnership Network for access to
+              resources, plays, deal recognition, and more!, key: 68e22dfd
+            label: Text
+            name: 68e22dfd
+            widget: text
+          - hint: >-
+              Original text: Thanks! We got your submission, and we'll be in
+              contact shortly!, key: -4978092b
+            label: Text
+            name: '-4978092b'
+            widget: string
+          - hint: 'Original text: IBM, key: 11a54'
+            label: Text
+            name: 11a54
+            widget: string
+          - hint: 'Original text: Infosys, key: -28d274c1'
+            label: Text
+            name: '-28d274c1'
+            widget: string
+          - hint: 'Original text: Microsoft, key: 71d450ce'
+            label: Text
+            name: 71d450ce
+            widget: string
+          - hint: 'Original text: Open-E, key: -72d7525e'
+            label: Text
+            name: '-72d7525e'
+            widget: string
+          - hint: 'Original text: OpenText, key: -1a39f149'
+            label: Text
+            name: '-1a39f149'
+            widget: string
+          - hint: 'Original text: Quadient, key: -494f3237'
+            label: Text
+            name: '-494f3237'
+            widget: string
+          - hint: 'Original text: Redhat, key: -6e544f76'
+            label: Text
+            name: '-6e544f76'
+            widget: string
+          - hint: 'Original text: Ricoh, key: 4b4c3c5'
+            label: Text
+            name: 4b4c3c5
+            widget: string
+          - hint: "Original text: SER\_Group, key: 18c579ff"
+            label: Text
+            name: 18c579ff
+            widget: string
+          - hint: >-
+              Original text: Helix International is IBM's Premium Partner of
+              choice for enterprise content migrations., key: 2bdde833
+            label: Text
+            name: 2bdde833
+            widget: string
+          - hint: "Original text: When IBM brings the world's leading banks, insurance companies, healthcare companies, hospitals, and other enterprises with petabytes of sensitive data onto IBM's ECM solutions, they call Helix International to provide the ETL solutions and implementation. That includes holistic ETL software solutions, managed services, and modular API microservices to work around licenses and viewers, as well as extract and manipulate data from any combination of sources. That's why Helix International is the preferred Premium Partner of IBM for ECM, ESB, and\_ETL-related projects., key: 3357531"
+            label: Text
+            name: '3357531'
+            widget: text
+          - hint: 'Original text: See our partner listing on IBM , key: 153d9db8'
+            label: Text
+            name: 153d9db8
+            widget: string
+          - hint: >-
+              Original text: Helix International is an enterprise software
+              partner of Infosys., key: -4483892b
+            label: Text
+            name: '-4483892b'
+            widget: string
+          - hint: >-
+              Original text: Helix International is proud to be an enterprise
+              partner of Infosys, exchanging software, solutions, and expertise
+              for our clients. Our development team includes enterprise content
+              engineers who are trained on Infosys's offerings and vice-versa.
+              Helix International and Infosys frequently work together in
+              delivering enterprise content migrations., key: 78414852
+            label: Text
+            name: '78414852'
+            widget: text
+          - hint: >-
+              Original text: Helix International is a Gold Partner of
+              Microsoft., key: -77d5e5ae
+            label: Text
+            name: '-77d5e5ae'
+            widget: string
+          - hint: >-
+              Original text: Helix International is proud to be a Gold Partner
+              of Microsoft, exchanging software, solutions, and expertise for
+              our clients. Our development team includes enterprise content
+              engineers who are trained on the Microsoft Dynamics suite for
+              implementations, integrations, and advisory., key: -759d7485
+            label: Text
+            name: '-759d7485'
+            widget: text
+          - hint: >-
+              Original text: Helix International is a Gold Partner of Open-E.,
+              key: -439c6d26
+            label: Text
+            name: '-439c6d26'
+            widget: string
+          - hint: >-
+              Original text: Helix International is proud to be a Gold Partner
+              of Open-E, exchanging software, solutions, and expertise for our
+              clients. Our development team includes enterprise content
+              engineers who are Open-E Certified as well as certified on OECE
+              for Open-E JovianDSS. , key: -24f01f1e
+            label: Text
+            name: '-24f01f1e'
+            widget: text
+          - hint: 'Original text: See our partner listing on Open-E , key: 5aaf91d2'
+            label: Text
+            name: 5aaf91d2
+            widget: string
+          - hint: >-
+              Original text: Helix International is a Silver Partner of
+              OpenText., key: 2a063898
+            label: Text
+            name: 2a063898
+            widget: string
+          - hint: >-
+              Original text: Helix International is proud to be a Silver Partner
+              of OpenText, exchanging software, solutions, and expertise for our
+              clients. Our development team includes enterprise content
+              engineers who are certified on the OpenText enterprise content
+              management products, and Helix products are popularly used to
+              conduct migrations to OpenText products. Whether migrating from
+              old legacy ECM and reporting systems into OpenText Content Suite
+              or from an on-prem version of Content Suite to the OpenText Cloud,
+              the Helix MARS platform provides the ability to securely migrate
+              your content and data (256-bit AES encryption both at-rest and
+              in-motion) and every step of the process is audited for compliance
+              requirements., key: -12f10e7b
+            label: Text
+            name: '-12f10e7b'
+            widget: text
+          - hint: 'Original text: See our partner listing on OpenText , key: 6f47de5d'
+            label: Text
+            name: 6f47de5d
+            widget: string
+          - hint: >-
+              Original text: Helix International is an enterprise software
+              partner of Quadient., key: 1183923f
+            label: Text
+            name: 1183923f
+            widget: string
+          - hint: >-
+              Original text: Helix International is proud to be an enterprise
+              partner of Quadient, exchanging software, solutions, and expertise
+              for our clients. Our development team includes enterprise content
+              engineers who are trained on Quadient's offerings and vice-versa.,
+              key: 173d651
+            label: Text
+            name: 173d651
+            widget: text
+          - hint: >-
+              Original text: Helix International is an enterprise software
+              partner of Red Hat., key: 7e781d68
+            label: Text
+            name: 7e781d68
+            widget: string
+          - hint: "Original text: Helix International is proud to be an enterprise partner of Red Hat, exchanging software, solutions, and expertise for our clients. Our MARS\_data platform tools include Linux server versions which are deployable on Red Hat. Our development team includes enterprise content engineers who are trained on Red Hat's server, terminal, and automation offerings., key: 5dc897d6"
+            label: Text
+            name: 5dc897d6
+            widget: text
+          - hint: >-
+              Original text: Helix International is an enterprise software
+              partner of Ricoh., key: 4227188f
+            label: Text
+            name: 4227188f
+            widget: string
+          - hint: >-
+              Original text: Helix International is proud to be an enterprise
+              partner of Ricoh, exchanging software, solutions, and expertise
+              for our clients. Our development team includes enterprise content
+              engineers who are trained on the Ricoh suite for document scanning
+              and day forward migrations., key: 73ab6479
+            label: Text
+            name: 73ab6479
+            widget: text
+          - hint: "Original text: Helix International is an enterprise software partner of SER\_Group., key: 5123f695"
+            label: Text
+            name: 5123f695
+            widget: string
+          - hint: "Original text: Helix International is proud to be an enterprise partner of SER\_Group, exchanging software, solutions, and expertise for our clients. SER\_Group provides one of the leading ECM\_solutions according to Gartner and Forrester reports, while Helix International provides the leading ECM retirement and migration solutions. Together, Helix and SER\_provide one of the best comprehensive solutions for drastically consolidating, reducing costs, and increasing efficiency and functionality your enterprise content management., key: 6d8e2800"
+            label: Text
+            name: 6d8e2800
+            widget: text
+          - hint: 'Original text: Password Reset Email Sent, key: 6bfe9c32'
+            label: Text
+            name: 6bfe9c32
+            widget: string
+          - hint: >-
+              Original text: If we found an account associated with that email
+              address, we've sent a link to reset your password., key: -13a89bf
+            label: Text
+            name: '-13a89bf'
+            widget: text
+          - hint: 'Original text: Reset Password, key: 2bfd368c'
+            label: Text
+            name: 2bfd368c
+            widget: string
+          - hint: >-
+              Original text: There was an error resetting your password. Please
+              try again, or contact us if you continue to have problems., key:
+              -7c28e64b
+            label: Text
+            name: '-7c28e64b'
+            widget: text
+          - hint: "Original text: MARS\_RTV Viewer Demo, key: -64f04066"
+            label: Text
+            name: '-64f04066'
+            widget: string
+          - hint: 'Original text: A Viewer with Beautiful Design, key: -c657868'
+            label: Text
+            name: '-c657868'
+            widget: string
+          - hint: >-
+              Original text: RTV Viewer allows you to rapidly view and navigate
+              repository content in a wide range of formats. It uses Web 2.0
+              technology with beautiful, responsive layouts., key: 12b9546f
+            label: Text
+            name: 12b9546f
+            widget: text
+          - hint: 'Original text: Integrated with RTV API, key: -5031799f'
+            label: Text
+            name: '-5031799f'
+            widget: string
+          - hint: >-
+              Original text: RTV Viewer can open AFP, TIFF (multiple pages),
+              EBCDIC, ANSI, and Machine Text Files, PDF, word processing
+              documents, spreadsheets, and many other common file types in their
+              native view. It also can play audio and video file formats., key:
+              393cf40b
+            label: Text
+            name: 393cf40b
+            widget: text
+          - hint: "Original text: Flexible Implementation with RTV\_APIs, key: -e9311a"
+            label: Text
+            name: '-e9311a'
+            widget: string
+          - hint: "Original text: Use RTV\_Viewer as a standalone viewer with documents and reports opened from your device, or pair it with our API ecosystem to leverage federated search and viewing of both static (archive) and active documents and reports located across various repositories., key: 6d0ffaab"
+            label: Text
+            name: 6d0ffaab
+            widget: text
+          - hint: >-
+              Original text: Add Functions to Your Current Content Solution,
+              key: -1b69314d
+            label: Text
+            name: '-1b69314d'
+            widget: string
+          - hint: "Original text: RTV\_Viewer can also be implemented within any existing ECM or content services UI, increasing the functionality of your preferred static and/or active interface with no retraining needed. Considering changing your content stack to annotate print stream archive reports?\_Now you don't need to, instead you can add more output management options, viewing capabilities, and the ability to store and retrieve from archive blobs with up to a 300:1 compression ratio., key: 9a99249"
+            label: Text
+            name: 9a99249
+            widget: text
+          - hint: 'Original text: Uninterrupted Migrations, key: 7ac7791c'
+            label: Text
+            name: 7ac7791c
+            widget: string
+          - hint: "Original text: RTV\_Viewer is a key component of our flexible and invisible application retirement process. Start using your new content stack today with access to migrated, unmigrated, and archive content all in one place. Your end users can't tell that a migration is ongoing., key: -7557ce94"
+            label: Text
+            name: '-7557ce94'
+            widget: text
+          - hint: 'Original text: Search results, key: 7e85e19e'
+            label: Text
+            name: 7e85e19e
+            widget: string
+          - hint: 'Original text: No matching results., key: -75764c4'
+            label: Text
+            name: '-75764c4'
+            widget: string
+          - hint: 'Original text: Helix Solutions, key: -46158f48'
+            label: Text
+            name: '-46158f48'
+            widget: string
+          - hint: >-
+              Original text: Solve compliance issues, save money, and reclaim
+              human capital with Helix International's modular data platform.,
+              key: -3a5ccc91
+            label: Text
+            name: '-3a5ccc91'
+            widget: text
+          - hint: 'Original text: Solutions for Key Use Cases, key: 14da62cc'
+            label: Text
+            name: 14da62cc
+            widget: string
+          - hint: 'Original text: Get It Now , key: -4aefc10b'
+            label: Text
+            name: '-4aefc10b'
+            widget: string
+          - hint: >-
+              Original text: We have the expertise to deliver your needs, no
+              matter how complex, key: -2e5b8580
+            label: Text
+            name: '-2e5b8580'
+            widget: string
+          - hint: 'Original text: Security, key: 3c6cdb60'
+            label: Text
+            name: 3c6cdb60
+            widget: string
+          - hint: 'Original text: 91%, key: dc0d'
+            label: Text
+            name: dc0d
+            widget: string
+          - hint: 'Original text: Speed, key: 4c61027'
+            label: Text
+            name: 4c61027
+            widget: string
+          - hint: 'Original text: 85%, key: d8c8'
+            label: Text
+            name: d8c8
+            widget: string
+          - hint: 'Original text: Flexibility, key: 55b4fcf9'
+            label: Text
+            name: 55b4fcf9
+            widget: string
+          - hint: 'Original text: 93%, key: dc4b'
+            label: Text
+            name: dc4b
+            widget: string
+          - hint: 'Original text: Design and Deployment, key: -af4e4b0'
+            label: Text
+            name: '-af4e4b0'
+            widget: string
+          - hint: >-
+              Original text: As a leading Outsourceo, we connect people with
+              technology that enhances growth, elevates..., key: 75f6694
+            label: Text
+            name: 75f6694
+            widget: text
+          - hint: 'Original text: View Case Study, key: -f06eec'
+            label: Text
+            name: '-f06eec'
+            widget: string
+          - hint: 'Original text: View All Case Study, key: 55f80793'
+            label: Text
+            name: 55f80793
+            widget: string
+          - hint: 'Original text: Rewamping in Healthcare, key: -27972d16'
+            label: Text
+            name: '-27972d16'
+            widget: string
+          - hint: >-
+              Original text: HHC, the largest municipal healthcare organization
+              in the country..., key: -797d0910
+            label: Text
+            name: '-797d0910'
+            widget: string
+          - hint: 'Original text: BlueCross BlueShield, key: -344e4703'
+            label: Text
+            name: '-344e4703'
+            widget: string
+          - hint: >-
+              Original text: Secure migration of patient and financial records
+              for BlueCross BlueShield organizations..., key: -2429556d
+            label: Text
+            name: '-2429556d'
+            widget: text
+          - hint: 'Original text: Account activated, key: -3d3c5c82'
+            label: Text
+            name: '-3d3c5c82'
+            widget: string
+          - hint: >-
+              Original text: Your account was created successfully. You will be
+              redirected shortly., key: -7498bb4e
+            label: Text
+            name: '-7498bb4e'
+            widget: string
+          - hint: 'Original text: If nothing happens, click here., key: -7bf1dbc9'
+            label: Text
+            name: '-7bf1dbc9'
+            widget: string
+          - hint: 'Original text: Name, key: 24eeab'
+            label: Text
+            name: 24eeab
+            widget: string
+          - hint: >-
+              Original text: By creating an account, I agree to this website's ,
+              key: 4867e34d
+            label: Text
+            name: 4867e34d
+            widget: string
+          - hint: 'Original text: privacy policy, key: 329660ca'
+            label: Text
+            name: 329660ca
+            widget: string
+          - hint: 'Original text:  and , key: 1f0b149'
+            label: Text
+            name: 1f0b149
+            widget: string
+          - hint: 'Original text: terms of service, key: 4f204da5'
+            label: Text
+            name: 4f204da5
+            widget: string
+          - hint: >-
+              Original text: I consent to receive marketing emails., key:
+              -3db302e8
+            label: Text
+            name: '-3db302e8'
+            widget: string
+          - hint: 'Original text: Already have an account?, key: -76cf8d8b'
+            label: Text
+            name: '-76cf8d8b'
+            widget: string
+          - hint: 'Original text: Log In, key: -78042c3f'
+            label: Text
+            name: '-78042c3f'
+            widget: string
+          - hint: >-
+              Original text: There was an error signing you up. Please try
+              again, or contact us if you continue to have problems., key:
+              -191558ad
+            label: Text
+            name: '-191558ad'
+            widget: text
+          - hint: 'Original text: Verification Required, key: 8449804'
+            label: Text
+            name: '8449804'
+            widget: string
+          - hint: >-
+              Original text: Account verification required. Please check your
+              email to find your unique verification link., key: 66134559
+            label: Text
+            name: '66134559'
+            widget: text
+          - hint: 'Original text: Password updated, key: -16704faa'
+            label: Text
+            name: '-16704faa'
+            widget: string
+          - hint: >-
+              Original text: Your password was updated successfully. You were
+              automatically logged in and can continue your session., key:
+              5284c470
+            label: Text
+            name: 5284c470
+            widget: text
+          - hint: 'Original text: Go to Homepage, key: -27857705'
+            label: Text
+            name: '-27857705'
+            widget: string
+          - hint: 'Original text: Update Password, key: 69ed5012'
+            label: Text
+            name: 69ed5012
+            widget: string
+          - hint: >-
+              Original text: Please enter your new password in the field below.
+              Make sure you are not using your current password., key: -2d35ed29
+            label: Text
+            name: '-2d35ed29'
+            widget: text
+          - hint: 'Original text: New Password, key: 79707d5b'
+            label: Text
+            name: 79707d5b
+            widget: string
+          - hint: >-
+              Original text: There was an error updating your password. Please
+              try again, or contact us if you continue to have problems., key:
+              -2da7dae4
+            label: Text
+            name: '-2da7dae4'
+            widget: text
+          - hint: 'Original text: My Account, key: -585ec447'
+            label: Text
+            name: '-585ec447'
+            widget: string
+          - hint: 'Original text: Password settings, key: 4f13dfe8'
+            label: Text
+            name: 4f13dfe8
+            widget: string
+          - hint: 'Original text: Reset password, key: 2822d26c'
+            label: Text
+            name: 2822d26c
+            widget: string
+          - hint: >-
+              Original text: Your account was updated successfully., key:
+              6d17ba0b
+            label: Text
+            name: 6d17ba0b
+            widget: string
+          - hint: >-
+              Original text: There was an error updating your account. Please
+              try again, or contact us if you continue to have problems., key:
+              13527f80
+            label: Text
+            name: 13527f80
+            widget: text
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3916,9 +3992,33 @@ collections:
             label: Link
             name: 6953245d
             widget: string
-          - hint: 'Original link: /mars-pltform/, key: -65e94ae4'
+          - hint: 'Original link: /mars-pltform#archive, key: -78a0a64e'
             label: Link
-            name: '-65e94ae4'
+            name: '-78a0a64e'
+            widget: string
+          - hint: 'Original link: /mars-pltform#active, key: -cf1d7ea'
+            label: Link
+            name: '-cf1d7ea'
+            widget: string
+          - hint: 'Original link: /mars-pltform#realtime, key: -685dad85'
+            label: Link
+            name: '-685dad85'
+            widget: string
+          - hint: 'Original link: /mars-pltform#conversion, key: -ef319da'
+            label: Link
+            name: '-ef319da'
+            widget: string
+          - hint: 'Original link: /mars-pltform#watcher, key: -8ecad54'
+            label: Link
+            name: '-8ecad54'
+            widget: string
+          - hint: 'Original link: /mars-pltform#bill, key: -693c2ee9'
+            label: Link
+            name: '-693c2ee9'
+            widget: string
+          - hint: 'Original link: /mars-pltform#scanning, key: -6a2f823f'
+            label: Link
+            name: '-6a2f823f'
             widget: string
           - hint: 'Original link: /case-studies/, key: 62441716'
             label: Link
@@ -3967,6 +4067,22 @@ collections:
           - hint: 'Original link: /assets/documents/helix-intro.pdf, key: 28918b2d'
             label: Link
             name: 28918b2d
+            widget: string
+          - hint: 'Original link: /sign-up/, key: 4b0d5213'
+            label: Link
+            name: 4b0d5213
+            widget: string
+          - hint: 'Original link: /log-in/, key: 26a3aa92'
+            label: Link
+            name: 26a3aa92
+            widget: string
+          - hint: 'Original link: #features, key: 34081160'
+            label: Link
+            name: '34081160'
+            widget: string
+          - hint: 'Original link: #demo, key: 21c3486'
+            label: Link
+            name: 21c3486
             widget: string
           - hint: >-
               Original link: https://goo.gl/maps/VAsnRRir2T3ZFGGe6, key:
@@ -4017,6 +4133,75 @@ collections:
           - hint: 'Original link: mailto:sales@helix-int.com, key: 51366377'
             label: Link
             name: '51366377'
+            widget: string
+          - hint: >-
+              Original link: mailto:hr@helix-int.com?subject=Website%20inquiry,
+              key: -3808760c
+            label: Link
+            name: '-3808760c'
+            widget: string
+          - hint: 'Original link: #event1, key: -117e0546'
+            label: Link
+            name: '-117e0546'
+            widget: string
+          - hint: 'Original link: #events, key: -117e0504'
+            label: Link
+            name: '-117e0504'
+            widget: string
+          - hint: >-
+              Original link:
+              https://www.opentextworld.com/event/6fe70c77-552e-4cd5-a36f-32a5f096a877/regPage:0a3c8d1b-d43f-43da-b558-9e3cd702c894,
+              key: 289a1c7b
+            label: Link
+            name: 289a1c7b
+            widget: string
+          - hint: 'Original link: #realtime, key: 1224da8e'
+            label: Link
+            name: 1224da8e
+            widget: string
+          - hint: 'Original link: #conversion, key: -2af24a87'
+            label: Link
+            name: '-2af24a87'
+            widget: string
+          - hint: 'Original link: #watcher, key: 76e5fc39'
+            label: Link
+            name: 76e5fc39
+            widget: string
+          - hint: 'Original link: #archive, key: 732033f'
+            label: Link
+            name: 732033f
+            widget: string
+          - hint: 'Original link: #active, key: -19566717'
+            label: Link
+            name: '-19566717'
+            widget: string
+          - hint: 'Original link: #bill, key: 21b5aaa'
+            label: Link
+            name: 21b5aaa
+            widget: string
+          - hint: 'Original link: #scanning, key: 105305d4'
+            label: Link
+            name: 105305d4
+            widget: string
+          - hint: 'Original link: #why, key: 11b4c5'
+            label: Link
+            name: 11b4c5
+            widget: string
+          - hint: >-
+              Original link: /add-archive-support-to-your-current-ecm/, key:
+              77339a20
+            label: Link
+            name: 77339a20
+            widget: string
+          - hint: >-
+              Original link: /add-active-content-support-to-your-current-ecm/,
+              key: db07e1a
+            label: Link
+            name: db07e1a
+            widget: string
+          - hint: 'Original link: /rtv-viewer/, key: 1def5675'
+            label: Link
+            name: 1def5675
             widget: string
           - hint: 'Original link: #ibm, key: 117f71'
             label: Link
@@ -4071,74 +4256,9 @@ collections:
             label: Link
             name: '-2937a96e'
             widget: string
-          - hint: 'Original link: #event1, key: -117e0546'
-            label: Link
-            name: '-117e0546'
-            widget: string
-          - hint: 'Original link: #events, key: -117e0504'
-            label: Link
-            name: '-117e0504'
-            widget: string
-          - hint: >-
-              Original link:
-              https://www.opentextworld.com/event/6fe70c77-552e-4cd5-a36f-32a5f096a877/regPage:0a3c8d1b-d43f-43da-b558-9e3cd702c894,
-              key: 289a1c7b
-            label: Link
-            name: 289a1c7b
-            widget: string
-          - hint: 'Original link: #realtime, key: 1224da8e'
-            label: Link
-            name: 1224da8e
-            widget: string
-          - hint: 'Original link: #conversion, key: -2af24a87'
-            label: Link
-            name: '-2af24a87'
-            widget: string
-          - hint: 'Original link: #watcher, key: 76e5fc39'
-            label: Link
-            name: 76e5fc39
-            widget: string
-          - hint: 'Original link: #bill, key: 21b5aaa'
-            label: Link
-            name: 21b5aaa
-            widget: string
-          - hint: 'Original link: #scanning, key: 105305d4'
-            label: Link
-            name: 105305d4
-            widget: string
-          - hint: 'Original link: #why, key: 11b4c5'
-            label: Link
-            name: 11b4c5
-            widget: string
-          - hint: 'Original link: /rtv-viewer/, key: 1def5675'
-            label: Link
-            name: 1def5675
-            widget: string
-          - hint: >-
-              Original link: mailto:hr@helix-int.com?subject=Website%20inquiry,
-              key: -3808760c
-            label: Link
-            name: '-3808760c'
-            widget: string
-          - hint: 'Original link: /sign-up/, key: 4b0d5213'
-            label: Link
-            name: 4b0d5213
-            widget: string
-          - hint: 'Original link: /log-in/, key: 26a3aa92'
-            label: Link
-            name: 26a3aa92
-            widget: string
           - hint: 'Original link: /reset-password/, key: -16d8c219'
             label: Link
             name: '-16d8c219'
-            widget: string
-          - hint: 'Original link: #features, key: 34081160'
-            label: Link
-            name: '34081160'
-            widget: string
-          - hint: 'Original link: #demo, key: 21c3486'
-            label: Link
-            name: 21c3486
             widget: string
       - label: Images
         name: images

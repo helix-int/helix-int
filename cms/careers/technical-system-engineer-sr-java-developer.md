@@ -6,7 +6,7 @@ title: Technical System Engineer / Sr. Java Developer
 slug: technical-system-engineer-sr-java-developer
 updated-on: '2022-11-13T14:12:21.685Z'
 created-on: '2022-09-29T21:38:52.586Z'
-published-on: '2022-11-13T14:13:37.904Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

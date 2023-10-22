@@ -10,7 +10,7 @@ slug: 5-key-benefits-of-legacy-modernization
 f_ref: cms/blog-category/ecm.md
 updated-on: '2022-11-09T07:39:01.410Z'
 created-on: '2022-11-09T07:38:56.422Z'
-published-on: '2022-11-13T13:32:37.444Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[blog-posts].html'
 tags: blog-posts
 ---

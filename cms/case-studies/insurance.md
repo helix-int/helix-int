@@ -3,7 +3,7 @@ title: Fortune 500 Insurance Company
 slug: insurance
 updated-on: '2022-09-29T19:09:19.245Z'
 created-on: '2022-03-29T13:07:28.205Z'
-published-on: '2022-09-29T19:09:25.591Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_background-image:
   url: /assets/external/62e0b1094b3bffad8335ad13_cs-prudential-385x260.jpg
   alt: null

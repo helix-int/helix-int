@@ -8,7 +8,7 @@ title: EMEA Sales Executive
 slug: emea-sales-executive
 updated-on: '2023-05-09T09:33:06.956Z'
 created-on: '2023-05-08T16:17:48.669Z'
-published-on: '2023-05-09T09:34:47.889Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

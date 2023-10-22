@@ -8,7 +8,7 @@ title: Social Media and Customer Relations Specialist
 slug: social-media-and-customer-relations-specialist
 updated-on: '2022-12-27T13:04:00.685Z'
 created-on: '2022-12-20T17:06:53.405Z'
-published-on: '2023-01-04T16:41:26.041Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

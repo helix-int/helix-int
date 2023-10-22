@@ -12,7 +12,7 @@ slug: why-is-dark-data-a-problem-exploring-dark-data-series-part-2
 f_ref: cms/blog-category/ecm.md
 updated-on: '2023-02-12T11:30:59.977Z'
 created-on: '2023-02-12T10:50:46.495Z'
-published-on: '2023-02-12T12:39:46.843Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[blog-posts].html'
 tags: blog-posts
 ---

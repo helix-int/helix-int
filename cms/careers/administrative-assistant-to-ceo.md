@@ -8,7 +8,7 @@ title: Administrative Assistant to CEO
 slug: administrative-assistant-to-ceo
 updated-on: '2023-02-01T18:46:36.894Z'
 created-on: '2023-02-01T18:46:36.894Z'
-published-on: '2023-02-01T18:47:01.028Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

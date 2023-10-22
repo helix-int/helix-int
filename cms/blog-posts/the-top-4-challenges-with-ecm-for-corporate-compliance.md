@@ -11,7 +11,7 @@ slug: the-top-4-challenges-with-ecm-for-corporate-compliance
 f_ref: cms/blog-category/ecm.md
 updated-on: '2022-11-22T14:29:05.304Z'
 created-on: '2022-11-22T11:08:55.980Z'
-published-on: '2022-11-22T14:29:05.304Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[blog-posts].html'
 tags: blog-posts
 ---

@@ -6,7 +6,7 @@ title: Information Technology Personnel Recruiter
 slug: information-technology-personnel-recruiter
 updated-on: '2022-09-29T22:18:00.057Z'
 created-on: '2022-09-29T21:41:48.474Z'
-published-on: '2022-09-29T22:19:38.320Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

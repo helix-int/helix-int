@@ -6,7 +6,7 @@ f_image:
   alt: null
 updated-on: '2022-08-15T18:25:17.716Z'
 created-on: '2022-03-29T10:11:49.116Z'
-published-on: '2022-08-15T18:25:24.709Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_prev-text: >-
   Helix International continues to provide cutting-edge solutions post-COVID for
   the global economy.

@@ -11,7 +11,7 @@ slug: 5-reasons-to-replace-your-legacy-ecm-system-today
 f_ref: cms/blog-category/ecm.md
 updated-on: '2022-10-27T06:51:38.808Z'
 created-on: '2022-10-27T06:51:31.994Z'
-published-on: '2022-10-28T10:33:34.101Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[blog-posts].html'
 tags: blog-posts
 ---

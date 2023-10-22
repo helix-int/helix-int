@@ -7,7 +7,7 @@ slug: 5-ways-enterprise-content-management-keeps-the-accounting-team-on-track
 f_ref: cms/blog-category/ecm.md
 updated-on: '2023-01-15T12:21:10.101Z'
 created-on: '2022-12-20T12:57:50.244Z'
-published-on: '2023-01-15T12:21:10.101Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_image:
   url: /assets/external/6388c0d9e6f0b6d1aaebbd14_header.jpg
   alt: null

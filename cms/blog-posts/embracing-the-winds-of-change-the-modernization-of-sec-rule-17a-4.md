@@ -10,7 +10,7 @@ slug: embracing-the-winds-of-change-the-modernization-of-sec-rule-17a-4
 f_ref: cms/blog-category/finance.md
 updated-on: '2023-04-25T17:07:24.801Z'
 created-on: '2023-04-25T17:07:24.801Z'
-published-on: '2023-04-25T17:07:24.801Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[blog-posts].html'
 tags: blog-posts
 ---

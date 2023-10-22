@@ -6,7 +6,7 @@ title: TSM (Spectrum Protect) Specialist
 slug: tsm-spectrum-protect-specialist
 updated-on: '2022-11-02T14:05:07.126Z'
 created-on: '2022-09-29T21:54:58.417Z'
-published-on: '2022-11-02T14:05:12.943Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

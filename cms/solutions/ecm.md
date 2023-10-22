@@ -7,7 +7,7 @@ f_icon:
   alt: null
 updated-on: '2022-08-18T12:56:23.439Z'
 created-on: '2022-03-29T15:54:57.587Z'
-published-on: '2022-08-18T12:56:47.203Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_categories: cms/solutions-categories/ecm.md
 f_image:
   url: /assets/external/62ef97259147feec315af385_sales-processes.jpg

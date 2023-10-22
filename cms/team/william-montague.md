@@ -9,7 +9,7 @@ f_title: VP, Sales and Marketing
 slug: william-montague
 updated-on: '2023-01-05T14:28:02.843Z'
 created-on: '2022-12-07T10:29:19.851Z'
-published-on: '2023-01-05T14:28:14.453Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_profile-photo:
   url: /assets/external/63b6cf3f076a33cbafaec557_william-montague.jpg
   alt: null

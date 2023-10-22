@@ -4,7 +4,7 @@ title: FMCG
 slug: fmcg
 updated-on: '2022-07-10T12:26:26.827Z'
 created-on: '2022-03-29T09:57:15.824Z'
-published-on: '2022-07-26T16:14:09.491Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_bg-image:
   url: /assets/external/62ac613c752b1776fc419ca8_home3-slider.png
   alt: null

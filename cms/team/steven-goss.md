@@ -16,7 +16,7 @@ f_profile-photo-blurred:
 slug: steven-goss
 updated-on: '2023-01-04T18:15:00.466Z'
 created-on: '2023-01-04T17:26:26.980Z'
-published-on: '2023-01-04T18:15:47.321Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[team].html'
 tags: team
 ---

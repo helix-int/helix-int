@@ -10,7 +10,7 @@ slug: the-importance-of-federated-search-and-its-benefits-to-ecm-systems
 f_ref: cms/blog-category/ecm.md
 updated-on: '2022-12-14T18:40:29.283Z'
 created-on: '2022-12-01T14:43:26.353Z'
-published-on: '2022-12-14T18:40:29.283Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[blog-posts].html'
 tags: blog-posts
 ---

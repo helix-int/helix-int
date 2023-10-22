@@ -16,7 +16,7 @@ f_profile-photo:
   alt: null
 updated-on: '2023-05-03T09:06:33.395Z'
 created-on: '2023-05-03T09:03:04.792Z'
-published-on: '2023-05-03T09:06:57.908Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[team].html'
 tags: team
 ---

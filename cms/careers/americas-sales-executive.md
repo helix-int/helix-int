@@ -8,7 +8,7 @@ title: Americas Sales Executive
 slug: americas-sales-executive
 updated-on: '2023-05-08T16:46:01.262Z'
 created-on: '2023-05-08T16:45:37.994Z'
-published-on: '2023-05-08T16:46:12.880Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

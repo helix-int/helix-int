@@ -7,7 +7,7 @@ slug: avoid-the-pitfalls-5-keys-to-a-smooth-ecm-migration
 f_ref: cms/blog-category/ecm.md
 updated-on: '2023-01-10T14:37:52.367Z'
 created-on: '2022-12-20T12:01:07.654Z'
-published-on: '2023-01-10T14:37:52.367Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_image:
   url: /assets/external/63aae6c8b59544028b6e5fc1_header.jpg
   alt: null

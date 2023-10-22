@@ -8,7 +8,7 @@ title: Assistant to CTO
 slug: assistant-to-cto
 updated-on: '2023-01-31T15:28:40.843Z'
 created-on: '2023-01-31T15:28:33.207Z'
-published-on: '2023-01-31T15:36:14.112Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

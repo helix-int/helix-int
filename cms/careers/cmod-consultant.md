@@ -6,7 +6,7 @@ title: CMOD Consultant
 slug: cmod-consultant
 updated-on: '2022-11-04T09:41:06.375Z'
 created-on: '2022-09-29T21:52:19.216Z'
-published-on: '2022-11-04T09:41:16.721Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

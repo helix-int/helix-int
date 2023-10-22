@@ -6,7 +6,7 @@ title: QA Engineer
 slug: qa-engineer
 updated-on: '2022-11-01T17:29:42.819Z'
 created-on: '2022-11-01T17:29:27.176Z'
-published-on: '2022-11-01T17:37:07.253Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

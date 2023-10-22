@@ -6,7 +6,7 @@ title: Mainframe Assembler Developer
 slug: mainframe-assembler-developer
 updated-on: '2022-09-29T22:12:54.025Z'
 created-on: '2022-09-29T20:51:36.330Z'
-published-on: '2022-09-29T22:19:38.320Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

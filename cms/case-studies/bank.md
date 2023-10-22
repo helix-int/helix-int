@@ -3,7 +3,7 @@ title: Australian Bank
 slug: bank
 updated-on: '2022-09-29T19:08:43.828Z'
 created-on: '2022-03-29T13:07:28.106Z'
-published-on: '2022-09-29T19:09:25.591Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_background-image:
   url: /assets/external/62e0b140939f961422fd6073_cs-cgd-385x260.jpg
   alt: null

@@ -7,7 +7,7 @@ f_icon:
 slug: gdpr
 updated-on: '2022-08-14T12:06:32.439Z'
 created-on: '2022-03-29T15:58:47.351Z'
-published-on: '2022-08-14T12:14:47.590Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_image:
   url: /assets/external/62ef96189147fe639a5ae911_gdpr.jpg
   alt: null

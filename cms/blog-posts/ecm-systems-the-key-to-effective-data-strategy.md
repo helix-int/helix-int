@@ -7,7 +7,7 @@ slug: ecm-systems-the-key-to-effective-data-strategy
 f_ref: cms/blog-category/ecm.md
 updated-on: '2023-01-15T12:15:04.773Z'
 created-on: '2022-12-20T12:02:17.694Z'
-published-on: '2023-01-15T12:15:04.773Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_image:
   url: /assets/external/63c3edcccff818a51100a264_header.jpg
   alt: null

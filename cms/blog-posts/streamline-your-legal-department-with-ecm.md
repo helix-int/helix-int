@@ -8,7 +8,7 @@ slug: streamline-your-legal-department-with-ecm
 f_ref: cms/blog-category/ecm.md
 updated-on: '2022-12-27T12:35:52.511Z'
 created-on: '2022-12-20T12:00:07.812Z'
-published-on: '2022-12-27T12:35:52.511Z'
+published-on: '2023-10-18T19:32:14.085Z'
 f_image:
   url: /assets/external/63aae609aba7a8cad383d87b_header.jpg
   alt: null

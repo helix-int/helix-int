@@ -6,7 +6,7 @@ title: Software Engineer
 slug: software-engineer
 updated-on: '2023-06-26T03:24:43.610Z'
 created-on: '2023-06-26T03:21:52.156Z'
-published-on: '2023-06-26T03:26:02.401Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

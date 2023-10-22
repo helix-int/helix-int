@@ -6,7 +6,7 @@ title: Java / C# / Mainframe Fresher
 slug: java-c-mainframe-fresher
 updated-on: '2022-11-02T13:48:58.830Z'
 created-on: '2022-09-29T22:01:01.735Z'
-published-on: '2022-11-02T13:49:03.968Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---

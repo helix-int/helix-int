@@ -6,7 +6,7 @@ title: C# Developer / C# Technical Systems Engineer
 slug: c-sharp-developer
 updated-on: '2022-09-29T22:12:59.132Z'
 created-on: '2022-09-29T20:47:59.116Z'
-published-on: '2022-09-29T22:19:38.320Z'
+published-on: '2023-10-18T19:32:14.085Z'
 layout: '[careers].html'
 tags: careers
 ---
