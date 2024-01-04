@@ -76,6 +76,13 @@ collections:
             name: twitter:creator
             widget: string
             required: false
+          - label: Twitter Image
+            name: twitter:image
+            widget: image
+            required: false
+            media_library:
+              config:
+                multiple: false
           - label: Additional HTML tags
             name: additional_tags
             widget: text
@@ -2798,25 +2805,11 @@ collections:
             label: Text
             name: '-7925c061'
             widget: string
-          - hint: 'Original text: P.O. Box 202 , key: -2e4db11c'
+          - hint: >-
+              Original text: 5175 Plainfield Ave NE, Grand Rapids, MI
+              49525-1048, key: 48cf67dd
             label: Text
-            name: '-2e4db11c'
-            widget: string
-          - hint: 'Original text: Rockford, , key: -7a1eb4cc'
-            label: Text
-            name: '-7a1eb4cc'
-            widget: string
-          - hint: 'Original text: MI 49341, key: -720c1239'
-            label: Text
-            name: '-720c1239'
-            widget: string
-          - hint: 'Original text: 12149 Petersen Bluff Drive, key: -4c066a50'
-            label: Text
-            name: '-4c066a50'
-            widget: string
-          - hint: 'Original text: Riverton, UT 84065-4046, key: 3ffabd7e'
-            label: Text
-            name: 3ffabd7e
+            name: 48cf67dd
             widget: string
           - hint: 'Original text: 188 Old Mill Way SW, key: -13d91a0f'
             label: Text
@@ -3975,6 +3968,96 @@ collections:
             label: Text
             name: 13527f80
             widget: text
+          - hint: 'Original text: Support, key: -b54e851'
+            label: Text
+            name: '-b54e851'
+            widget: string
+          - hint: 'Original text: Get Support, key: -33c5cb3b'
+            label: Text
+            name: '-33c5cb3b'
+            widget: string
+          - hint: >-
+              Original text: Create a ticket here and we'll get right back to
+              you, key: -180ba22a
+            label: Text
+            name: '-180ba22a'
+            widget: string
+          - hint: 'Original text: 24/7 Follow the Sun Support, key: 43a9f73'
+            label: Text
+            name: 43a9f73
+            widget: string
+          - hint: >-
+              Original text: Technical support is an integral benefit of Helix
+              International – we provide personalized, proactive, pre-emptive,
+              predictive— smart support and maintenance. Our belief is that our
+              customers are, and always will be our number one priority. Our
+              goal is to ensure your users can fully utilize these simple yet
+              comprehensive software solutions we have to offer. With 24/7
+              support we are always available should a question, or issue of
+              concern arise. We will always welcome all questions, comments, and
+              suggestions., key: 50a829e5
+            label: Text
+            name: 50a829e5
+            widget: text
+          - hint: >-
+              Original text: The traditional “follow the sun” model is a type of
+              global workflow in which issues can be handled by and passed
+              between offices in different time zones, increasing responsiveness
+              and reducing delays. It was developed so companies can provide
+              round-the-clock customer service, literally following the sun
+              around the globe. If the sun is shining over a region, be it San
+              Francisco, Paris, Hong Kong, or Sydney, business is being
+              conducted there. That means customers’ requests and communications
+              are coming in quickly and often—and these businesses must meet
+              that demand., key: 5bc3ca85
+            label: Text
+            name: 5bc3ca85
+            widget: text
+          - hint: >-
+              Original text: There is no fixed SLA time for each priority. Helix
+              International will try to resolve every Problem Management Report
+              (PMR) on the first interaction, although this is not always
+              possible. The PMRs are worked on according to the agreed severity.
+              It is extremely important that the relevant severity is set for
+              each PMR and that it can be changed, as required. However, it is
+              equally important that you communicate to the Helix International
+              support representative the impact of a problem., key: -50744f7a
+            label: Text
+            name: '-50744f7a'
+            widget: text
+          - hint: >-
+              Original text: Helix International supports its software and its
+              users with telephone support, web sessions, the Internet,
+              emergency and remote administration services. User questions are
+              most always answered on the first call, by qualified technicians,
+              support team and developers. Software issues are logged and
+              referred to the development team where they are resolved, usually
+              in the next monthly software update. We provide detailed user
+              manuals in electronic format and a robust integrated user help
+              system as part of the basic software. Further, we provide
+              unlimited toll free telephone support, on-site training, and
+              web-based supplemental presentations., key: -74ebf043
+            label: Text
+            name: '-74ebf043'
+            widget: text
+          - hint: >-
+              Original text: A PMR might not be a severity 1, but it might be
+              causing a significant impact to your organization. If a PMR does
+              not seem to you to be receiving the appropriate attention, the
+              formal escalation process can be used., key: -729509fa
+            label: Text
+            name: '-729509fa'
+            widget: text
+          - hint: >-
+              Original text: The PMR severity and response times are described
+              in this table:, key: -5f90dc13
+            label: Text
+            name: '-5f90dc13'
+            widget: string
+          - hint: 'Original text: Severity, key: 5bf7771d'
+            label: Text
+            name: 5bf7771d
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json

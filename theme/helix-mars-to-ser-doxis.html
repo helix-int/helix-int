@@ -24,6 +24,7 @@
   <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon">
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JZ76WZGNZH"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-JZ76WZGNZH', {'anonymize_ip': false});</script>
+  <script src="https://www.google.com/recaptcha/api.js" type="text/javascript"></script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
@@ -213,7 +214,7 @@
       </section>
       <section id="realtime" class="section-3">
         <div class="div-block-25">
-          <h2 class="centured-heading smaller">{{ texts.7cf94c58 }}<span class="dot">{{ texts.2e }}</span></h2><img src="/assets/images/ser-rtv.png" alt="" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;85vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;81vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;798.9791870117188px&quot;}]" sizes="100vw" loading="lazy" srcset="/assets/images/ser-rtv-p-500.png 500w, /assets/images/ser-rtv-p-800.png 800w, /assets/images/ser-rtv.png 1074w">
+          <h2 class="centured-heading smaller">{{ texts.7cf94c58 }}<span class="dot">{{ texts.2e }}</span></h2><img src="/assets/images/ser-rtv.png" alt="" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;85vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;81vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;798.9791870117188px&quot;}]" sizes="(max-width: 767px) 85vw, (max-width: 991px) 81vw, 798.9791870117188px" loading="lazy" srcset="/assets/images/ser-rtv-p-500.png 500w, /assets/images/ser-rtv-p-800.png 800w, /assets/images/ser-rtv.png 1074w">
           <div class="div-block-24">
             <p class="central">{{ texts.574f2d05 }}<br><br>{{ texts.226a0f }}<br><br>{{ texts.-f0ede85 }}<br><br>{{ texts.38ab6ab8 }}<br><br>{{ texts.-5bcaed63 }}</p>
           </div>
