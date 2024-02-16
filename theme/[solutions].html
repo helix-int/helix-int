@@ -199,7 +199,7 @@
       <div class="w-layout-grid services-grid">
         <div id="w-node-_0fbe2521-fa61-3408-64ad-191b4ec1bb3a-1ac4c2a2">
           <div class="rich-text-services w-richtext">{{ content | markdown }}</div>
-          <div class="w-layout-grid services-rich-text"><img alt="{{ f_chart.alt }}" loading="lazy" id="w-node-_464832b5-541d-7333-230c-a5b7ca78419d-1ac4c2a2" src="{{ f_chart.url }}" class="image-11">
+          <div class="w-layout-grid services-rich-text"><img loading="lazy" id="w-node-_464832b5-541d-7333-230c-a5b7ca78419d-1ac4c2a2" src="{{ f_chart.url }}" alt="" class="image-11">
             <div id="w-node-a0467919-131d-2b37-0f7f-04c29033c6ff-1ac4c2a2" class="rich-text-services w-richtext">{{ f_list | markdown }}</div>
           </div>
           <div class="rich-text-services w-richtext">{{ f_rich-text-2 | markdown }}</div>
@@ -279,8 +279,8 @@
       <div class="w-layout-grid projects-grid we-worked-on-smaller-section">
         {%- assign collection = collections.case-studies | limit: 1 | sort: "-created-on" -%}<div id="w-node-_8f849483-8194-2e99-f313-953902bbc698-02bbc691" class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
+            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -292,8 +292,8 @@
         </div>
         {%- assign collection = collections.case-studies | offset: 1 | limit: 1 | sort: "-created-on" -%}<div class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
+            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -305,8 +305,8 @@
         </div>
         {%- assign collection = collections.case-studies | offset: 2 | limit: 1 | sort: "-created-on" -%}<div id="w-node-_8f849483-8194-2e99-f313-953902bbc6ae-02bbc691" class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 middle-one w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="{{ item.data.f_background-image.alt }}" class="bg-image">
-              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" alt="{{ item.data.title }}" class="project-logo">
+            {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
+              <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
                 {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
                 <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
@@ -336,7 +336,7 @@
           <p class="footer-brand-description">{{ texts.-295e085a }}</p>
           <div class="form-block-3 w-form">
             <form id="email-form-2" name="email-form-2" data-name="email_2" method="get" class="subscribe-form-flex" data-wf-page-id="6530322a86ef04aa1ac4c2a2" data-wf-element-id="9e9e97d8-995e-2fbf-f6cd-5844e76115da" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
-              <div class="subscribe-form-input-wrapper"><input type="email" class="subscribe-form-input w-input" maxlength="256" name="Subscriber-Email" data-name="Subscriber Email" placeholder="Subscribe to Our Newsletter" id="Subscriber-Email" required=""></div><input type="submit" value="" data-wait="Please wait..." class="fa-icon background w-button">
+              <div class="subscribe-form-input-wrapper"><input class="subscribe-form-input w-input" maxlength="256" name="Subscriber-Email" data-name="Subscriber Email" placeholder="Subscribe to Our Newsletter" type="email" id="Subscriber-Email" required=""></div><input type="submit" data-wait="Please wait..." class="fa-icon background w-button" value="">
             </form>
             <div class="w-form-done">
               <div>{{ texts.5a0ea5a1 }}</div>

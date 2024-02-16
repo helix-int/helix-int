@@ -2845,13 +2845,10 @@ collections:
             label: Text
             name: '-430e10f'
             widget: string
-          - hint: >-
-              Original text: Floor 12B, Cienco 4 Tower, 180 Nguyen Thi Minh Khai
-              Street, Võ Thị Sáu Ward, District 3, Ho Chi Minh City, key:
-              -4a7c3481
+          - hint: "Original text: Floor 14, HM\_Town Bldg., 412 Nguyen Thi Minh Khai, Ward 5, District 3, Ho Chi Minh City, key: 2fdbdf1a"
             label: Text
-            name: '-4a7c3481'
-            widget: text
+            name: 2fdbdf1a
+            widget: string
           - hint: 'Original text: Romania, key: -4aa9544b'
             label: Text
             name: '-4aa9544b'

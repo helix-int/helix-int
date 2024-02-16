@@ -49,8 +49,14 @@ module.exports = function (eleventyConfig) {
         }
 
         if (oembedUrl != null) {
-            const oembedRes = await (await fetch(oembedUrl)).json()
-            return oembedRes.html;
+            try {
+                const response = await fetch(oembedUrl);
+                const oembedRes = await response.json();
+                return oembedRes.html ? oembedRes.html : "";
+            } catch (error) {
+                console.error("Error fetching oEmbed response: ", error);
+                return "";
+            }
         }
 
         return "";
@@ -127,10 +133,16 @@ module.exports = function (eleventyConfig) {
 
     const buildTime = new Date().toUTCString();
     eleventyConfig.addShortcode('seo', function (seo) {
-        let domain = this.ctx.environments.settings.site.domain
-        if (domain.endsWith('/')) {
-            domain = domain.substring(0, domain.length - 1);
+        let domain = "";
+        try {
+            domain = this.ctx.environments.settings.site.domain
+            if (domain.endsWith('/')) {
+                domain = domain.substring(0, domain.length - 1);
+            }
+        } catch(e) {
+
         }
+        
         
         let seoString = '';
         for (let key in seo) {

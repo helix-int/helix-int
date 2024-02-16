@@ -200,7 +200,7 @@
       {%- assign collection = collections.blog-posts | sort: "-created-on" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="case-study-grid w-dyn-items">
           {%- for item in collection -%}<div id="w-node-fed545b4-e04d-ff4b-78a5-4187ed7ad53b-1ac4c27c" role="listitem" class="inline-block-case-study-1 relative w-dyn-item">
-            <a href="{{ item.url }}" class="link-block-2 w-inline-block"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;45vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;30vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" loading="lazy" src="{{ item.data.f_image.url }}" alt="{{ item.data.f_image.alt }}" class="blog-3"></a>
+            <a href="{{ item.url }}" class="link-block-2 w-inline-block"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;45vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;30vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" loading="lazy" src="{{ item.data.f_image.url }}" alt="" class="blog-3"></a>
             {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<a href="{{ blog-categoryOfBlog-posts.url }}" class="classic-blog-date-info">{{ blog-categoryOfBlog-posts.data.title }}</a>
             <div data-w-id="fed545b4-e04d-ff4b-78a5-4187ed7ad53c" class="blog-3-image-wrapper">
               <p class="date-info">{{ item.data.created-on | formatDate: "MMMM d, yyyy" }}</p>
@@ -237,7 +237,7 @@
           <p class="footer-brand-description">{{ texts.-295e085a }}</p>
           <div class="form-block-3 w-form">
             <form id="email-form-2" name="email-form-2" data-name="email_2" method="get" class="subscribe-form-flex" data-wf-page-id="6530322a86ef04aa1ac4c27c" data-wf-element-id="9e9e97d8-995e-2fbf-f6cd-5844e76115da" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
-              <div class="subscribe-form-input-wrapper"><input type="email" class="subscribe-form-input w-input" maxlength="256" name="Subscriber-Email" data-name="Subscriber Email" placeholder="Subscribe to Our Newsletter" id="Subscriber-Email" required=""></div><input type="submit" value="" data-wait="Please wait..." class="fa-icon background w-button">
+              <div class="subscribe-form-input-wrapper"><input class="subscribe-form-input w-input" maxlength="256" name="Subscriber-Email" data-name="Subscriber Email" placeholder="Subscribe to Our Newsletter" type="email" id="Subscriber-Email" required=""></div><input type="submit" data-wait="Please wait..." class="fa-icon background w-button" value="">
             </form>
             <div class="w-form-done">
               <div>{{ texts.5a0ea5a1 }}</div>
