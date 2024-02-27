@@ -333,8 +333,8 @@
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;98vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1210px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
               <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
-                {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
-                <h6 class="prodgect-heading">{{ item.data.title }}</h6>
+                <h6 class="project-name-heading blue"></h6>
+                <h6 class="prodgect-heading"></h6>
               </a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
@@ -346,8 +346,8 @@
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;98vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1210px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
               <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
-                {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
-                <h6 class="prodgect-heading">{{ item.data.title }}</h6>
+                <h6 class="project-name-heading blue"></h6>
+                <h6 class="prodgect-heading"></h6>
               </a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
@@ -359,8 +359,8 @@
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;97vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;98vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;1210px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
               <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
-                {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
-                <h6 class="prodgect-heading">{{ item.data.title }}</h6>
+                <h6 class="project-name-heading blue"></h6>
+                <h6 class="prodgect-heading"></h6>
               </a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
@@ -482,8 +482,8 @@
             {%- unless collection.length == 0 -%}<div role="list" class="collection-list w-dyn-items">
               {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;75px&quot;}]" src="{{ item.data.f_image.url }}" alt="" class="image-3">
                 <a href="{{ item.url }}" class="w-inline-block">
-                  <h5 class="post-heading">{{ item.data.title }}</h5>
-                  <div class="date-info">{{ item.data.created-on | formatDate: "MMMM d, yyyy" }}</div>
+                  <h5 class="post-heading"></h5>
+                  <div class="date-info"></div>
                 </a>
               </div>{%- endfor -%}
             </div>{%- endunless -%}
@@ -515,16 +515,16 @@
                   <div class="info-wrapper">
                     <div class="horizontal">
                       {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<a href="{{ blog-categoryOfBlog-posts.url }}" class="clear-link-block-top w-inline-block">
-                        {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<h6 class="project-name-heading" style="background-color: {{blog-categoryOfBlog-posts.data.f_color}};">{{ blog-categoryOfBlog-posts.data.title }}</h6>
+                        {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<h6 class="project-name-heading" style="background-color: {{blog-categoryOfBlog-posts.data.f_color}};"></h6>
                       </a>
                       <div class="date-and-author-wrapper">
-                        <p class="date-and-author">{{ item.data.f_author }}</p>
+                        <p class="date-and-author"></p>
                         <p class="date-and-author">{{ texts.7df1 }}</p>
-                        <p class="date-and-author">{{ item.data.published-on | formatDate: "MMMM d, yyyy" }}</p>
+                        <p class="date-and-author"></p>
                       </div>
                     </div>
                     <a href="{{ item.url }}" class="post-link w-inline-block">
-                      <h5 class="portfolio-heading transparent">{{ item.data.title }}</h5>
+                      <h5 class="portfolio-heading transparent"></h5>
                     </a>
                   </div>
                 </div>
@@ -542,10 +542,10 @@
                 <div class="industry-insights"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;96vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;591.6666870117188px&quot;}]" src="{{ item.data.f_image.url }}" alt="" class="bg-image-insights">
                   <div class="info-wrapper">
                     {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<a href="{{ blog-categoryOfBlog-posts.url }}" class="clear-link-block w-inline-block">
-                      {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<h6 class="project-name-heading" style="background-color: {{blog-categoryOfBlog-posts.data.f_color}};">{{ blog-categoryOfBlog-posts.data.title }}</h6>
+                      {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<h6 class="project-name-heading" style="background-color: {{blog-categoryOfBlog-posts.data.f_color}};"></h6>
                     </a>
                     <a href="{{ item.url }}" class="post-link w-inline-block">
-                      <h5 class="portfolio-heading">{{ item.data.title }}</h5>
+                      <h5 class="portfolio-heading"></h5>
                     </a>
                   </div>
                 </div>
@@ -571,7 +571,7 @@
           <div class="animation-block home-1">
             <div class="animation-heading-wrapper">
               <p class="services-paragraph">{{ texts.-18444813 }}</p>
-              <h5 class="services-heading">{{ item.data.title }}</h5>
+              <h5 class="services-heading"></h5>
             </div>
             <div data-w-id="59ee45aa-2271-424f-b461-681e1a214126" class="link-block-wrapper-home-2">
               <p style="-webkit-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="first-traingle">{{ texts.f0da }}</p>

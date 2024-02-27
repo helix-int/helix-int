@@ -1,9 +1,9 @@
 ---
 title: Fortune 500 Insurance Company
 slug: insurance
-updated-on: '2022-09-29T19:09:19.245Z'
+updated-on: '2024-02-27T03:58:30.534Z'
 created-on: '2022-03-29T13:07:28.205Z'
-published-on: '2023-10-18T19:32:14.085Z'
+published-on: '2024-02-27T03:58:47.257Z'
 f_background-image:
   url: /assets/external/62e0b1094b3bffad8335ad13_cs-prudential-385x260.jpg
   alt: null
@@ -33,7 +33,7 @@ f_overview-image:
 f_results-image-main:
   url: /assets/external/62fa677cd42bad101a75c1a6_insurance-4.jpg
   alt: null
-f_solutions: "Helix International was uniquely qualified to solve this insurance company's needs due to the proprietary Helix MARS migration platform. While alternative options do exist, the Helix MARS\_platform features several unique and differentiating advantages, such as the ability to extract, read, normalize, and manipulate data from archives without decompression, as well as the built-in option for end-to-end encryption of data both in motion and at rest, and a built-in audit trail with full chain of custody. The platform includes 45 unique extractors for every legacy ECM commonly employed by enterprises.\n\nAdditionally, the Helix MARS\_platform features the proprietary RTV program, which allows for records data to be viewed in any format without need of migrating the data, and without need of the legacy ECM, viewer, or any of the associated licenses. This unique approach to ECM\_migrations and retirement of legacy ECM\_solutions has saved over a trillion dollars to date for more than 500 enterprises, and is one of the many reasons why Helix International is IBM's premium partner of choice for ECM, ETL,\_and ESB projects."
+f_solutions: "Helix International was uniquely qualified to solve this insurance company's needs due to the proprietary Helix MARS migration platform. While alternative options do exist, the Helix MARS\_platform features several unique and differentiating advantages, such as the ability to extract, read, normalize, and manipulate data from archives without decompression, as well as the built-in option for end-to-end encryption of data both in motion and at rest, and a built-in audit trail with full chain of custody. The platform includes 45 unique extractors for every legacy ECM commonly employed by enterprises.\n\nAdditionally, the Helix MARS\_platform features the proprietary RTV program, which allows for records data to be viewed in any format without need of migrating the data, and without need of the legacy ECM, viewer, or any of the associated licenses. This unique approach to ECM\_migrations and retirement of legacy ECM\_solutions has saved over one billion dollars to date for more than 500 enterprises, and is one of the many reasons why Helix International is IBM's premium partner of choice for ECM, ETL,\_and ESB projects."
 f_solutions-images:
   - url: /assets/external/62fa67849ad0004009b236be_insurance-5.jpg
     alt: null

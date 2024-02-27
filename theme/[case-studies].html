@@ -190,7 +190,7 @@
   </div>
   <div class="careers-top-banner about-us" style="background-image: url('{{f_background-image.url}}');">
     <div class="container w-container">
-      <h1 class="pages-heading-copy">{{ title }}</h1>
+      <h1 class="pages-heading-copy"></h1>
     </div>
   </div>
   <div class="section">
@@ -203,8 +203,8 @@
           <div class="rich-text-portfolio w-richtext">{{ content | markdown }}</div>
         </div>
         <div id="w-node-c06007f5-55cc-2359-b485-c04ada790095-1ac4c2a0" class="portfolio-info-wrapper">
-          <p id="w-node-_043252e3-51e4-4af7-4d8e-cc5b51202e97-1ac4c2a0" class="paragraph-7">{{ title }}</p>
-          {%- assign case-studies-categoriesOfCase-studies = f_portfolio-category | resolveReference -%}<p id="w-node-_843640b5-24e3-10e3-4e98-5116e3c77fb6-1ac4c2a0" class="paragraph-7">{{ case-studies-categoriesOfCase-studies.data.title }}</p>
+          <p id="w-node-_043252e3-51e4-4af7-4d8e-cc5b51202e97-1ac4c2a0" class="paragraph-7"></p>
+          <p id="w-node-_843640b5-24e3-10e3-4e98-5116e3c77fb6-1ac4c2a0" class="paragraph-7"></p>
         </div><img loading="lazy" id="w-node-_74af7905-ff61-9b20-d4c3-d777fdb42a28-1ac4c2a0" src="{{ f_overview-image.url }}" alt="" class="overview-image">
         <div id="w-node-a523ea10-3e8d-5fb4-3258-35b91eaf81bc-1ac4c2a0" class="section-name">
           <h4 class="portfolio-section-heading">{{ texts.-34f363bd }}<br></h4>
@@ -219,7 +219,7 @@
           {%- if setItems.length == 0 -%}<div class="w-dyn-empty">
             <div>{{ texts.3d503d2b }}</div>
           </div>{%- endif -%}
-        <template><div id="w-node-_3dcf13ae-80ca-9d7c-3230-60750971e344-1ac4c2a0" class="w-dyn-list">
+        <template><div id="w-node-_3dcf13ae-80ca-9d7c-3230-60750971e344-1ac4c2a0" class="w-dyn-list" udesly-repeater="true">
           <div role="list" class="image-grid w-dyn-items w-row">
             <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img loading="lazy" alt="{# setItem.alt #}" src="{# setItem.url #}"></div>
           </div>
@@ -240,7 +240,7 @@
           {%- if setItems.length == 0 -%}<div class="w-dyn-empty">
             <div>{{ texts.3d503d2b }}</div>
           </div>{%- endif -%}
-        <template><div id="w-node-_3561c4e2-8c7d-99d4-7e1f-b20b1fc1fff0-1ac4c2a0" class="w-dyn-list">
+        <template><div id="w-node-_3561c4e2-8c7d-99d4-7e1f-b20b1fc1fff0-1ac4c2a0" class="w-dyn-list" udesly-repeater="true">
           <div role="list" class="image-grid w-dyn-items w-row">
             <div role="listitem" class="challenge-images w-dyn-item w-col w-col-6"><img loading="lazy" alt="{# setItem.alt #}" src="{# setItem.url #}" class="overview-image"></div>
           </div>
@@ -258,13 +258,13 @@
       <div class="arrows-wrap">
         <a data-w-id="8034b99c-1239-60bd-d50d-5b511557ce6e" href="{{ f_prev-post-link }}" class="arrow-wrap w-inline-block"><img loading="lazy" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" src="{{ f_prev-post-image.url }}" alt="" class="image-12 left">
           <div class="vertical">
-            <h5 class="case-study-headings left">{{ f_prev-post-name }}</h5>
+            <h5 class="case-study-headings left"></h5>
             <p class="post">{{ texts.-4811e0e9 }}</p>
           </div>
         </a>
         <a data-w-id="8034b99c-1239-60bd-d50d-5b511557ce75" href="{{ f_next-post-link }}" class="arrow-wrap w-inline-block">
           <div class="vertical right">
-            <h5 class="case-study-headings right">{{ f_next-post-name }}</h5>
+            <h5 class="case-study-headings right"></h5>
             <p class="post">{{ texts.47ae36d }}</p>
           </div><img class="image-12 right" src="{{ f_next-post-image.url }}" width="62" height="62" alt="" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" loading="lazy">
         </a>
@@ -279,8 +279,8 @@
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
               <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
-                {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
-                <h6 class="prodgect-heading">{{ item.data.title }}</h6>
+                <h6 class="project-name-heading blue"></h6>
+                <h6 class="prodgect-heading"></h6>
               </a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
@@ -292,8 +292,8 @@
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
               <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
-                {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
-                <h6 class="prodgect-heading">{{ item.data.title }}</h6>
+                <h6 class="project-name-heading blue"></h6>
+                <h6 class="prodgect-heading"></h6>
               </a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
@@ -305,8 +305,8 @@
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 middle-one w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
               <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
-                {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ case-studies-categoriesOfCase-studies.data.title }}</h6>
-                <h6 class="prodgect-heading">{{ item.data.title }}</h6>
+                <h6 class="project-name-heading blue"></h6>
+                <h6 class="prodgect-heading"></h6>
               </a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
