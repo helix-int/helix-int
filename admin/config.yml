@@ -1028,9 +1028,9 @@ collections:
             label: Text
             name: 7397cc93
             widget: string
-          - hint: 'Original text: Archive Format, key: -59adc6ab'
+          - hint: 'Original text: HSS Format, key: -709a5971'
             label: Text
-            name: '-59adc6ab'
+            name: '-709a5971'
             widget: string
           - hint: 'Original text: Active Content, key: -2ac8b2a1'
             label: Text
@@ -2490,20 +2490,20 @@ collections:
             label: Text
             name: '-3b6d09e6'
             widget: string
-          - hint: "Original text: Revamp Your\_ECM\_with MARS\_Archive Format, key: 5c159f65"
+          - hint: "Original text: Revamp Your\_ECM\_with MARS\_HSS Output Management, key: -612dfcc6"
             label: Text
-            name: 5c159f65
+            name: '-612dfcc6'
             widget: string
           - hint: >-
               Original text: In the realm of active content ECMs like FileNet P8
               and SharePoint, your archive data might be trapped in
               inefficiency. But here's the game-changer: MARS Archive Format.
               Integrate it into your ECM, and unlock storage savings of up to
-              400x. How? By cleverly consolidating files into a single,
+              200x. How? By cleverly consolidating files into a single,
               efficient object while neatly organizing shared resources. , key:
-              5c295ee4
+              -3d32f41e
             label: Text
-            name: 5c295ee4
+            name: '-3d32f41e'
             widget: text
           - hint: >-
               Original text: Efficient, accessible, and ready for action, key:
@@ -2533,21 +2533,21 @@ collections:
             name: 14736ef5
             widget: text
           - hint: >-
-              Original text: Flexible Archive Storage with MARS Format, key:
-              -4915fe20
+              Original text: Flexible Archive Storage with MARS HSS Format, key:
+              51c4b7d8
             label: Text
-            name: '-4915fe20'
+            name: 51c4b7d8
             widget: string
           - hint: >-
               Original text: Our exclusive archive storage framework ensures
               seamless data management. Easily delete specific information
               within a storage object without impacting the rest of the data – a
               challenge other frameworks struggle with. GDPR compliance is a
-              breeze with MARS Archive Format, offering 400x compression,
+              breeze with MARS Archive Format, offering 200x compression,
               retention automation, and swift adherence to GDPR Right to Forget
-              requests., key: 1f967706
+              requests., key: 543fbe04
             label: Text
-            name: 1f967706
+            name: 543fbe04
             widget: text
           - hint: >-
               Original text: Seamless Integration with Your Existing ECM, key:
@@ -3442,6 +3442,10 @@ collections:
             label: Text
             name: '-2c861c23'
             widget: text
+          - hint: 'Original text: Archive Format, key: -59adc6ab'
+            label: Text
+            name: '-59adc6ab'
+            widget: string
           - hint: 'Original text: Login to Partner Portal, key: -4c252dce'
             label: Text
             name: '-4c252dce'

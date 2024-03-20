@@ -87,7 +87,7 @@
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
-              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-59adc6ab }}</a>
+              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-709a5971 }}</a>
             </div>
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
@@ -203,9 +203,9 @@
         {%- unless collection.length == 0 -%}<div role="list" class="solutions-for-businesses grid w-dyn-items">
           {%- for item in collection -%}<div data-w-id="4a27afc4-ca34-6b29-49d7-3648fb37489b" style="opacity:0" role="listitem" class="collection-item-5 w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;94vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;31vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;390px&quot;}]" src="{{ item.data.f_image.url }}" alt="" class="solutions-image">
             <div class="absolut-container">
-              <h4 class="services-heading-absolute"></h4>
+              <h4 class="services-heading-absolute">{{ item.data.title }}</h4>
               <div class="paragraph-wrapper">
-                <p class="paragraph-classic centured"></p>
+                <p class="paragraph-classic centured">{{ item.data.f_pre-text }}</p>
               </div>
               <a href="{{ item.url }}" class="gray-link-why-choose-us">{{ texts.-4aefc10b }}<span class="triangle">{{ texts.f0da }}</span></a>
             </div>

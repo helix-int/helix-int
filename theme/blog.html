@@ -87,7 +87,7 @@
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
-              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-59adc6ab }}</a>
+              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-709a5971 }}</a>
             </div>
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
@@ -203,11 +203,11 @@
             <a href="{{ item.url }}" class="link-block-2 w-inline-block"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;45vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;30vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" loading="lazy" src="{{ item.data.f_image.url }}" alt="" class="blog-3"></a>
             {%- assign blog-categoryOfBlog-posts = item.data.f_ref | resolveReference -%}<a href="{{ blog-categoryOfBlog-posts.url }}" class="classic-blog-date-info">{{ blog-categoryOfBlog-posts.data.title }}</a>
             <div data-w-id="fed545b4-e04d-ff4b-78a5-4187ed7ad53c" class="blog-3-image-wrapper">
-              <p class="date-info"></p>
+              <p class="date-info">{{  item.data.f_created-on | formatDate: "MMMM d, yyyy" }}</p>
               <a href="{{ item.url }}" class="clear-link-block-top w-inline-block">
-                <h4 class="blog-heading"></h4>
+                <h4 class="blog-heading">{{ item.data.title }}</h4>
               </a>
-              <p class=""></p>
+              <p class="">{{ item.data.f_prev-text }}</p>
               <div>
                 <a href="{{ item.url }}" class="read-more-text">{{ texts.-57de9259 }}</a>
               </div>

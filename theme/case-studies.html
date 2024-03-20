@@ -87,7 +87,7 @@
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
-              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-59adc6ab }}</a>
+              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-709a5971 }}</a>
             </div>
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
@@ -219,7 +219,7 @@
                 {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" src="{{ item.data.f_image-for-portfolio.url }}" loading="lazy" alt="" class="bg-image">
                   <div class="info-wrapper">
                     {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<a href="{{ case-studies-categoriesOfCase-studies.url }}" class="link-block w-inline-block">
-                      <p class="project-name-heading blue"></p>
+                      {%- assign ref = item.data.f_portfolio-category | resolveReference -%}<p class="project-name-heading blue">{{ ref.data.title }}</p>
                     </a>
                     <a href="{{ item.url }}" class="case-study-2-heading">{{ item.data.title }}</a>
                   </div>
@@ -236,7 +236,7 @@
                 {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" src="{{ item.data.f_image-for-portfolio.url }}" loading="lazy" alt="" class="bg-image">
                   <div class="info-wrapper">
                     {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<a href="{{ case-studies-categoriesOfCase-studies.url }}" class="link-block w-inline-block">
-                      <p class="project-name-heading blue"></p>
+                      {%- assign ref = item.data.f_portfolio-category | resolveReference -%}<p class="project-name-heading blue">{{ ref.data.title }}</p>
                     </a>
                     <a href="{{ item.url }}" class="case-study-2-heading">{{ item.data.title }}</a>
                   </div>
@@ -253,7 +253,7 @@
                 {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" src="{{ item.data.f_image-for-portfolio.url }}" loading="lazy" alt="" class="bg-image">
                   <div class="info-wrapper">
                     {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<a href="{{ case-studies-categoriesOfCase-studies.url }}" class="link-block w-inline-block">
-                      <p class="project-name-heading blue"></p>
+                      {%- assign ref = item.data.f_portfolio-category | resolveReference -%}<p class="project-name-heading blue">{{ ref.data.title }}</p>
                     </a>
                     <a href="{{ item.url }}" class="case-study-2-heading">{{ item.data.title }}</a>
                   </div>
@@ -270,7 +270,7 @@
                 {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;44vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;29vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;370px&quot;}]" src="{{ item.data.f_image-for-portfolio.url }}" loading="lazy" alt="" class="bg-image">
                   <div class="info-wrapper">
                     {%- assign case-studies-categoriesOfCase-studies = item.data.f_portfolio-category | resolveReference -%}<a href="{{ case-studies-categoriesOfCase-studies.url }}" class="link-block w-inline-block">
-                      <p class="project-name-heading blue"></p>
+                      {%- assign ref = item.data.f_portfolio-category | resolveReference -%}<p class="project-name-heading blue">{{ ref.data.title }}</p>
                     </a>
                     <a href="{{ item.url }}" class="case-study-2-heading">{{ item.data.title }}</a>
                   </div>

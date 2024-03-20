@@ -85,7 +85,7 @@
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
-              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-59adc6ab }}</a>
+              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-709a5971 }}</a>
             </div>
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
@@ -190,7 +190,7 @@
   </div>
   <div class="careers-top-banner heading-careers-page" style="background-image: url('{{f_image.url}}');">
     <div class="container w-container">
-      <h1 class="services-heading1"></h1>
+      <h1 class="services-heading1">{{ title }}</h1>
       <h1 class="dot separarte">{{ texts.2e }}</h1>
     </div>
   </div>
@@ -281,8 +281,8 @@
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
               <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
-                <h6 class="project-name-heading blue"></h6>
-                <h6 class="prodgect-heading"></h6>
+                {%- assign ref = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ ref.data.title }}</h6>
+                <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
@@ -294,8 +294,8 @@
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
               <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
-                <h6 class="project-name-heading blue"></h6>
-                <h6 class="prodgect-heading"></h6>
+                {%- assign ref = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ ref.data.title }}</h6>
+                <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
@@ -307,8 +307,8 @@
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-3 middle-one w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="projercts-grid-cont-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;46vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;47vw&quot;},{&quot;max&quot;:1279,&quot;size&quot;:&quot;48vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;593px&quot;}]" src="{{ item.data.f_background-image.url }}" alt="" class="bg-image">
               <a href="{{ item.url }}" class="info-wrapper w-inline-block"><img alt="" loading="lazy" data-sizes="[{&quot;max&quot;:239,&quot;size&quot;:&quot;38vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;91px&quot;}]" src="{{ item.data.f_logo.url }}" class="project-logo">
-                <h6 class="project-name-heading blue"></h6>
-                <h6 class="prodgect-heading"></h6>
+                {%- assign ref = item.data.f_portfolio-category | resolveReference -%}<h6 class="project-name-heading blue">{{ ref.data.title }}</h6>
+                <h6 class="prodgect-heading">{{ item.data.title }}</h6>
               </a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}

@@ -85,7 +85,7 @@
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
-              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-59adc6ab }}</a>
+              <a href="{{ links.-78a0a64e }}" class="dropdown-link w-dropdown-link">{{ texts.-709a5971 }}</a>
             </div>
             <div class="dropdown-link-wrapper">
               <div class="dropdown-line"></div>
@@ -193,8 +193,8 @@
       <div class="w-layout-grid services-grid">
         <div id="w-node-_62a35c5d-e61e-0a5b-699d-022fbb98d30c-1ac4c29e" class="white-background blog">
           {%- assign blog-categoryOfBlog-posts = f_ref | resolveReference -%}<a href="{{ blog-categoryOfBlog-posts.url }}" class="category">{{ blog-categoryOfBlog-posts.data.title }}</a>
-          <h1 class="heading-centured bold"></h1>
-          <p class="date-info-container central"></p>
+          <h1 class="heading-centured bold">{{ title }}</h1>
+          <p class="date-info-container central">{{  f_updated-on | formatDate: "MMMM d, yyyy" }}</p>
           <div href="" class="rich-text-portfolio w-richtext">{{ content | markdown }}</div>
           <div class="social-links-container">
             <a href="{{ links.337c50a1 }}" target="_blank" class="social-media-link">{{ texts.f39e }}</a>
