@@ -1,12 +1,12 @@
 ---
-f_location: US, India, Vietnam, South America, Central America
+f_location: Hyderabad / Mumbai
 f_type: Full Time
 f_time: 9 am - 5 pm, may need to join occasional calls on international timezones.
 title: Mainframe Assembler Developer
 slug: mainframe-assembler-developer
-updated-on: '2022-09-29T22:12:54.025Z'
+updated-on: '2024-04-04T13:43:33.081Z'
 created-on: '2022-09-29T20:51:36.330Z'
-published-on: '2023-10-18T19:32:14.085Z'
+published-on: '2024-04-04T14:20:59.874Z'
 layout: '[careers].html'
 tags: careers
 ---

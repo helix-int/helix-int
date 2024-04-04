@@ -2517,6 +2517,10 @@ collections:
             label: Text
             name: 7ff66d0d
             widget: string
+          - hint: 'Original text: Start Free Trial, key: -5926b500'
+            label: Text
+            name: '-5926b500'
+            widget: string
           - hint: >-
               Original text: Streamline Retention Management with Automation,
               key: afad682
@@ -2576,6 +2580,23 @@ collections:
               the efficiencies of MARS Archive Format., key: -79f8f88a
             label: Text
             name: '-79f8f88a'
+            widget: text
+          - hint: 'Original text: Get HSS today, key: -aac22a1'
+            label: Text
+            name: '-aac22a1'
+            widget: string
+          - hint: >-
+              Original text: Let us know a little background on your company to
+              get a free 30-day trial license, key: -108d2a49
+            label: Text
+            name: '-108d2a49'
+            widget: string
+          - hint: >-
+              Original text: Thanks! We got your submission. Click here to
+              download the software, the trial license will be sent to your
+              email within 12 hours., key: -18ff80f2
+            label: Text
+            name: '-18ff80f2'
             widget: text
           - hint: 'Original text: Static Content System, key: 3e9c73c8'
             label: Text
