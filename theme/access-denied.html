@@ -16,12 +16,12 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JZ76WZGNZH"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-JZ76WZGNZH', {'anonymize_ip': false});</script>
   <script src="https://www.google.com/recaptcha/api.js" type="text/javascript"></script>
-{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
+{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}{%- include "partials/_snipcart" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
 <body>
   <div class="w-users-userformpagewrap">
-    <div class="w-users-userformheader"><img src="/assets/external/utility-lock.ae54711958.svg" alt="">
+    <div class="w-users-userformheader"><img src="{{ images.-7a700be7.url }}" alt="{{ images.-7a700be7.alt | escape }}">
       <h2>{{ texts.-2624ce29 }}</h2>
     </div>
     <p>{{ texts.4617a544 }}<a href="{{ links.4b0d5213 }}">{{ texts.-204ff442 }}</a>{{ texts.103a7d }}<a href="{{ links.26a3aa92 }}">{{ texts.-7804285f }}</a>{{ texts.2e }}</p>
@@ -52,4 +52,4 @@
   gtag('config', 'G-JZ76WZGNZH');
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}{%- include "partials/_snipcart-footer" -%}</body></html>
