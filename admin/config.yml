@@ -1372,10 +1372,6 @@ collections:
             label: Text
             name: 4c808c1
             widget: string
-          - hint: 'Original text: 0, key: 30'
-            label: Text
-            name: '30'
-            widget: string
           - hint: 'Original text: Your Cart, key: -77ee8913'
             label: Text
             name: '-77ee8913'
@@ -1383,10 +1379,6 @@ collections:
           - hint: 'Original text: Subtotal, key: -76f396dc'
             label: Text
             name: '-76f396dc'
-            widget: string
-          - hint: 'Original text: Pay with browser., key: -42873978'
-            label: Text
-            name: '-42873978'
             widget: string
           - hint: 'Original text: Continue to Checkout, key: -7941186e'
             label: Text
@@ -1859,9 +1851,11 @@ collections:
             label: Text
             name: 5c6e25d8
             widget: string
-          - hint: 'Original text: CTO & Managing Director, India, key: f0715f5'
+          - hint: >-
+              Original text: CTO, Senior Vice President • Development, key:
+              -4c7e3e70
             label: Text
-            name: f0715f5
+            name: '-4c7e3e70'
             widget: string
           - hint: 'Original text: Will Montague, key: -70c35f54'
             label: Text

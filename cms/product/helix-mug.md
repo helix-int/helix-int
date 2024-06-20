@@ -8,17 +8,15 @@ f_description: >-
   a move night hot cocoa, our tempered and dishwasher-safe mug has you covered.
 title: Helix Mug
 slug: helix-mug
-updated-on: '2024-05-26T15:14:31.652Z'
+updated-on: '2024-06-16T06:30:28.485Z'
 created-on: '2024-05-26T15:13:51.403Z'
-published-on: '2024-05-26T15:31:17.726Z'
+published-on: '2024-06-16T06:30:36.264Z'
 f_category:
   - cms/category/mugs.md
 variations:
   - f_ec-sku-billing-method: one-time
     f_price:
-      usd: 10
-    f_ec-sku-subscription-plan: null
-    f_sku: null
+      usd: 19.95
     f_width: 10
     f_length: 10
     f_height: 15
@@ -26,11 +24,11 @@ variations:
     f_download-files: []
     title: Helix Mug
     f_main-image:
-      url: /assets/external/66535070c18db517b34a7738_mug.webp
+      url: /assets/external/666e8607a1bf47b0aef96d0c_mug-1.png
       alt: null
     slug: helix-mug
     f_more-images:
-      - url: /assets/external/665350740b158651687826ae_mug-back.webp
+      - url: /assets/external/666e86622d891b36ef236a33_mug-2.webp
         alt: null
     default: true
 layout: '[product].html'
