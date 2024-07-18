@@ -1817,9 +1817,9 @@ collections:
             label: Text
             name: '-732644ad'
             widget: text
-          - hint: 'Original text: View Industries We Serve, key: 2f038de6'
+          - hint: 'Original text: View Industries we Serve, key: 2b2929c6'
             label: Text
-            name: 2f038de6
+            name: 2b2929c6
             widget: string
           - hint: 'Original text: Why Choose Us, key: -32e31931'
             label: Text
@@ -1851,11 +1851,9 @@ collections:
             label: Text
             name: 5c6e25d8
             widget: string
-          - hint: >-
-              Original text: CTO, Senior Vice President • Development, key:
-              -4c7e3e70
+          - hint: 'Original text: CTO, Senior Vice President, key: -78f9f32d'
             label: Text
-            name: '-4c7e3e70'
+            name: '-78f9f32d'
             widget: string
           - hint: 'Original text: Will Montague, key: -70c35f54'
             label: Text
@@ -1874,14 +1872,6 @@ collections:
               Lead, key: 49edd0b1
             label: Text
             name: 49edd0b1
-            widget: string
-          - hint: 'Original text: Nichole Johnson, key: -772840f1'
-            label: Text
-            name: '-772840f1'
-            widget: string
-          - hint: "Original text: VP\_of Operations, key: -6a907d71"
-            label: Text
-            name: '-6a907d71'
             widget: string
           - hint: 'Original text: Veldurai Thirunee-, key: 6ad08323'
             label: Text
@@ -5637,19 +5627,6 @@ collections:
                 required: false
           - label: Image
             name: 49fad8c
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 4d0e943b
             widget: object
             fields:
               - name: url
